@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo module on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
+    <link>/tags/hugo-module/</link>
+    <description>Recent content in Hugo module on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="/tags/hugo-module/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install via Hugo Module</title>
+      <link>/docs/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      
+      <guid>/docs/installation/hugo-module/</guid>
+      <description>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+InstallationInstall a new site from scratchStep 1: Create skeleton site Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module:1$ hugo mod init github.</description>
+    </item>
+    
+  </channel>
+</rss>

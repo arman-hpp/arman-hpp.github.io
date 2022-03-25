@@ -1,0 +1,10 @@
+{{- partial "head/favicons" . -}}
+<meta name="keywords" content="{{ if .IsPage }}{{ delimit .Keywords ", " }}{{ else }}{{ $.Site.Params.keywords }}{{ end }}" />
+<meta name="description" content="{{ if .IsPage }}{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}{{ else }}{{ $.Site.Params.description }}{{ end }}" />
+{{- partial "head/meta" . -}}
+{{- partial "head/feed" . -}}
+{{- partial "head/site-verification" . -}}
+{{- if eq .Permalink (absLangURL "search/") -}}
+<meta data-name="search-index" content="{{ absLangURL "index.json" }}">
+{{- end -}}
+{{- partial "head/assets" . -}}

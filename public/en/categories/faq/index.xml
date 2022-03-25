@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAQ on Hugo Bootstrap</title>
+    <link>/en/categories/faq/</link>
+    <description>Recent content in FAQ on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="/en/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ Layout</title>
+      <link>/en/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/faq/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;/en/faq/&#34;&gt;FAQ&lt;/a&gt; page is a collection of frequently asked questions.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

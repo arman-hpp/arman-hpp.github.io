@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buy Me a Coffee on Hugo Bootstrap</title>
+    <link>/en/tags/buy-me-a-coffee/</link>
+    <description>Recent content in Buy Me a Coffee on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 11:10:19 +0800</lastBuildDate><atom:link href="/en/tags/buy-me-a-coffee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reward Widget</title>
+      <link>/en/docs/widgets/reward/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/reward/</guid>
+      <description>&lt;p&gt;The reward widget, AKA buy me a coffee widget, gives the readers a way to support a creator through the use of donations or tips.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

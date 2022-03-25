@@ -1,0 +1,15 @@
+name = "آرمان حسن پور"
+# avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
+bio = "برنامه نویس فول استک"
+copyright = "آرمان حسن پور"
+rating = "General"
+app = "Arsin.ir"
+
+[params]
+  #layout = "compact"
+  
+[social]
+  email = "arman_arian@outlook.com"
+  github = "arman-arian"
+  twitter = "arman_hasanpour"
+  linkedin = "arsin"

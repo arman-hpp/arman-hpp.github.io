@@ -1,0 +1,184 @@
+[404_title]
+other = "Huch! Seite nicht gefunden."
+
+[404_info]
+other = "Wir haben uns Mühe gegeben und gesucht, aber wir konnten die gesuchte Seite wirklich nicht finden."
+
+[about_me]
+other = "über"
+
+[alipay]
+other = "Alipay"
+
+[archives]
+other = "Archiv"
+
+[button_copy_url]
+other = "URL kopieren"
+
+[button_reload]
+other = "neu laden"
+
+[button_social_share]
+other = "teilen"
+
+[button_submit]
+other = "OK"
+
+[buy_me_a_coffee]
+other = "Buy me a coffee"
+
+[categories]
+other = "Kategorien"
+
+[color_blue]
+other = "Blau"
+
+[color_blue_gray]
+other = "Blaugrau"
+
+[color_brown]
+other = "Braun"
+
+[color_cyan]
+other = "Cyan"
+
+[color_green]
+other = "Grün"
+
+[color_indigo]
+other = "Indigo"
+
+[color_orange]
+other = "Orange"
+
+[color_pink]
+other = "Pink"
+
+[color_purple]
+other = "Purpur"
+
+[color_red]
+other = "Rot"
+
+[color_teal]
+other = "Teal"
+
+[color_yellow]
+other = "Gelb"
+
+[comments]
+other = "Kommentare"
+
+[contact_name]
+other = "Name"
+
+[contact_email]
+other = "Email"
+
+[contact_email_help]
+other = "Wir werden Deine Daten niemals weitergeben."
+
+[contact_file]
+other = "Datei"
+
+[contact_subject]
+other = "Betreff"
+
+[contact_message]
+other = "Nachricht"
+
+[copyright]
+other = "Copyright"
+
+[featured_posts]
+other = "im Fokus"
+
+[font_size]
+other = "Schriftgröße"
+
+[go_back]
+other = "zurück"
+
+[home]
+other = "Blog"
+
+[language]
+other = "Sprache"
+
+[liberapay]
+other = "Liberapay"
+
+[load_more]
+other = "mehr"
+
+[mode]
+other = "Modus"
+
+[offline_title]
+other = "Du bist vom Internet getrennt."
+
+[offline_info]
+other = "Es scheint ein Problem mit Deiner Internetverbindung zu geben. Bitte überprüfe den Zustand Deines Netzwerkes."
+
+[pagination_title]
+other = "Seite {{ .PageNumber }}"
+
+[palette]
+other = "Palette"
+
+[patreon]
+other = "Patreon"
+
+[paypal]
+other = "Paypal"
+
+[post_count]
+one = "{{ .Count }} Beitrag insgesamt"
+other = "{{ .Count }} Beiträge insgesamt"
+
+[post_date]
+other = "erstellt am {{ .createdOn }}{{ with .updatedOn }}, aktualisiert am {{ . }}{{ end }}."
+
+[read_more]
+other = "mehr lesen"
+
+[reading_time]
+one = "{{ .ReadingTime }} Minute Lesezeit"
+other = "{{ .ReadingTime }} Minuten Lesezeit"
+
+[recent_posts]
+other = "letzte Beiträge"
+
+[related_posts]
+other = "siehe auch"
+
+[search]
+other = "Suche"
+
+[search_missing_keywords]
+other = "Suchbegriff eingeben"
+
+[search_no_results]
+other = "keine Ergebnisse gefunden"
+
+[search_stat]
+other = "{{ .Total }} Ergebnisse gefunden"
+
+[series]
+other = "Serien"
+
+[settings]
+other = "Einstellungen"
+
+[table_of_contents]
+other = "Inhaltsverzeichnis"
+
+[tags]
+other = "Themen"
+
+[try_again]
+other = "nochmals versuchen"
+
+[wechat]
+other = "WeChat"

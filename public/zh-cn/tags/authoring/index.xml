@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authoring on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
+    <link>/zh-cn/tags/authoring/</link>
+    <description>Recent content in Authoring on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="/zh-cn/tags/authoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>添加内容</title>
+      <link>/zh-cn/docs/content/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/content/</guid>
+      <description>Main SectionsmainSections 参数用于过滤页面，默认为 [&amp;quot;posts&amp;quot;, &amp;quot;docs&amp;quot;]。
+1mainSections = [&amp;#34;blog&amp;#34;, &amp;#34;posts&amp;#34;, &amp;#34;docs&amp;#34;, &amp;#34;notes&amp;#34;] 内容类型你可能想在其他 Section 中使用 docs 布局，比如 /notes。这可以通过在 front matter 中设置 type = &amp;quot;docs&amp;quot; 实现。
+文章原型我们也可以为 notes 创建一个原型，让 Hugo 处理 type。
+1$ cp themes/hugo-theme-bootstrap/archetypes/default.md archetypes/notes.md 然后在 archetypes/notes.md 中添加 type = &amp;quot;docs&amp;quot;。现在 hugo new notes/blah-blah-blah 将会复制 archetypes/notes.md 的内容到新的文章。
+同样地，你也可以为 posts、docs 等自定义原型。
+Sections 模板你可能还想在 notes 中使用和 docs 一样的列表布局。
+1{{ define &amp;#34;content&amp;#34; }} 2{{- partial &amp;#34;docs/catalog&amp;#34; . -}} 3&amp;lt;div class=&amp;#34;col-lg-7 ms-auto&amp;#34;&amp;gt; 4{{ partial &amp;#34;docs/list&amp;#34; .</description>
+    </item>
+    
+  </channel>
+</rss>

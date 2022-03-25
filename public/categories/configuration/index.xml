@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
+    <link>/categories/configuration/</link>
+    <description>Recent content in Configuration on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sat, 27 Nov 2021 19:53:24 +0800</lastBuildDate><atom:link href="/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration</title>
+      <link>/docs/configuration/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>/docs/configuration/</guid>
+      <description>&lt;p&gt;As the example site shown, we use &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#configuration-directory&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Configuration Directory&lt;/a&gt; to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

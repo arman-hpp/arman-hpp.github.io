@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Footer Menu on Hugo Bootstrap</title>
+    <link>/en/tags/footer-menu/</link>
+    <description>Recent content in Footer Menu on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="/en/tags/footer-menu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menu</title>
+      <link>/en/docs/menu/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      
+      <guid>/en/docs/menu/</guid>
+      <description>&lt;p&gt;We predefined two types of menus: &lt;code&gt;main&lt;/code&gt; and &lt;code&gt;footer&lt;/code&gt;, represents the top app bar menus and the footer menus, respectively.
+This article will briefly introduce how to use the menus.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

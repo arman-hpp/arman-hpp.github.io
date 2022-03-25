@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on Hugo Bootstrap</title>
+    <link>/en/tags/netlify/</link>
+    <description>Recent content in Netlify on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 30 Nov 2021 23:56:00 +0800</lastBuildDate><atom:link href="/en/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact Form</title>
+      <link>/en/docs/layouts/contact-form/</link>
+      <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/contact-form/</guid>
+      <description>&lt;p&gt;We can put our email address on &lt;a href=&#34;/en/docs/widgets/social-links/&#34;&gt;social links&lt;/a&gt; so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
+Therefore, we bring a feature called contact form.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

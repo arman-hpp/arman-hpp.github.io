@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Links on Hugo Bootstrap</title>
+    <link>/en/categories/social-links/</link>
+    <description>Recent content in Social Links on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 02 Dec 2021 16:27:45 +0800</lastBuildDate><atom:link href="/en/categories/social-links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social Links</title>
+      <link>/en/docs/widgets/social-links/</link>
+      <pubDate>Thu, 02 Dec 2021 16:27:45 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/social-links/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;social&lt;/code&gt; parameter is a set of key value pairs of social links that mapping from platform to their user identifier.
+It supports many popular social platforms, such as Twitter, Facebook, Reddit, GitHub.
+This article lists all supported platforms and how to use them.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

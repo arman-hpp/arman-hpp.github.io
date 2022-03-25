@@ -1,0 +1,183 @@
+[404_title]
+other = "متاسفانه صفحه مورد نظر پیدا نشد"
+
+[404_info]
+other = "ما نمی توانیم صفحه مورد نظر شما را پیدا کنیم."
+
+[about_me]
+other = "در مورد من"
+
+[alipay]
+other = "Alipay"
+
+[archives]
+other = "بایگانی" 
+
+[button_copy_url]
+other = "کپی آدرس"
+
+[button_reload]
+other = "بارگذاری مجدد"
+
+[button_social_share]
+other = "به اشتراک گذاری"
+
+[button_submit]
+other = "ارسال"
+
+[buy_me_a_coffee]
+other = "برام یه قهوه بخر"
+
+[categories]
+other = "دسته بندی ها"
+
+[color_blue]
+other = "آبی"
+
+[color_blue_gray]
+other = "آبی تیره"
+
+[color_brown]
+other = "قهوه ای"
+
+[color_cyan]
+other = "فیروزه ای"
+
+[color_green]
+other = "سبز"
+
+[color_indigo]
+other = "نیلی"
+
+[color_orange]
+other = "نارنجی"
+
+[color_pink]
+other = "صورتی"
+
+[color_purple]
+other = "بنفش"
+
+[color_red]
+other = "قرمز"
+
+[color_teal]
+other = "سبز آبی"
+
+[color_yellow]
+other = "زرد"
+
+[comments]
+other = "نظرات"
+
+[contact_name]
+other = "نام"
+
+[contact_email]
+other = "ایمیل"
+
+[contact_email_help]
+other = "ما هرگز ایمیل شما را با شخص دیگری به اشتراک نمی گذاریم."
+
+[contact_file]
+other = "فایل"
+
+[contact_subject]
+other = "موضوع"
+
+[contact_message]
+other = "پیام"
+
+[copyright]
+other = "کپی رایت"
+
+[featured_posts]
+other = "نوشته های ویژه"
+
+[font_size]
+other = "اندازه قلم"
+
+[go_back]
+other = "برگشت"
+
+[home]
+other = "خانه"
+
+[language]
+other = "زبان"
+
+[liberapay]
+other = "Liberapay"
+
+[load_more]
+other = "نمایش بیشتر"
+
+[mode]
+other = "روش"
+
+[offline_title]
+other = "ارتباط با سرور برقرار نمی باشد"
+
+[offline_info]
+other = "ارتباط با سرور برقرار نمی باشد. لطفا ارتباط اینترنت خود را بررسی نمایید"
+
+[pagination_title]
+other = "صفحه {{ .PageNumber }}"
+
+[palette]
+other = "Palette"
+
+[patreon]
+other = "Patreon"
+
+[paypal]
+other = "Paypal"
+
+[post_count]
+one = "تعداد مطالب: {{ .Count }}"
+other = "تعداد مطالب: {{ .Count }}"
+
+[post_date]
+other = "ایجاد شده در {{ .createdOn }}{{ with .updatedOn }}, updated on {{ . }}{{ end }}."
+
+[read_more]
+other = "بیشتر بخوانید"
+
+[reading_time]
+other = "{{ .ReadingTime }} min read"
+
+[recent_posts]
+other = "نوشته های اخیر"
+
+[related_posts]
+other = "نوشته های مرتبط"
+
+[search]
+other = "جستجو"
+
+[search_missing_keywords]
+other = "لطفا کلمات کلیدی جستجو را وارد کنید"
+
+[search_no_results]
+other = "نتیجه ای پیدا نشد"
+
+[search_stat]
+other = "{{ .Total }} نتیجه پیدا شد"
+
+[series]
+other = "گروه ها"
+
+[settings]
+other = "تنظیمات"
+
+[table_of_contents]
+other = "فهرست مطالب"
+
+[tags]
+other = "برچسب ها"
+
+[try_again]
+other = "دوباره تلاش کنید"
+
+[wechat]
+other = "WeChat"

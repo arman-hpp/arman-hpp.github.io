@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Widget on Hugo Bootstrap</title>
+    <link>/en/categories/widget/</link>
+    <description>Recent content in Widget on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 11:10:19 +0800</lastBuildDate><atom:link href="/en/categories/widget/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Author Widget</title>
+      <link>/en/docs/widgets/author/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/author/</guid>
+      <description>&lt;p&gt;The author widget is located in the sidebar, in order to introduce yourself briefly.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reward Widget</title>
+      <link>/en/docs/widgets/reward/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/reward/</guid>
+      <description>&lt;p&gt;The reward widget, AKA buy me a coffee widget, gives the readers a way to support a creator through the use of donations or tips.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comments Widget</title>
+      <link>/en/docs/widgets/comments/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/comments/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Disqus&lt;/a&gt; and &lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Utterances&lt;/a&gt; comments widgets are supported out of box.
+This article shows how to configure them and even customize your own comment widgets.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+{{- $img := false -}}
+{{- $width := false -}}
+{{- $height := false -}}
+{{- $pageResource := false -}}
+{{- $link := "" -}}
+{{- $resizable := false -}}
+{{- $unresizable := slice ".svg" ".avif" -}}
+{{- $url := urls.Parse .filename -}}
+{{- if not $url.Scheme -}}
+  {{- $resource := .resources.GetMatch (strings.TrimPrefix "/" $url.Path) -}}
+  {{- if $resource -}}
+      {{- $pageResource = $resource -}}
+      {{- $link = $resource.Permalink -}}
+      {{- if not (in $unresizable ($link | path.Ext | lower)) -}}
+        {{- $resizable = true -}}
+      {{- end -}}
+  {{- else -}}
+    {{- $filename := path.Join "static" $url.Path -}}
+    {{- if fileExists $filename -}}
+      {{- $link = .filename | absURL }}
+      {{- if not (in $unresizable ($link | path.Ext | lower)) -}}
+        {{- $img = imageConfig $filename -}}
+      {{- end -}}
+    {{- else -}}
+      {{- warnf "no such image can be found in page resources and the static folder: %s" .filename -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $link = .filename -}}
+{{- end -}}
+{{- $params := dict -}}
+{{- $query := split $url.RawQuery "&" -}}
+{{- range $item := $query -}}
+  {{- $pair := split $item "=" -}}
+  {{- $params = merge $params (dict (index $pair 0) (index $pair 1)) -}}
+{{- end -}}
+{{- if index $params "width" -}}
+  {{- $width = $params.width -}}
+{{- end -}}
+{{- if index $params "height" -}}
+  {{- $height = $params.height -}}
+{{- end -}}
+{{- $className := default "img-fluid" .class -}}
+{{- if eq $url.Fragment "center" -}}
+  {{- $className = printf "%s %s" $className "mx-auto d-block" -}}
+{{- else if eq $url.Fragment "floatleft" -}}
+  {{- $className = printf "%s %s" $className "float-start me-2" -}}
+{{- else if eq $url.Fragment "floatright" -}}
+  {{- $className = printf "%s %s" $className "float-end ms-2" -}}
+{{- end -}}
+
+{{- if and $pageResource $resizable (or $width $height) -}}
+  {{- $resize := "" -}}
+  {{- if and $width $height -}}
+    <!-- Resize to actual entered size -->
+    {{- $resize = (printf "%sx%s" (strings.TrimSuffix "px" $width) (strings.TrimSuffix "px" $height)) -}}
+  {{- else if $width }}
+    <!-- Resize width to entered size, keeping aspect ratio -->
+    {{- $resize = (printf "%sx" (strings.TrimSuffix "px" $width)) -}}
+  {{- else }}
+    <!-- Resize height to entered size, keeping aspect ratio -->
+    {{- $resize = (printf "x%s" (strings.TrimSuffix "px" $height)) -}}
+  {{- end -}}
+  {{- $img = $pageResource.Resize $resize -}}
+  {{- $link = $img.Permalink -}}
+{{- end -}}
+
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"{{ with .attributes }} {{ . }}{{ end }}
+  {{ with $img }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}
+  {{ if and (not (and $pageResource $resizable)) (or $width $height) }}style="{{ with $width }}width: {{ . }}; {{ end }}{{ with $height }}height: {{ . }}{{ end }}"{{ end }} />

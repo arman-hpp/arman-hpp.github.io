@@ -1,0 +1,13 @@
+{{- $enable := and (default true .Params.toc) (default true .Site.Params.toc) -}}
+{{- $toc := .TableOfContents -}}
+{{- $valid := and $toc (and (ne $toc "<nav id=\"TableOfContents\"></nav>") (gt .WordCount .Site.Params.tocWordCount)) -}}
+{{- if and $enable $valid -}}
+<div class="post-toc row mb-4 card component" id="postTOC">
+  <div class="card-header">
+    <h2 class="card-title">{{ i18n "table_of_contents" }}</h2>
+  </div>
+  <div class="card-body">
+    {{ $toc }}
+  </div>
+</div>
+{{- end -}}

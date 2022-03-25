@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layouts on Hugo Bootstrap</title>
+    <link>/en/categories/layouts/</link>
+    <description>Recent content in Layouts on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 12 Jan 2022 10:56:34 -0800</lastBuildDate><atom:link href="/en/categories/layouts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docs Layout</title>
+      <link>/en/docs/layouts/docs/</link>
+      <pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate>
+      
+      <guid>/en/docs/layouts/docs/</guid>
+      <description>&lt;p&gt;In this post we explore the &lt;code&gt;docs&lt;/code&gt; layout that can be used to publish project documentation, a Personal Knowledge Base (PKM), a &lt;a href=&#34;https://maggieappleton.com/garden-history&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Digital Garden&lt;/a&gt;, a &lt;a href=&#34;https://fortelabs.co/blog/basboverview/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Second Brain&lt;/a&gt;, a &lt;a href=&#34;https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zettelkasten&lt;/a&gt;, your notes, and more.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

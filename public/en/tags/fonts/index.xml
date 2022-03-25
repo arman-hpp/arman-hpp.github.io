@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fonts on Hugo Bootstrap</title>
+    <link>/en/tags/fonts/</link>
+    <description>Recent content in Fonts on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 19:42:57 +0800</lastBuildDate><atom:link href="/en/tags/fonts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Look and Feel</title>
+      <link>/en/docs/look-and-feel/</link>
+      <pubDate>Fri, 03 Dec 2021 19:42:57 +0800</pubDate>
+      
+      <guid>/en/docs/look-and-feel/</guid>
+      <description>&lt;p&gt;By default, a site using this theme has the default fonts, colors, and general look and feel.
+However, the default scheme cannot satisfy everyone, but don&amp;rsquo;t worry, you can easily override the theme defaults, such as palette colors, fonts, syntax highlighting.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

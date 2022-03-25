@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
+    <link>/zh-cn/docs/</link>
+    <description>Recent content in Docs on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sat, 19 Mar 2022 13:46:41 +0800</lastBuildDate><atom:link href="/zh-cn/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>观感</title>
+      <link>/zh-cn/docs/look-and-feel/</link>
+      <pubDate>Fri, 03 Dec 2021 19:42:57 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/look-and-feel/</guid>
+      <description>&lt;p&gt;默认情况下，使用此主题的站点具有默认字体、颜色和总体外观。但是，默认方案不可能满足所有人的要求，但是不要担心，你可以轻松地覆盖主题默认值，例如调色板颜色、字体、语法高亮。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>菜单</title>
+      <link>/zh-cn/docs/menu/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/menu/</guid>
+      <description>&lt;p&gt;我们预定义了两种类型的菜单：&lt;code&gt;main&lt;/code&gt; 和 &lt;code&gt;footer&lt;/code&gt;，分别表示顶部的应用程序栏菜单和页脚菜单。
+本文将简要介绍如何使用菜单。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>添加内容</title>
+      <link>/zh-cn/docs/content/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/content/</guid>
+      <description>Main SectionsmainSections 参数用于过滤页面，默认为 [&amp;quot;posts&amp;quot;, &amp;quot;docs&amp;quot;]。
+1mainSections = [&amp;#34;blog&amp;#34;, &amp;#34;posts&amp;#34;, &amp;#34;docs&amp;#34;, &amp;#34;notes&amp;#34;] 内容类型你可能想在其他 Section 中使用 docs 布局，比如 /notes。这可以通过在 front matter 中设置 type = &amp;quot;docs&amp;quot; 实现。
+文章原型我们也可以为 notes 创建一个原型，让 Hugo 处理 type。
+1$ cp themes/hugo-theme-bootstrap/archetypes/default.md archetypes/notes.md 然后在 archetypes/notes.md 中添加 type = &amp;quot;docs&amp;quot;。现在 hugo new notes/blah-blah-blah 将会复制 archetypes/notes.md 的内容到新的文章。
+同样地，你也可以为 posts、docs 等自定义原型。
+Sections 模板你可能还想在 notes 中使用和 docs 一样的列表布局。
+1{{ define &amp;#34;content&amp;#34; }} 2{{- partial &amp;#34;docs/catalog&amp;#34; . -}} 3&amp;lt;div class=&amp;#34;col-lg-7 ms-auto&amp;#34;&amp;gt; 4{{ partial &amp;#34;docs/list&amp;#34; .</description>
+    </item>
+    
+    <item>
+      <title>配置</title>
+      <link>/zh-cn/docs/configuration/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/configuration/</guid>
+      <description>&lt;p&gt;如示例站点所示，我们使用 &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#configuration-%e7%9b%ae%e5%bd%95&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Configuration Directory&lt;/a&gt; 为了维护更简单的组织和特定于环境的设置，它在多语言站点上特别有用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>快速入门</title>
+      <link>/zh-cn/docs/getting-started/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/getting-started/</guid>
+      <description>HBS(Hugo Bootstrap) 是一个快速、响应式和功能齐全的 Hugo 主题，可用于个人博客和文档。 在安装主题前，请确保你满足先决条件。
+先决条件 Git。 Hugo：extended 0.84.0 版本或以上。 npm：用于安装 CSS 和 JS 依赖。 Go: 1.12 版本或以上，仅当安装为 Hugo Module 时必须。   我们建议使用这些工具的最新版本。
+ Configuration自 0.68.0，HBS 要求设置以下配置。
+1[build] 2writeStats = true 安装方法 Git Submodule. Hugo Module.  下一步 调整配置 菜单 观感 添加内容  </description>
+    </item>
+    
+    <item>
+      <title>问题排查</title>
+      <link>/zh-cn/docs/troubleshooting/</link>
+      <pubDate>Sat, 19 Mar 2022 13:46:41 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/troubleshooting/</guid>
+      <description>&lt;p&gt;本文列出了一些常见问题，以便你可以轻松解决它们。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>图片查看器</title>
+      <link>/zh-cn/docs/image-viewer/</link>
+      <pubDate>Fri, 03 Dec 2021 20:46:50 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/image-viewer/</guid>
+      <description>&lt;p&gt;Image viewer is an image gallery, it will be shown up when you click a non-linkable image.&lt;/p&gt;
+&lt;p&gt;It also provides many tools, such as zoom in, zoom out and rotate.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>渐进式 web 应用程序</title>
+      <link>/zh-cn/docs/pwa/</link>
+      <pubDate>Fri, 03 Dec 2021 19:39:01 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/pwa/</guid>
+      <description>&lt;p&gt;PWAs(&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;渐进式 web 应用程序&lt;/a&gt;) 是使用一些特定的技术和标准模式开发的，允许它们同时利用 web 和本机应用程序功能。&lt;/p&gt;
+&lt;p&gt;我们正处于 PWA 的实验阶段，但添加了一些主要功能，如将站点安装到主屏幕、预缓存文件和离线可用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>自定义资源</title>
+      <link>/zh-cn/docs/custom-assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:53 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/custom-assets/</guid>
+      <description>&lt;p&gt;作为一个可定制的主题，其提供了定制资源的能力，无论是定制 CSS 和 JS，还是引入第三方 CSS 和 JS。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>钩子</title>
+      <link>/zh-cn/docs/hooks/</link>
+      <pubDate>Sat, 27 Nov 2021 21:04:32 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/hooks/</guid>
+      <description>&lt;p&gt;作为一个灵活的主题，它应该能够自定义代码和集成第三方服务。因此，我们带来了一个叫做钩子的特性。&lt;/p&gt;
+&lt;p&gt;在本文中，我们将介绍所有钩子并提供一些用例。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>参与我们</title>
+      <link>/zh-cn/docs/get-involved/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/get-involved/</guid>
+      <description>&lt;p&gt;我们很乐意倾听你的意见和反馈，也欢迎你参与进来。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>图像处理</title>
+      <link>/zh-cn/docs/image-processing/</link>
+      <pubDate>Sun, 15 Aug 2021 14:19:06 +0800</pubDate>
+      
+      <guid>/zh-cn/docs/image-processing/</guid>
+      <description>&lt;p&gt;本文提供一些调整图片大小和对齐图片的用例。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

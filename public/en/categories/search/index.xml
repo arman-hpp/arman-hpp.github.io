@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on Hugo Bootstrap</title>
+    <link>/en/categories/search/</link>
+    <description>Recent content in Search on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 11:16:51 +0800</lastBuildDate><atom:link href="/en/categories/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search Layout</title>
+      <link>/en/docs/layouts/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/search/</guid>
+      <description>&lt;p&gt;It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

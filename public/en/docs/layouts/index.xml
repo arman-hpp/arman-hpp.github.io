@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layouts on Hugo Bootstrap</title>
+    <link>/en/docs/layouts/</link>
+    <description>Recent content in Layouts on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 12 Jan 2022 10:56:34 -0800</lastBuildDate><atom:link href="/en/docs/layouts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docs Layout</title>
+      <link>/en/docs/layouts/docs/</link>
+      <pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate>
+      
+      <guid>/en/docs/layouts/docs/</guid>
+      <description>&lt;p&gt;In this post we explore the &lt;code&gt;docs&lt;/code&gt; layout that can be used to publish project documentation, a Personal Knowledge Base (PKM), a &lt;a href=&#34;https://maggieappleton.com/garden-history&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Digital Garden&lt;/a&gt;, a &lt;a href=&#34;https://fortelabs.co/blog/basboverview/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Second Brain&lt;/a&gt;, a &lt;a href=&#34;https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zettelkasten&lt;/a&gt;, your notes, and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FAQ Layout</title>
+      <link>/en/docs/layouts/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/faq/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;/en/faq/&#34;&gt;FAQ&lt;/a&gt; page is a collection of frequently asked questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Archive Layout</title>
+      <link>/en/docs/layouts/archives/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/archives/</guid>
+      <description>&lt;p&gt;The archive page is a collection of posts grouped by year.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Search Layout</title>
+      <link>/en/docs/layouts/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/search/</guid>
+      <description>&lt;p&gt;It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact Form</title>
+      <link>/en/docs/layouts/contact-form/</link>
+      <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
+      
+      <guid>/en/docs/layouts/contact-form/</guid>
+      <description>&lt;p&gt;We can put our email address on &lt;a href=&#34;/en/docs/widgets/social-links/&#34;&gt;social links&lt;/a&gt; so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
+Therefore, we bring a feature called contact form.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

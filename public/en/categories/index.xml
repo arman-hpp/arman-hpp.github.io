@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Bootstrap</title>
+    <link>/en/categories/</link>
+    <description>Recent content in Categories on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 19 Mar 2022 13:46:41 +0800</lastBuildDate><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting</title>
+      <link>/en/categories/troubleshooting/</link>
+      <pubDate>Sat, 19 Mar 2022 13:46:41 +0800</pubDate>
+      
+      <guid>/en/categories/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Layouts</title>
+      <link>/en/categories/layouts/</link>
+      <pubDate>Wed, 12 Jan 2022 10:56:34 -0800</pubDate>
+      
+      <guid>/en/categories/layouts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Menu</title>
+      <link>/en/categories/menu/</link>
+      <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
+      
+      <guid>/en/categories/menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/en/categories/faq/</link>
+      <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
+      
+      <guid>/en/categories/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Viewer</title>
+      <link>/en/categories/image-viewer/</link>
+      <pubDate>Fri, 03 Dec 2021 20:46:50 +0800</pubDate>
+      
+      <guid>/en/categories/image-viewer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PWA</title>
+      <link>/en/categories/pwa/</link>
+      <pubDate>Fri, 03 Dec 2021 19:39:01 +0800</pubDate>
+      
+      <guid>/en/categories/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/en/categories/archive/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>/en/categories/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/en/categories/search/</link>
+      <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
+      
+      <guid>/en/categories/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Widget</title>
+      <link>/en/categories/widget/</link>
+      <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
+      
+      <guid>/en/categories/widget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Links</title>
+      <link>/en/categories/social-links/</link>
+      <pubDate>Thu, 02 Dec 2021 16:27:45 +0800</pubDate>
+      
+      <guid>/en/categories/social-links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact Form</title>
+      <link>/en/categories/contact-form/</link>
+      <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
+      
+      <guid>/en/categories/contact-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assets</title>
+      <link>/en/categories/assets/</link>
+      <pubDate>Sun, 28 Nov 2021 16:00:49 +0800</pubDate>
+      
+      <guid>/en/categories/assets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>/en/categories/comments/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>/en/categories/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hook</title>
+      <link>/en/categories/hook/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>/en/categories/hook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>/en/categories/configuration/</link>
+      <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
+      
+      <guid>/en/categories/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/en/categories/markdown/</link>
+      <pubDate>Wed, 01 Sep 2021 11:36:50 +0800</pubDate>
+      
+      <guid>/en/categories/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcode</title>
+      <link>/en/categories/shortcode/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/categories/shortcode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

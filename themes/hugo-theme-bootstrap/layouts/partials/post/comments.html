@@ -1,0 +1,14 @@
+{{- if and (default true .Site.Params.comment) (default true .Params.comment) -}}
+{{- partial "hooks/comments-begin" . -}}
+<div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">{{ i18n "comments" }}</h2>
+  </div>
+  <div class="card-body">
+    {{- partial "post/comments/disqus.html" . -}}
+    {{- partial "post/comments/utterances" . -}}
+    {{- partial "post/comments/custom" . -}}
+  </div>
+</div>
+{{- partial "hooks/comments-end" . -}}
+{{- end -}}

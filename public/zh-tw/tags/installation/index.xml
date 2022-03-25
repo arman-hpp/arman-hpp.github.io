@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
+    <link>/zh-tw/tags/installation/</link>
+    <description>Recent content in Installation on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="/zh-tw/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通過 via Hugo Module 安裝</title>
+      <link>/zh-tw/docs/installation/hugo-module/</link>
+      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
+      
+      <guid>/zh-tw/docs/installation/hugo-module/</guid>
+      <description>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+InstallationInstall a new site from scratchStep 1: Create skeleton site Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module:1$ hugo mod init github.</description>
+    </item>
+    
+    <item>
+      <title>快速入門</title>
+      <link>/zh-tw/docs/getting-started/</link>
+      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
+      
+      <guid>/zh-tw/docs/getting-started/</guid>
+      <description>HBS(Hugo Bootstrap) 是一個快速、響應式和功能齊全的 Hugo 主題，可用於個人博客和文檔。 在安裝主題前，請確保你滿足先決條件。
+先決條件 Git。 Hugo：extended 0.84.0 版本或以上。 npm：用於安裝 CSS 和 JS 依賴。 Go: 1.12 版本或以上，僅當安裝為 Hugo Module 時必須。   我們建議使用這些工具的最新版本。
+ Configuration自 0.68.0，HBS 要求設置以下配置。
+1[build] 2writeStats = true 安裝方法 Git Submodule. Hugo Module.  下一步 調整配置 菜單 觀感 添加內容  </description>
+    </item>
+    
+  </channel>
+</rss>

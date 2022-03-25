@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disqus on Hugo Bootstrap</title>
+    <link>/en/tags/disqus/</link>
+    <description>Recent content in Disqus on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 27 Nov 2021 19:54:29 +0800</lastBuildDate><atom:link href="/en/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comments Widget</title>
+      <link>/en/docs/widgets/comments/</link>
+      <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
+      
+      <guid>/en/docs/widgets/comments/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Disqus&lt;/a&gt; and &lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Utterances&lt;/a&gt; comments widgets are supported out of box.
+This article shows how to configure them and even customize your own comment widgets.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

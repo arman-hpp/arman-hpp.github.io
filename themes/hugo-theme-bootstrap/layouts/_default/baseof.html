@@ -1,0 +1,29 @@
+<!doctype html>
+{{- $color := $.Site.Params.color -}}
+<html class="position-relative" itemscope itemtype="http://schema.org/WebPage" lang="{{ .Lang }}"{{ with $.Site.Params.palette }} data-palette="{{ replace . " " "-" }}"{{ end }}
+  {{ if in (slice "light" "dark") $color }}{{ printf " data-mode=\"%s\"" $color | safeHTMLAttr }}{{ end }}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{- block "title" . -}}{{- partial "head/title" . -}}{{- end -}}</title>
+    {{- partial "head.html" . -}}
+    {{- block "head-end" . -}}{{- end -}}
+    {{- partial "hooks/head-end" . -}}
+  </head>
+  <body>
+    {{- $bootstrapScript := resources.Get "bootstrap/template.js" | resources.ExecuteAsTemplate "js/bootstrap.js" . | minify -}}
+    <script>
+      {{- $bootstrapScript.Content | safeJS -}}
+    </script>
+    {{- partial "header.html" . -}}
+    {{- partial "hooks/main-begin" . -}}
+    <main class="container{{ if .Site.Params.fullWidth }}-fluid{{ end }}">
+      <div class="row content">
+        {{- block "content" . -}}{{- end -}}
+      </div>
+    </main>
+    {{- partial "hooks/main-end" . -}}
+    {{- partial "footer.html" . -}}
+    {{- partial "body-end" . -}}
+  </body>
+</html>

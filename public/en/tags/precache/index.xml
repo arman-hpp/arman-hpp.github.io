@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Precache on Hugo Bootstrap</title>
+    <link>/en/tags/precache/</link>
+    <description>Recent content in Precache on Hugo Bootstrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-{year} Razon Yang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 03 Dec 2021 19:39:01 +0800</lastBuildDate><atom:link href="/en/tags/precache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Progressive Web App</title>
+      <link>/en/docs/pwa/</link>
+      <pubDate>Fri, 03 Dec 2021 19:39:01 +0800</pubDate>
+      
+      <guid>/en/docs/pwa/</guid>
+      <description>&lt;p&gt;PWAs(&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Progressive web apps&lt;/a&gt;) are web apps developed using a number of specific technologies and standard patterns to allow them to take advantage of both web and native app features.&lt;/p&gt;
+&lt;p&gt;We are in the experimental stage of PWA, but some major features have been added, such as install site to home screen, precache files and available offline.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
