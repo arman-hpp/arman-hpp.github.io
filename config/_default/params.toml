@@ -2,16 +2,16 @@ mainSections = ["posts", "docs"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "An extreme fast, responsive and feature-rich blog theme for Hugo"
-keywords = "Hugo, Bootstrap, Blog Theme"
+description = "Arman Hasanpour Blog | وبلاگ آرمان حسن پور"
+keywords = "C#, CSharp, Java, Delphi, Embarcadero, DotNet, .NET Framewrok, Windows, Linux, SQL, Oracle, SQL Server, HTML, CSS, JavaScript, JQuery, Open Source, React.js, Free Source Code, Tutorials"
 # images = ["site-feature-image.jpg"]
 
 # metaRobots = "noindex, nofollow" # Default value for Meta Tag "robots"
 # metaRobots = "" # disable Meta Tag "robots"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-# logo = false # Disable Logo
-brand = "BOOTSTRAP"
+logo = false # Disable Logo
+brand = "وبلاگ آرمان حسن پور"
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
@@ -36,7 +36,7 @@ googleAdsense = ""
 
 # poweredBy = false # Whether to show powered by.
 
-# readingTime = false # Whether to display the reading time.
+readingTime = false # Whether to display the reading time.
 # postDate = false # Whether to display the post date in the post meta section.
 
 # featuredPostCount = 10 # The number of featured posts shown in sidebar. Turn off by setting it to false.
@@ -123,9 +123,9 @@ viewer = true # Image Viewer
     # distance = 100
     # useExtendedSearch = true
 
-[reward]
-  alipay = "images/reward/alipay.png"
-  wechat = "images/reward/wechat.png"
+#[reward]
+  #alipay = "images/reward/alipay.png"
+  #wechat = "images/reward/wechat.png"
   #paypal = "images/reward/paypal.png"
   #patreon = "images/reward/patreon.png"
   #liberapay = "images/reward/liberapay.png"
