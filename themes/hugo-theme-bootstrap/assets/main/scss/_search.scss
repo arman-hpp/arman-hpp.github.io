@@ -26,6 +26,7 @@
 .search-stat,
 .search-result-content {
   color: var(--#{$variable-prefix}secondary-text-on-surface);
+  direction: rtl;
 }
 
 .btn-search {
