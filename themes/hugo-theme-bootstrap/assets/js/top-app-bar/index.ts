@@ -3,6 +3,7 @@ import Snackbar from "js/snackbar";
 
 class TopAppBar implements Component {
     run() {
+		/*
         document.querySelector('.action-reload-page').addEventListener('click', function() {
             window.location.reload();
         });
@@ -10,6 +11,7 @@ class TopAppBar implements Component {
             navigator.clipboard.writeText(window.location.href);
             Snackbar.show('Copied');
         });
+		*/
     }
 }
 

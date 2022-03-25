@@ -6,14 +6,13 @@
       <i class="fas fa-bars"></i>
     </button>
     {{- $logo := (default "images/logo.webp" .Site.Params.logo) -}}
-    <a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto me-lg-3{{ if .IsHome }} active{{ end }}" href="{{ "" | absLangURL }}">
+    <a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto{{ if .IsHome }} active{{ end }}" href="{{ "" | absLangURL }}">
       {{- if $logo -}}
         {{ partial "helpers/image" (dict "filename" $logo "alt" "Logo" "class" "logo" "resources" .Resources) }}
       {{- end -}}
       {{ with .Site.Params.brand }}{{ . }}{{ else }}{{ $.Site.Title }}{{ end }}
     </a>
     {{ partial "header/social-share" . }}
-    {{ partial "header/settings" . }}
     <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
       {{ partial "header/search-bar" . }}
       <ul class="navbar-nav ms-auto">
