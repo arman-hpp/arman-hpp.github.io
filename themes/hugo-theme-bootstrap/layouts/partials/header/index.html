@@ -13,6 +13,7 @@
       {{ with .Site.Params.brand }}{{ . }}{{ else }}{{ $.Site.Title }}{{ end }}
     </a>
     {{ partial "header/social-share" . }}
+    {{ partial "header/settings" . }}
     <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
       {{ partial "header/search-bar" . }}
       <ul class="navbar-nav ms-auto">
