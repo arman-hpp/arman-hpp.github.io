@@ -1,7 +1,8 @@
 .navbar {
   background-color: var(--#{$variable-prefix}navbar);
   color: var(--#{$variable-prefix}primary-text-on-navbar);
-
+  direction:rtl;
+	
   a {
     &:hover,
     &:focus,

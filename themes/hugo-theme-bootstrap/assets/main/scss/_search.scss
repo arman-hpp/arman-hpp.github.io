@@ -12,6 +12,10 @@
 }
 
 .search-form {
+  direction:rtl;
+}
+
+.search-form {
   .form-control {
     background-color: transparent;
     border-color: var(--#{$variable-prefix}accent);

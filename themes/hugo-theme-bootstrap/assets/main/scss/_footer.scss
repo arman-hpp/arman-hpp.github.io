@@ -1,6 +1,6 @@
 .footer {
   color: var(--#{$variable-prefix}secondary-text-on-surface);
-
+  direction: rtl;
   .powered-by a {
     color: var(--#{$variable-prefix}accent);
   }
