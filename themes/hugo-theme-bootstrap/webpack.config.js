@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: path.join(PATHS.node_modules, "katex/dist/fonts"), to: path.join(PATHS.static, "assets/katex/fonts") },
+        { from: path.join(PATHS.node_modules, "katex/dist/fonts"), to: path.join(PATHS.static, "fonts") },
       ],
     }),
   ]
