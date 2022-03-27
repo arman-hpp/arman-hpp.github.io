@@ -1,7 +1,7 @@
 {{ define "content" }}
 {{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
 {{- $paginator := .Paginate $pages.ByDate.Reverse (default 100 .Site.Params.archive.paginate) -}}
-<div class="col-lg-8 archives mb-4">
+<div class="col-lg-9 archives mb-4">
   <div class="container">
     {{- partial "breadcrumb" . -}}
     {{- $count := len $paginator.Pages -}}
@@ -23,7 +23,7 @@
         {{- end -}}
           <li>
             <a class="post-title" href="{{ .Permalink }}">{{ partial "helpers/title" . }}</a>
-            <span class="float-end post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
+            <span class="float-start post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
           </li>
         {{- if eq $idx (sub $count 1) -}}
         {{/* Last item, close current ul tag */}}

@@ -1,5 +1,5 @@
 {{ define "content" }}
-<div class="col-lg-8">
+<div class="col-lg-9">
   <div class="container">
     {{- partial "breadcrumb" . -}}
     <div class="taxonomys">
@@ -21,7 +21,7 @@
             {{- range first $postCount .Pages -}}
             <li class="taxonomy-post">
               <a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-              <span class="float-end post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
+              <span class="float-start post-date">{{ .Date.Format (default "Jan 2" $.Site.Params.archive.dateFormat) }}</span>
             </li>
             {{- end -}}
           </ul>

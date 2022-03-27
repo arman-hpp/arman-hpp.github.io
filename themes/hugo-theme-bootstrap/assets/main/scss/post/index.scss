@@ -64,10 +64,13 @@
 .post-panel-wrapper {
   top: 84px;
   z-index: 1;
-
+  position: -webkit-sticky;
+  position: sticky;
+  
   .post-panel {
+    position: absolute;
     text-align: right;
-    right: -1rem;
+    left: -1rem;
     top: -0.5rem;
     margin-top: 8px;
 

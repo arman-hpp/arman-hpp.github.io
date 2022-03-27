@@ -11,3 +11,12 @@
     color: var(--#{$variable-prefix}accent);
   }
 }
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-right: 0.5rem !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right !important;
+    padding-left: 0.5rem !important;
+}
