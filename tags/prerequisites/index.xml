@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Prerequisites on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
-    <link>/tags/prerequisites/</link>
-    <description>Recent content in Prerequisites on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="/tags/prerequisites/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Getting Started</title>
-      <link>/docs/getting-started/</link>
-      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
-      
-      <guid>/docs/getting-started/</guid>
-      <description>&lt;p&gt;HBS(Hugo Bootstrap) is a fast, responsive and feature-rich Hugo theme for personal blog and documentations.
-Please make sure you &lt;a href=&#34;/docs/getting-started/#prerequisites&#34;&gt;meet the prerequisites&lt;/a&gt; prior to installing the theme.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prerequisites on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title><link>/tags/prerequisites/</link><description>Recent content in Prerequisites on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright><lastBuildDate>Sat, 04 Dec 2021 10:43:39 +0800</lastBuildDate><atom:link href="/tags/prerequisites/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>/docs/getting-started/</link><pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate><guid>/docs/getting-started/</guid><description>&lt;p>HBS(Hugo Bootstrap) is a fast, responsive and feature-rich Hugo theme for personal blog and documentations.
+Please make sure you &lt;a href="/docs/getting-started/#prerequisites">meet the prerequisites&lt;/a> prior to installing the theme.&lt;/p></description></item></channel></rss>
