@@ -147,7 +147,7 @@
   color: var(--#{$variable-prefix}primary-text-on-surface)!important;
   margin: .25rem;
   padding: .5rem;
-  opacity: .6;
+  opacity: .9;
   clip-path: polygon(100% 0, 100% 100%, 1rem 100%, 0 50%, 1rem 0);
   padding-left: 1rem;
 
@@ -158,6 +158,14 @@
     color: var(--#{$variable-prefix}accent)!important;
     text-decoration: none;
   }
+}
+
+.badge {
+  vertical-align: text-top !important;
+}
+
+.custom-badge {
+  padding-top: 0.4rem;
 }
 
 #offcanvasTOC {

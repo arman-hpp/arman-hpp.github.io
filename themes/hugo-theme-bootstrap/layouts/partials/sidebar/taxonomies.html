@@ -20,7 +20,7 @@
           <a href="{{ .Page.Permalink }}" class="badge rounded post-taxonomy" title="{{ .Page.Title }}">
             {{ .Page.Title }}
             {{- if $.Site.Params.countTaxonomyPosts -}}
-              <span class="badge badge-sm text-white bg-accent ms-1">{{ .Count }}</span>
+              <span class="badge badge-sm custom-badge text-white bg-accent me-1">{{ .Count }}</span>
             {{- end -}}
           </a>
           {{- $count = add $count 1 }}
@@ -29,7 +29,7 @@
         {{- if gt (len $value) $taxonomyCount -}}
         <a href="{{ absLangURL (urlize $key) }}" class="badge rounded post-taxonomy" title="ALL">
           ALL
-          <span class="badge badge-sm text-white bg-accent ms-1">{{ len $value }}</span>
+          <span class="badge badge-sm custom-badge text-white bg-accent me-1">{{ len $value }}</span>
         </a>
         {{- end -}}
         </div>

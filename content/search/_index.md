@@ -1,4 +1,4 @@
 +++
-title = "جستجو"
+title = "Search"
 layout = "search"
 +++

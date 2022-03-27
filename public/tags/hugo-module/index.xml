@@ -15,7 +15,7 @@
       
       <guid>/docs/installation/hugo-module/</guid>
       <description>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-InstallationInstall a new site from scratchStep 1: Create skeleton site Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module:1$ hugo mod init github.</description>
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github.</description>
     </item>
     
   </channel>

@@ -15,7 +15,7 @@
       
       <guid>/docs/installation/hugo-module/</guid>
       <description>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-InstallationInstall a new site from scratchStep 1: Create skeleton site Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module:1$ hugo mod init github.</description>
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ InstallationInstall a new site from scratchStep 1: Create skeleton site Creat
       
       <guid>/docs/installation/git-submodule/</guid>
       <description>This article refers to the traditional installation method of cloning the theme locally as Git submodule. It describes how to install, upgrade the theme, and write new articles. While this installation method is still widely used, we recommend to install the theme as Hugo module.
-InstallationCreate a New Site from Scratch1$ hugo new site myblog 2$ cd myblog 3$ git init 4$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap 5$ cp -a themes/hugo-theme-bootstrap/exampleSite/* .</description>
+Installation Create a New Site from Scratch 1$ hugo new site myblog 2$ cd myblog 3$ git init 4$ git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap 5$ cp -a themes/hugo-theme-bootstrap/exampleSite/* .</description>
     </item>
     
     <item>
