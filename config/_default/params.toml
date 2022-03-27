@@ -103,7 +103,7 @@ viewer = true # Image Viewer
   # sa = true # Adaptations must be shared under the same terms.
 
 [utterances]
-  repo = "arman-arian.github.io-comments"
+  repo = "arman-arian/arman-arian.github.io-comments"
   #issueTerm = "pathname"
   label = "نظرات"
   theme = "github-light" 
