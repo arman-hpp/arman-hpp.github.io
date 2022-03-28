@@ -29,7 +29,7 @@ Installation Install a new site from scratch Step 1: Create skeleton site  Creat
 <meta name="twitter:description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
 Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."/>
 <meta property="og:image" content="/false"/>
-  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.1ade89828f33487d433ac2a55acbfd651a627e0ab090e05ff5356259aa135ba9.css" integrity="sha256-Gt6Jgo8zSH1DOsKlWsv9ZRpifgqwkOBf9TViWaoTW6k=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous"></head>
+  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.2ce07f9caef66f7eb1340e197173dd8cbcc6e41f9945e25eef9206e9fa87ccfe.css" integrity="sha256-LOB/nK72b36xNA4ZcXPdjLzG5B+ZReJe75IG6fqHzP4=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous"></head>
   <body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
   <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -80,190 +80,12 @@ Installation Install a new site from scratch Step 1: Create skeleton site  Creat
 </nav>
 </header>
 <main class="container">
-      <div class="row content"><button class="catalog-toggle d-lg-none position-fixed top-0 left-0 h-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target=".docs-catalog" aria-expanded="false" aria-controls="collapseCatalog">
-    <i class="catalog-toggle-icon fas fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
-</button>
-<aside class="docs-catalog col-lg-2 collapse collapse-horizontal catalog-collapse" tabindex="-1" data-bs-hide="focusout">
-  <div class="container px-0 px-lg-1">
-    <div class="row card component">
-      <div class="card-body">
-        <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/getting-started/">Getting Started</a>
-        </li><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-accent text-white">
-            <a href="/docs/installation/">Installation</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-273a1d3f87830cbffaaf95a64d1ab7e6" aria-expanded="true" aria-controls="catalog-273a1d3f87830cbffaaf95a64d1ab7e6">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse show" id="catalog-273a1d3f87830cbffaaf95a64d1ab7e6">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/installation/git-submodule/">Git Submodule</a>
-        </li><li class="mb-2 active text-accent" tabindex="-1">
-          <a href="/docs/installation/hugo-module/">Hugo Module</a>
-        </li></ul>
-            </ul>
-          </div>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/configuration/">Configuration</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/content/">Content</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/menu/">Menu</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/look-and-feel/">Look and Feel</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/custom-assets/">Custom Assets</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/get-involved/">Get Involved</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/hooks/">Hooks</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/image-processing/">Image Processing</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/image-viewer/">Image Viewer</a>
-        </li><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/layouts/">Layouts</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-e6325bb957554ab70989da3e67663dc8" aria-expanded="false" aria-controls="catalog-e6325bb957554ab70989da3e67663dc8">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-e6325bb957554ab70989da3e67663dc8">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/layouts/archives/">Archive Layout</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/layouts/contact-form/">Contact Form</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/layouts/docs/">Docs Layout</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/layouts/faq/">FAQ Layout</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/layouts/search/">Search Layout</a>
-        </li></ul>
-            </ul>
-          </div>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/pwa/">Progressive Web App</a>
-        </li><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/shortcodes/">Shortcode</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-2eab438f6271b04ea65416ab255b8e07" aria-expanded="false" aria-controls="catalog-2eab438f6271b04ea65416ab255b8e07">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-2eab438f6271b04ea65416ab255b8e07">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/shortcodes/alert/">Alert Shortcode</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/shortcodes/media/">Media Shortcodes</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/shortcodes/online-ide/">Online IDE Shortcodes</a>
-        </li></ul>
-            </ul>
-          </div>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/troubleshooting/">Troubleshooting</a>
-        </li><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/widgets/">Widgets</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-030c9061823a7f79b8e8cf57b4ffbe96" aria-expanded="false" aria-controls="catalog-030c9061823a7f79b8e8cf57b4ffbe96">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-030c9061823a7f79b8e8cf57b4ffbe96">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/widgets/author/">Author Widget</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/widgets/comments/">Comments Widget</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/widgets/reward/">Reward Widget</a>
-        </li><li class="mb-2" tabindex="-1">
-          <a href="/docs/widgets/social-links/">Social Links</a>
-        </li></ul>
-            </ul>
-          </div>
-        </li><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/level-1/">Level 1</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-0b48e7d542826dc53b5db31149c2499c" aria-expanded="false" aria-controls="catalog-0b48e7d542826dc53b5db31149c2499c">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-0b48e7d542826dc53b5db31149c2499c">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/level-1/level-2/">Level 2</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-e7e903fa565c168b58cc3c940a22f8ca" aria-expanded="false" aria-controls="catalog-e7e903fa565c168b58cc3c940a22f8ca">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-e7e903fa565c168b58cc3c940a22f8ca">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <div class="catalog-section py-1 d-flex justify-content-between align-items-center px-2 bg-background text-on-background">
-            <a href="/docs/level-1/level-2/level-3/">Level 3</a>
-            <a class="btn-toggle collapsed ms-1" role="button" data-bs-toggle="collapse"
-              data-bs-target="#catalog-383889390c911944c99eaad5050b905e" aria-expanded="false" aria-controls="catalog-383889390c911944c99eaad5050b905e">
-              <i class="btn-toggle-icon fas fa-chevron-circle-down ms-auto" data-fa-transform="rotate-270"></i>
-            </a>
-          </div>
-          <div class="mt-2 border-start collapse" id="catalog-383889390c911944c99eaad5050b905e">
-            <ul class="btn-toggle-nav list-unstyled fw-normal ms-2">
-              <ul class="list-unstyled mb-2"><li class="mb-2" tabindex="-1">
-          <a href="/docs/level-1/level-2/level-3/level-4/">Level 4</a>
-        </li></ul>
-            </ul>
-          </div>
-        </li></ul>
-            </ul>
-          </div>
-        </li></ul>
-            </ul>
-          </div>
-        </li></ul>
-      </div>
-    </div>
-  </div>
-</aside><div class="col-lg-7 ms-auto">
+      <div class="row content"><div class="col-lg-9 ms-auto">
   <div class="container"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body">
     <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/docs/">Docs</a></li><li class="breadcrumb-item"><a href="/docs/installation/">Installation</a></li><li class="breadcrumb-item active">Install via Hugo Module</li></ol>
   </div>
-</nav><div class="post-panel-wrapper">
-  <div class="d-flex flex-column component rounded post-panel">
-    
-    <a class="action action-panel-toggler" role="button" title="تغییر وضعیت صفحه">
-      <i class="fas fa-fw fa-chevron-circle-down"></i>
-    </a>
-    <a id="sidebarToggler" class="action d-none d-lg-block" role="button" title="تغییر وضعیت منوی کناری">
-  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
-</a>
-
-    
-
-    
-    <a class="action" href="#post-comments" role="button" aria-label="Comments" title="Comments">
-  <i class="fas fa-fw fa-comments"></i>
-</a>
-    <a class="action d-lg-none" href="#postTOC" aria-controls="Table of contents" role="button" title="Table of contents">
-  <i class="fas fa-fw fa-list-alt"></i>
-</a>
-    
-  </div>
-</div>
-<article class="row card component mb-4 post">
+</nav><article class="row card component mb-4 post">
 <div class="card-header ">
     <h1 class="card-title post-title">Install via Hugo Module
 </h1>

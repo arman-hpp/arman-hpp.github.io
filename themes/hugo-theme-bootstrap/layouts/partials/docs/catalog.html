@@ -1,16 +1,3 @@
-<button class="catalog-toggle d-lg-none position-fixed top-0 left-0 h-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target=".docs-catalog" aria-expanded="false" aria-controls="collapseCatalog">
-    <i class="catalog-toggle-icon fas fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
-</button>
-<aside class="docs-catalog col-lg-2 collapse collapse-horizontal catalog-collapse" tabindex="-1" data-bs-hide="focusout">
-  <div class="container px-0 px-lg-1">
-    <div class="row card component">
-      <div class="card-body">
-        {{ template "walk-catalog" (dict "section" .FirstSection "page" .) }}
-      </div>
-    </div>
-  </div>
-</aside>
-
 {{- define "walk-catalog" -}}
 {{- $section := .section -}}
 {{- $page := .page -}}
