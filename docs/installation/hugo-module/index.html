@@ -1,52 +1,270 @@
-<!doctype html><html itemscope itemtype=http://schema.org/WebPage lang=fa data-palette=blue><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Install via Hugo Module - Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title><link rel=apple-touch-icon href=/images/icons/icon-180x180.png sizes=180x180><link rel=icon href=/images/icons/icon-32x32.png sizes=32x32 type=image/png><link rel=icon href=/images/icons/icon-16x16.png sizes=16x16 type=image/png><link rel=icon href=/images/icons/favicon.ico><link rel=manifest href=/manifest.json><meta name=keywords content><meta name=description content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."><meta name=robots content="index, follow"><meta itemprop=name content="Install via Hugo Module"><meta itemprop=description content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."><meta itemprop=datePublished content="2022-02-26T17:10:39+02:00"><meta itemprop=dateModified content="2022-02-26T17:10:39+02:00"><meta itemprop=wordCount content="503"><meta itemprop=keywords content="Installation,Upgrade,Hugo module,"><meta property="og:title" content="Install via Hugo Module"><meta property="og:description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."><meta property="og:type" content="article"><meta property="og:url" content="/docs/installation/hugo-module/"><meta property="article:section" content="docs"><meta property="article:published_time" content="2022-02-26T17:10:39+02:00"><meta property="article:modified_time" content="2022-02-26T17:10:39+02:00"><meta property="og:see_also" content="/docs/installation/git-submodule/"><meta property="og:see_also" content="/docs/look-and-feel/"><meta property="og:see_also" content="/docs/menu/"><meta property="og:see_also" content="/docs/content/"><meta property="og:see_also" content="/docs/configuration/"><meta name=twitter:card content="summary"><meta name=twitter:title content="Install via Hugo Module"><meta name=twitter:description content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."><meta property="og:image" content="/false"><meta name=twitter:image content="/false"><link rel=stylesheet href="/assets/main/bundle.min.2ce07f9caef66f7eb1340e197173dd8cbcc6e41f9945e25eef9206e9fa87ccfe.css" integrity="sha256-LOB/nK72b36xNA4ZcXPdjLzG5B+ZReJe75IG6fqHzP4=" crossorigin=anonymous><link rel=stylesheet href=/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin=anonymous></head><body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top"><div class=container><button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<i class="fas fa-bars"></i>
-</button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href=/>وبلاگ آرمان حسن پور</a><div class="offcanvas offcanvas-bottom surface" tabindex=-1 id=offcanvasSocialShare aria-labelledby=offcanvasSocialShare><div class=offcanvas-header><h3 class=offcanvas-title>Share</h3><button type=button class="btn btn-sm btn-outline-primary" data-bs-dismiss=offcanvas aria-label=Close>
-<i class="fas fa-times"></i></button></div><div class=offcanvas-body><a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button" target=_blank href="https://twitter.com/intent/tweet?title=Install%20via%20Hugo%20Module&url=%2fdocs%2finstallation%2fhugo-module%2f"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
-<a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button" target=_blank href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2finstallation%2fhugo-module%2f"><i class="fab fa-fw fa-facebook-f"></i> Facebook</a></div></div><div class="collapse navbar-collapse" tabindex=-1 id=navbarSupportedContent aria-labelledby=navbarSupportedContent><form class="search-bar my-1" action=/search><div class="input-group input-group-sm"><span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
-<input class="form-control search-bar-input" name=q type=search aria-label=Search></div></form><ul class="navbar-nav me-auto"><li class=nav-item><a class=nav-link href=/series/><i class="fas fa-fw fa-columns"></i>Séries</a></li><li class=nav-item><a class=nav-link href=/categories/><i class="fas fa-fw fa-folder"></i>Catégories</a></li><li class=nav-item><a class=nav-link href=/tags/><i class="fas fa-fw fa-tags"></i>Tags</a></li></ul></div></div></nav></header><main class=container><div class="row content"><div class="col-lg-9 ms-auto"><div class=container><nav class="row card component" aria-label=breadcrumb><div class=card-body><ol class=breadcrumb><li class=breadcrumb-item><a href=/>خانه</a></li><li class=breadcrumb-item><a href=/docs/>Docs</a></li><li class=breadcrumb-item><a href=/docs/installation/>Installation</a></li><li class="breadcrumb-item active">Install via Hugo Module</li></ol></div></nav><article class="row card component mb-4 post"><div class=card-header><h1 class="card-title post-title">Install via Hugo Module</h1></div><div class=card-body><div class=post-meta><span class=post-date title="ایجاد شده در 2022-02-26 15:10:39 +0000 UTC.">فوریهٔ 26, 2022
-</span><span class=post-taxonomies><a href=/series/docs/ class="badge post-taxonomy">Docs</a><a href=/tags/installation/ class="badge post-taxonomy">Installation</a><a href=/tags/upgrade/ class="badge post-taxonomy">Upgrade</a><a href=/tags/hugo-module/ class="badge post-taxonomy">Hugo module</a></span></div><div class="post-content mb-3"><p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.
-It describes how to install, upgrade the theme, and write new articles.</p><h2 id=installation>Installation<a class="anchor ms-1" href=#installation><i class="fas fa-link"></i></a></h2><h3 id=install-a-new-site-from-scratch>Install a new site from scratch<a class="anchor ms-1" href=#install-a-new-site-from-scratch><i class="fas fa-link"></i></a></h3><h4 id=step-1-create-skeleton-site>Step 1: Create skeleton site<a class="anchor ms-1" href=#step-1-create-skeleton-site><i class="fas fa-link"></i></a></h4><ul><li>Create and enter new site:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo new site my-new-blog
-</span></span><span class=line><span class=ln>2</span><span class=cl>$ <span class=nb>cd</span> my-new-blog
-</span></span></code></pre></div><h4 id=step-2-turn-your-new-site-into-a-hugo-module>Step 2: Turn your new site into a Hugo module:<a class="anchor ms-1" href=#step-2-turn-your-new-site-into-a-hugo-module><i class="fas fa-link"></i></a></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod init github.com/me/my-new-blog
-</span></span></code></pre></div><h4 id=step-3-declare-hugo-theme-bootstrap-module-as-a-site-dependency>Step 3: Declare hugo-theme-bootstrap module as a site dependency:<a class="anchor ms-1" href=#step-3-declare-hugo-theme-bootstrap-module-as-a-site-dependency><i class="fas fa-link"></i></a></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod get github.com/razonyang/hugo-theme-bootstrap
-</span></span></code></pre></div><h4 id=step-4-optional-copy-example-site-content-into-your-site>Step 4 (optional): Copy example site content into your site<a class="anchor ms-1" href=#step-4-optional-copy-example-site-content-into-your-site><i class="fas fa-link"></i></a></h4><ul><li>Clone the <code>hugo-theme-bootstrap</code> repo into a temporary directory:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ git clone https://github.com/razonyang/hugo-theme-bootstrap /tmp/hugo-theme-bootstrap
-</span></span></code></pre></div><blockquote><p>If you&rsquo;re using Windows, use <code>git clone https://github.com/razonyang/hugo-theme-bootstrap %temp%\hugo-theme-bootstrap</code> instead.</p></blockquote><ul><li>Copy example site content:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ cp -a /tmp/hugo-theme-bootstrap/exampleSite/* .
-</span></span></code></pre></div><blockquote><p>If you&rsquo;re using Windows, use <code>xcopy %TEMP%\hugo-theme-bootstrap\exampleSite /E</code> instead.</p></blockquote><ul><li>Remove your file <code>config.toml</code></li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>rm config.toml
-</span></span></code></pre></div><ul><li>Delete the repo from your temporary directory again:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ rm -rf /tmp/hugo-theme-bootstrap
-</span></span></code></pre></div><p>At the top of your <code>config/_default/config.toml</code>, switch the uncommented theme:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=ln>1</span><span class=cl><span class=c># theme = &#34;hugo-theme-bootstrap&#34; # install via git submodule</span>
-</span></span><span class=line><span class=ln>2</span><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;github.com/razonyang/hugo-theme-bootstrap&#34;</span> <span class=c># install via hugo module</span>
-</span></span></code></pre></div><h4 id=step-5-pull-in-dependencies-via-npm>Step 5: Pull in dependencies via npm<a class="anchor ms-1" href=#step-5-pull-in-dependencies-via-npm><i class="fas fa-link"></i></a></h4><ul><li>Use <strong>n</strong>ode <strong>p</strong>ackage <strong>m</strong>anager <a href=https://nodejs.org/en/download/ target=_blank rel="noopener noreferrer"><code>npm</code></a> to pull in dependencies for this theme:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod npm pack
-</span></span><span class=line><span class=ln>2</span><span class=cl>$ npm install
-</span></span></code></pre></div><h4 id=step-6-preview-your-site>Step 6: Preview your site<a class="anchor ms-1" href=#step-6-preview-your-site><i class="fas fa-link"></i></a></h4><ul><li>Start hugo&rsquo;s built-in webserver to <a href=http://localhost:1313/ target=_blank rel="noopener noreferrer">preview</a> your website:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo server
-</span></span></code></pre></div><h3 id=install-on-an-existing-site>Install on an existing site<a class="anchor ms-1" href=#install-on-an-existing-site><i class="fas fa-link"></i></a></h3><h4 id=step-1-turn-your-existing-site-into-a-hugo-module>Step 1: Turn your existing site into a Hugo module:<a class="anchor ms-1" href=#step-1-turn-your-existing-site-into-a-hugo-module><i class="fas fa-link"></i></a></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ <span class=nb>cd</span> my-blog
-</span></span><span class=line><span class=ln>2</span><span class=cl>$ hugo mod init github.com/me/my-blog
-</span></span></code></pre></div><h4 id=step-2-declare-hugo-theme-bootstrap-module-as-a-site-dependency>Step 2: Declare hugo-theme-bootstrap module as a site dependency:<a class="anchor ms-1" href=#step-2-declare-hugo-theme-bootstrap-module-as-a-site-dependency><i class="fas fa-link"></i></a></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod get github.com/razonyang/hugo-theme-bootstrap
-</span></span></code></pre></div><h4 id=step-3-optional-copy-example-site-content-into-your-site>Step 3 (optional): Copy example site content into your site<a class="anchor ms-1" href=#step-3-optional-copy-example-site-content-into-your-site><i class="fas fa-link"></i></a></h4><ul><li>Clone the <code>hugo-theme-bootstrap</code> repo into a temporary directory:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ git clone https://github.com/razonyang/hugo-theme-bootstrap /tmp/
-</span></span></code></pre></div><ul><li>Copy example site configuration and content into your site:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln> 1</span><span class=cl>$ mkdir config
-</span></span><span class=line><span class=ln> 2</span><span class=cl>$ cp -a /tmp/hugo-theme-bootstrap/exampleSite/config/* ./config
-</span></span><span class=line><span class=ln> 3</span><span class=cl>$ cp -r /tmp/hugo-theme-bootstrap/exampleSite/content/about/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 4</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/archives/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 5</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/categories/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 6</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/contact/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 7</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/offline/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 8</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/search/ <span class=se>\
-</span></span></span><span class=line><span class=ln> 9</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/series/ <span class=se>\
-</span></span></span><span class=line><span class=ln>10</span><span class=cl><span class=se></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/tags/ <span class=se>\
-</span></span></span><span class=line><span class=ln>11</span><span class=cl><span class=se></span>  ./content
-</span></span></code></pre></div><ul><li>Delete the repo from your temporary directory again:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ rm -rf /tmp/hugo-theme-bootstrap/
-</span></span></code></pre></div><p>At the top of your <code>config/_default/config.toml</code>, switch the uncommented theme:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=ln>1</span><span class=cl><span class=c># theme = &#34;hugo-theme-bootstrap&#34; # install via git submodule</span>
-</span></span><span class=line><span class=ln>2</span><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;github.com/razonyang/hugo-theme-bootstrap&#34;</span> <span class=c># install via hugo module</span>
-</span></span></code></pre></div><h4 id=step-4-pull-in-dependencies-via-npm>Step 4: Pull in dependencies via npm<a class="anchor ms-1" href=#step-4-pull-in-dependencies-via-npm><i class="fas fa-link"></i></a></h4><ul><li>Use <strong>n</strong>ode <strong>p</strong>ackage <strong>m</strong>anager <a href=https://nodejs.org/en/download/ target=_blank rel="noopener noreferrer"><code>npm</code></a> to pull in dependencies for this theme:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod npm pack
-</span></span><span class=line><span class=ln>2</span><span class=cl>$ npm install
-</span></span></code></pre></div><h4 id=step-5-preview-your-site>Step 5: Preview your site<a class="anchor ms-1" href=#step-5-preview-your-site><i class="fas fa-link"></i></a></h4><ul><li>Start hugo&rsquo;s built-in webserver to <a href=http://localhost:1313/ target=_blank rel="noopener noreferrer">preview</a> your website:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo server
-</span></span></code></pre></div><h2 id=theme-upgrade>Theme Upgrade<a class="anchor ms-1" href=#theme-upgrade><i class="fas fa-link"></i></a></h2><ul><li>Invoke hugo’s module <code>get</code> subcommand with the update flag:</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ <span class=nb>cd</span> my-blog
-</span></span><span class=line><span class=ln>2</span><span class=cl>$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap
-</span></span></code></pre></div><p>Hugo will automatically pull in the latest theme version.</p><blockquote><p>If you want to set your module to a certain version inside the <code>hugo-theme-bootstrap</code> theme repo, simply specific the name of the tag representing this version (here: <code>v0.67.1</code>) when updating your theme:</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap@v0.67.1
-</span></span></code></pre></div><blockquote><p>Instead of a version tag, you can also specify a commit hash inside the repo (here: <code>de4a40f</code>) when updating your theme:</p></blockquote><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=ln>1</span><span class=cl>$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap@de4a40f
-</span></span></code></pre></div></div></div><div class=card-footer><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-circle-down" data-fa-transform=rotate-90></i>
-<a href=/docs/installation/git-submodule/>Install via Git Submodule</a></div></div></div></article><div class="card component row post-comments" id=post-comments><div class=card-header><h2 class=card-title>نظرات</h2></div><div class=card-body><script src=https://utteranc.es/client.js repo=arman-arian/arman-arian.github.io-comments issue-term=pathname label=نظرات theme=github-light crossorigin=anonymous async></script></div></div></div></div><aside class="sidebar d-flex docs-sidebar col-lg-3 position-sticky"><div class=container><div class="post-toc row mb-4 card component" id=postTOC><div class=card-header><h2 class=card-title>فهرست مطالب</h2></div><div class=card-body><nav id=TableOfContents><ul><li><a href=#installation>Installation</a><ul><li><a href=#install-a-new-site-from-scratch>Install a new site from scratch</a></li><li><a href=#install-on-an-existing-site>Install on an existing site</a></li></ul></li><li><a href=#theme-upgrade>Theme Upgrade</a></li></ul></nav></div></div></div></aside></div></main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</div><div class="powered-by mb-2">با افتخار نیرو گرفته از <a href=https://gohugo.io target=_blank rel="noopener noreferrer">Hugo</a>.</div></footer><script src=/assets/main/bundle.min.b2bae00ee77516efa6e339d9137443d1f786a314f543d3da3418d45e38b6db08.js integrity="sha256-srrgDud1Fu+m4znZE3RD0feGoxT1Q9PaNBjUXji22wg=" crossorigin=anonymous defer></script><script src=/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv+u65cgIytjA=" crossorigin=anonymous defer></script>
-<script>"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/service-worker.min.js").then(function(e){console.log("Successfully registered service worker",e)}).catch(function(e){console.warn("Error whilst registering service worker",e)})})</script><script src=/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA+iJjWXNvM/DFk94=" crossorigin=anonymous defer></script></body></html>
+<!doctype html><html itemscope itemtype="http://schema.org/WebPage" lang="fa" data-palette="blue"
+  >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Install via Hugo Module - Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+<link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/images/icons/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<meta name="keywords" content="" />
+<meta name="description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="Install via Hugo Module">
+<meta itemprop="description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."><meta itemprop="datePublished" content="2022-02-26T17:10:39+02:00" />
+<meta itemprop="dateModified" content="2022-02-26T17:10:39+02:00" />
+<meta itemprop="wordCount" content="503">
+<meta itemprop="keywords" content="Installation,Upgrade,Hugo module," /><meta property="og:title" content="Install via Hugo Module" />
+<meta property="og:description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/installation/hugo-module/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-02-26T17:10:39+02:00" />
+<meta property="article:modified_time" content="2022-02-26T17:10:39+02:00" />
+<meta property="og:see_also" content="/docs/installation/git-submodule/" /><meta property="og:see_also" content="/docs/look-and-feel/" /><meta property="og:see_also" content="/docs/menu/" /><meta property="og:see_also" content="/docs/content/" /><meta property="og:see_also" content="/docs/configuration/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Install via Hugo Module"/>
+<meta name="twitter:description" content="This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
+Installation Install a new site from scratch Step 1: Create skeleton site  Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module: 1$ hugo mod init github."/>
+<meta property="og:image" content="/false"/>
+  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.2ce07f9caef66f7eb1340e197173dd8cbcc6e41f9945e25eef9206e9fa87ccfe.css" integrity="sha256-LOB/nK72b36xNA4ZcXPdjLzG5B+ZReJe75IG6fqHzP4=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous"></head>
+  <body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href="/">وبلاگ آرمان حسن پور
+    </a>
+    <div class="offcanvas offcanvas-bottom surface" tabindex="-1" id="offcanvasSocialShare" aria-labelledby="offcanvasSocialShare">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Share</h3>
+    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="offcanvas-body">
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
+      target="_blank" href="https://twitter.com/intent/tweet?title=Install%20via%20Hugo%20Module&url=%2fdocs%2finstallation%2fhugo-module%2f">
+      <i class="fab fa-fw fa-twitter"></i> Twitter
+    </a>
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2finstallation%2fhugo-module%2f">
+      <i class="fab fa-fw fa-facebook-f"></i> Facebook
+    </a>
+  </div>
+</div>
+    <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+      <form class="search-bar my-1" action="/search">
+  <div class="input-group input-group-sm">
+    <span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
+    <input class="form-control search-bar-input" name="q" type="search" aria-label="Search">
+  </div>
+</form>
+      <ul class="navbar-nav me-auto"><li class="nav-item">
+          <a class="nav-link" href="/series/">
+            <i class="fas fa-fw fa-columns"></i>Séries
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/categories/">
+            <i class="fas fa-fw fa-folder"></i>Catégories
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/tags/">
+            <i class="fas fa-fw fa-tags"></i>Tags
+          </a>
+        </li></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main class="container">
+      <div class="row content"><div class="col-lg-9 ms-auto">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body">
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/docs/">Docs</a></li><li class="breadcrumb-item"><a href="/docs/installation/">Installation</a></li><li class="breadcrumb-item active">Install via Hugo Module</li></ol>
+  </div>
+</nav><article class="row card component mb-4 post">
+<div class="card-header ">
+    <h1 class="card-title post-title">Install via Hugo Module
+</h1>
+</div>
+<div class="card-body"><div class="post-meta">
+  <span class="post-date" title="ایجاد شده در 2022-02-26 18:40:39 &#43;0330 &#43;0330.">
+    فوریهٔ 26, 2022
+  </span><span class="post-taxonomies"><a href="/series/docs/" class="badge post-taxonomy">Docs</a><a href="/tags/installation/" class="badge post-taxonomy">Installation</a><a href="/tags/upgrade/" class="badge post-taxonomy">Upgrade</a><a href="/tags/hugo-module/" class="badge post-taxonomy">Hugo module</a></span>
+</div>
+<div class="post-content mb-3"><p>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module.
+It describes how to install, upgrade the theme, and write new articles.</p>
+<h2 id="installation">Installation<a class="anchor ms-1" href="#installation"><i class="fas fa-link"></i></a></h2>
+<h3 id="install-a-new-site-from-scratch">Install a new site from scratch<a class="anchor ms-1" href="#install-a-new-site-from-scratch"><i class="fas fa-link"></i></a></h3>
+<h4 id="step-1-create-skeleton-site">Step 1: Create skeleton site<a class="anchor ms-1" href="#step-1-create-skeleton-site"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Create and enter new site:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo new site my-new-blog
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ <span class="nb">cd</span> my-new-blog
+</span></span></code></pre></div><h4 id="step-2-turn-your-new-site-into-a-hugo-module">Step 2: Turn your new site into a Hugo module:<a class="anchor ms-1" href="#step-2-turn-your-new-site-into-a-hugo-module"><i class="fas fa-link"></i></a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod init github.com/me/my-new-blog
+</span></span></code></pre></div><h4 id="step-3-declare-hugo-theme-bootstrap-module-as-a-site-dependency">Step 3: Declare hugo-theme-bootstrap module as a site dependency:<a class="anchor ms-1" href="#step-3-declare-hugo-theme-bootstrap-module-as-a-site-dependency"><i class="fas fa-link"></i></a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod get github.com/razonyang/hugo-theme-bootstrap
+</span></span></code></pre></div><h4 id="step-4-optional-copy-example-site-content-into-your-site">Step 4 (optional): Copy example site content into your site<a class="anchor ms-1" href="#step-4-optional-copy-example-site-content-into-your-site"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Clone the <code>hugo-theme-bootstrap</code> repo into a temporary directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ git clone https://github.com/razonyang/hugo-theme-bootstrap /tmp/hugo-theme-bootstrap
+</span></span></code></pre></div><blockquote>
+<p>If you&rsquo;re using Windows, use <code>git clone https://github.com/razonyang/hugo-theme-bootstrap %temp%\hugo-theme-bootstrap</code> instead.</p>
+</blockquote>
+<ul>
+<li>Copy example site content:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ cp -a /tmp/hugo-theme-bootstrap/exampleSite/* .
+</span></span></code></pre></div><blockquote>
+<p>If you&rsquo;re using Windows, use <code>xcopy %TEMP%\hugo-theme-bootstrap\exampleSite /E</code> instead.</p>
+</blockquote>
+<ul>
+<li>Remove your file <code>config.toml</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">rm config.toml
+</span></span></code></pre></div><ul>
+<li>Delete the repo from your temporary directory again:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ rm -rf /tmp/hugo-theme-bootstrap
+</span></span></code></pre></div><p>At the top of your <code>config/_default/config.toml</code>, switch the uncommented theme:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="c"># theme = &#34;hugo-theme-bootstrap&#34; # install via git submodule</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;github.com/razonyang/hugo-theme-bootstrap&#34;</span> <span class="c"># install via hugo module</span>
+</span></span></code></pre></div><h4 id="step-5-pull-in-dependencies-via-npm">Step 5: Pull in dependencies via npm<a class="anchor ms-1" href="#step-5-pull-in-dependencies-via-npm"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Use <strong>n</strong>ode <strong>p</strong>ackage <strong>m</strong>anager <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer"><code>npm</code></a> to pull in dependencies for this theme:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod npm pack
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ npm install
+</span></span></code></pre></div><h4 id="step-6-preview-your-site">Step 6: Preview your site<a class="anchor ms-1" href="#step-6-preview-your-site"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Start hugo&rsquo;s built-in webserver to <a href="http://localhost:1313/" target="_blank" rel="noopener noreferrer">preview</a> your website:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo server
+</span></span></code></pre></div><h3 id="install-on-an-existing-site">Install on an existing site<a class="anchor ms-1" href="#install-on-an-existing-site"><i class="fas fa-link"></i></a></h3>
+<h4 id="step-1-turn-your-existing-site-into-a-hugo-module">Step 1: Turn your existing site into a Hugo module:<a class="anchor ms-1" href="#step-1-turn-your-existing-site-into-a-hugo-module"><i class="fas fa-link"></i></a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ <span class="nb">cd</span> my-blog
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ hugo mod init github.com/me/my-blog
+</span></span></code></pre></div><h4 id="step-2-declare-hugo-theme-bootstrap-module-as-a-site-dependency">Step 2: Declare hugo-theme-bootstrap module as a site dependency:<a class="anchor ms-1" href="#step-2-declare-hugo-theme-bootstrap-module-as-a-site-dependency"><i class="fas fa-link"></i></a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod get github.com/razonyang/hugo-theme-bootstrap
+</span></span></code></pre></div><h4 id="step-3-optional-copy-example-site-content-into-your-site">Step 3 (optional): Copy example site content into your site<a class="anchor ms-1" href="#step-3-optional-copy-example-site-content-into-your-site"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Clone the <code>hugo-theme-bootstrap</code> repo into a temporary directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ git clone https://github.com/razonyang/hugo-theme-bootstrap /tmp/
+</span></span></code></pre></div><ul>
+<li>Copy example site configuration and content into your site:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln"> 1</span><span class="cl">$ mkdir config
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">$ cp -a /tmp/hugo-theme-bootstrap/exampleSite/config/* ./config
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">$ cp -r /tmp/hugo-theme-bootstrap/exampleSite/content/about/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/archives/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/categories/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/contact/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/offline/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/search/ <span class="se">\
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/series/ <span class="se">\
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="se"></span>  /tmp/hugo-theme-bootstrap/exampleSite/content/tags/ <span class="se">\
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="se"></span>  ./content
+</span></span></code></pre></div><ul>
+<li>Delete the repo from your temporary directory again:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ rm -rf /tmp/hugo-theme-bootstrap/
+</span></span></code></pre></div><p>At the top of your <code>config/_default/config.toml</code>, switch the uncommented theme:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="ln">1</span><span class="cl"><span class="c"># theme = &#34;hugo-theme-bootstrap&#34; # install via git submodule</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;github.com/razonyang/hugo-theme-bootstrap&#34;</span> <span class="c"># install via hugo module</span>
+</span></span></code></pre></div><h4 id="step-4-pull-in-dependencies-via-npm">Step 4: Pull in dependencies via npm<a class="anchor ms-1" href="#step-4-pull-in-dependencies-via-npm"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Use <strong>n</strong>ode <strong>p</strong>ackage <strong>m</strong>anager <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer"><code>npm</code></a> to pull in dependencies for this theme:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod npm pack
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ npm install
+</span></span></code></pre></div><h4 id="step-5-preview-your-site">Step 5: Preview your site<a class="anchor ms-1" href="#step-5-preview-your-site"><i class="fas fa-link"></i></a></h4>
+<ul>
+<li>Start hugo&rsquo;s built-in webserver to <a href="http://localhost:1313/" target="_blank" rel="noopener noreferrer">preview</a> your website:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo server
+</span></span></code></pre></div><h2 id="theme-upgrade">Theme Upgrade<a class="anchor ms-1" href="#theme-upgrade"><i class="fas fa-link"></i></a></h2>
+<ul>
+<li>Invoke hugo’s module <code>get</code> subcommand with the update flag:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ <span class="nb">cd</span> my-blog
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap
+</span></span></code></pre></div><p>Hugo will automatically pull in the latest theme version.</p>
+<blockquote>
+<p>If you want to set your module to a certain version inside the <code>hugo-theme-bootstrap</code> theme repo, simply specific the name of the tag representing this version (here: <code>v0.67.1</code>) when updating your theme:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap@v0.67.1
+</span></span></code></pre></div><blockquote>
+<p>Instead of a version tag, you can also specify a commit hash inside the repo (here: <code>de4a40f</code>) when updating your theme:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="ln">1</span><span class="cl">$ hugo mod get -u github.com/razonyang/hugo-theme-bootstrap@de4a40f
+</span></span></code></pre></div></div></div>
+<div class="card-footer"><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
+    <i class="fas fa-fw fa-chevron-circle-down" data-fa-transform="rotate-90"></i>
+    <a href="/docs/installation/git-submodule/">Install via Git Submodule
+</a>
+  </div></div></div>
+</article><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">نظرات</h2>
+  </div>
+  <div class="card-body"><script src="https://utteranc.es/client.js"
+  repo="arman-arian/arman-arian.github.io-comments"
+  issue-term="pathname"
+  label="نظرات"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script></div>
+</div></div>
+</div><aside class="sidebar d-flex docs-sidebar col-lg-3 position-sticky">
+  <div class="container">
+    
+    <div class="post-toc row mb-4 card component" id="postTOC">
+  <div class="card-header">
+    <h2 class="card-title">فهرست مطالب</h2>
+  </div>
+  <div class="card-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#install-a-new-site-from-scratch">Install a new site from scratch</a></li>
+        <li><a href="#install-on-an-existing-site">Install on an existing site</a></li>
+      </ul>
+    </li>
+    <li><a href="#theme-upgrade">Theme Upgrade</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    
+  </div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">
+تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.
+</div>
+<div class="powered-by mb-2">
+ با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
+</div></footer>
+<script src="/assets/main/bundle.min.b2bae00ee77516efa6e339d9137443d1f786a314f543d3da3418d45e38b6db08.js" integrity="sha256-srrgDud1Fu&#43;m4znZE3RD0feGoxT1Q9PaNBjUXji22wg=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('\/service-worker.min.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+    });
+  });
+}
+</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script>
+</body>
+</html>

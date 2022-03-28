@@ -1,10 +1,941 @@
-<!doctype html><html itemscope itemtype=http://schema.org/WebPage lang=fa data-palette=blue><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Configuration - Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title><link rel=apple-touch-icon href=/images/icons/icon-180x180.png sizes=180x180><link rel=icon href=/images/icons/icon-32x32.png sizes=32x32 type=image/png><link rel=icon href=/images/icons/icon-16x16.png sizes=16x16 type=image/png><link rel=icon href=/images/icons/favicon.ico><link rel=manifest href=/manifest.json><meta name=keywords content><meta name=description content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."><meta name=robots content="index, follow"><meta itemprop=name content="Configuration"><meta itemprop=description content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."><meta itemprop=datePublished content="2021-11-27T19:53:24+08:00"><meta itemprop=dateModified content="2021-11-27T19:53:24+08:00"><meta itemprop=wordCount content="1044"><meta itemprop=keywords content><meta property="og:title" content="Configuration"><meta property="og:description" content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."><meta property="og:type" content="article"><meta property="og:url" content="/docs/configuration/"><meta property="article:section" content="docs"><meta property="article:published_time" content="2021-11-27T19:53:24+08:00"><meta property="article:modified_time" content="2021-11-27T19:53:24+08:00"><meta property="og:see_also" content="/docs/installation/hugo-module/"><meta property="og:see_also" content="/docs/installation/git-submodule/"><meta property="og:see_also" content="/docs/look-and-feel/"><meta property="og:see_also" content="/docs/menu/"><meta property="og:see_also" content="/docs/content/"><meta name=twitter:card content="summary"><meta name=twitter:title content="Configuration"><meta name=twitter:description content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."><meta property="og:image" content="/false"><meta name=twitter:image content="/false"><link rel=stylesheet href="/assets/main/bundle.min.2ce07f9caef66f7eb1340e197173dd8cbcc6e41f9945e25eef9206e9fa87ccfe.css" integrity="sha256-LOB/nK72b36xNA4ZcXPdjLzG5B+ZReJe75IG6fqHzP4=" crossorigin=anonymous><link rel=stylesheet href=/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin=anonymous></head><body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top"><div class=container><button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<i class="fas fa-bars"></i>
-</button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href=/>وبلاگ آرمان حسن پور</a><div class="offcanvas offcanvas-bottom surface" tabindex=-1 id=offcanvasSocialShare aria-labelledby=offcanvasSocialShare><div class=offcanvas-header><h3 class=offcanvas-title>Share</h3><button type=button class="btn btn-sm btn-outline-primary" data-bs-dismiss=offcanvas aria-label=Close>
-<i class="fas fa-times"></i></button></div><div class=offcanvas-body><a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button" target=_blank href="https://twitter.com/intent/tweet?title=Configuration&url=%2fdocs%2fconfiguration%2f"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
-<a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button" target=_blank href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2fconfiguration%2f"><i class="fab fa-fw fa-facebook-f"></i> Facebook</a></div></div><div class="collapse navbar-collapse" tabindex=-1 id=navbarSupportedContent aria-labelledby=navbarSupportedContent><form class="search-bar my-1" action=/search><div class="input-group input-group-sm"><span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
-<input class="form-control search-bar-input" name=q type=search aria-label=Search></div></form><ul class="navbar-nav me-auto"><li class=nav-item><a class=nav-link href=/series/><i class="fas fa-fw fa-columns"></i>Séries</a></li><li class=nav-item><a class=nav-link href=/categories/><i class="fas fa-fw fa-folder"></i>Catégories</a></li><li class=nav-item><a class=nav-link href=/tags/><i class="fas fa-fw fa-tags"></i>Tags</a></li></ul></div></div></nav></header><main class=container><div class="row content"><div class="col-lg-9 ms-auto"><div class=container><nav class="row card component" aria-label=breadcrumb><div class=card-body><ol class=breadcrumb><li class=breadcrumb-item><a href=/>خانه</a></li><li class=breadcrumb-item><a href=/docs/>Docs</a></li><li class="breadcrumb-item active">Configuration</li></ol></div></nav><article class="row card component mb-4 post"><div class=card-header><h1 class="card-title post-title">Configuration</h1></div><div class=card-body><div class=post-meta><span class=post-date title="ایجاد شده در 2021-11-27 11:53:24 +0000 UTC.">نوامبر 27, 2021
-</span><span class=post-taxonomies><a href=/categories/configuration/ class="badge post-taxonomy">Configuration</a><a href=/series/docs/ class="badge post-taxonomy">Docs</a></span></div><div class="post-content mb-3"><p>As the example site shown, we use <a href=https://gohugo.io/getting-started/configuration/#configuration-directory target=_blank rel="noopener noreferrer">Configuration Directory</a> to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.</p><h2 id=site-configuration>Site Configuration<a class="anchor ms-1" href=#site-configuration><i class="fas fa-link"></i></a></h2><blockquote><p>The site configuration is located in <code>config/_default/config.toml</code> by default.</p></blockquote><table><thead><tr><th>Name</th><th style=text-align:center>Type</th><th style=text-align:center>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>title</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Site title.</td></tr><tr><td><code>baseURL</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Site base URL.</td></tr><tr><td><code>copyright</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Site copyright. The <code>{year}</code> placeholder will be replaced with this year.</td></tr><tr><td><code>defaultContentLanguage</code></td><td style=text-align:center>String</td><td style=text-align:center><code>en</code></td><td></td></tr><tr><td><code>defaultContentLanguageInSubdir</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td></td></tr><tr><td><code>paginate</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>10</code></td><td></td></tr><tr><td><code>paginatePath</code></td><td style=text-align:center>String</td><td style=text-align:center><code>page</code></td><td></td></tr><tr><td><code>enableRobotsTXT</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td></td></tr><tr><td><code>disqusShortname</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td><a href=/docs/widgets/comments/#disqus>Disqus</a> shortname.</td></tr><tr><td><code>googleAnalytics</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Google Analytics.</td></tr><tr><td><code>social</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/widgets/social-links/>Social Links</a>.</td></tr><tr><td><code>author</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/widgets/author/>Author Widget</a>.</td></tr></tbody></table><p>See also <a href=https://gohugo.io/getting-started/configuration/#all-configuration-settings target=_blank rel="noopener noreferrer">All Configuration Settings</a>.</p><h2 id=site-parameters>Site Parameters<a class="anchor ms-1" href=#site-parameters><i class="fas fa-link"></i></a></h2><blockquote><p>The site parameters are located in <code>config/_default/params.toml</code> by default.</p></blockquote><table><thead><tr><th>Name</th><th style=text-align:center>Type</th><th style=text-align:center>Default</th><th>Description</th></tr></thead><tbody><tr><td><strong>Page</strong></td><td></td><td></td><td></td></tr><tr><td><code>mainSections</code></td><td style=text-align:center>Array</td><td style=text-align:center><code>["posts"]</code></td><td>Main sections</td></tr><tr><td><code>titleCase</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Capitalized title or not</td></tr><tr><td><code>titleSeparator</code></td><td style=text-align:center>String</td><td style=text-align:center><code>-</code></td><td>Title separator</td></tr><tr><td><code>backgroundImage</code></td><td style=text-align:center>Array</td><td style=text-align:center><code>[]</code></td><td>Background image, such as <code>['/images/bg.png']</code>, <code>['/images/bg-light.png', '/images/bg-dark.png']</code>.</td></tr><tr><td><code>comment</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable comments</td></tr><tr><td><code>toc</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable TOC</td></tr><tr><td><code>tocWordCount</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>280</code></td><td>TOC is displayed only if the post&rsquo;s word count is greater than this value.</td></tr><tr><td><code>breadcrumb</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable breadcrumb</td></tr><tr><td><code>dateFormat</code></td><td style=text-align:center>String</td><td style=text-align:center><code>Jan 2, 2006</code></td><td>Date format. Checkout the <a href=https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference target=_blank rel="noopener noreferrer">Hugo Date and Time Templating Reference</a> for details.</td></tr><tr><td><code>poweredBy</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to show powered by.</td></tr><tr><td><code>readingTime</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display the reading time.</td></tr><tr><td><code>postDate</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display the post date in the post meta section.</td></tr><tr><td><code>math</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Whether to enable math globally.</td></tr><tr><td><code>diagram</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Whether to enable diagram globally.</td></tr><tr><td><code>logo</code></td><td style=text-align:center>String/Boolean</td><td style=text-align:center><code>images/logo.webp</code></td><td>Logo image. Disable logo by setting it to <code>false</code>.</td></tr><tr><td><code>brand</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Brand text.</td></tr><tr><td><code>description</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Site description.</td></tr><tr><td><code>keywords</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Site keywords.</td></tr><tr><td><code>color</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Color mode, <code>light</code>, <code>dark</code> or dynamic. Default to dynamic.</td></tr><tr><td><code>palette</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Default palette. This will take effect after clearing the Cookie.</td></tr><tr><td><code>palettes</code></td><td style=text-align:center>Array</td><td style=text-align:center><strong>ALL</strong></td><td>Available palettes. You can disable it by setting it to empty <code>[]</code>.</td></tr><tr><td><code>featuredPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of featured posts shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>recentPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of recent posts shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>relatedPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of related posts. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>categoryCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>10</code></td><td>The number of categories shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>tagCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>10</code></td><td>The number of tags shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>seriesCount</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>10</code></td><td>The number of series shown in sidebar.</td></tr><tr><td><code>taxonomyPaginate</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>10</code></td><td></td></tr><tr><td><code>taxonomyPostCount</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>3</code></td><td>The number of taxonomy&rsquo;s posts. Turn off by setting it to false.</td></tr><tr><td><code>countTaxonomyPosts</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Count posts of taxonomy.</td></tr><tr><td><code>sidebarTaxonomies</code></td><td style=text-align:center>Array</td><td style=text-align:center><code>["series", "categories", "tags"]</code></td><td>The taxonomies on the sidebar.</td></tr><tr><td><code>fullWidth</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Full width.</td></tr><tr><td><code>fixedHeader</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Turn on/off fixed header.</td></tr><tr><td><code>reward</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/widgets/reward/>Reward Widget</a>, AKA Buy Me a Coffee Widget.</td></tr><tr><td><code>share</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td>Share buttons</td></tr><tr><td><code>share.addThis</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td><a href=https://www.addthis.com target=_blank rel="noopener noreferrer">AddThis</a>&rsquo;s <code>pubid</code>.</td></tr><tr><td><code>fontSize</code></td><td style=text-align:center>Object</td><td style=text-align:center>Font Sizes</td><td>Comment or remove this parameter to disable font size switcher.</td></tr><tr><td><code>fontSize.small</code></td><td style=text-align:center>String</td><td style=text-align:center><code>.9rem</code></td><td>Small font size.</td></tr><tr><td><code>fontSize.extraSmall</code></td><td style=text-align:center>String</td><td style=text-align:center><code>.8rem</code></td><td>Extra small font size.</td></tr><tr><td><code>fontSize.large</code></td><td style=text-align:center>String</td><td style=text-align:center><code>1.1rem</code></td><td>Large font size.</td></tr><tr><td><code>fontSize.extraLarge</code></td><td style=text-align:center>String</td><td style=text-align:center><code>1.2rem</code></td><td>Extra large font size.</td></tr><tr><td><code>socialShare</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Turn on/off built-on social share button.</td></tr><tr><td><code>searchBar</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Turn on/off built-on search bar.</td></tr><tr><td><code>archive</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/layouts/archives/>Archive</a>.</td></tr><tr><td><code>search</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/layouts/search/>Search</a>.</td></tr><tr><td><strong>Webmaster Site Verification</strong></td><td></td><td></td><td></td></tr><tr><td><code>siteVerification</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td></td></tr><tr><td><code>siteVerification.google</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Google</td></tr><tr><td><code>siteVerification.bing</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Bing</td></tr><tr><td><code>siteVerification.baidu</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Baidu</td></tr><tr><td><code>siteVerification.baiduUnion</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Baidu Union</td></tr><tr><td><code>siteVerification.so</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Qihoo 360</td></tr><tr><td><code>siteVerification.sogou</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Sogou</td></tr><tr><td><code>siteVerification.shenma</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Shenma</td></tr><tr><td><strong>Analytics</strong></td><td></td><td></td><td></td></tr><tr><td><code>analytics</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td>Analytics configuration.</td></tr><tr><td><code>analytics.baidu</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Baidu Analytics.</td></tr><tr><td><code>googleAdsense</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Google Adsense.</td></tr><tr><td><code>customCSS</code></td><td style=text-align:center>Array</td><td style=text-align:center>-</td><td>See also <a href=/docs/custom-assets/#external-assets>custom assets</a>.</td></tr><tr><td><code>customJS</code></td><td style=text-align:center>Array</td><td style=text-align:center>-</td><td>See also <a href=/docs/custom-assets/#external-assets>custom assets</a>.</td></tr><tr><td><code>utterances</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/widgets/comments/#utterances>Utterances</a> configuration.</td></tr><tr><td><strong>Creative Commons License</strong></td><td></td><td></td><td></td></tr><tr><td><code>creativeCommons</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td></td></tr><tr><td><code>creativeCommons.by</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Credit must be given to you, the creator.</td></tr><tr><td><code>creativeCommons.nc</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Only noncommercial use of your work is permitted.</td></tr><tr><td><code>creativeCommons.nd</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>No derivatives or adaptations of your work are permitted.</td></tr><tr><td><code>creativeCommons.sa</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Adaptations must be shared under the same terms.</td></tr><tr><td><strong>Code Block</strong></td><td></td><td></td><td></td></tr><tr><td><code>codeBlock</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td></td></tr><tr><td><code>codeBlock.maxLines</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>7</code></td><td></td></tr><tr><td><code>codeBlock.lineNos</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td><code>true</code>/<code>false</code> represents that show/hide the line numbers by default.</td></tr><tr><td><strong>Post</strong></td><td></td><td></td><td></td></tr><tr><td><code>post</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td></td></tr><tr><td><code>post.excerpt</code></td><td style=text-align:center>String</td><td style=text-align:center><code>Summary</code></td><td>Options: <code>description</code></td></tr><tr><td><code>post.excerptMaxLength</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>320</code></td><td></td></tr><tr><td><code>post.copyright</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display copyright section on each post.</td></tr><tr><td><code>post.plainifyExcerpt</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Format excerpt in HTML if <code>false</code>.</td></tr><tr><td><code>viewer</code></td><td style=text-align:center>Boolean</td><td style=text-align:center>true</td><td><a href=/docs/image-viewer/>Image Viewer</a></td></tr><tr><td><code>pwa</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/pwa/>Progressive Web Apps</a></td></tr><tr><td><strong>Meta Tag</strong></td><td></td><td></td><td></td></tr><tr><td><code>metaRobots</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Empty means that turn it off.</td></tr><tr><td><code>contact</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td><a href=/docs/layouts/contact-form/>Contact Form</a></td></tr><tr><td><code>pinnedPost</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Turn on/off pinned posts.</td></tr><tr><td><code>pinnedPostCount</code></td><td style=text-align:center>Integer</td><td style=text-align:center><code>1</code></td><td>The number of pinned posts.</td></tr><tr><td><code>rss</code></td><td style=text-align:center>String/Boolean</td><td style=text-align:center><code>true</code></td><td>Display the RSS button on the social links. Turn it off by <code>false</code>, link it to homepage all the times by setting it to <code>home</code>.</td></tr></tbody></table><blockquote><p>Except the Google webmaster tool, the other webmaster tools cannot work with <code>hugo --minify</code>, because they cannot recognize the minified meta tag.</p></blockquote><h2 id=page-parameters>Page Parameters<a class="anchor ms-1" href=#page-parameters><i class="fas fa-link"></i></a></h2><blockquote><p>Page parameters are located in page&rsquo;s <a href=https://gohugo.io/content-management/front-matter/ target=_blank rel="noopener noreferrer">Front Matter</a>.</p></blockquote><table><thead><tr><th>Name</th><th style=text-align:center>Type</th><th style=text-align:center>Default</th><th>Description</th></tr></thead><tbody><tr><td><strong>Page</strong></td><td></td><td></td><td></td></tr><tr><td><code>description</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Page description.</td></tr><tr><td><code>keywords</code></td><td style=text-align:center>Array</td><td style=text-align:center>-</td><td>Page keywords.</td></tr><tr><td><code>comment</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable comments. It won&rsquo;t work if <code>comment</code> has been disabled globally.</td></tr><tr><td><code>toc</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable TOC. It won&rsquo;t work if <code>toc</code> has been disabled globally.</td></tr><tr><td><code>math</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Whether to enable math.</td></tr><tr><td><code>diagram</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Whether to enable diagram.</td></tr><tr><td><code>reward</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable reward.</td></tr><tr><td><code>breadcrumb</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to enable breadcrumb.</td></tr><tr><td><code>readingTime</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display the reading time.</td></tr><tr><td><code>postDate</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display the post date in the post meta section.</td></tr><tr><td><code>copyright</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Whether to display copyright section.</td></tr><tr><td><strong>Creative Commons License</strong></td><td></td><td></td><td></td></tr><tr><td><code>creativeCommons</code></td><td style=text-align:center>Object</td><td style=text-align:center>-</td><td></td></tr><tr><td><code>creativeCommons.by</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Credit must be given to you, the creator.</td></tr><tr><td><code>creativeCommons.nc</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Only noncommercial use of your work is permitted.</td></tr><tr><td><code>creativeCommons.nd</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>No derivatives or adaptations of your work are permitted.</td></tr><tr><td><code>creativeCommons.sa</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>true</code></td><td>Adaptations must be shared under the same terms.</td></tr><tr><td><strong>Meta Tag</strong></td><td></td><td></td><td></td></tr><tr><td><code>metaRobots</code></td><td style=text-align:center>String</td><td style=text-align:center>-</td><td>Empty means that turn it off.</td></tr><tr><td><code>pinned</code></td><td style=text-align:center>Boolean</td><td style=text-align:center><code>false</code></td><td>Pinning posts.</td></tr><tr><td><code>featuredPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of featured posts shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>recentPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of recent posts shown in sidebar. Turn off by setting it to <code>false</code>.</td></tr><tr><td><code>relatedPostCount</code></td><td style=text-align:center>Integer/Boolean</td><td style=text-align:center><code>5</code></td><td>The number of related posts. Turn off by setting it to <code>false</code>.</td></tr></tbody></table></div></div><div class=card-footer><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-circle-down" data-fa-transform=rotate-90></i>
-<a href=/docs/getting-started/>Getting Started</a></div><div class="post-nav post-next"><a href=/docs/content/>Adding Content</a>
-<i class="fas fa-fw fa-chevron-circle-down" data-fa-transform=rotate-270></i></div></div></div></article><div class="card component row post-comments" id=post-comments><div class=card-header><h2 class=card-title>نظرات</h2></div><div class=card-body><script src=https://utteranc.es/client.js repo=arman-arian/arman-arian.github.io-comments issue-term=pathname label=نظرات theme=github-light crossorigin=anonymous async></script></div></div></div></div><aside class="sidebar d-flex docs-sidebar col-lg-3 position-sticky"><div class=container><div class="post-toc row mb-4 card component" id=postTOC><div class=card-header><h2 class=card-title>فهرست مطالب</h2></div><div class=card-body><nav id=TableOfContents><ul><li><a href=#site-configuration>Site Configuration</a></li><li><a href=#site-parameters>Site Parameters</a></li><li><a href=#page-parameters>Page Parameters</a></li></ul></nav></div></div></div></aside></div></main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</div><div class="powered-by mb-2">با افتخار نیرو گرفته از <a href=https://gohugo.io target=_blank rel="noopener noreferrer">Hugo</a>.</div></footer><script src=/assets/main/bundle.min.b2bae00ee77516efa6e339d9137443d1f786a314f543d3da3418d45e38b6db08.js integrity="sha256-srrgDud1Fu+m4znZE3RD0feGoxT1Q9PaNBjUXji22wg=" crossorigin=anonymous defer></script><script src=/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv+u65cgIytjA=" crossorigin=anonymous defer></script>
-<script>"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/service-worker.min.js").then(function(e){console.log("Successfully registered service worker",e)}).catch(function(e){console.warn("Error whilst registering service worker",e)})})</script><script src=/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA+iJjWXNvM/DFk94=" crossorigin=anonymous defer></script></body></html>
+<!doctype html><html itemscope itemtype="http://schema.org/WebPage" lang="fa" data-palette="blue"
+  >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configuration - Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+<link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/images/icons/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<meta name="keywords" content="" />
+<meta name="description" content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="Configuration">
+<meta itemprop="description" content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."><meta itemprop="datePublished" content="2021-11-27T19:53:24+08:00" />
+<meta itemprop="dateModified" content="2021-11-27T19:53:24+08:00" />
+<meta itemprop="wordCount" content="1044">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Configuration" />
+<meta property="og:description" content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/configuration/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2021-11-27T19:53:24+08:00" />
+<meta property="article:modified_time" content="2021-11-27T19:53:24+08:00" />
+<meta property="og:see_also" content="/docs/installation/hugo-module/" /><meta property="og:see_also" content="/docs/installation/git-submodule/" /><meta property="og:see_also" content="/docs/look-and-feel/" /><meta property="og:see_also" content="/docs/menu/" /><meta property="og:see_also" content="/docs/content/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Configuration"/>
+<meta name="twitter:description" content="As the example site shown, we use Configuration Directory to maintain easier organization and environment specific settings, it is especially useful on multilingual sites."/>
+<meta property="og:image" content="/false"/>
+  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.2ce07f9caef66f7eb1340e197173dd8cbcc6e41f9945e25eef9206e9fa87ccfe.css" integrity="sha256-LOB/nK72b36xNA4ZcXPdjLzG5B+ZReJe75IG6fqHzP4=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous"></head>
+  <body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href="/">وبلاگ آرمان حسن پور
+    </a>
+    <div class="offcanvas offcanvas-bottom surface" tabindex="-1" id="offcanvasSocialShare" aria-labelledby="offcanvasSocialShare">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Share</h3>
+    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="offcanvas-body">
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
+      target="_blank" href="https://twitter.com/intent/tweet?title=Configuration&url=%2fdocs%2fconfiguration%2f">
+      <i class="fab fa-fw fa-twitter"></i> Twitter
+    </a>
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2fconfiguration%2f">
+      <i class="fab fa-fw fa-facebook-f"></i> Facebook
+    </a>
+  </div>
+</div>
+    <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+      <form class="search-bar my-1" action="/search">
+  <div class="input-group input-group-sm">
+    <span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
+    <input class="form-control search-bar-input" name="q" type="search" aria-label="Search">
+  </div>
+</form>
+      <ul class="navbar-nav me-auto"><li class="nav-item">
+          <a class="nav-link" href="/series/">
+            <i class="fas fa-fw fa-columns"></i>Séries
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/categories/">
+            <i class="fas fa-fw fa-folder"></i>Catégories
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/tags/">
+            <i class="fas fa-fw fa-tags"></i>Tags
+          </a>
+        </li></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main class="container">
+      <div class="row content"><div class="col-lg-9 ms-auto">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body">
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/docs/">Docs</a></li><li class="breadcrumb-item active">Configuration</li></ol>
+  </div>
+</nav><article class="row card component mb-4 post">
+<div class="card-header ">
+    <h1 class="card-title post-title">Configuration
+</h1>
+</div>
+<div class="card-body"><div class="post-meta">
+  <span class="post-date" title="ایجاد شده در 2021-11-27 15:23:24 &#43;0330 &#43;0330.">
+    نوامبر 27, 2021
+  </span><span class="post-taxonomies"><a href="/categories/configuration/" class="badge post-taxonomy">Configuration</a><a href="/series/docs/" class="badge post-taxonomy">Docs</a></span>
+</div>
+<div class="post-content mb-3"><p>As the example site shown, we use <a href="https://gohugo.io/getting-started/configuration/#configuration-directory" target="_blank" rel="noopener noreferrer">Configuration Directory</a> to maintain easier organization and environment specific settings, it is especially useful on multilingual sites.</p>
+<h2 id="site-configuration">Site Configuration<a class="anchor ms-1" href="#site-configuration"><i class="fas fa-link"></i></a></h2>
+<blockquote>
+<p>The site configuration is located in <code>config/_default/config.toml</code> by default.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Site title.</td>
+</tr>
+<tr>
+<td><code>baseURL</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Site base URL.</td>
+</tr>
+<tr>
+<td><code>copyright</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Site copyright. The <code>{year}</code> placeholder will be replaced with this year.</td>
+</tr>
+<tr>
+<td><code>defaultContentLanguage</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>en</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>defaultContentLanguageInSubdir</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>paginate</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>10</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>paginatePath</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>page</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>enableRobotsTXT</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>disqusShortname</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/widgets/comments/#disqus">Disqus</a> shortname.</td>
+</tr>
+<tr>
+<td><code>googleAnalytics</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Google Analytics.</td>
+</tr>
+<tr>
+<td><code>social</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/widgets/social-links/">Social Links</a>.</td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/widgets/author/">Author Widget</a>.</td>
+</tr>
+</tbody>
+</table>
+<p>See also <a href="https://gohugo.io/getting-started/configuration/#all-configuration-settings" target="_blank" rel="noopener noreferrer">All Configuration Settings</a>.</p>
+<h2 id="site-parameters">Site Parameters<a class="anchor ms-1" href="#site-parameters"><i class="fas fa-link"></i></a></h2>
+<blockquote>
+<p>The site parameters are located in <code>config/_default/params.toml</code> by default.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Page</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>mainSections</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center"><code>[&quot;posts&quot;]</code></td>
+<td>Main sections</td>
+</tr>
+<tr>
+<td><code>titleCase</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Capitalized title or not</td>
+</tr>
+<tr>
+<td><code>titleSeparator</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>-</code></td>
+<td>Title separator</td>
+</tr>
+<tr>
+<td><code>backgroundImage</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center"><code>[]</code></td>
+<td>Background image, such as <code>['/images/bg.png']</code>, <code>['/images/bg-light.png', '/images/bg-dark.png']</code>.</td>
+</tr>
+<tr>
+<td><code>comment</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable comments</td>
+</tr>
+<tr>
+<td><code>toc</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable TOC</td>
+</tr>
+<tr>
+<td><code>tocWordCount</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>280</code></td>
+<td>TOC is displayed only if the post&rsquo;s word count is greater than this value.</td>
+</tr>
+<tr>
+<td><code>breadcrumb</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable breadcrumb</td>
+</tr>
+<tr>
+<td><code>dateFormat</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>Jan 2, 2006</code></td>
+<td>Date format. Checkout the <a href="https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference" target="_blank" rel="noopener noreferrer">Hugo Date and Time Templating Reference</a> for details.</td>
+</tr>
+<tr>
+<td><code>poweredBy</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to show powered by.</td>
+</tr>
+<tr>
+<td><code>readingTime</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display the reading time.</td>
+</tr>
+<tr>
+<td><code>postDate</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display the post date in the post meta section.</td>
+</tr>
+<tr>
+<td><code>math</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Whether to enable math globally.</td>
+</tr>
+<tr>
+<td><code>diagram</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Whether to enable diagram globally.</td>
+</tr>
+<tr>
+<td><code>logo</code></td>
+<td style="text-align:center">String/Boolean</td>
+<td style="text-align:center"><code>images/logo.webp</code></td>
+<td>Logo image. Disable logo by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>brand</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Brand text.</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Site description.</td>
+</tr>
+<tr>
+<td><code>keywords</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Site keywords.</td>
+</tr>
+<tr>
+<td><code>color</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Color mode, <code>light</code>, <code>dark</code> or dynamic. Default to dynamic.</td>
+</tr>
+<tr>
+<td><code>palette</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Default palette. This will take effect after clearing the Cookie.</td>
+</tr>
+<tr>
+<td><code>palettes</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center"><strong>ALL</strong></td>
+<td>Available palettes. You can disable it by setting it to empty <code>[]</code>.</td>
+</tr>
+<tr>
+<td><code>featuredPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of featured posts shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>recentPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of recent posts shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>relatedPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of related posts. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>categoryCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>10</code></td>
+<td>The number of categories shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>tagCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>10</code></td>
+<td>The number of tags shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>seriesCount</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>10</code></td>
+<td>The number of series shown in sidebar.</td>
+</tr>
+<tr>
+<td><code>taxonomyPaginate</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>10</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>taxonomyPostCount</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>3</code></td>
+<td>The number of taxonomy&rsquo;s posts. Turn off by setting it to false.</td>
+</tr>
+<tr>
+<td><code>countTaxonomyPosts</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Count posts of taxonomy.</td>
+</tr>
+<tr>
+<td><code>sidebarTaxonomies</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center"><code>[&quot;series&quot;, &quot;categories&quot;, &quot;tags&quot;]</code></td>
+<td>The taxonomies on the sidebar.</td>
+</tr>
+<tr>
+<td><code>fullWidth</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Full width.</td>
+</tr>
+<tr>
+<td><code>fixedHeader</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Turn on/off fixed header.</td>
+</tr>
+<tr>
+<td><code>reward</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/widgets/reward/">Reward Widget</a>, AKA Buy Me a Coffee Widget.</td>
+</tr>
+<tr>
+<td><code>share</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td>Share buttons</td>
+</tr>
+<tr>
+<td><code>share.addThis</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td><a href="https://www.addthis.com" target="_blank" rel="noopener noreferrer">AddThis</a>&rsquo;s <code>pubid</code>.</td>
+</tr>
+<tr>
+<td><code>fontSize</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">Font Sizes</td>
+<td>Comment or remove this parameter to disable font size switcher.</td>
+</tr>
+<tr>
+<td><code>fontSize.small</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>.9rem</code></td>
+<td>Small font size.</td>
+</tr>
+<tr>
+<td><code>fontSize.extraSmall</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>.8rem</code></td>
+<td>Extra small font size.</td>
+</tr>
+<tr>
+<td><code>fontSize.large</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>1.1rem</code></td>
+<td>Large font size.</td>
+</tr>
+<tr>
+<td><code>fontSize.extraLarge</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>1.2rem</code></td>
+<td>Extra large font size.</td>
+</tr>
+<tr>
+<td><code>socialShare</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Turn on/off built-on social share button.</td>
+</tr>
+<tr>
+<td><code>searchBar</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Turn on/off built-on search bar.</td>
+</tr>
+<tr>
+<td><code>archive</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/layouts/archives/">Archive</a>.</td>
+</tr>
+<tr>
+<td><code>search</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/layouts/search/">Search</a>.</td>
+</tr>
+<tr>
+<td><strong>Webmaster Site Verification</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>siteVerification</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td></td>
+</tr>
+<tr>
+<td><code>siteVerification.google</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Google</td>
+</tr>
+<tr>
+<td><code>siteVerification.bing</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Bing</td>
+</tr>
+<tr>
+<td><code>siteVerification.baidu</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Baidu</td>
+</tr>
+<tr>
+<td><code>siteVerification.baiduUnion</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Baidu Union</td>
+</tr>
+<tr>
+<td><code>siteVerification.so</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Qihoo 360</td>
+</tr>
+<tr>
+<td><code>siteVerification.sogou</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Sogou</td>
+</tr>
+<tr>
+<td><code>siteVerification.shenma</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Shenma</td>
+</tr>
+<tr>
+<td><strong>Analytics</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>analytics</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td>Analytics configuration.</td>
+</tr>
+<tr>
+<td><code>analytics.baidu</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Baidu Analytics.</td>
+</tr>
+<tr>
+<td><code>googleAdsense</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Google Adsense.</td>
+</tr>
+<tr>
+<td><code>customCSS</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center">-</td>
+<td>See also <a href="/docs/custom-assets/#external-assets">custom assets</a>.</td>
+</tr>
+<tr>
+<td><code>customJS</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center">-</td>
+<td>See also <a href="/docs/custom-assets/#external-assets">custom assets</a>.</td>
+</tr>
+<tr>
+<td><code>utterances</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/widgets/comments/#utterances">Utterances</a> configuration.</td>
+</tr>
+<tr>
+<td><strong>Creative Commons License</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>creativeCommons</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td></td>
+</tr>
+<tr>
+<td><code>creativeCommons.by</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Credit must be given to you, the creator.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.nc</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Only noncommercial use of your work is permitted.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.nd</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>No derivatives or adaptations of your work are permitted.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.sa</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Adaptations must be shared under the same terms.</td>
+</tr>
+<tr>
+<td><strong>Code Block</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>codeBlock</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td></td>
+</tr>
+<tr>
+<td><code>codeBlock.maxLines</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>7</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>codeBlock.lineNos</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td><code>true</code>/<code>false</code> represents that show/hide the line numbers by default.</td>
+</tr>
+<tr>
+<td><strong>Post</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>post</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td></td>
+</tr>
+<tr>
+<td><code>post.excerpt</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center"><code>Summary</code></td>
+<td>Options: <code>description</code></td>
+</tr>
+<tr>
+<td><code>post.excerptMaxLength</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>320</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>post.copyright</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display copyright section on each post.</td>
+</tr>
+<tr>
+<td><code>post.plainifyExcerpt</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Format excerpt in HTML if <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>viewer</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center">true</td>
+<td><a href="/docs/image-viewer/">Image Viewer</a></td>
+</tr>
+<tr>
+<td><code>pwa</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/pwa/">Progressive Web Apps</a></td>
+</tr>
+<tr>
+<td><strong>Meta Tag</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>metaRobots</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Empty means that turn it off.</td>
+</tr>
+<tr>
+<td><code>contact</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td><a href="/docs/layouts/contact-form/">Contact Form</a></td>
+</tr>
+<tr>
+<td><code>pinnedPost</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Turn on/off pinned posts.</td>
+</tr>
+<tr>
+<td><code>pinnedPostCount</code></td>
+<td style="text-align:center">Integer</td>
+<td style="text-align:center"><code>1</code></td>
+<td>The number of pinned posts.</td>
+</tr>
+<tr>
+<td><code>rss</code></td>
+<td style="text-align:center">String/Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Display the RSS button on the social links. Turn it off by <code>false</code>, link it to homepage all the times by setting it to <code>home</code>.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Except the Google webmaster tool, the other webmaster tools cannot work with <code>hugo --minify</code>, because they cannot recognize the minified meta tag.</p>
+</blockquote>
+<h2 id="page-parameters">Page Parameters<a class="anchor ms-1" href="#page-parameters"><i class="fas fa-link"></i></a></h2>
+<blockquote>
+<p>Page parameters are located in page&rsquo;s <a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener noreferrer">Front Matter</a>.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Page</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Page description.</td>
+</tr>
+<tr>
+<td><code>keywords</code></td>
+<td style="text-align:center">Array</td>
+<td style="text-align:center">-</td>
+<td>Page keywords.</td>
+</tr>
+<tr>
+<td><code>comment</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable comments. It won&rsquo;t work if <code>comment</code> has been disabled globally.</td>
+</tr>
+<tr>
+<td><code>toc</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable TOC. It won&rsquo;t work if <code>toc</code> has been disabled globally.</td>
+</tr>
+<tr>
+<td><code>math</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Whether to enable math.</td>
+</tr>
+<tr>
+<td><code>diagram</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Whether to enable diagram.</td>
+</tr>
+<tr>
+<td><code>reward</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable reward.</td>
+</tr>
+<tr>
+<td><code>breadcrumb</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to enable breadcrumb.</td>
+</tr>
+<tr>
+<td><code>readingTime</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display the reading time.</td>
+</tr>
+<tr>
+<td><code>postDate</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display the post date in the post meta section.</td>
+</tr>
+<tr>
+<td><code>copyright</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Whether to display copyright section.</td>
+</tr>
+<tr>
+<td><strong>Creative Commons License</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>creativeCommons</code></td>
+<td style="text-align:center">Object</td>
+<td style="text-align:center">-</td>
+<td></td>
+</tr>
+<tr>
+<td><code>creativeCommons.by</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Credit must be given to you, the creator.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.nc</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Only noncommercial use of your work is permitted.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.nd</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>No derivatives or adaptations of your work are permitted.</td>
+</tr>
+<tr>
+<td><code>creativeCommons.sa</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>true</code></td>
+<td>Adaptations must be shared under the same terms.</td>
+</tr>
+<tr>
+<td><strong>Meta Tag</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>metaRobots</code></td>
+<td style="text-align:center">String</td>
+<td style="text-align:center">-</td>
+<td>Empty means that turn it off.</td>
+</tr>
+<tr>
+<td><code>pinned</code></td>
+<td style="text-align:center">Boolean</td>
+<td style="text-align:center"><code>false</code></td>
+<td>Pinning posts.</td>
+</tr>
+<tr>
+<td><code>featuredPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of featured posts shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>recentPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of recent posts shown in sidebar. Turn off by setting it to <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>relatedPostCount</code></td>
+<td style="text-align:center">Integer/Boolean</td>
+<td style="text-align:center"><code>5</code></td>
+<td>The number of related posts. Turn off by setting it to <code>false</code>.</td>
+</tr>
+</tbody>
+</table></div></div>
+<div class="card-footer"><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-prev">
+    <i class="fas fa-fw fa-chevron-circle-down" data-fa-transform="rotate-90"></i>
+    <a href="/docs/getting-started/">Getting Started
+</a>
+  </div><div class="post-nav post-next">
+    <a href="/docs/content/">Adding Content
+</a>
+    <i class="fas fa-fw fa-chevron-circle-down" data-fa-transform="rotate-270"></i>
+  </div></div></div>
+</article><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">نظرات</h2>
+  </div>
+  <div class="card-body"><script src="https://utteranc.es/client.js"
+  repo="arman-arian/arman-arian.github.io-comments"
+  issue-term="pathname"
+  label="نظرات"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script></div>
+</div></div>
+</div><aside class="sidebar d-flex docs-sidebar col-lg-3 position-sticky">
+  <div class="container">
+    
+    <div class="post-toc row mb-4 card component" id="postTOC">
+  <div class="card-header">
+    <h2 class="card-title">فهرست مطالب</h2>
+  </div>
+  <div class="card-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#site-configuration">Site Configuration</a></li>
+    <li><a href="#site-parameters">Site Parameters</a></li>
+    <li><a href="#page-parameters">Page Parameters</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    
+  </div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">
+تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.
+</div>
+<div class="powered-by mb-2">
+ با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
+</div></footer>
+<script src="/assets/main/bundle.min.b2bae00ee77516efa6e339d9137443d1f786a314f543d3da3418d45e38b6db08.js" integrity="sha256-srrgDud1Fu&#43;m4znZE3RD0feGoxT1Q9PaNBjUXji22wg=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('\/service-worker.min.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+    });
+  });
+}
+</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script>
+</body>
+</html>
