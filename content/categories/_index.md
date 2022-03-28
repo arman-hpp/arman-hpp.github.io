@@ -1,5 +1,5 @@
 +++
-title = "Categories"
+title = "دسته بندی ها"
 [menu.main]
   weight = 20
   pre = '<i class="fas fa-fw fa-folder"></i>'
