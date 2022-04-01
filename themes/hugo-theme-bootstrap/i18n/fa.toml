@@ -2,7 +2,7 @@
 other = "متاسفانه صفحه مورد نظر پیدا نشد"
 
 [404_info]
-other = "ما نمی توانیم صفحه مورد نظر شما را پیدا کنیم."
+other = "ما نمی‌توانیم صفحه مورد نظر شما را پیدا کنیم."
 
 [about_me]
 other = "در مورد من"
@@ -29,7 +29,7 @@ other = "ارسال"
 other = "برام یه قهوه بخر"
 
 [categories]
-other = "دسته بندی ها"
+other = "دسته‌بندی‌ها"
 
 [color_blue]
 other = "آبی"
@@ -38,10 +38,10 @@ other = "آبی"
 other = "آبی تیره"
 
 [color_brown]
-other = "قهوه ای"
+other = "قهوه‌ای"
 
 [color_cyan]
-other = "فیروزه ای"
+other = "فیروزه‌ای"
 
 [color_green]
 other = "سبز"
@@ -92,7 +92,7 @@ other = "پیام"
 other = "کپی رایت"
 
 [featured_posts]
-other = "نوشته های ویژه"
+other = "نوشته‌های ویژه"
 
 [font_size]
 other = "اندازه قلم"
@@ -116,10 +116,10 @@ other = "نمایش بیشتر"
 other = "روش"
 
 [offline_title]
-other = "ارتباط با سرور برقرار نمی باشد"
+other = "ارتباط با سرور برقرار نمی‌باشد"
 
 [offline_info]
-other = "ارتباط با سرور برقرار نمی باشد. لطفا ارتباط اینترنت خود را بررسی نمایید"
+other = "ارتباط با سرور برقرار نمی‌باشد. لطفا ارتباط اینترنت خود را بررسی نمایید"
 
 [pagination_title]
 other = "صفحه {{ .PageNumber }}"
@@ -147,10 +147,10 @@ other = "بیشتر بخوانید"
 other = "{{ .ReadingTime }} min read"
 
 [recent_posts]
-other = "نوشته های اخیر"
+other = "نوشته‌های اخیر"
 
 [related_posts]
-other = "نوشته های مرتبط"
+other = "نوشته‌های مرتبط"
 
 [search]
 other = "جستجو"
@@ -165,7 +165,7 @@ other = "نتیجه ای پیدا نشد"
 other = "{{ .Total }} نتیجه پیدا شد"
 
 [series]
-other = "گروه ها"
+other = "گروه‌ها"
 
 [settings]
 other = "تنظیمات"
@@ -174,7 +174,7 @@ other = "تنظیمات"
 other = "فهرست مطالب"
 
 [tags]
-other = "برچسب ها"
+other = "برچسب‌ها"
 
 [try_again]
 other = "دوباره تلاش کنید"
