@@ -6,6 +6,43 @@
     <description>Recent content in برچسب ها on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Thu, 03 Dec 2020 19:42:57 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSharp</title>
+      <link>/tags/csharp/</link>
+      <pubDate>Thu, 03 Dec 2020 19:42:57 +0800</pubDate>
+      
+      <guid>/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DotNet</title>
+      <link>/tags/dotnet/</link>
+      <pubDate>Thu, 03 Dec 2020 19:42:57 +0800</pubDate>
+      
+      <guid>/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IP</title>
+      <link>/tags/ip/</link>
+      <pubDate>Thu, 03 Dec 2020 19:42:57 +0800</pubDate>
+      
+      <guid>/tags/ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPHelper</title>
+      <link>/tags/iphelper/</link>
+      <pubDate>Thu, 03 Dec 2020 19:42:57 +0800</pubDate>
+      
+      <guid>/tags/iphelper/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
