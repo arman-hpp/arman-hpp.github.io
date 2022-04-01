@@ -19,6 +19,7 @@ pinnedPostCount = 1
 postDate = true
 searchBar = true
 sidebarTaxonomies = ["series", "categories", "tags"]
+postTaxonomies = ["tags"]
 taxonomyPaginate = 10
 taxonomyPostCount = 3
 titleCase = false

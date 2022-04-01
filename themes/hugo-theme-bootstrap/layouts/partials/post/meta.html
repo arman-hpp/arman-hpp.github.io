@@ -14,10 +14,14 @@
   </span>
   {{- end -}}
   <span class="post-taxonomies">
-  {{- range $key, $value := .Site.Taxonomies -}}
+  {{- range $expected := $.Site.Params.postTaxonomies -}}
+  {{- range $key, $value := $.Site.Taxonomies -}}
+  {{- if eq $key $expected -}}
     {{- range ($.GetTerms $key) -}}
     <a href="{{ .Permalink }}" class="badge post-taxonomy">{{ .Name }}</a>
     {{- end -}}
+  {{- end -}}
+  {{- end -}}
   {{- end -}}
   </span>
 </div>

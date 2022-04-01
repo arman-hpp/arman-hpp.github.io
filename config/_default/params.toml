@@ -47,9 +47,11 @@ readingTime = false # Whether to display the reading time.
 # seriesCount = 20 # The number of series shown in sidebar. Turn off by setting it to false.
 # taxonomyPaginate = 5 # Default to 10.
 taxonomyPostCount = 20 # The number of taxonomy's posts. Turn off by setting it to false.
-countTaxonomyPosts = true # Count posts of taxonomy.
+# countTaxonomyPosts = true # Count posts of taxonomy.
 
 # sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies on the sidebar.
+
+postTaxonomies = ["tags"]
 
 # pinnedPost = false # Turn on/off pinned posts.
 pinnedPostCount = 3 # The number of pinned posts.

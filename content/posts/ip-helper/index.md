@@ -41,52 +41,52 @@ IPv6 یک آدرس اینترنتی 128 بیتی است که به‌صورت ا�
 <br>
 به منظور اعتبار سنجی آدرس های IP می توان از کد زیر استفاده نمود:
 ```csharp
-    public static bool IsValidIp(string address)
-    {
-        return IPAddress.TryParse(address, out _);
-    }
+public static bool IsValidIp(string address)
+{
+    return IPAddress.TryParse(address, out _);
+}
 ```
 
 به منظور تشخیص نسخه آدرس های IP می توان از کد زیر استفاده نمود:
 ```csharp
-    public static IpVersion GetIpVersion(string address)
+public static IpVersion GetIpVersion(string address)
+{
+    if (IPAddress.TryParse(address, out var ipAddress))
     {
-        if (IPAddress.TryParse(address, out var ipAddress))
+        if(ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
         {
-            if(ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
-            {
-                return IpVersion.IPv4;
-            }
-            else if(ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6)
-            {
-                return IpVersion.IPv6;
-            }
+            return IpVersion.IPv4;
         }
+        else if(ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6)
+        {
+            return IpVersion.IPv6;
+        }
+    }
 
-        return IpVersion.Unknown;
-    }
+    return IpVersion.Unknown;
+}
 	
-    public enum IpVersion
-    {
-        Unknown = -1,
-        IPv4,
-        IPv6
-    }
+public enum IpVersion
+{
+    Unknown = -1,
+    IPv4,
+    IPv6
+}
 ```
 
 آدرس Loopback یک آدرس IP ویژه است که برای آزمایش کارت های شبکه، ارتباطات و انتقال در یک کارت شبکه محلی و برنامه های کاربردی استفاده می شود. این آدرس IP مربوط به Loopback Interface نرم افزار کارت شبکه است که هیچ سخت افزاری با آن ارتباط ندارد و نیازی به اتصال فیزیکی به شبکه ندارد. برای تشخیص اینکه یک IP از نوع Loopback است یا خیر می توان از کد زیر استفاده نمود:
 ```CSharp
-    public static bool IsLoopback(string address)
+public static bool IsLoopback(string address)
+{
+    if (address == "localhost")
+        return true;
+
+    if (IPAddress.TryParse(address, out var ipAddress))
     {
-        if (address == "localhost")
+        if (ipAddress == IPAddress.Loopback || ipAddress == IPAddress.IPv6Loopback)
             return true;
-
-        if (IPAddress.TryParse(address, out var ipAddress))
-        {
-            if (ipAddress == IPAddress.Loopback || ipAddress == IPAddress.IPv6Loopback)
-                return true;
-        }
-
-        return false;
     }
+
+    return false;
+}
 ```
