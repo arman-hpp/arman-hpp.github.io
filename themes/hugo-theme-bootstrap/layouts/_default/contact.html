@@ -32,10 +32,18 @@
                   <input class="form-control" type="file" id="{{ $fileField }}" name="{{ $fileField }}">
                 </div>
                 {{- end -}}
-				<div class="mb-3">
-					<div class="g-recaptcha" data-sitekey="6LcekjcfAAAAAFzKX_6mAlCRZEEOB457eFpmJHeV">
-					</div>
-				</div>				
+				
+				<script src="https://www.google.com/recaptcha/api.js?hl=fa&render=6LeO8rgUAAAAAKdE7HIRGfS_xRGdsXIMRwaXtYv9"></script>
+                <script>
+                   grecaptcha.ready(function() {
+                       grecaptcha.execute('6LeO8rgUAAAAAKdE7HIRGfS_xRGdsXIMRwaXtYv9', {action: 'homepage'})
+                       .then(function(token) {
+                         document.getElementById('captchaResponse').value = token;
+                       });
+                     });
+                </script>
+                <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+				
                 <button type="submit" class="btn btn-outline-primary">{{ "button_submit" | i18n }}</button>
               </form>
         </div>

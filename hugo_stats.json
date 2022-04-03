@@ -113,7 +113,6 @@
       "form-control",
       "form-label",
       "form-text",
-      "g-recaptcha",
       "highlight",
       "input-group",
       "input-group-lg",
@@ -204,6 +203,7 @@
     ],
     "ids": [
       "btnLoadMore",
+      "captchaResponse",
       "contactEmail",
       "contactMessage",
       "contactName",
