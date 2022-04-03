@@ -32,6 +32,10 @@
                   <input class="form-control" type="file" id="{{ $fileField }}" name="{{ $fileField }}">
                 </div>
                 {{- end -}}
+				<div class="mb-3">
+					<div class="g-recaptcha" data-sitekey="6LcekjcfAAAAAFzKX_6mAlCRZEEOB457eFpmJHeV">
+					</div>
+				</div>				
                 <button type="submit" class="btn btn-outline-primary">{{ "button_submit" | i18n }}</button>
               </form>
         </div>
