@@ -1,49 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Docs on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</title>
-    <link>/zh-tw/series/docs/</link>
-    <description>Recent content in Docs on Arman Hasanpour Blog | وبلاگ آرمان حسن پور</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sat, 26 Feb 2022 17:10:39 +0200</lastBuildDate><atom:link href="/zh-tw/series/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>通過 via Hugo Module 安裝</title>
-      <link>/zh-tw/docs/installation/hugo-module/</link>
-      <pubDate>Sat, 26 Feb 2022 17:10:39 +0200</pubDate>
-      
-      <guid>/zh-tw/docs/installation/hugo-module/</guid>
-      <description>This article refers to the modern, up-to-date installation method of installing the theme locally as Hugo module. It describes how to install, upgrade the theme, and write new articles.
-InstallationInstall a new site from scratchStep 1: Create skeleton site Create and enter new site:  1$ hugo new site my-new-blog 2$ cd my-new-blog Step 2: Turn your new site into a Hugo module:1$ hugo mod init github.</description>
-    </item>
-    
-    <item>
-      <title>添加內容</title>
-      <link>/zh-tw/docs/content/</link>
-      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
-      
-      <guid>/zh-tw/docs/content/</guid>
-      <description>Main SectionsmainSections 參數用於過濾頁面，默認為 [&amp;quot;posts&amp;quot;, &amp;quot;docs&amp;quot;]。
-1mainSections = [&amp;#34;blog&amp;#34;, &amp;#34;posts&amp;#34;, &amp;#34;docs&amp;#34;, &amp;#34;notes&amp;#34;] 內容類型你可能想在其他 Section 中使用 docs 布局，比如 /notes。這可以通過在 front matter 中設置 type = &amp;quot;docs&amp;quot; 實現。
-文章原型我們也可以為 notes 創建一個原型，讓 Hugo 處理 type。
-1$ cp themes/hugo-theme-bootstrap/archetypes/default.md archetypes/notes.md 然後在 archetypes/notes.md 中添加 type = &amp;quot;docs&amp;quot;。現在 hugo new notes/blah-blah-blah 將會復製 archetypes/notes.md 的內容到新的文章。
-同樣地，你也可以為 posts、docs 等自定義原型。
-Sections 模板你可能還想在 notes 中使用和 docs 一樣的列表布局。
-1{{ define &amp;#34;content&amp;#34; }} 2{{- partial &amp;#34;docs/catalog&amp;#34; . -}} 3&amp;lt;div class=&amp;#34;col-lg-7 ms-auto&amp;#34;&amp;gt; 4{{ partial &amp;#34;docs/list&amp;#34; .</description>
-    </item>
-    
-    <item>
-      <title>快速入門</title>
-      <link>/zh-tw/docs/getting-started/</link>
-      <pubDate>Sat, 04 Dec 2021 10:43:39 +0800</pubDate>
-      
-      <guid>/zh-tw/docs/getting-started/</guid>
-      <description>HBS(Hugo Bootstrap) 是一個快速、響應式和功能齊全的 Hugo 主題，可用於個人博客和文檔。 在安裝主題前，請確保你滿足先決條件。
-先決條件 Git。 Hugo：extended 0.84.0 版本或以上。 npm：用於安裝 CSS 和 JS 依賴。 Go: 1.12 版本或以上，僅當安裝為 Hugo Module 時必須。   我們建議使用這些工具的最新版本。
- Configuration自 0.68.0，HBS 要求設置以下配置。
-1[build] 2writeStats = true 安裝方法 Git Submodule. Hugo Module.  下一步 調整配置 菜單 觀感 添加內容  </description>
-    </item>
-    
-  </channel>
-</rss>
