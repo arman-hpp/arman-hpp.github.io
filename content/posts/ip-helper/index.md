@@ -1,7 +1,7 @@
 +++
 author = "آرمان حسن پور"
-title = "کار با آدرس های IP در دات نت"
-date = 2020-12-03T19:42:57+08:00
+title = "کار با آدرس های IP در CSharp" 
+date = 2020-01-03T19:20:30+08:00
 featured = false
 comment = false
 toc = false
