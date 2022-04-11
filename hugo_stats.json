@@ -31,13 +31,20 @@
       "script",
       "section",
       "span",
+      "table",
+      "tbody",
+      "td",
       "textarea",
+      "th",
+      "thead",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
       "active",
       "align-items-center",
+      "anchor",
       "archive",
       "archive-posts",
       "archive-title",
@@ -92,6 +99,7 @@
       "fa-fw",
       "fa-github",
       "fa-home",
+      "fa-link",
       "fa-linkedin-in",
       "fa-question-circle",
       "fa-rss",
@@ -124,6 +132,7 @@
       "mb-3",
       "mb-4",
       "me-auto",
+      "ms-1",
       "ms-lg-5",
       "mt-auto",
       "mx-auto",
@@ -221,7 +230,18 @@
       "templateMissingKeywords",
       "templateNoResults",
       "templateResult",
-      "templateStat"
+      "templateStat",
+      "انواع-uuid",
+      "نسخه-دو---زمان-و-آدرس-mac-و-نسخه-امنیتی-dce",
+      "نسخه-سه--md5-hash-و-namespace",
+      "نسخه-های-uuid",
+      "نسخه-پنج---sha-1-hash-و-namespace",
+      "نسخه-چهار--تصادفی",
+      "نسخه-یک--زمان-و-آدرس-mac",
+      "نوع-دو---n--cd",
+      "نوع-رزرو-شده---n--ef",
+      "نوع-صفر---n--07",
+      "نوع-یک---n--8b"
     ]
   }
 }
