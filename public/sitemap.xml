@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/shetab/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/posts/shetab-info/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/categories/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+  </url><url>
     <loc>/tags/csharp/</loc>
     <lastmod>2020-02-05T15:42:57+08:00</lastmod>
   </url><url>
@@ -18,18 +42,6 @@
     <lastmod>2020-02-05T15:42:57+08:00</lastmod>
   </url><url>
     <loc>/tags/uuid/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2020-02-05T15:42:57+08:00</lastmod>
   </url><url>
     <loc>/posts/uuid-guid/</loc>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>شتاب on وبلاگ آرمان حسن پور</title>
+    <link>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</link>
+    <description>Recent content in شتاب on وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Wed, 03 Jun 2020 19:20:30 +0800</lastBuildDate><atom:link href="/tags/%D8%B4%D8%AA%D8%A7%D8%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>سامانه شتاب</title>
+      <link>/posts/shetab-info/</link>
+      <pubDate>Wed, 03 Jun 2020 19:20:30 +0800</pubDate>
+      
+      <guid>/posts/shetab-info/</guid>
+      <description>سامانه‌ی شتاب به عنوان تنها سوئیچ ملی بین بانکی کشور، سیستمی مبتنی بر کارت‌ بوده و وظیفه تبادل تراکنش‌های بین بانکی و اعمال مقررات بانک مرکزی به عنوان مقام ناظر را بر عهده دارد و سطح گستردگی این سامانه شامل کلیه بانک‌های کشور است که با اتصال به چند سوئیچ برون‌مرزی، کل تراکنش‌های کارتی کشور را پوشش می‌دهد. سامانه‌ی شتاب جهت تبادل پیام‌ها و تراکنش‌های مالی از استاندارد ISO8583 استفاده کرده و قابلیت پشتیبانی از سه ویرایش این استاندارد که در سال‌های 1987، 1993 و 2003 ارائه گردیده است را دارد.</description>
+    </item>
+    
+  </channel>
+</rss>

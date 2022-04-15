@@ -52,3 +52,12 @@ enableEmoji = true
 
 [build]
   writeStats = true
+
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 50
