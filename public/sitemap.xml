@@ -60,22 +60,31 @@
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/tags/guid/</loc>
-    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
+    <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
     <loc>/tags/uuid/</loc>
+    <lastmod>2020-02-06T11:20:50+03:30</lastmod>
+  </url><url>
+    <loc>/posts/guid-csharp/</loc>
+    <lastmod>2020-02-06T11:20:50+03:30</lastmod>
+  </url><url>
+    <loc>/categories/general/</loc>
     <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/posts/uuid-guid/</loc>
     <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/tags/ip/</loc>
-    <lastmod>2020-01-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
     <loc>/tags/iphelper/</loc>
-    <lastmod>2020-01-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/ip-helper/</loc>
-    <lastmod>2020-01-03T19:20:30+08:00</lastmod>
+    <loc>/posts/ip-csharp/</loc>
+    <lastmod>2020-01-04T15:28:10+03:30</lastmod>
+  </url><url>
+    <loc>/posts/ip/</loc>
+    <lastmod>2020-01-03T19:51:30+03:30</lastmod>
   </url><url>
     <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>

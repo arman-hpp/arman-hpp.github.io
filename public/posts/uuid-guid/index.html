@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>کار با UUID در CSharp - وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+    <title>UUID چیست؟ - وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
 <link rel="icon" href="/images/icons/icon-192x192.png" sizes="192x192" type="image/png">
 <link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="/images/icons/favicon.ico">
 <link rel="manifest" href="/manifest.json">
 <meta name="keywords" content="" />
-<meta name="description" content="UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="کار با UUID در CSharp">
+<meta name="description" content="UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="UUID چیست؟">
 <meta itemprop="description" content="UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است."><meta itemprop="datePublished" content="2020-02-05T15:42:57+03:30" />
 <meta itemprop="dateModified" content="2020-02-05T15:42:57+03:30" />
-<meta itemprop="wordCount" content="1474">
-<meta itemprop="keywords" content="UUID,GUID,CSharp,DotNet," /><meta property="og:title" content="کار با UUID در CSharp" />
+<meta itemprop="wordCount" content="1226">
+<meta itemprop="keywords" content="UUID,GUID," /><meta property="og:title" content="UUID چیست؟" />
 <meta property="og:description" content="UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/uuid-guid/" /><meta property="article:section" content="posts" />
@@ -22,10 +22,10 @@
 <meta property="article:modified_time" content="2020-02-05T15:42:57+03:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="کار با UUID در CSharp"/>
+<meta name="twitter:title" content="UUID چیست؟"/>
 <meta name="twitter:description" content="UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است."/>
 <meta property="og:image" content="/false"/>
-  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.6dc9ed4c1d20e7ccb40ebaeb57c9dafba98abf7950a510c8eba78d22a11a0b9b.css" integrity="sha256-bcntTB0g58y0DrrrV8na+6mKv3lQpRDI66eNIqEaC5s=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous">
+  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.7f3e941cc9effdd1449e9850609380946e8102cf378f84704a3ae98d0ab3e1e7.css" integrity="sha256-fz6UHMnv/dFEnphQYJOAlG6BAs83j4RwSjrpjQqz4ec=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2V2LN2RH7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -49,7 +49,7 @@
   </div>
   <div class="offcanvas-body">
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
-      target="_blank" href="https://twitter.com/intent/tweet?title=%da%a9%d8%a7%d8%b1%20%d8%a8%d8%a7%20UUID%20%d8%af%d8%b1%20CSharp&url=%2fposts%2fuuid-guid%2f">
+      target="_blank" href="https://twitter.com/intent/tweet?title=UUID%20%da%86%db%8c%d8%b3%d8%aa%d8%9f&url=%2fposts%2fuuid-guid%2f">
       <i class="fab fa-fw fa-twitter"></i> Twitter
     </a>
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
@@ -91,17 +91,17 @@
 <div class="col-lg-9">
   <div class="container"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body">
-    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/posts/">نوشته‌ها</a></li><li class="breadcrumb-item active">کار با UUID در CSharp</li></ol>
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/posts/">نوشته‌ها</a></li><li class="breadcrumb-item active">UUID چیست؟</li></ol>
   </div>
 </nav><article class="row card component mb-4 post">
   <div class="card-header ">
-    <h1 class="card-title post-title">کار با UUID در CSharp
+    <h1 class="card-title post-title">UUID چیست؟
 </h1>
   </div>
   <div class="card-body"><div class="post-meta">
   <span class="post-date" title="ایجاد شده در 2020-02-05 15:42:57 &#43;0330 &#43;0330.">
     فوریهٔ 5, 2020
-  </span><span class="post-taxonomies"><a href="/tags/uuid/" class="badge post-taxonomy">UUID</a><a href="/tags/guid/" class="badge post-taxonomy">GUID</a><a href="/tags/csharp/" class="badge post-taxonomy">CSharp</a><a href="/tags/dotnet/" class="badge post-taxonomy">DotNet</a></span>
+  </span><span class="post-taxonomies"><a href="/tags/uuid/" class="badge post-taxonomy">UUID</a><a href="/tags/guid/" class="badge post-taxonomy">GUID</a></span>
 </div>
 <div class="post-content mb-3"><p>UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است. هر دو اصطلاح به یک موضوع اشاره دارند و تفاوتی در استفاده ندارند.
 <br>
@@ -188,74 +188,16 @@ UUIDها توسط Open Software Foundation (OSF) که بخشی از Distributed 
 <p>برخورد (Collisions) هنگامی رخ می‌دهد که یک UUID بیش از یک بار ایجاد شده و به مراجع مختلف اختصاص داده شود. در مورد UUIDهای نسخه 1 و نسخه 2 که با استفاده از آدرس‌های MAC کارت‌های شبکه که منحصر به فرد هستند ساخته شده‌اند، فقط زمانی که پیاده‌سازی استانداردها متفاوت باشد یا ایراداتی در آن وجود داشته باشد احتمال برخورد وجود دارد.</p>
 <p>برخلاف نسخه 1 و نسخه 2 UUID که از آدرس‌های MAC منحصر به فرد کارت‌های شبکه استفاده می‌کنند، در نسخه 1 و 2 UUID تصادفی و نسخه 3 و 5 که مبتنی بر Hash هستند و نسخه 4 UUID تصادفی، احتمال برخورد وجود دارد. البته با احتمال بسیار کمی که به طور معمول قابل چشم پوشی است. این احتمال را می‌توان دقیقا بر اساس تجزیه و تحلیل پارادوکس تولد محاسبه کرد.</p>
 <p>به عنوان مثال، تعداد UUIDهای نسخه 4 تصادفی که باید ایجاد شوند تا به احتمال 50٪ حداقل یک برخورد باید تولید شود برابر 2.71 کوئین تیلیون است. این عدد معادل تولید 1 میلیارد UUID در ثانیه برای حدود 85 سال است. فایلی که حاوی این تعداد UUID باشد، با 16 بایت در هر UUID، تقریباً 45 اگزا بایت خواهد بود. احتمال یافتن نسخه تکراری در نسخه 103 تریلیون نسخه 4 UUID یک در میلیارد است.</p>
-<h2 id="uuid-در-csharp">UUID در CSharp<a class="anchor ms-1" href="#uuid-در-csharp"><i class="fas fa-link"></i></a></h2>
-<p>برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Guid</span> <span class="n">NewGuid</span><span class="p">()</span>
-</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">Guid</span><span class="p">.</span><span class="n">NewGuid</span><span class="p">();</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>guid ایجاد شده در این روش از نوع و نسخه چهارم UUID است و به صورت تصادفی تولید می‌شود. برای تولید guid به صورت ترتیبی می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Guid</span> <span class="n">NewSequentialGuid</span><span class="p">()</span>
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="kt">var</span> <span class="n">uid</span> <span class="p">=</span> <span class="n">Guid</span><span class="p">.</span><span class="n">NewGuid</span><span class="p">().</span><span class="n">ToByteArray</span><span class="p">();</span>
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="kt">var</span> <span class="n">binDate</span> <span class="p">=</span> <span class="n">BitConverter</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">UtcNow</span><span class="p">.</span><span class="n">Ticks</span><span class="p">);</span>
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="kt">var</span> <span class="n">secuentialGuid</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="p">[</span><span class="n">uid</span><span class="p">.</span><span class="n">Length</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">1</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">2</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">2</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">3</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">3</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">12</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">4</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">4</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">5</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">5</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">14</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">6</span><span class="p">]</span> <span class="p">=</span> <span class="n">uid</span><span class="p">[</span><span class="m">6</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">15</span><span class="cl">
-</span></span><span class="line"><span class="ln">16</span><span class="cl">    <span class="c1">// set the first part of the 8th byte to &#39;1100&#39; so     </span>
-</span></span><span class="line"><span class="ln">17</span><span class="cl">    <span class="c1">// later we&#39;ll be able to validate it was generated by us   </span>
-</span></span><span class="line"><span class="ln">18</span><span class="cl">
-</span></span><span class="line"><span class="ln">19</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">7</span><span class="p">]</span> <span class="p">=</span> <span class="p">(</span><span class="kt">byte</span><span class="p">)(</span><span class="m">0xc0</span> <span class="p">|</span> <span class="p">(</span><span class="m">0xf</span> <span class="p">&amp;</span> <span class="n">uid</span><span class="p">[</span><span class="m">7</span><span class="p">]));</span>
-</span></span><span class="line"><span class="ln">20</span><span class="cl">
-</span></span><span class="line"><span class="ln">21</span><span class="cl">    <span class="c1">// the last 8 bytes are sequential,    </span>
-</span></span><span class="line"><span class="ln">22</span><span class="cl">    <span class="c1">// it minimizes index fragmentation   </span>
-</span></span><span class="line"><span class="ln">23</span><span class="cl">    <span class="c1">// to a degree as long as there are not a large    </span>
-</span></span><span class="line"><span class="ln">24</span><span class="cl">    <span class="c1">// number of Secuential-Guids generated per millisecond  </span>
-</span></span><span class="line"><span class="ln">25</span><span class="cl">
-</span></span><span class="line"><span class="ln">26</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">9</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">27</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">8</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">1</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">28</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">15</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">2</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">29</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">14</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">3</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">30</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">13</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">4</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">31</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">12</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">5</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">32</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">11</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">6</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">33</span><span class="cl">    <span class="n">secuentialGuid</span><span class="p">[</span><span class="m">10</span><span class="p">]</span> <span class="p">=</span> <span class="n">binDate</span><span class="p">[</span><span class="m">7</span><span class="p">];</span>
-</span></span><span class="line"><span class="ln">34</span><span class="cl">
-</span></span><span class="line"><span class="ln">35</span><span class="cl">    <span class="k">return</span> <span class="k">new</span> <span class="n">Guid</span><span class="p">(</span><span class="n">secuentialGuid</span><span class="p">);</span>
-</span></span><span class="line"><span class="ln">36</span><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>برای بررسی رشته‌ای که حاوی guid است به ساختار guid می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsGuid</span><span class="p">(</span><span class="kt">string</span> <span class="n">guidString</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">Guid</span><span class="p">.</span><span class="n">TryParse</span><span class="p">(</span><span class="n">guidString</span><span class="p">,</span> <span class="k">out</span> <span class="m">_</span><span class="p">);</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>برای بررسی اینکه آیا مقدار guid مورد نظرتان یک guid خالی است یا خیر می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsEmptyGuid</span><span class="p">(</span><span class="n">Guid</span> <span class="n">guid</span><span class="p">)</span>
-</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">guid</span> <span class="p">==</span> <span class="n">Guid</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
-</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div></div></div>
+</div></div>
 </article><section class="related-posts row card component">
     <div class="card-header">
       <h2 class="card-title">نوشته‌های مرتبط</h2>
     </div>
     <div class="card-body">
       <ul class="post-list"><li>
-          <a href="/posts/sql-server-clr/">استفاده از CLR در SQL Server
+          <a href="/posts/guid-csharp/">کار با GUID در CSharp
 </a>
-          <span class="float-start post-date">فوریهٔ 7, 2020
-</span>
-        </li><li>
-          <a href="/posts/ip-helper/">کار با آدرس های IP در CSharp
-</a>
-          <span class="float-start post-date">ژانویهٔ 3, 2020
+          <span class="float-start post-date">فوریهٔ 6, 2020
 </span>
         </li></ul>
     </div>
@@ -295,10 +237,13 @@ UUIDها توسط Open Software Foundation (OSF) که بخشی از Distributed 
         <a href="/posts/sql-server-clr/">استفاده از CLR در SQL Server
 </a>
       </li><li>
-        <a href="/posts/uuid-guid/">کار با UUID در CSharp
+        <a href="/posts/guid-csharp/">کار با GUID در CSharp
 </a>
       </li><li>
-        <a href="/posts/ip-helper/">کار با آدرس های IP در CSharp
+        <a href="/posts/uuid-guid/">UUID چیست؟
+</a>
+      </li><li>
+        <a href="/posts/ip-csharp/">کار با آدرس‌های IP در CSharp
 </a>
       </li></ul>
   </div>
@@ -311,7 +256,8 @@ UUIDها توسط Open Software Foundation (OSF) که بخشی از Distributed 
       <div class="card-body">
         <div class="py-2"><a href="/categories/csharp/" class="badge rounded post-taxonomy" title="CSharp">
             CSharp</a><a href="/categories/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
-            DotNet</a><a href="/categories/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
+            DotNet</a><a href="/categories/general/" class="badge rounded post-taxonomy" title="General">
+            General</a><a href="/categories/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
             SQLServer</a><a href="/categories/%D8%B4%D8%AA%D8%A7%D8%A8/" class="badge rounded post-taxonomy" title="شتاب">
             شتاب</a></div>
       </div>
@@ -324,15 +270,15 @@ UUIDها توسط Open Software Foundation (OSF) که بخشی از Distributed 
       <div class="card-body">
         <div class="py-2"><a href="/tags/csharp/" class="badge rounded post-taxonomy" title="CSharp">
             CSharp</a><a href="/tags/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
-            DotNet</a><a href="/tags/clr/" class="badge rounded post-taxonomy" title="CLR">
+            DotNet</a><a href="/tags/guid/" class="badge rounded post-taxonomy" title="GUID">
+            GUID</a><a href="/tags/ip/" class="badge rounded post-taxonomy" title="IP">
+            IP</a><a href="/tags/uuid/" class="badge rounded post-taxonomy" title="UUID">
+            UUID</a><a href="/tags/clr/" class="badge rounded post-taxonomy" title="CLR">
             CLR</a><a href="/tags/clr-embedded/" class="badge rounded post-taxonomy" title="CLR Embedded">
             CLR Embedded</a><a href="/tags/clr-integrated/" class="badge rounded post-taxonomy" title="CLR Integrated">
-            CLR Integrated</a><a href="/tags/guid/" class="badge rounded post-taxonomy" title="GUID">
-            GUID</a><a href="/tags/ip/" class="badge rounded post-taxonomy" title="IP">
-            IP</a><a href="/tags/iphelper/" class="badge rounded post-taxonomy" title="IPHelper">
+            CLR Integrated</a><a href="/tags/iphelper/" class="badge rounded post-taxonomy" title="IPHelper">
             IPHelper</a><a href="/tags/shetab/" class="badge rounded post-taxonomy" title="Shetab">
-            Shetab</a><a href="/tags/sql-clr/" class="badge rounded post-taxonomy" title="SQL CLR">
-            SQL CLR</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
+            Shetab</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
           ALL
           <span class="badge badge-sm custom-badge text-white bg-accent me-1">13</span>
         </a></div>
@@ -348,7 +294,7 @@ UUIDها توسط Open Software Foundation (OSF) که بخشی از Distributed 
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.10c1c3d4c67c2343aa422eb70a3b452bedbfbe46bff72855b0b3e006078ebdf0.js" integrity="sha256-EMHD1MZ8I0OqQi63CjtFK&#43;2/vka/9yhVsLPgBgeOvfA=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

@@ -2,7 +2,7 @@ mainSections = ["posts", "docs"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "Arman Hasanpour Blog | وبلاگ آرمان حسن پور"
+description = "وبلاگ آرمان حسن پور"
 keywords = "C#, CSharp, Java, Delphi, Embarcadero, DotNet, .NET Framewrok, Windows, Linux, SQL, Oracle, SQL Server, HTML, CSS, JavaScript, JQuery, Open Source, React.js, Free Source Code, Tutorials"
 # images = ["site-feature-image.jpg"]
 
