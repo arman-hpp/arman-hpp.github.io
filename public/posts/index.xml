@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 19:20:30 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2020 16:21:32 +0330</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>سامانه شتاب</title>
       <link>/posts/shetab-info/</link>
-      <pubDate>Wed, 03 Jun 2020 19:20:30 +0800</pubDate>
+      <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
       
       <guid>/posts/shetab-info/</guid>
       <description>سامانه‌ی شتاب به عنوان تنها سوئیچ ملی بین بانکی کشور، سیستمی مبتنی بر کارت‌ بوده و وظیفه تبادل تراکنش‌های بین بانکی و اعمال مقررات بانک مرکزی به عنوان مقام ناظر را بر عهده دارد و سطح گستردگی این سامانه شامل کلیه بانک‌های کشور است که با اتصال به چند سوئیچ برون‌مرزی، کل تراکنش‌های کارتی کشور را پوشش می‌دهد. سامانه‌ی شتاب جهت تبادل پیام‌ها و تراکنش‌های مالی از استاندارد ISO8583 استفاده کرده و قابلیت پشتیبانی از سه ویرایش این استاندارد که در سال‌های 1987، 1993 و 2003 ارائه گردیده است را دارد.</description>
@@ -27,11 +27,11 @@
     </item>
     
     <item>
-      <title>کار با GUID در CSharp</title>
-      <link>/posts/guid-csharp/</link>
+      <title>کار با UUID در CSharp</title>
+      <link>/posts/uuid-guid-csharp/</link>
       <pubDate>Thu, 06 Feb 2020 11:20:50 +0330</pubDate>
       
-      <guid>/posts/guid-csharp/</guid>
+      <guid>/posts/uuid-guid-csharp/</guid>
       <description>برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود:
 1public static Guid NewGuid() 2{ 3return Guid.NewGuid(); 4} guid ایجاد شده در این روش از نوع و نسخه چهارم UUID است و به صورت تصادفی تولید می‌شود. برای تولید guid به صورت ترتیبی می‌توان از کد زیر استفاده نمود:
 1public static Guid NewSequentialGuid() 2{ 3var uid = Guid.NewGuid().ToByteArray(); 4var binDate = BitConverter.</description>
@@ -39,10 +39,10 @@
     
     <item>
       <title>UUID چیست؟</title>
-      <link>/posts/uuid-guid/</link>
+      <link>/posts/uuid-guid-info/</link>
       <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
       
-      <guid>/posts/uuid-guid/</guid>
+      <guid>/posts/uuid-guid-info/</guid>
       <description>UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است.</description>
     </item>
     
@@ -59,10 +59,10 @@
     
     <item>
       <title>آدرس IP چیست؟</title>
-      <link>/posts/ip/</link>
+      <link>/posts/ip-info/</link>
       <pubDate>Fri, 03 Jan 2020 19:51:30 +0330</pubDate>
       
-      <guid>/posts/ip/</guid>
+      <guid>/posts/ip-info/</guid>
       <description>IP اختصار عبارت Internet Protocol است که مدل فنی ارسال و دریافت بسته‌ها در اینترنت را به همراه آدرس فرستنده و گیرنده در شبکه‌ی اینترنت یا هر شبکه‌ی کامپیوتری مشخص می‌کند. در حال حاضر دو نسخه برای IP وجود دارد که شامل IPv4 و IPv6 است. IPv6 که Internet Protocol Next Generation نیز خوانده می‌شود، جدیدترین پروتکل اینترنت برای اختصاص آدرس IP است که برای تکمیل و در نهایت جایگزین شدن IPV4 در نظر گرفته شده است.</description>
     </item>
     

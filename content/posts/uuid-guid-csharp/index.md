@@ -1,6 +1,6 @@
 +++
 author = "آرمان حسن پور"
-title = "کار با GUID در CSharp" 
+title = "کار با UUID در CSharp" 
 date = 2020-02-06T11:20:50+03:30
 featured = false
 comment = false

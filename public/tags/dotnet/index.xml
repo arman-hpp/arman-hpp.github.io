@@ -18,11 +18,11 @@
     </item>
     
     <item>
-      <title>کار با GUID در CSharp</title>
-      <link>/posts/guid-csharp/</link>
+      <title>کار با UUID در CSharp</title>
+      <link>/posts/uuid-guid-csharp/</link>
       <pubDate>Thu, 06 Feb 2020 11:20:50 +0330</pubDate>
       
-      <guid>/posts/guid-csharp/</guid>
+      <guid>/posts/uuid-guid-csharp/</guid>
       <description>برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود:
 1public static Guid NewGuid() 2{ 3return Guid.NewGuid(); 4} guid ایجاد شده در این روش از نوع و نسخه چهارم UUID است و به صورت تصادفی تولید می‌شود. برای تولید guid به صورت ترتیبی می‌توان از کد زیر استفاده نمود:
 1public static Guid NewSequentialGuid() 2{ 3var uid = Guid.NewGuid().ToByteArray(); 4var binDate = BitConverter.</description>

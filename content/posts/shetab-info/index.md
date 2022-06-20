@@ -1,14 +1,14 @@
 +++
 author = "آرمان حسن پور"
 title = "سامانه شتاب" 
-date = 2020-06-03T19:20:30+08:00
+date = 2020-06-03T16:21:32+03:30
 featured = false
 comment = false
 toc = false
 reward = false
 pinned = false
 categories = [
-	"شتاب"
+	"Shetab"
 ]
 tags = [
     "شتاب", "Shetab"

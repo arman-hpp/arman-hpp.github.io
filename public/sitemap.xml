@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/tags/shetab/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
+  </url><url>
+    <loc>/categories/shetab/</loc>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/posts/shetab-info/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
-  </url><url>
-    <loc>/categories/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2020-06-03T19:20:30+08:00</lastmod>
+    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/tags/clr/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
@@ -65,13 +65,13 @@
     <loc>/tags/uuid/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
-    <loc>/posts/guid-csharp/</loc>
+    <loc>/posts/uuid-guid-csharp/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
     <loc>/categories/general/</loc>
     <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
-    <loc>/posts/uuid-guid/</loc>
+    <loc>/posts/uuid-guid-info/</loc>
     <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/tags/ip/</loc>
@@ -83,7 +83,7 @@
     <loc>/posts/ip-csharp/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/ip/</loc>
+    <loc>/posts/ip-info/</loc>
     <lastmod>2020-01-03T19:51:30+03:30</lastmod>
   </url><url>
     <loc>/about/</loc>
