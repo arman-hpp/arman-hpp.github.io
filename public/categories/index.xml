@@ -20,7 +20,7 @@
     <item>
       <title>CSharp</title>
       <link>/categories/csharp/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/categories/csharp/</guid>
       <description></description>
@@ -29,9 +29,18 @@
     <item>
       <title>DotNet</title>
       <link>/categories/dotnet/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/categories/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQLServer</title>
+      <link>/categories/sqlserver/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/categories/sqlserver/</guid>
       <description></description>
     </item>
     

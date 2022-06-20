@@ -1,0 +1,135 @@
++++
+author = "آرمان حسن پور"
+title = "استفاده از CLR در SQL Server" 
+date = 2020-02-07T18:22:06+03:30
+featured = false
+comment = false
+toc = false
+reward = false
+pinned = false
+categories = [
+	"DotNet", "CSharp", "SQLServer"
+]
+tags = [
+    "SQLServer", "CLR", "CSharp", "DotNet", "SQL CLR", "CLR Integrated", "CLR Embedded"
+]
+series = []
+images = []
++++
+
+SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.
+<br>
+تکنولوژی SQL CLR با میزبانی کردن از (dotNET **C**ommon **L**anguage **R**untime) یا همان محیط زمان اجرای dotNET در SQL Server، به مدیران پایگاه داده اجازه می‌دهد تا از قابلیت‌های موجود در dotNET برای تعریف اشیاء پایگاه داده استفاده کنند. این قابلیت توسط فضاهای نام System.Data ،System.Data.Sql و Microsoft.SqlServer.Server که در اسمبلی System.Data.dll در dotNET قرار داده شده‌اند، پشتیبانی می‌گردند. ایجاد اشیاء پایگاه داده با استفاده از امکان SQL CLR، طی مراحل زیر ممکن می‌گردند:
+-	پیاده‌سازی کدها در  CSharp یا VB در dotNET و Compile آن
+-	بارگذاری و اجرای کد Compile شده در مرحله قبل در SQL Server
+	-	فعال سازی امکان SQL CLR در پایگاه داده
+	-	ایجاد اسمبلی از کد مزبور در پایگاه داده
+	-	ایجاد شی پایگاه داده‌ای از اسمبلی مرحله قبل
+<br>
+## پیاده‌سازی کدها در CSharp یا VB در dotNET و Compile آن
+به عنوان مثال کد مورد نظر خود را در کلاسی با نام StoredProcedures و در تابع SP1 نوشته و آن را Compile می‌کنیم. کد Compile شده را (StoredProcedures.dll) باید در مرحله بعد در SQL Server بارگذاری کنیم. البته کد زیر یک مثال hello world بوده و تنها به منظور آشنایی با نحوه انجام کار می باشد. از تمامی قابلیت‌ها و کلاس‌های موجود در dotNET می توان در این کلاس استفاده نمود.
+```csharp
+using System;
+using System.Data;
+using Microsoft.SqlServer.Server;
+using System.Data.SqlTypes;
+ 
+public class StoredProcedures
+{
+    [Microsoft.SqlServer.Server.SqlProcedure]
+    public static void SP1()
+    {
+        SqlContext.Pipe.Send("Hello world!\n");
+    }
+}
+```
+## فعال‌سازی امکان CLR  SQL در پایگاه داده
+امکان CLR SQL در SQL Server به صورت پیش فرض غیرفعال است و برای فعال‌سازی آن باید کد زیر را اجرا کرد:
+
+```sql
+sp_configure 'show advanced options', 1
+RECONFIGURE
+GO
+
+sp_configure 'clr enabled', 1
+RECONFIGURE
+GO
+
+sp_configure 'show advanced options', 0
+RECONFIGURE
+GO
+```
+
+برای غیرفعال‌سازی هم کد زیر را باید اجرا نمود:
+
+```sql
+sp_configure 'show advanced options', 1
+RECONFIGURE
+GO
+
+sp_configure 'clr enabled', 0
+RECONFIGURE
+GO
+
+sp_configure 'show advanced options', 0
+RECONFIGURE
+GO
+```
+
+برای اینکه فعال یا غیرفعال بودن SQL CLR را در SQL SERVER بررسی نماییم باید کد زیر را اجرا نمود:
+```sql
+SELECT name
+      ,CAST(value AS int) AS value_configured
+      ,CAST(value_in_use AS int) AS value_in_use
+FROM sys.configurations
+WHERE name = 'clr enabled'
+```
+
+## ایجاد اسمبلی در پایگاه داده
+گام بعدی ایجاد اسمبلی در پایگاه داده از روی کد Compile شده است.
+```sql
+CREATE ASSEMBLY QClrIntegration 
+	FROM 'H:\Clr\StoredProcedures.dll' 
+	WITH Permission_set = safe
+GO
+```
+با توجه به کدی که نوشته‌ایم و برای کنترل دسترسی کد CLR به دیگر کدها از PERMISSION_SET استفاده می‌گردد:
+-	ویژگی SAFE به اسمبلی ها اجازه می‌دهد که تنها محاسبات محلی و دسترسی به فایل‌های محلی را داشته باشد.
+-	ویژگی EXTERNAL_ACCESS مشابه ویژگی قبلی با این تفاوت که اسمبلی می‌تواند به منابع شبکه دسترسی داشته باشد.
+-	ویژگی UNSAFE اجازه دسترسی نامحدود به منابع و کدهای غیر از dotNet و مدیریت نشده (Unmanaged Code) را هم می‌دهد.
+
+
+برای استفاده از ویژگی UNSAFE باید ویژگی اعتماد (trustworthy) را در پایگاه داده فعال کرد. این ویژگی مشخص می‌کند که پایگاه داده به کدهای بیرونی اعتماد دارد (البته توصیه نمی‌شود). در غیر این صورت با فعال‌سازی خصوصیت UNSAFE خطا اعلام می‌شود.
+
+```sql
+ALTER DATABASE DB_NAME 
+	SET trustworthy ON
+GO	
+```
+
+به طور کلی فعال کردن استفاده از SQL CLR سطح حملات به SQL Server را وسیع‌تر می‌کند و آن را از نظر اسمبلی‌های غیر عمدی و مخرب در معرض خطر قرار می‌دهد. با توجه به ضرورت استفاده از SQL CLR بسیاری از چک لیست‌های امنیتی فقط اسمبلی‌های ایجاد شده با دسترسی SAFE را مجاز می‌دانند و اسمبلی‌های ایجاد شده با دسترسی‌های UNSAFE و EXTERNAL_ACCESS را خطرناک می‌شمارند.
+
+##  ایجاد شی پایگاه داده ای از اسمبلی مرحله قبل
+حال می‌توان از اسمبلی ایجاد شده در مرحله قبل برای ایجاد Stored Procedure و یا Function مورد نظر استفاده نمود. چون در مرحله قبل ما کلاسی از نوع Stored Procedure ایجاد کردیم، در SQL Server نیز برای استفاده از آن یک Stored Procedure ایجاد می‌کنیم.
+```sql
+CREATE PROCEDURE hello
+AS
+EXTERNAL NAME helloworld.StoredProcedures.SP1
+GO
+```
+با اجرای Stored Procedure، کد نوشته شده در تابع sp1 اجرا می‌گردد:
+
+```sql
+EXEC hello
+
+-- Hello world!
+```
+
+برای حذف ابتدا باید شی‌هایی که ارجاعی از اسمبلی حذف و سپس خود اسمبلی حذف گردد:
+```sql
+DROP PROCEDURE hello
+GO
+
+DROP ASSEMBLY helloworld
+GO
+```

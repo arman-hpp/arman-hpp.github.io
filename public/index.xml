@@ -18,9 +18,18 @@
     </item>
     
     <item>
-      <title>کار با UUID در زبان‌های برنامه‌نویسی</title>
+      <title>استفاده از CLR در SQL Server</title>
+      <link>/posts/sql-server-clr/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/posts/sql-server-clr/</guid>
+      <description>SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated، CLR Enabled وCLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure، Function، Trigger را با استفاده از CSharp و یا VBایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید. تکنولوژی SQL CLR با میزبانی کردن از CLR (.</description>
+    </item>
+    
+    <item>
+      <title>کار با UUID در CSharp</title>
       <link>/posts/uuid-guid/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
       
       <guid>/posts/uuid-guid/</guid>
       <description>UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است.</description>

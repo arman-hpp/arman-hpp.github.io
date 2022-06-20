@@ -26,26 +26,47 @@
     <loc>/</loc>
     <lastmod>2020-06-03T19:20:30+08:00</lastmod>
   </url><url>
+    <loc>/tags/clr/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/tags/clr-embedded/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/tags/clr-integrated/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
     <loc>/tags/csharp/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/categories/csharp/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/tags/dotnet/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/categories/dotnet/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/tags/sql-clr/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/tags/sqlserver/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/categories/sqlserver/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
+  </url><url>
+    <loc>/posts/sql-server-clr/</loc>
+    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/tags/guid/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/tags/uuid/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/posts/uuid-guid/</loc>
-    <lastmod>2020-02-05T15:42:57+08:00</lastmod>
+    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/tags/ip/</loc>
     <lastmod>2020-01-03T19:20:30+08:00</lastmod>

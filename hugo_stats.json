@@ -31,6 +31,7 @@
       "script",
       "section",
       "span",
+      "strong",
       "table",
       "tbody",
       "td",
@@ -50,6 +51,8 @@
       "archive-title",
       "archives",
       "badge",
+      "badge-sm",
+      "bg-accent",
       "breadcrumb",
       "breadcrumb-item",
       "btn",
@@ -75,6 +78,7 @@
       "container",
       "content",
       "copyright",
+      "custom-badge",
       "d-block",
       "d-flex",
       "d-none",
@@ -131,6 +135,7 @@
       "mb-2",
       "mb-3",
       "mb-4",
+      "me-1",
       "me-auto",
       "ms-1",
       "ms-lg-5",
@@ -154,6 +159,10 @@
       "offcanvas-header",
       "offcanvas-title",
       "p-0",
+      "page-item",
+      "page-link",
+      "pagination",
+      "pagination-default",
       "pe-5",
       "position-absolute",
       "post",
@@ -205,6 +214,7 @@
       "text-center",
       "text-lg-start",
       "text-muted",
+      "text-white",
       "top-app-bar",
       "top-app-bar-expand-lg"
     ],
@@ -230,7 +240,10 @@
       "uuid-خالی-یا-nil-uuid",
       "uuid-در-csharp",
       "انواع-uuid",
+      "ایجاد-اسمبلی-در-پایگاه-داده",
+      "ایجاد-شی-پایگاه-داده-ای-از-اسمبلی-مرحله-قبل",
       "صحت-یکتایی-uuid",
+      "فعالسازی-امکان-clr--sql-در-پایگاه-داده",
       "نسخه-دو---زمان-و-آدرس-mac-و-نسخه-امنیتی-dce",
       "نسخه-سه--md5-hash-و-namespace",
       "نسخه-های-uuid",
@@ -240,7 +253,8 @@
       "نوع-دو---n--cd",
       "نوع-رزرو-شده---n--ef",
       "نوع-صفر---n--07",
-      "نوع-یک---n--8b"
+      "نوع-یک---n--8b",
+      "پیادهسازی-کدها-در-csharp-یا-vb-در-dotnet-و-compile-آن"
     ]
   }
 }

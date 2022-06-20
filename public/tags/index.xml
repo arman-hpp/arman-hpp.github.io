@@ -27,9 +27,36 @@
     </item>
     
     <item>
+      <title>CLR</title>
+      <link>/tags/clr/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/tags/clr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLR Embedded</title>
+      <link>/tags/clr-embedded/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/tags/clr-embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLR Integrated</title>
+      <link>/tags/clr-integrated/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/tags/clr-integrated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CSharp</title>
       <link>/tags/csharp/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/tags/csharp/</guid>
       <description></description>
@@ -38,16 +65,34 @@
     <item>
       <title>DotNet</title>
       <link>/tags/dotnet/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/tags/dotnet/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>SQL CLR</title>
+      <link>/tags/sql-clr/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/tags/sql-clr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQLServer</title>
+      <link>/tags/sqlserver/</link>
+      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
+      
+      <guid>/tags/sqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GUID</title>
       <link>/tags/guid/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
       
       <guid>/tags/guid/</guid>
       <description></description>
@@ -56,7 +101,7 @@
     <item>
       <title>UUID</title>
       <link>/tags/uuid/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0800</pubDate>
+      <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
       
       <guid>/tags/uuid/</guid>
       <description></description>
