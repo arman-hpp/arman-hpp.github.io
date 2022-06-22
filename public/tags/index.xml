@@ -27,6 +27,15 @@
     </item>
     
     <item>
+      <title>SQLServer</title>
+      <link>/tags/sqlserver/</link>
+      <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
+      
+      <guid>/tags/sqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CLR</title>
       <link>/tags/clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
@@ -77,15 +86,6 @@
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/tags/sql-clr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQLServer</title>
-      <link>/tags/sqlserver/</link>
-      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      
-      <guid>/tags/sqlserver/</guid>
       <description></description>
     </item>
     

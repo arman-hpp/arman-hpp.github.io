@@ -26,6 +26,15 @@
     <loc>/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
+    <loc>/tags/sqlserver/</loc>
+    <lastmod>2020-02-09T19:58:09+03:30</lastmod>
+  </url><url>
+    <loc>/categories/sqlserver/</loc>
+    <lastmod>2020-02-09T19:58:09+03:30</lastmod>
+  </url><url>
+    <loc>/posts/sql-server-search-in-tables/</loc>
+    <lastmod>2020-02-09T19:58:09+03:30</lastmod>
+  </url><url>
     <loc>/tags/clr/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
@@ -48,12 +57,6 @@
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/tags/sql-clr/</loc>
-    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
-  </url><url>
-    <loc>/tags/sqlserver/</loc>
-    <lastmod>2020-02-07T18:22:06+03:30</lastmod>
-  </url><url>
-    <loc>/categories/sqlserver/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
     <loc>/posts/sql-server-clr/</loc>

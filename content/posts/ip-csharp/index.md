@@ -18,7 +18,7 @@ images = []
 +++
 
 برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود.
-<br>
+<!--more-->
 به منظور اعتبارسنجی آدرس‌های IP می‌توان از کد زیر استفاده نمود:
 ```csharp
 public static bool IsValidIp(string address)

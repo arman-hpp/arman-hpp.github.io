@@ -7,14 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Fri, 07 Feb 2020 18:22:06 +0330</lastBuildDate><atom:link href="/categories/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Feb 2020 19:58:09 +0330</lastBuildDate><atom:link href="/categories/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>جستجو در همه جدول‌ها در SQL Server</title>
+      <link>/posts/sql-server-search-in-tables/</link>
+      <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
+      
+      <guid>/posts/sql-server-search-in-tables/</guid>
+      <description>&lt;p&gt;یکی از موارد پُر کاربرد در مهندسی معکوس نرم افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدولهای بانک اطلاعاتی است.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>استفاده از CLR در SQL Server</title>
       <link>/posts/sql-server-clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/posts/sql-server-clr/</guid>
-      <description>SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.</description>
+      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
     
   </channel>
