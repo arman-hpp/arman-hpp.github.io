@@ -8,10 +8,10 @@ toc = false
 reward = false
 pinned = false
 categories = [
-	"ORACLE"
+	"Oracle"
 ]
 tags = [
-    "ORACLE", "LISTAGG", "Comma Separated List"
+    "Oracle", "LISTAGG", "Comma Separated List"
 ]
 series = []
 images = []
