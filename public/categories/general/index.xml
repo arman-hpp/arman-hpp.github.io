@@ -26,5 +26,23 @@
       <description>&lt;p&gt;IP اختصار عبارت Internet Protocol است که مدل فنی ارسال و دریافت بسته‌ها در اینترنت را به همراه آدرس فرستنده و گیرنده در شبکه‌ی اینترنت یا هر شبکه‌ی کامپیوتری مشخص می‌کند. در حال حاضر دو نسخه برای IP وجود دارد که شامل IPv4 و IPv6 است.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>نمونه جدول‌های Oracle</title>
+      <link>/posts/oracle-sample-tables/</link>
+      <pubDate>Mon, 02 Jan 2017 15:01:51 +0330</pubDate>
+      
+      <guid>/posts/oracle-sample-tables/</guid>
+      <description>&lt;p&gt;به منظور استفاده از جداول نمونه یکسان در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه اسکریپت‌های مربوط به ایجاد جداول و ثبت داده‌های پیش فرض آن را برای هر نوع بانک اطلاعاتی قرار دهم. در این مطلب اسکریپت مربوط به بانک اطلاعاتی Oracle قرار داده شده است.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>واژه نامه</title>
+      <link>/posts/dict/</link>
+      <pubDate>Sun, 01 Jan 2017 19:51:30 +0330</pubDate>
+      
+      <guid>/posts/dict/</guid>
+      <description>&lt;p&gt;به منظور ترجمه یکسان کلمات انگلیسی در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه ترجمه کلمات (یا معادل فارسی مورد استفاده) را قرار دهم.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

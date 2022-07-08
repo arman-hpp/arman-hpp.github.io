@@ -125,5 +125,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Comma Separated List</title>
+      <link>/tags/comma-separated-list/</link>
+      <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
+      
+      <guid>/tags/comma-separated-list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LISTAGG</title>
+      <link>/tags/listagg/</link>
+      <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
+      
+      <guid>/tags/listagg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ORACLE</title>
+      <link>/tags/oracle/</link>
+      <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
+      
+      <guid>/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

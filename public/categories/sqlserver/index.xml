@@ -14,7 +14,7 @@
       <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
       
       <guid>/posts/sql-server-search-in-tables/</guid>
-      <description>&lt;p&gt;یکی از موارد پُرکاربرد در مهندسی معکوس نرم‌افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدول‌های بانک اطلاعاتی است.&lt;/p&gt;</description>
+      <description>&lt;p&gt;یکی از موارد پُرکاربرد در مهندسی معکوس نرم‌افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدول‌های یک بانک اطلاعاتی است.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,11 +23,11 @@
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/posts/sql-server-clr/</guid>
-      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
+      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی بانک اطلاعاتی خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء بانک اطلاعاتی از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>نمایش لیست همه جدول‌های پایگاه داده در SQL Server</title>
+      <title>نمایش لیست همه جدول‌ها در SQL Server</title>
       <link>/posts/sql-server-show-all-tables/</link>
       <pubDate>Thu, 01 Aug 2019 15:12:29 +0330</pubDate>
       

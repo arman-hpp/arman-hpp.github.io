@@ -14,7 +14,7 @@
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/posts/sql-server-clr/</guid>
-      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
+      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی بانک اطلاعاتی خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء بانک اطلاعاتی از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
     
   </channel>

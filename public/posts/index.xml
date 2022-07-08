@@ -23,7 +23,7 @@
       <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
       
       <guid>/posts/sql-server-search-in-tables/</guid>
-      <description>&lt;p&gt;یکی از موارد پُرکاربرد در مهندسی معکوس نرم‌افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدول‌های بانک اطلاعاتی است.&lt;/p&gt;</description>
+      <description>&lt;p&gt;یکی از موارد پُرکاربرد در مهندسی معکوس نرم‌افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدول‌های یک بانک اطلاعاتی است.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       
       <guid>/posts/sql-server-clr/</guid>
-      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی پایگاه داده خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء پایگاه داده‌ای از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
+      <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی بانک اطلاعاتی خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء بانک اطلاعاتی از قبیل Stored Procedure ،Function ،Trigger را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,12 +72,39 @@
     </item>
     
     <item>
-      <title>نمایش لیست همه جدول‌های پایگاه داده در SQL Server</title>
+      <title>نمایش لیست همه جدول‌ها در SQL Server</title>
       <link>/posts/sql-server-show-all-tables/</link>
       <pubDate>Thu, 01 Aug 2019 15:12:29 +0330</pubDate>
       
       <guid>/posts/sql-server-show-all-tables/</guid>
       <description>&lt;p&gt;با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>نمایش نتایج پرس‌و‌جوها به صورت یک مقدار جداشده با کاما در Oracle</title>
+      <link>/posts/oracle-lisagg/</link>
+      <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
+      
+      <guid>/posts/oracle-lisagg/</guid>
+      <description>&lt;p&gt;در برخی از سناریوها نیاز به نمایش خروجی چند مقدار به صورت یک مقدار با یک جداکننده مانند کاما داریم. در Oracle می‌توان از تابع LISTAGG برای تبدیل نتایج پرس‌و‌جو به صورت یک مقدار جداشده با کاما استفاده نمود.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>نمونه جدول‌های Oracle</title>
+      <link>/posts/oracle-sample-tables/</link>
+      <pubDate>Mon, 02 Jan 2017 15:01:51 +0330</pubDate>
+      
+      <guid>/posts/oracle-sample-tables/</guid>
+      <description>&lt;p&gt;به منظور استفاده از جداول نمونه یکسان در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه اسکریپت‌های مربوط به ایجاد جداول و ثبت داده‌های پیش فرض آن را برای هر نوع بانک اطلاعاتی قرار دهم. در این مطلب اسکریپت مربوط به بانک اطلاعاتی Oracle قرار داده شده است.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>واژه نامه</title>
+      <link>/posts/dict/</link>
+      <pubDate>Sun, 01 Jan 2017 19:51:30 +0330</pubDate>
+      
+      <guid>/posts/dict/</guid>
+      <description>&lt;p&gt;به منظور ترجمه یکسان کلمات انگلیسی در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه ترجمه کلمات (یا معادل فارسی مورد استفاده) را قرار دهم.&lt;/p&gt;</description>
     </item>
     
   </channel>

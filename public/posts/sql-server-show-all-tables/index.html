@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>نمایش لیست همه جدول‌های پایگاه داده در SQL Server - وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+    <title>نمایش لیست همه جدول‌ها در SQL Server - وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
 <link rel="icon" href="/images/icons/icon-192x192.png" sizes="192x192" type="image/png">
 <link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="/images/icons/favicon.ico">
 <link rel="manifest" href="/manifest.json">
 <meta name="keywords" content="" />
-<meta name="description" content="با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="نمایش لیست همه جدول‌های پایگاه داده در SQL Server">
+<meta name="description" content="با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="نمایش لیست همه جدول‌ها در SQL Server">
 <meta itemprop="description" content="با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند."><meta itemprop="datePublished" content="2019-08-01T15:12:29+03:30" />
 <meta itemprop="dateModified" content="2019-08-01T15:12:29+03:30" />
 <meta itemprop="wordCount" content="433">
-<meta itemprop="keywords" content="SQLServer," /><meta property="og:title" content="نمایش لیست همه جدول‌های پایگاه داده در SQL Server" />
+<meta itemprop="keywords" content="SQLServer," /><meta property="og:title" content="نمایش لیست همه جدول‌ها در SQL Server" />
 <meta property="og:description" content="با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/sql-server-show-all-tables/" /><meta property="article:section" content="posts" />
@@ -22,7 +22,7 @@
 <meta property="article:modified_time" content="2019-08-01T15:12:29+03:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="نمایش لیست همه جدول‌های پایگاه داده در SQL Server"/>
+<meta name="twitter:title" content="نمایش لیست همه جدول‌ها در SQL Server"/>
 <meta name="twitter:description" content="با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند."/>
 <meta property="og:image" content="/false"/>
   <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.7f3e941cc9effdd1449e9850609380946e8102cf378f84704a3ae98d0ab3e1e7.css" integrity="sha256-fz6UHMnv/dFEnphQYJOAlG6BAs83j4RwSjrpjQqz4ec=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous">
@@ -49,7 +49,7 @@
   </div>
   <div class="offcanvas-body">
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
-      target="_blank" href="https://twitter.com/intent/tweet?title=%d9%86%d9%85%d8%a7%db%8c%d8%b4%20%d9%84%db%8c%d8%b3%d8%aa%20%d9%87%d9%85%d9%87%20%d8%ac%d8%af%d9%88%d9%84%e2%80%8c%d9%87%d8%a7%db%8c%20%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87%20%d8%af%d8%a7%d8%af%d9%87%20%d8%af%d8%b1%20SQL%20Server&url=%2fposts%2fsql-server-show-all-tables%2f">
+      target="_blank" href="https://twitter.com/intent/tweet?title=%d9%86%d9%85%d8%a7%db%8c%d8%b4%20%d9%84%db%8c%d8%b3%d8%aa%20%d9%87%d9%85%d9%87%20%d8%ac%d8%af%d9%88%d9%84%e2%80%8c%d9%87%d8%a7%20%d8%af%d8%b1%20SQL%20Server&url=%2fposts%2fsql-server-show-all-tables%2f">
       <i class="fab fa-fw fa-twitter"></i> Twitter
     </a>
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
@@ -91,11 +91,11 @@
 <div class="col-lg-9">
   <div class="container"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body">
-    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/posts/">نوشته‌ها</a></li><li class="breadcrumb-item active">نمایش لیست همه جدول‌های پایگاه داده در SQL Server</li></ol>
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/posts/">نوشته‌ها</a></li><li class="breadcrumb-item active">نمایش لیست همه جدول‌ها در SQL Server</li></ol>
   </div>
 </nav><article class="row card component mb-4 post">
   <div class="card-header ">
-    <h1 class="card-title post-title">نمایش لیست همه جدول‌های پایگاه داده در SQL Server
+    <h1 class="card-title post-title">نمایش لیست همه جدول‌ها در SQL Server
 </h1>
   </div>
   <div class="card-body"><div class="post-meta">
@@ -105,8 +105,8 @@
 </div>
 <div class="post-content mb-3"><p>با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند.</p>
 <h2 id="نسخه-2000">نسخه 2000<a class="anchor ms-1" href="#نسخه-2000"><i class="fas fa-link"></i></a></h2>
-<p>برای نسخه‌های قدیمی‌تر SQL Server (مانند SQL Server 2000، اگرچه این روش در SQL Server 2005 برای سازگاری با نسخه‌های قبلی نیز پشتیبانی می‌شود)، باید از یک View به نام SYS.SYSOBJECTS استفاده نمایید. این View شامل یک ردیف برای هر شی می‌باشد که در پایگاه داده ایجاد شده است، از جمله Viewها، stored procedureها و جدول‌ها. جدول‌هایی که کاربر ایجاده کرده است نیز قابل تفکیک از جدول‌های سیستمی هستند.</p>
-<p>در SYSOBJECTS ستون‌های دیگری نیز وجود دارد زیرا باید اطلاعاتی در مورد هر چیزی که در طول زمان به پایگاه داده اضافه شده است را در خود نگهداری نماید. بنابراین، برای یافتن لیستی از جدول‌های ایجاد شده توسط کاربر (و تفکیک آن از جدول‌های سیستم)، باید نتایجی را پیدا کنیم که در آن ستون xtype (که نوع شی را برای آن ردیف مشخص می‌کند) برابر با مقدار U است که به معنای جدول‌های کاربر است. دستور TSQL حاصل باید به شکل زیر باشد:</p>
+<p>برای نسخه‌های قدیمی‌تر SQL Server (مانند SQL Server 2000، اگرچه این روش در SQL Server 2005 برای سازگاری با نسخه‌های قبلی نیز پشتیبانی می‌شود)، باید از یک View به نام SYS.SYSOBJECTS استفاده نمایید. این View شامل یک ردیف برای هر شی می‌باشد که در بانک اطلاعاتی ایجاد شده است، از جمله Viewها، stored procedureها و جدول‌ها. جدول‌هایی که کاربر ایجاده کرده است نیز قابل تفکیک از جدول‌های سیستمی هستند.</p>
+<p>در SYSOBJECTS ستون‌های دیگری نیز وجود دارد زیرا باید اطلاعاتی در مورد هر چیزی که در طول زمان به بانک اطلاعاتی اضافه شده است را در خود نگهداری نماید. بنابراین، برای یافتن لیستی از جدول‌های ایجاد شده توسط کاربر (و تفکیک آن از جدول‌های سیستم)، باید نتایجی را پیدا کنیم که در آن ستون xtype (که نوع شی را برای آن ردیف مشخص می‌کند) برابر با مقدار U است که به معنای جدول‌های کاربر است. دستور TSQL حاصل باید به شکل زیر باشد:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">SELECT</span><span class="w">
 </span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w">  </span><span class="o">*</span><span class="w">
 </span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w">
@@ -132,7 +132,7 @@
 </span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w">
 </span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w">  </span><span class="n">INFORMATION_SCHEMA</span><span class="p">.</span><span class="n">TABLES</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="w"></span><span class="k">GO</span><span class="w">
-</span></span></span></code></pre></div><p>برای برگرداندن همه جدول‌ها و Viewهای یک پایگاه داده در یک پرس‌و‌جو، عبارت TSQL زیر را اجرا کنید:</p>
+</span></span></span></code></pre></div><p>برای برگرداندن همه جدول‌ها و Viewهای یک بانک اطلاعاتی در یک پرس‌و‌جو، عبارت TSQL زیر را اجرا کنید:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">SELECT</span><span class="w">
 </span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w">  </span><span class="o">*</span><span class="w">
 </span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w">
@@ -217,11 +217,12 @@
         </h2>
       </div>
       <div class="card-body">
-        <div class="py-2"><a href="/categories/csharp/" class="badge rounded post-taxonomy" title="CSharp">
+        <div class="py-2"><a href="/categories/general/" class="badge rounded post-taxonomy" title="General">
+            General</a><a href="/categories/csharp/" class="badge rounded post-taxonomy" title="CSharp">
             CSharp</a><a href="/categories/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
             DotNet</a><a href="/categories/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
-            SQLServer</a><a href="/categories/general/" class="badge rounded post-taxonomy" title="General">
-            General</a><a href="/categories/shetab/" class="badge rounded post-taxonomy" title="Shetab">
+            SQLServer</a><a href="/categories/oracle/" class="badge rounded post-taxonomy" title="ORACLE">
+            ORACLE</a><a href="/categories/shetab/" class="badge rounded post-taxonomy" title="Shetab">
             Shetab</a></div>
       </div>
     </section><section class="tags-taxonomies row card component">
@@ -236,14 +237,14 @@
             DotNet</a><a href="/tags/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
             SQLServer</a><a href="/tags/guid/" class="badge rounded post-taxonomy" title="GUID">
             GUID</a><a href="/tags/ip/" class="badge rounded post-taxonomy" title="IP">
-            IP</a><a href="/tags/uuid/" class="badge rounded post-taxonomy" title="UUID">
+            IP</a><a href="/tags/oracle/" class="badge rounded post-taxonomy" title="ORACLE">
+            ORACLE</a><a href="/tags/uuid/" class="badge rounded post-taxonomy" title="UUID">
             UUID</a><a href="/tags/clr/" class="badge rounded post-taxonomy" title="CLR">
             CLR</a><a href="/tags/clr-embedded/" class="badge rounded post-taxonomy" title="CLR Embedded">
             CLR Embedded</a><a href="/tags/clr-integrated/" class="badge rounded post-taxonomy" title="CLR Integrated">
-            CLR Integrated</a><a href="/tags/iphelper/" class="badge rounded post-taxonomy" title="IPHelper">
-            IPHelper</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
+            CLR Integrated</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
           ALL
-          <span class="badge badge-sm custom-badge text-white bg-accent me-1">13</span>
+          <span class="badge badge-sm custom-badge text-white bg-accent me-1">16</span>
         </a></div>
       </div>
     </section>
