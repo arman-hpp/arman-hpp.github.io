@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dictionary on وبلاگ آرمان حسن پور</title>
+    <link>/tags/dictionary/</link>
+    <description>Recent content in dictionary on وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 19:51:30 +0330</lastBuildDate><atom:link href="/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>واژه نامه</title>
+      <link>/posts/dict/</link>
+      <pubDate>Sun, 01 Jan 2017 19:51:30 +0330</pubDate>
+      
+      <guid>/posts/dict/</guid>
+      <description>database - بانک اطلاعاتی query - پرس و جو clause - عبارت</description>
+    </item>
+    
+  </channel>
+</rss>
