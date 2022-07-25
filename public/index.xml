@@ -45,30 +45,12 @@
     </item>
     
     <item>
-      <title>UUID چیست؟</title>
-      <link>/posts/uuid-guid-info/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
-      
-      <guid>/posts/uuid-guid-info/</guid>
-      <description>&lt;p&gt;UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است. هر دو اصطلاح به یک موضوع اشاره دارند و تفاوتی در استفاده ندارند.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>کار با آدرس‌های IP در CSharp</title>
       <link>/posts/ip-csharp/</link>
       <pubDate>Sat, 04 Jan 2020 15:28:10 +0330</pubDate>
       
       <guid>/posts/ip-csharp/</guid>
       <description>&lt;p&gt;برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>آدرس IP چیست؟</title>
-      <link>/posts/ip-info/</link>
-      <pubDate>Fri, 03 Jan 2020 19:51:30 +0330</pubDate>
-      
-      <guid>/posts/ip-info/</guid>
-      <description>&lt;p&gt;IP اختصار عبارت Internet Protocol است که مدل فنی ارسال و دریافت بسته‌ها در اینترنت را به همراه آدرس فرستنده و گیرنده در شبکه‌ی اینترنت یا هر شبکه‌ی کامپیوتری مشخص می‌کند. در حال حاضر دو نسخه برای IP وجود دارد که شامل IPv4 و IPv6 است.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -99,9 +81,36 @@
     </item>
     
     <item>
+      <title>UUID چیست؟</title>
+      <link>/posts/uuid-guid-info/</link>
+      <pubDate>Sun, 05 Feb 2017 15:42:57 +0330</pubDate>
+      
+      <guid>/posts/uuid-guid-info/</guid>
+      <description>&lt;p&gt;UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است. هر دو اصطلاح به یک موضوع اشاره دارند و تفاوتی در استفاده ندارند.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ممیز شناور (floating point) چیست؟</title>
+      <link>/posts/float/</link>
+      <pubDate>Fri, 03 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/posts/float/</guid>
+      <description>&lt;p&gt;اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>آدرس IP چیست؟</title>
+      <link>/posts/ip-info/</link>
+      <pubDate>Tue, 03 Jan 2017 19:51:30 +0330</pubDate>
+      
+      <guid>/posts/ip-info/</guid>
+      <description>&lt;p&gt;IP اختصار عبارت Internet Protocol است که مدل فنی ارسال و دریافت بسته‌ها در اینترنت را به همراه آدرس فرستنده و گیرنده در شبکه‌ی اینترنت یا هر شبکه‌ی کامپیوتری مشخص می‌کند. در حال حاضر دو نسخه برای IP وجود دارد که شامل IPv4 و IPv6 است.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>نمونه جدول‌های Oracle</title>
       <link>/posts/oracle-sample-tables/</link>
-      <pubDate>Mon, 02 Jan 2017 15:01:51 +0330</pubDate>
+      <pubDate>Wed, 08 Jan 2014 15:01:51 +0330</pubDate>
       
       <guid>/posts/oracle-sample-tables/</guid>
       <description>&lt;p&gt;به منظور استفاده از جداول نمونه یکسان در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه اسکریپت‌های مربوط به ایجاد جداول و ثبت داده‌های پیش فرض آن را برای هر نوع بانک اطلاعاتی قرار دهم. در این مطلب اسکریپت مربوط به بانک اطلاعاتی Oracle قرار داده شده است.&lt;/p&gt;</description>
@@ -110,7 +119,7 @@
     <item>
       <title>واژه نامه</title>
       <link>/posts/dict/</link>
-      <pubDate>Sun, 01 Jan 2017 19:51:30 +0330</pubDate>
+      <pubDate>Sun, 05 Jan 2014 19:51:30 +0330</pubDate>
       
       <guid>/posts/dict/</guid>
       <description>&lt;p&gt;به منظور ترجمه یکسان کلمات انگلیسی در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه ترجمه کلمات (یا معادل فارسی مورد استفاده) را قرار دهم.&lt;/p&gt;</description>

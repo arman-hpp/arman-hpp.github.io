@@ -1,7 +1,7 @@
 +++
 author = "آرمان حسن پور"
 title = "واژه نامه" 
-date = 2017-01-01T19:51:30+03:30
+date = 2014-01-05T19:51:30+03:30
 featured = false
 comment = false
 toc = false

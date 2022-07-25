@@ -1,7 +1,7 @@
 +++
 author = "آرمان حسن پور"
 title = "نمونه جدول‌های Oracle" 
-date = 2017-01-02T15:01:51+03:30
+date = 2014-01-08T15:01:51+03:30
 featured = false
 comment = false
 toc = false

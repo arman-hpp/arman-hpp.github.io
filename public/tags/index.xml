@@ -152,5 +152,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Float</title>
+      <link>/tags/float/</link>
+      <pubDate>Fri, 03 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/float/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floating-point</title>
+      <link>/tags/floating-point/</link>
+      <pubDate>Fri, 03 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/floating-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE754</title>
+      <link>/tags/ieee754/</link>
+      <pubDate>Fri, 03 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/ieee754/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Notation</title>
+      <link>/tags/scientific-notation/</link>
+      <pubDate>Fri, 03 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/scientific-notation/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

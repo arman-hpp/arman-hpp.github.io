@@ -45,20 +45,20 @@
     </item>
     
     <item>
-      <title>General</title>
-      <link>/categories/general/</link>
-      <pubDate>Wed, 05 Feb 2020 15:42:57 +0330</pubDate>
-      
-      <guid>/categories/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Oracle</title>
       <link>/categories/oracle/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
       
       <guid>/categories/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>/categories/general/</link>
+      <pubDate>Sun, 05 Feb 2017 15:42:57 +0330</pubDate>
+      
+      <guid>/categories/general/</guid>
       <description></description>
     </item>
     

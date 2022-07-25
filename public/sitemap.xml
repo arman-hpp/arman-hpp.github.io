@@ -71,12 +71,6 @@
     <loc>/posts/uuid-guid-csharp/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
-    <loc>/categories/general/</loc>
-    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
-  </url><url>
-    <loc>/posts/uuid-guid-info/</loc>
-    <lastmod>2020-02-05T15:42:57+03:30</lastmod>
-  </url><url>
     <loc>/tags/ip/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
@@ -85,9 +79,6 @@
   </url><url>
     <loc>/posts/ip-csharp/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
-  </url><url>
-    <loc>/posts/ip-info/</loc>
-    <lastmod>2020-01-03T19:51:30+03:30</lastmod>
   </url><url>
     <loc>/posts/sql-server-show-all-tables/</loc>
     <lastmod>2019-08-01T15:12:29+03:30</lastmod>
@@ -110,11 +101,35 @@
     <loc>/posts/oracle-lisagg/</loc>
     <lastmod>2019-02-05T15:01:57+03:30</lastmod>
   </url><url>
+    <loc>/categories/general/</loc>
+    <lastmod>2017-02-05T15:42:57+03:30</lastmod>
+  </url><url>
+    <loc>/posts/uuid-guid-info/</loc>
+    <lastmod>2017-02-05T15:42:57+03:30</lastmod>
+  </url><url>
+    <loc>/tags/float/</loc>
+    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/floating-point/</loc>
+    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/ieee754/</loc>
+    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/scientific-notation/</loc>
+    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/posts/float/</loc>
+    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/posts/ip-info/</loc>
+    <lastmod>2017-01-03T19:51:30+03:30</lastmod>
+  </url><url>
     <loc>/posts/oracle-sample-tables/</loc>
-    <lastmod>2017-01-02T15:01:51+03:30</lastmod>
+    <lastmod>2014-01-08T15:01:51+03:30</lastmod>
   </url><url>
     <loc>/posts/dict/</loc>
-    <lastmod>2017-01-01T19:51:30+03:30</lastmod>
+    <lastmod>2014-01-05T19:51:30+03:30</lastmod>
   </url><url>
     <loc>/archives/</loc>
   </url><url>
