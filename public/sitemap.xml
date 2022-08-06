@@ -101,29 +101,41 @@
     <loc>/posts/oracle-lisagg/</loc>
     <lastmod>2019-02-05T15:01:57+03:30</lastmod>
   </url><url>
+    <loc>/tags/float/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/floating-point/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
     <loc>/categories/general/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/ieee754/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/scientific-notation/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/posts/float/</loc>
+    <lastmod>2017-08-03T14:22:11+03:30</lastmod>
+  </url><url>
+    <loc>/tags/uml/</loc>
+    <lastmod>2017-02-05T15:42:57+03:30</lastmod>
+  </url><url>
+    <loc>/categories/uml/</loc>
     <lastmod>2017-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/posts/uuid-guid-info/</loc>
     <lastmod>2017-02-05T15:42:57+03:30</lastmod>
   </url><url>
-    <loc>/tags/float/</loc>
-    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
-  </url><url>
-    <loc>/tags/floating-point/</loc>
-    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
-  </url><url>
-    <loc>/tags/ieee754/</loc>
-    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
-  </url><url>
-    <loc>/tags/scientific-notation/</loc>
-    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
-  </url><url>
-    <loc>/posts/float/</loc>
-    <lastmod>2017-02-03T14:22:11+03:30</lastmod>
+    <loc>/posts/uml-info/</loc>
+    <lastmod>2017-02-05T15:42:57+03:30</lastmod>
   </url><url>
     <loc>/posts/ip-info/</loc>
     <lastmod>2017-01-03T19:51:30+03:30</lastmod>
+  </url><url>
+    <loc>/posts/books/</loc>
+    <lastmod>2014-08-06T12:51:30+03:30</lastmod>
   </url><url>
     <loc>/posts/oracle-sample-tables/</loc>
     <lastmod>2014-01-08T15:01:51+03:30</lastmod>

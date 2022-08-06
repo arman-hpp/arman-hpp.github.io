@@ -56,9 +56,18 @@
     <item>
       <title>General</title>
       <link>/categories/general/</link>
-      <pubDate>Sun, 05 Feb 2017 15:42:57 +0330</pubDate>
+      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
       
       <guid>/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UML</title>
+      <link>/categories/uml/</link>
+      <pubDate>Sun, 05 Feb 2017 15:42:57 +0330</pubDate>
+      
+      <guid>/categories/uml/</guid>
       <description></description>
     </item>
     
