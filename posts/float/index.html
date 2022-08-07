@@ -1,15 +1,124 @@
-<!doctype html><html itemscope itemtype=http://schema.org/WebPage lang=fa data-palette=blue><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>ممیز شناور (floating point) چیست؟ - وبلاگ آرمان حسن پور</title><link rel=apple-touch-icon href=/images/icons/icon-180x180.png sizes=180x180><link rel=icon href=/images/icons/icon-192x192.png sizes=192x192 type=image/png><link rel=icon href=/images/icons/icon-32x32.png sizes=32x32 type=image/png><link rel=icon href=/images/icons/icon-16x16.png sizes=16x16 type=image/png><link rel=icon href=/images/icons/favicon.ico><link rel=manifest href=/manifest.json><meta name=keywords content><meta name=description content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."><meta name=robots content="index, follow"><meta itemprop=name content="ممیز شناور (floating point) چیست؟"><meta itemprop=description content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."><meta itemprop=datePublished content="2017-02-08T14:22:11+03:30"><meta itemprop=dateModified content="2017-02-08T14:22:11+03:30"><meta itemprop=wordCount content="1713"><meta itemprop=keywords content="Float,Floating-point,Scientific Notation,IEEE754,"><meta property="og:title" content="ممیز شناور (floating point) چیست؟"><meta property="og:description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."><meta property="og:type" content="article"><meta property="og:url" content="/posts/float/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2017-02-08T14:22:11+03:30"><meta property="article:modified_time" content="2017-02-08T14:22:11+03:30"><meta name=twitter:card content="summary"><meta name=twitter:title content="ممیز شناور (floating point) چیست؟"><meta name=twitter:description content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."><meta property="og:image" content="/false"><meta name=twitter:image content="/false"><link rel=stylesheet href="/assets/main/bundle.min.7f3e941cc9effdd1449e9850609380946e8102cf378f84704a3ae98d0ab3e1e7.css" integrity="sha256-fz6UHMnv/dFEnphQYJOAlG6BAs83j4RwSjrpjQqz4ec=" crossorigin=anonymous><link rel=stylesheet href=/assets/katex/bundle.min.ff156f3e11957af723779cb80f2aba2bcf03c5913f89fc6f5dc8020931ccbd91.css integrity="sha256-/xVvPhGVevcjd5y4Dyq6K88DxZE/ifxvXcgCCTHMvZE=" crossorigin=anonymous><link rel=stylesheet href=/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin=anonymous><script async src="https://www.googletagmanager.com/gtag/js?id=G-M2V2LN2RH7"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-M2V2LN2RH7")</script></head><body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top"><div class=container><button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<i class="fas fa-bars"></i>
-</button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href=/>وبلاگ آرمان حسن پور</a><div class="offcanvas offcanvas-bottom surface" tabindex=-1 id=offcanvasSocialShare aria-labelledby=offcanvasSocialShare><div class=offcanvas-header><h3 class=offcanvas-title>Share</h3><button type=button class="btn btn-sm btn-outline-primary" data-bs-dismiss=offcanvas aria-label=Close>
-<i class="fas fa-times"></i></button></div><div class=offcanvas-body><a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button" target=_blank href="https://twitter.com/intent/tweet?title=%d9%85%d9%85%db%8c%d8%b2%20%d8%b4%d9%86%d8%a7%d9%88%d8%b1%20%28floating%20point%29%20%da%86%db%8c%d8%b3%d8%aa%d8%9f&url=%2fposts%2ffloat%2f"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
-<a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button" target=_blank href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2ffloat%2f"><i class="fab fa-fw fa-facebook-f"></i> Facebook</a></div></div><div class="collapse navbar-collapse" tabindex=-1 id=navbarSupportedContent aria-labelledby=navbarSupportedContent><form class="search-bar my-1" action=/search><div class="input-group input-group-sm"><span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
-<input class="form-control search-bar-input" name=q type=search aria-label=Search></div></form><ul class="navbar-nav me-auto"><li class=nav-item><a class=nav-link href=/series/><i class="fas fa-fw fa-columns"></i>گروه‌ها</a></li><li class=nav-item><a class=nav-link href=/archives/><i class="fas fa-fw fa-file-archive"></i>بایگانی</a></li><li class=nav-item><a class=nav-link href=/categories/><i class="fas fa-fw fa-folder"></i>دسته‌بندی‌ها</a></li><li class=nav-item><a class=nav-link href=/tags/><i class="fas fa-fw fa-tags"></i>برچسب‌ها</a></li></ul></div></div></nav></header><main class=container><div class="row content"><div class=col-lg-9><div class=container><nav class="row card component" aria-label=breadcrumb><div class=card-body><ol class=breadcrumb><li class=breadcrumb-item><a href=/>خانه</a></li><li class=breadcrumb-item><a href=/posts/>نوشته‌ها</a></li><li class="breadcrumb-item active">ممیز شناور (Floating Point) چیست؟</li></ol></div></nav><article class="row card component mb-4 post"><div class=card-header><h1 class="card-title post-title">ممیز شناور (Floating Point) چیست؟</h1></div><div class=card-body><div class=post-meta><span class=post-date title="ایجاد شده در 2017-02-08 10:52:11 +0000 UTC.">فوریهٔ 8, 2017
-</span><span class=post-taxonomies><a href=/tags/float/ class="badge post-taxonomy">Float</a><a href=/tags/floating-point/ class="badge post-taxonomy">Floating-point</a><a href=/tags/scientific-notation/ class="badge post-taxonomy">Scientific Notation</a><a href=/tags/ieee754/ class="badge post-taxonomy">IEEE754</a></span></div><div class="post-content mb-3"><p>اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد.</p><p>در علوم کامپیوتر از اصطلاح ممیز شناور (floating point) به عنوان روشی برای نمایش اعداد اعشاری به طوری که محدوده‌ای وسیع از مقادیر را بپذیرند، استفاده می‌شود. اصطلاح &ldquo;ممیز شناور&rdquo; به این واقعیت اشاره دارد که علامت ممیز اعشار می‌تواند &ldquo;شناور&rdquo; باشد. یعنی می‌تواند تعداد متغیری از ارقام، قبل و بعد از علامت ممیز اعشار داشته باشد.<br>در گذشته کامپیوترها‌ی گوناگون روش‌های متفاوتی در پردازش مقادیر ممیز شناور داشتند که این موضوع باعث می‌شد برنامه‌ها بر روی کامپیوترهای مختلف جواب‌های یکسانی را در خروجی نمایش ندهند. به همین منظور در سال 1985 با تلاش گروهی متشکل از ریاضیدانان، دانشمندان علوم کامپیوتر و شرکت‎های تولید سخت‌افزار به سرپرستی William Kahan از دانشگاه کالیفرنیا، استانداردی برای مقادیر ممیز شناور تحت عنوان IEEE754 به سازندگان سخت‌افزارها عرضه شد. با مطرح شدن استاندارد IEEE754 واگرایی شیوه‌های به کار رفته برای نمایش مقادیر ممیز شناور کاهش یافت و بدین ترتیب برنامه‌های نوشته شده برای مقاصد علمی قابل حمل شدند. بسیاری از کامپیوترهای امروزی برای استفاده از مقادیر ممیز شناور از این استاندارد پیروی می‌کنند.<br>طبق این استاندارد روش نمایش و ذخیره‌سازی متغیرهایی از نوع داده ممیز شناور بسیار شبیه به چگونگی نوشتن اعداد با نماد علمی (scientific notation) می‌باشد. نماد علمی یک روش معمول خلاصه‌نویسی در مورد اعداد خیلی بزرگ یا خیلی کوچک می‌باشد. در نگاه اول شاید نماد علمی کمی پیچیده به نظر برسد، اما اگر فهم درستی از نماد علمی داشته باشید، به شما کمک می‌کند تا درک کنید که نوع داده‌ای ممیز شناور چگونه کار می‌کند، و مهم‌تر از آن دارای چه محدودیت‌هایی می‌باشد.<br></p><h2 id=نماد-علمی>نماد علمی<a class="anchor ms-1" href=#نماد-علمی><i class="fas fa-link"></i></a></h2><p>در نماد علمی هر عددی می‌تواند، به صورت حاصل‌ضرب دو عدد به شکل:
+<!doctype html><html itemscope itemtype="http://schema.org/WebPage" lang="fa" data-palette="blue"
+  >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ممیز شناور (floating point) چیست؟ - وبلاگ آرمان حسن پور</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+<link rel="icon" href="/images/icons/icon-192x192.png" sizes="192x192" type="image/png">
+<link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/images/icons/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<meta name="keywords" content="" />
+<meta name="description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="ممیز شناور (floating point) چیست؟">
+<meta itemprop="description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."><meta itemprop="datePublished" content="2017-08-03T14:22:11+03:30" />
+<meta itemprop="dateModified" content="2017-08-03T14:22:11+03:30" />
+<meta itemprop="wordCount" content="1713">
+<meta itemprop="keywords" content="Float,Floating-point,Scientific Notation,IEEE754," /><meta property="og:title" content="ممیز شناور (floating point) چیست؟" />
+<meta property="og:description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/float/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2017-08-03T14:22:11+03:30" />
+<meta property="article:modified_time" content="2017-08-03T14:22:11+03:30" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ممیز شناور (floating point) چیست؟"/>
+<meta name="twitter:description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."/>
+<meta property="og:image" content="/false"/>
+  <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.7f3e941cc9effdd1449e9850609380946e8102cf378f84704a3ae98d0ab3e1e7.css" integrity="sha256-fz6UHMnv/dFEnphQYJOAlG6BAs83j4RwSjrpjQqz4ec=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/katex/bundle.min.ff156f3e11957af723779cb80f2aba2bcf03c5913f89fc6f5dc8020931ccbd91.css" integrity="sha256-/xVvPhGVevcjd5y4Dyq6K88DxZE/ifxvXcgCCTHMvZE=" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" integrity="sha256-8FGDJnu5UvvIxjpxeDZN4pUWFKtx1UTsEGitNsdEfMw=" crossorigin="anonymous">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M2V2LN2RH7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M2V2LN2RH7');
+</script></head>
+  <body><script>const items=["mode","palette"];items.forEach(function(e){const t=localStorage.getItem("hbs-"+e);t&&document.body.parentElement.setAttribute("data-"+e,t)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto ms-lg-5" href="/">وبلاگ آرمان حسن پور
+    </a>
+    <div class="offcanvas offcanvas-bottom surface" tabindex="-1" id="offcanvasSocialShare" aria-labelledby="offcanvasSocialShare">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Share</h3>
+    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="offcanvas-body">
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
+      target="_blank" href="https://twitter.com/intent/tweet?title=%d9%85%d9%85%db%8c%d8%b2%20%d8%b4%d9%86%d8%a7%d9%88%d8%b1%20%28floating%20point%29%20%da%86%db%8c%d8%b3%d8%aa%d8%9f&url=%2fposts%2ffloat%2f">
+      <i class="fab fa-fw fa-twitter"></i> Twitter
+    </a>
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2ffloat%2f">
+      <i class="fab fa-fw fa-facebook-f"></i> Facebook
+    </a>
+  </div>
+</div>
+    <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+      <form class="search-bar my-1" action="/search">
+  <div class="input-group input-group-sm">
+    <span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
+    <input class="form-control search-bar-input" name="q" type="search" aria-label="Search">
+  </div>
+</form>
+      <ul class="navbar-nav me-auto"><li class="nav-item">
+          <a class="nav-link" href="/series/">
+            <i class="fas fa-fw fa-columns"></i>گروه‌ها
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/archives/">
+            <i class="fas fa-fw fa-file-archive"></i>بایگانی
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/categories/">
+            <i class="fas fa-fw fa-folder"></i>دسته‌بندی‌ها
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/tags/">
+            <i class="fas fa-fw fa-tags"></i>برچسب‌ها
+          </a>
+        </li></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main class="container">
+      <div class="row content">
+<div class="col-lg-9">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body">
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">خانه</a></li><li class="breadcrumb-item"><a href="/posts/">نوشته‌ها</a></li><li class="breadcrumb-item active">ممیز شناور (Floating Point) چیست؟</li></ol>
+  </div>
+</nav><article class="row card component mb-4 post">
+  <div class="card-header ">
+    <h1 class="card-title post-title">ممیز شناور (Floating Point) چیست؟
+</h1>
+  </div>
+  <div class="card-body"><div class="post-meta">
+  <span class="post-date" title="ایجاد شده در 2017-08-03 15:22:11 &#43;0430 &#43;0430.">
+    اوت 3, 2017
+  </span><span class="post-taxonomies"><a href="/tags/float/" class="badge post-taxonomy">Float</a><a href="/tags/floating-point/" class="badge post-taxonomy">Floating-point</a><a href="/tags/scientific-notation/" class="badge post-taxonomy">Scientific Notation</a><a href="/tags/ieee754/" class="badge post-taxonomy">IEEE754</a></span>
+</div>
+<div class="post-content mb-3"><p>اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد.</p>
+<p>در علوم کامپیوتر از اصطلاح ممیز شناور (floating point) به عنوان روشی برای نمایش اعداد اعشاری به طوری که محدوده‌ای وسیع از مقادیر را بپذیرند، استفاده می‌شود. اصطلاح &ldquo;ممیز شناور&rdquo; به این واقعیت اشاره دارد که علامت ممیز اعشار می‌تواند &ldquo;شناور&rdquo; باشد. یعنی می‌تواند تعداد متغیری از ارقام، قبل و بعد از علامت ممیز اعشار داشته باشد.
+<br>
+در گذشته کامپیوترها‌ی گوناگون روش‌های متفاوتی در پردازش مقادیر ممیز شناور داشتند که این موضوع باعث می‌شد برنامه‌ها بر روی کامپیوترهای مختلف جواب‌های یکسانی را در خروجی نمایش ندهند. به همین منظور در سال 1985 با تلاش گروهی متشکل از ریاضیدانان، دانشمندان علوم کامپیوتر و شرکت‎های تولید سخت‌افزار به سرپرستی William Kahan از دانشگاه کالیفرنیا، استانداردی برای مقادیر ممیز شناور تحت عنوان IEEE754 به سازندگان سخت‌افزارها عرضه شد. با مطرح شدن استاندارد IEEE754 واگرایی شیوه‌های به کار رفته برای نمایش مقادیر ممیز شناور کاهش یافت و بدین ترتیب برنامه‌های نوشته شده برای مقاصد علمی قابل حمل شدند. بسیاری از کامپیوترهای امروزی برای استفاده از مقادیر ممیز شناور از این استاندارد پیروی می‌کنند.
+<br>
+طبق این استاندارد روش نمایش و ذخیره‌سازی متغیرهایی از نوع داده ممیز شناور بسیار شبیه به چگونگی نوشتن اعداد با نماد علمی (scientific notation) می‌باشد. نماد علمی یک روش معمول خلاصه‌نویسی در مورد اعداد خیلی بزرگ یا خیلی کوچک می‌باشد. در نگاه اول شاید نماد علمی کمی پیچیده به نظر برسد، اما اگر فهم درستی از نماد علمی داشته باشید، به شما کمک می‌کند تا درک کنید که نوع داده‌ای ممیز شناور چگونه کار می‌کند، و مهم‌تر از آن دارای چه محدودیت‌هایی می‌باشد.
+<br></p>
+<h2 id="نماد-علمی">نماد علمی<a class="anchor ms-1" href="#نماد-علمی"><i class="fas fa-link"></i></a></h2>
+<p>در نماد علمی هر عددی می‌تواند، به صورت حاصل‌ضرب دو عدد به شکل:
 $$
 significand * base^{exponent}
 $$
-نوشته ‌شود که در آن base پایه عددی است و نما یا توان (exponent) یک عدد صحیح مثبت یا منفی، و ضریب علمی (significand) یک عدد حقیقی که در مبنای 10 بزرگ‌تر یا مساوی 1 و کوچک‌تر از 10 است می‌باشد. هر چقدر تعداد ارقام در قسمت بعد از اعشار ضریب علمی بیشتر باشد، عدد شما دقیق‌تر می‌باشد.<br>برای مثال در نماد علمی زیر قسمت 1.2 ضریب علمی می‌باشد و عدد 4 توان می‌باشد. این عدد به عدد 12000 ارزیابی می‌گردد.
+نوشته ‌شود که در آن base پایه عددی است و نما یا توان (exponent) یک عدد صحیح مثبت یا منفی، و ضریب علمی (significand) یک عدد حقیقی که در مبنای 10 بزرگ‌تر یا مساوی 1 و کوچک‌تر از 10 است می‌باشد. هر چقدر تعداد ارقام در قسمت بعد از اعشار ضریب علمی بیشتر باشد، عدد شما دقیق‌تر می‌باشد.
+<br>
+برای مثال در نماد علمی زیر قسمت 1.2 ضریب علمی می‌باشد و عدد 4 توان می‌باشد. این عدد به عدد 12000 ارزیابی می‌گردد.
 $$
 1.2 * 10^{4}
 $$
@@ -18,7 +127,22 @@ $$
 5.9736 * 10^{24} (kg)
 $$
 همانطور که می‌بینید، خواندن نماد علمی آن بسیار ساده‌تر است. همچنین نماد علمی دارای مزیت دیگری است که طی آن می‌توانیم ساده‌تر دو عدد خیلی بزرگ یا دو عدد خیلی کوچک را با هم مقایسه کنیم. این کار تنها با مقایسه توان دو عدد صورت می‌پذیرد.
-به طوری کلی می‌توان از قواعد زیر برای تبدیل اعداد به نماد علمی استفاده کنید:</p><ul><li>توان شما از صفر آغاز می شود.</li><li>ممیز را به سمت چپ ببرید به نحوی که تنها یک رقم غیر از صفر در سمت چپ و قبل از ممیز قرار بگیرد.</li><li>هر بار که ممیز را یک رقم به سمت چپ منتقل می‌کنید منجر می‌شود تا توان شما 1 واحد افزایش پیدا کند.</li><li>هر بار که ممیز را یک رقم به سمت راست منتقل می‌کنید منجر می‌شود تا توان شما 1 واحد کاهش پیدا کند.</li><li>صفرهای قبل از عدد را حذف کنید.</li><li>صفرهای بعد از عدد را تنها در صورتی حذف کنید که عدد اصلی شما دارای ممیز نباشد. در نماد علمی ترجیح داده می‌شود تا صفرهای بعد از اعشار نگهداری شده و حذف نگردد، چرا که آن صفرها دقت عدد مربوطه را ارائه می‌دهند.<br></li></ul><p>برای درک بهتر به مثال‌های زیر توجه کنید:<br>مثال 1<br>عدد اصلی: 42030<br>از آخرین رقم در سمت راست شروع کرده و ممیز را 4 رقم به سمت چپ می‌بریم:
+به طوری کلی می‌توان از قواعد زیر برای تبدیل اعداد به نماد علمی استفاده کنید:</p>
+<ul>
+<li>توان شما از صفر آغاز می شود.</li>
+<li>ممیز را به سمت چپ ببرید به نحوی که تنها یک رقم غیر از صفر در سمت چپ و قبل از ممیز قرار بگیرد.</li>
+<li>هر بار که ممیز را یک رقم به سمت چپ منتقل می‌کنید منجر می‌شود تا توان شما 1 واحد افزایش پیدا کند.</li>
+<li>هر بار که ممیز را یک رقم به سمت راست منتقل می‌کنید منجر می‌شود تا توان شما 1 واحد کاهش پیدا کند.</li>
+<li>صفرهای قبل از عدد را حذف کنید.</li>
+<li>صفرهای بعد از عدد را تنها در صورتی حذف کنید که عدد اصلی شما دارای ممیز نباشد. در نماد علمی ترجیح داده می‌شود تا صفرهای بعد از اعشار نگهداری شده و حذف نگردد، چرا که آن صفرها دقت عدد مربوطه را ارائه می‌دهند.<br></li>
+</ul>
+<p>برای درک بهتر به مثال‌های زیر توجه کنید:
+<br>
+مثال 1
+<br>
+عدد اصلی: 42030
+<br>
+از آخرین رقم در سمت راست شروع کرده و ممیز را 4 رقم به سمت چپ می‌بریم:
 $$
 4.2030 * 10^{4}
 $$
@@ -30,7 +154,11 @@ $$
 $$
 4.203 * 10^{4}
 $$
-مثال 2<br>عدد اصلی: 0.0078900<br>ممیز را سه رقم به سمت راست می‌بریم تا اولین رقم قبل از ممیز (7) غیر از صفر باشد:
+مثال 2
+<br>
+عدد اصلی: 0.0078900
+<br>
+ممیز را سه رقم به سمت راست می‌بریم تا اولین رقم قبل از ممیز (7) غیر از صفر باشد:
 $$
 0007.8900 * 10^{3}
 $$
@@ -42,7 +170,11 @@ $$
 $$
 7.8900 * 10^{3}
 $$
-مثال 3<br>عدد اصلی: 600.410<br>ممیز را دو رقم به سمت چپ می‌بریم:
+مثال 3
+<br>
+عدد اصلی: 600.410
+<br>
+ممیز را دو رقم به سمت چپ می‌بریم:
 $$
 6.00410 * 10^{2}
 $$
@@ -54,10 +186,12 @@ $$
 $$
 6.00410 * 10^{2}
 $$
-نماد علمی به صورت دیجیتال یا زمانی که توان به صورت بالانویس مقدور نیست معمولاً با E یا e که معادل «ضربدر ۱۰ به توانِ&mldr;» است نمایش داده می‌شود. به عنوان مثال می‌توان جرم زمین را با نماد علمی به صورت زیر نیز نوشت:
+نماد علمی به صورت دیجیتال یا زمانی که توان به صورت بالانویس مقدور نیست معمولاً با E یا e که معادل «ضربدر ۱۰ به توانِ&hellip;» است نمایش داده می‌شود. به عنوان مثال می‌توان جرم زمین را با نماد علمی به صورت زیر نیز نوشت:
 $$
 5.9736E24 (kg)
-$$</p><h2 id=نمایش-مقادیر-ممیز-شناور-در-ieee754>نمایش مقادیر ممیز شناور در IEEE754<a class="anchor ms-1" href=#نمایش-مقادیر-ممیز-شناور-در-ieee754><i class="fas fa-link"></i></a></h2><p>استاندارد IEEE754، چند قالب کلی با دقت‌های مختلف از جمله دقت معمولی، دقت مضاعف و دقت‌ مضاعف توسعه‌یافته برای نمایش اعداد ارائه می‌نماید. در این استاندارد، در دقت معمولی از 32 بیت، در دقت مضاعف از 64 بیت و در دقت مضاعف توسعه‌یافته از 128 بیت برای نمایش یک عدد استفاده می‌شود.
+$$</p>
+<h2 id="نمایش-مقادیر-ممیز-شناور-در-ieee754">نمایش مقادیر ممیز شناور در IEEE754<a class="anchor ms-1" href="#نمایش-مقادیر-ممیز-شناور-در-ieee754"><i class="fas fa-link"></i></a></h2>
+<p>استاندارد IEEE754، چند قالب کلی با دقت‌های مختلف از جمله دقت معمولی، دقت مضاعف و دقت‌ مضاعف توسعه‌یافته برای نمایش اعداد ارائه می‌نماید. در این استاندارد، در دقت معمولی از 32 بیت، در دقت مضاعف از 64 بیت و در دقت مضاعف توسعه‌یافته از 128 بیت برای نمایش یک عدد استفاده می‌شود.
 در روش ارائه‌شده در استاندارد IEEE754 برای نمایش و ذخیره‌سازی انواع ممیز شناور از فرمول زیر استفاده می‌شود:
 $$
 (-1)^{sign} * normalized mantissa * base^{biased exponent}
@@ -68,7 +202,14 @@ sign| biased exponent | normalized mantissa
 $$
 علامت (sign) برای اعداد مثبت 0 و برای اعداد منفی 1 می‌باشد و از یک بیت برای نمایش آن استفاده می‌شود.
 مقدار اعشاری نرمال‌شده (normalized mantissa) بخشی از یک عدد ممیز شناور است که از ارقام معنادار آن تشکیل شده است. بنابراین یک مقدار اعشاری نرمال‌شده عددی است که تنها یک عدد 1 در سمت چپ اعشار دارد. از آنجا همواره عدد سمت اعشار می‌بایست 1 باشد این عدد در فرمت ذخیره‌سازی قرار داده نشده و به صورت پیش‌فرض در نظر گرفته می‌شود. در دقت ساده از 23 بیت، در دقت مضاعف از 52 بیت و در دقت مضاعف توسعه‌یافته از 112 بیت برای نمایش مقدار اعشاری نرمال‌شده استفاده می‌شود.
-نما یا توان متعادل‌شده (biased exponent) یک عدد صحیح مثبت است که مقدار ثابتی به عنوان bias به آن اضافه شده است تا محدوده توان غیر منفی شود. این مقدار ثابت در دقت معمولی 127، در دقت مضاعف 1023 و در دقت مضاعف توسعه‌یافته 16383 است. همچنین در دقت ساده از 8 بیت، در دقت مضاعف از 11 بیت و در دقت مضاعف توسعه‌یافته از 15 بیت برای نمایش توان متعادل‌شده استفاده می‌شود.<br><br>به طور مثال ما قصد داریم عدد 5.0- را در به عنوان یک مقدار ممیز شناور معمولی ذخیره کنیم.<br>عدد اصلی در مبنای 2: 0101-<br>برای تبدیل این عدد به یک مقدار اعشاری نرمال‌شده همانند نمایش علمی از آخرین رقم در سمت راست شروع نموده و ممیز را 2 رقم به سمت چپ می‌بریم تا به آخرین 1 برسیم. همچنین به ازای هر رقم یک واحد به توان اضافه می‌کنیم:
+نما یا توان متعادل‌شده (biased exponent) یک عدد صحیح مثبت است که مقدار ثابتی به عنوان bias به آن اضافه شده است تا محدوده توان غیر منفی شود. این مقدار ثابت در دقت معمولی 127، در دقت مضاعف 1023 و در دقت مضاعف توسعه‌یافته 16383 است. همچنین در دقت ساده از 8 بیت، در دقت مضاعف از 11 بیت و در دقت مضاعف توسعه‌یافته از 15 بیت برای نمایش توان متعادل‌شده استفاده می‌شود.
+<br>
+<br>
+به طور مثال ما قصد داریم عدد 5.0- را در به عنوان یک مقدار ممیز شناور معمولی ذخیره کنیم. 
+<br> 
+عدد اصلی در مبنای 2: 0101-
+<br>
+برای تبدیل این عدد به یک مقدار اعشاری نرمال‌شده همانند نمایش علمی از آخرین رقم در سمت راست شروع نموده و ممیز را 2 رقم به سمت چپ می‌بریم تا به آخرین 1 برسیم. همچنین به ازای هر رقم یک واحد به توان اضافه می‌کنیم:
 $$
 -01.01 * 10^{2}
 $$
@@ -78,13 +219,20 @@ $$
 $$
 مقدار ثابت bias را که در دقت معمولی برابر 127 است به توان اضافه می‌کنیم:
 $$
--1.01 * 10^{2+127} = -1.01 * 10^{129}
+-1.01 * 10^{2+127}  = -1.01 * 10^{129}
 $$
 در عدد به دست آمده مقدار علامت برابر 1، مقدار اعشاری نرمال‌شده برابر 1.01 و توان متعادل‌شده برابر 129 است. از آنجایی که مقدار 1 سمت چپ مقدار اعشاری نرمال‌شده ذخیره نمی‌شود مقدار بیتی عدد -5.0 به صورت زیر است:
 $$
 0(sign)10000001(exponent)01000000000000000000000(fraction)
 $$
-<img class="img-fluid mx-auto d-block" alt=Center src=/posts/float/sample01.jpg loading=lazy><br></p><h2 id=دقت-انواع-ممیز-شناور>دقت انواع ممیز شناور<a class="anchor ms-1" href=#دقت-انواع-ممیز-شناور><i class="fas fa-link"></i></a></h2><p>از آنجایی که در مقادیر ممیز شناور دقت عدد اعشاری به تعداد بیت قسمت اعشاری محدود شده است در هنگام محاسبات مواردی پیش می‌آید که یک محاسبه مقداری را ایجاد می‌کند که نمی‌تواند دقیقا به وسیله‌ی قالب ممیز شناور ارائه شده توسط IEEE754 نمایش داده شود و سخت‌افزار باید نتیجه را به مقداری که به درستی نمایش داده می‌شود، گرد کند. در استاندارد IEEE754، روش پیش‌فرض برای این کار این است که به نزدیک‌ترین عدد ممکن گرد شود.
+<img class="img-fluid mx-auto d-block" alt="Center" src="/posts/float/sample01.jpg" loading="lazy"
+  
+   />
+
+
+<br></p>
+<h2 id="دقت-انواع-ممیز-شناور">دقت انواع ممیز شناور<a class="anchor ms-1" href="#دقت-انواع-ممیز-شناور"><i class="fas fa-link"></i></a></h2>
+<p>از آنجایی که در مقادیر ممیز شناور دقت عدد اعشاری به تعداد بیت قسمت اعشاری محدود شده است در هنگام محاسبات مواردی پیش می‌آید که یک محاسبه مقداری را ایجاد می‌کند که نمی‌تواند دقیقا به وسیله‌ی قالب ممیز شناور ارائه شده توسط IEEE754 نمایش داده شود و سخت‌افزار باید نتیجه را به مقداری که به درستی نمایش داده می‌شود، گرد کند. در استاندارد IEEE754، روش پیش‌فرض برای این کار این است که به نزدیک‌ترین عدد ممکن گرد شود.
 به عنوان مثال مقدار 1.0 در قالب ممیز شناور به صورت زیر است:
 $$
 0(sign)01111111(exponent)00000000000000000000000(fraction)
@@ -118,27 +266,116 @@ $$
 $$
 0.0001(binary) = 0.0625(decimal)
 $$
-در این مورد، دقت در مقایسه با زمانی که عدد 1.0 است بسیار کمتر است که این می‌تواند مشکل‌ساز باشد. به عنوان مثال اگر از نوع ممیز شناور با دقت معمولی برای نمایش زمان (ثانیه) از زمان شروع یک برنامه کاربردی استفاده شده باشد و برنامه هر 0.05 ثانیه زمان را شمارش کند، پس از 1000000.0 (یا قبل از آن)، زمان از حرکت باز می‌ایستد!</p></div></div></article></div></div><aside class="col-lg-3 sidebar d-flex"><div class="container d-flex flex-column"><div class="card row text-center profile component"><div class=card-body><div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="آرمان حسن پور" src=/images/profile.webp loading=lazy data-viewer-invisible width=120 height=120></div><div class="col-12 profile-meta"><div class=profile-name>آرمان حسن پور</div><div class=profile-bio>برنامه نویس فول استک</div><div class=profile-about><i class="fas fa-fw fa-user"></i><a href=/about/>در مورد من</a></div><div class=profile-contact><i class="fas fa-fw fa-question-circle"></i><a href=/contact/>تماس با من</a></div><nav class="social-links nav justify-content-center"><a class="nav-link social-link" href=mailto:arman.hassanpoor2000@gmail.com title=Email><i class="fas fa-fw fa-2x fa-envelope"></i>
-</a><a class="nav-link social-link" target=_blank href=https://github.com/arman-arian title=GitHub rel="noopener noreferrer"><i class="fa-fw fa-2x fab fa-github"></i>
-</a><a class="nav-link social-link" target=_blank href=https://linkedin.com/in/arsin title=LinkedIn rel="noopener noreferrer"><i class="fa-fw fa-2x fab fa-linkedin-in"></i>
-</a><a class="nav-link social-link" target=_blank href=https://twitter.com/arman_hasanpour title=Twitter rel="noopener noreferrer"><i class="fa-fw fa-2x fab fa-twitter"></i>
-</a><a class="nav-link social-link" target=_blank href=/index.xml title=RSS rel="noopener noreferrer"><i class="fas fa-fw fa-2x fa-rss"></i></a></nav></div></div></div><section class="recent-posts row card component"><div class=card-header><h2 class=card-title>نوشته‌های اخیر</h2></div><div class=card-body><ul class=post-list><li><a href=/posts/shetab-info/>سامانه شتاب</a></li><li><a href=/posts/sql-server-search-in-tables/>جستجو در همه جدول‌ها در SQL Server</a></li><li><a href=/posts/sql-server-clr/>استفاده از CLR در SQL Server</a></li><li><a href=/posts/uuid-guid-csharp/>کار با UUID در CSharp</a></li><li><a href=/posts/ip-csharp/>کار با آدرس‌های IP در CSharp</a></li></ul></div></section><section class="categories-taxonomies row card component"><div class=card-header><h2 class=card-title><a href=/categories>دسته‌بندی‌ها</a></h2></div><div class=card-body><div class=py-2><a href=/categories/general/ class="badge rounded post-taxonomy" title=General>General</a><a href=/categories/csharp/ class="badge rounded post-taxonomy" title=CSharp>
-CSharp</a><a href=/categories/dotnet/ class="badge rounded post-taxonomy" title=DotNet>
-DotNet</a><a href=/categories/sqlserver/ class="badge rounded post-taxonomy" title=SQLServer>
-SQLServer</a><a href=/categories/oop/ class="badge rounded post-taxonomy" title=OOP>
-OOP</a><a href=/categories/oracle/ class="badge rounded post-taxonomy" title=Oracle>
-Oracle</a><a href=/categories/shetab/ class="badge rounded post-taxonomy" title=Shetab>
-Shetab</a><a href=/categories/uml/ class="badge rounded post-taxonomy" title=UML>
-UML</a></div></div></section><section class="tags-taxonomies row card component"><div class=card-header><h2 class=card-title><a href=/tags>برچسب‌ها</a></h2></div><div class=card-body><div class=py-2><a href=/tags/csharp/ class="badge rounded post-taxonomy" title=CSharp>CSharp</a><a href=/tags/dotnet/ class="badge rounded post-taxonomy" title=DotNet>
-DotNet</a><a href=/tags/sqlserver/ class="badge rounded post-taxonomy" title=SQLServer>
-SQLServer</a><a href=/tags/guid/ class="badge rounded post-taxonomy" title=GUID>
-GUID</a><a href=/tags/ip/ class="badge rounded post-taxonomy" title=IP>
-IP</a><a href=/tags/oracle/ class="badge rounded post-taxonomy" title=Oracle>
-Oracle</a><a href=/tags/uuid/ class="badge rounded post-taxonomy" title=UUID>
-UUID</a><a href=/tags/clr/ class="badge rounded post-taxonomy" title=CLR>
-CLR</a><a href=/tags/clr-embedded/ class="badge rounded post-taxonomy" title="CLR Embedded">
-CLR Embedded</a><a href=/tags/clr-integrated/ class="badge rounded post-taxonomy" title="CLR Integrated">
-CLR Integrated</a><a href=/tags class="badge rounded post-taxonomy" title=ALL>
-ALL
-<span class="badge badge-sm custom-badge text-white bg-accent me-1">25</span></a></div></div></section></div></aside></div></main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</div><div class="powered-by mb-2">با افتخار نیرو گرفته از <a href=https://gohugo.io target=_blank rel="noopener noreferrer">Hugo</a>.</div></footer><script src=/assets/main/bundle.min.354c93aaa7a0974d0ca5b88335a90ae58aef74c3360c09ad295dc479a741885d.js integrity="sha256-NUyTqqegl00MpbiDNakK5YrvdMM2DAmtKV3EeadBiF0=" crossorigin=anonymous defer></script><script src=/assets/icons/bundle.min.17849018f3f3b1b6bcb22df1fb426d0b6c496d4434266dd0b28bd13b9d6b63aa.js integrity="sha256-F4SQGPPzsba8si3x+0JtC2xJbUQ0Jm3QsovRO51rY6o=" crossorigin=anonymous defer></script>
-<script>"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/service-worker.min.js").then(function(e){console.log("Successfully registered service worker",e)}).catch(function(e){console.warn("Error whilst registering service worker",e)})})</script><script src=/assets/viewer/bundle.min.5ad926b46749e67285f66e2fdbc2d7cfb2689e8d9f2fcc2f59c3f51d2a1c4506.js integrity="sha256-WtkmtGdJ5nKF9m4v28LXz7Jono2fL8wvWcP1HSocRQY=" crossorigin=anonymous defer></script><script defer src=/assets/katex/bundle.min.31a81b3b4e70385d784bbb6d3528ff1177c5e97e322bcdb222838dd8353f8353.js integrity="sha256-MagbO05wOF14S7ttNSj/EXfF6X4yK82yIoON2DU/g1M=" crossorigin=anonymous></script></body></html>
+در این مورد، دقت در مقایسه با زمانی که عدد 1.0 است بسیار کمتر است که این می‌تواند مشکل‌ساز باشد. به عنوان مثال اگر از نوع ممیز شناور با دقت معمولی برای نمایش زمان (ثانیه) از زمان شروع یک برنامه کاربردی استفاده شده باشد و برنامه هر 0.05 ثانیه زمان را شمارش کند، پس از 1000000.0 (یا قبل از آن)، زمان از حرکت باز می‌ایستد!</p></div></div>
+</article></div>
+</div><aside class="col-lg-3 sidebar d-flex">
+  <div class="container d-flex flex-column">
+    
+    <div class="card row text-center profile component">
+  <div class="card-body">
+    <div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="آرمان حسن پور" src="/images/profile.webp" loading="lazy" data-viewer-invisible
+   width="120" height="120"
+   />
+</div>
+    <div class="col-12 profile-meta"><div class="profile-name">آرمان حسن پور</div><div class="profile-bio">برنامه نویس فول استک</div><div class="profile-about"><i class="fas fa-fw fa-user"></i><a href="/about/">در مورد من</a></div><div class="profile-contact"><i class="fas fa-fw fa-question-circle"></i><a href="/contact/">تماس با من</a></div><nav class="social-links nav justify-content-center"><a class="nav-link social-link" href="mailto:arman.hassanpoor2000@gmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope"></i>
+    </a><a class="nav-link social-link" target="_blank" href="https://github.com/arman-arian" title="GitHub" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-github"></i>
+      </a><a class="nav-link social-link" target="_blank" href="https://linkedin.com/in/arsin" title="LinkedIn" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
+      </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/arman_hasanpour" title="Twitter" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-twitter"></i>
+      </a><a class="nav-link social-link" target="_blank" href="/index.xml" title="RSS" rel="noopener noreferrer">
+    <i class="fas fa-fw fa-2x fa-rss"></i>
+  </a></nav>
+</div>
+  </div>
+</div>
+<section class="recent-posts row card component">
+  <div class="card-header">
+    <h2 class="card-title">نوشته‌های اخیر</h2>
+  </div>
+  <div class="card-body">
+    <ul class="post-list"><li>
+        <a href="/posts/shetab-info/">سامانه شتاب
+</a>
+      </li><li>
+        <a href="/posts/sql-server-search-in-tables/">جستجو در همه جدول‌ها در SQL Server
+</a>
+      </li><li>
+        <a href="/posts/sql-server-clr/">استفاده از CLR در SQL Server
+</a>
+      </li><li>
+        <a href="/posts/uuid-guid-csharp/">کار با UUID در CSharp
+</a>
+      </li><li>
+        <a href="/posts/ip-csharp/">کار با آدرس‌های IP در CSharp
+</a>
+      </li></ul>
+  </div>
+</section><section class="categories-taxonomies row card component">
+      <div class="card-header">
+        <h2 class="card-title">
+          <a href="/categories">دسته‌بندی‌ها</a>
+        </h2>
+      </div>
+      <div class="card-body">
+        <div class="py-2"><a href="/categories/general/" class="badge rounded post-taxonomy" title="General">
+            General</a><a href="/categories/csharp/" class="badge rounded post-taxonomy" title="CSharp">
+            CSharp</a><a href="/categories/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
+            DotNet</a><a href="/categories/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
+            SQLServer</a><a href="/categories/object-oriented/" class="badge rounded post-taxonomy" title="Object Oriented">
+            Object Oriented</a><a href="/categories/oop/" class="badge rounded post-taxonomy" title="OOP">
+            OOP</a><a href="/categories/oracle/" class="badge rounded post-taxonomy" title="Oracle">
+            Oracle</a><a href="/categories/shetab/" class="badge rounded post-taxonomy" title="Shetab">
+            Shetab</a><a href="/categories/uml/" class="badge rounded post-taxonomy" title="UML">
+            UML</a></div>
+      </div>
+    </section><section class="tags-taxonomies row card component">
+      <div class="card-header">
+        <h2 class="card-title">
+          <a href="/tags">برچسب‌ها</a>
+        </h2>
+      </div>
+      <div class="card-body">
+        <div class="py-2"><a href="/tags/csharp/" class="badge rounded post-taxonomy" title="CSharp">
+            CSharp</a><a href="/tags/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
+            DotNet</a><a href="/tags/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
+            SQLServer</a><a href="/tags/guid/" class="badge rounded post-taxonomy" title="GUID">
+            GUID</a><a href="/tags/ip/" class="badge rounded post-taxonomy" title="IP">
+            IP</a><a href="/tags/oracle/" class="badge rounded post-taxonomy" title="Oracle">
+            Oracle</a><a href="/tags/uuid/" class="badge rounded post-taxonomy" title="UUID">
+            UUID</a><a href="/tags/clr/" class="badge rounded post-taxonomy" title="CLR">
+            CLR</a><a href="/tags/clr-embedded/" class="badge rounded post-taxonomy" title="CLR Embedded">
+            CLR Embedded</a><a href="/tags/clr-integrated/" class="badge rounded post-taxonomy" title="CLR Integrated">
+            CLR Integrated</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
+          ALL
+          <span class="badge badge-sm custom-badge text-white bg-accent me-1">22</span>
+        </a></div>
+      </div>
+    </section>
+    
+  </div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><div class="copyright mb-2">
+تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.
+</div>
+<div class="powered-by mb-2">
+ با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
+</div></footer>
+<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('\/service-worker.min.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+    });
+  });
+}
+</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script><script defer src="/assets/katex/bundle.min.c324e974e8755cbc7c0b3a8afcb459de67eed757a08db94579e54013b67f5762.js" integrity="sha256-wyTpdOh1XLx8CzqK/LRZ3mfu11egjblFeeVAE7Z/V2I=" crossorigin="anonymous"></script>
+
+</body>
+</html>
