@@ -153,42 +153,6 @@
     </item>
     
     <item>
-      <title>Float</title>
-      <link>/tags/float/</link>
-      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
-      
-      <guid>/tags/float/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Floating-point</title>
-      <link>/tags/floating-point/</link>
-      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
-      
-      <guid>/tags/floating-point/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IEEE754</title>
-      <link>/tags/ieee754/</link>
-      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
-      
-      <guid>/tags/ieee754/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scientific Notation</title>
-      <link>/tags/scientific-notation/</link>
-      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
-      
-      <guid>/tags/scientific-notation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>UML</title>
       <link>/tags/uml/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
@@ -198,11 +162,101 @@
     </item>
     
     <item>
+      <title>Object</title>
+      <link>/tags/object/</link>
+      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
+      
+      <guid>/tags/object/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Oriented</title>
+      <link>/tags/object-oriented/</link>
+      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
+      
+      <guid>/tags/object-oriented/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOD</title>
+      <link>/tags/ood/</link>
+      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
+      
+      <guid>/tags/ood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OOP</title>
       <link>/tags/oop/</link>
-      <pubDate>Fri, 12 May 2017 12:22:12 +0330</pubDate>
+      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
       
       <guid>/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLC</title>
+      <link>/tags/slc/</link>
+      <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
+      
+      <guid>/tags/slc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/tags/software/</link>
+      <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
+      
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Life Cycle</title>
+      <link>/tags/software-life-cycle/</link>
+      <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
+      
+      <guid>/tags/software-life-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Float</title>
+      <link>/tags/float/</link>
+      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/float/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floating-point</title>
+      <link>/tags/floating-point/</link>
+      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/floating-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE754</title>
+      <link>/tags/ieee754/</link>
+      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/ieee754/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scientific Notation</title>
+      <link>/tags/scientific-notation/</link>
+      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
+      
+      <guid>/tags/scientific-notation/</guid>
       <description></description>
     </item>
     

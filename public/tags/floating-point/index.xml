@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Thu, 03 Aug 2017 14:22:11 +0330</lastBuildDate><atom:link href="/tags/floating-point/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Feb 2017 14:22:11 +0330</lastBuildDate><atom:link href="/tags/floating-point/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ممیز شناور (floating point) چیست؟</title>
-      <link>/posts/float/</link>
-      <pubDate>Thu, 03 Aug 2017 14:22:11 +0330</pubDate>
+      <link>/posts/float-info/</link>
+      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
       
-      <guid>/posts/float/</guid>
+      <guid>/posts/float-info/</guid>
       <description>&lt;p&gt;اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد.&lt;/p&gt;</description>
     </item>
     
