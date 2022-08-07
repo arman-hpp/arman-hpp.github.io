@@ -1,7 +1,7 @@
 +++
 author = "آرمان حسن پور"
 title = "ممیز شناور (floating point) چیست؟" 
-date = 2017-08-03T14:22:11+03:30
+date = 2017-02-08T14:22:11+03:30
 featured = false
 comment = false
 toc = false
