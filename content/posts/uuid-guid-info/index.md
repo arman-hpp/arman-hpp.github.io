@@ -1,6 +1,6 @@
 +++
 author = "آرمان حسن پور"
-title = "UUID چیست؟" 
+title = "شناسه منحصر به فرد جهانی (UUID) چیست؟" 
 date = 2017-02-05T15:42:57+03:30
 featured = false
 comment = false
