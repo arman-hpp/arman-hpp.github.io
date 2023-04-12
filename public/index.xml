@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 16:21:32 +0330</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle</title>
+      <link>/posts/oracle-java-import/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/posts/oracle-java-import/</guid>
+      <description>&lt;p&gt;هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی مرسوم نیست و حتی در برخی موارد ممکن است سرعت سیستم را کاهش دهد اما اگر جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>سامانه شتاب</title>
       <link>/posts/shetab-info/</link>
@@ -81,6 +90,15 @@
     </item>
     
     <item>
+      <title>مهندسی نرم‌افزار با توابع Get و Set</title>
+      <link>/posts/oop-get-set/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      
+      <guid>/posts/oop-get-set/</guid>
+      <description>&lt;p&gt;اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>زبان مدل‌سازی یکپارچه (UML) چیست؟</title>
       <link>/posts/uml-info/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
@@ -96,15 +114,6 @@
       
       <guid>/posts/oo-info/</guid>
       <description>&lt;p&gt;&lt;strong&gt;شی‌گرایی&lt;/strong&gt; یک راه طبیعی تفکر در مورد جهان پیرامون و نوشتن برنامه‌های کامپیوتری است. در دنیای واقعی به هرجا که بنگرید اشیا را مشاهده می‌کنید: اشخاص، حیوانات، گیاهان، اتوموبیل‌ها، هواپیماها، ساختمان‌ها، کامپیوترها و مواردی از این قبیل. انسان‌ها هر روز اشیا را در اطراف خود مشاهده می‌کنند و در مورد آن‌ها به تفکر می‌پردازند.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>مهندسی نرم‌افزار با توابع Get و Set</title>
-      <link>/posts/oop-get-set/</link>
-      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
-      <guid>/posts/oop-get-set/</guid>
-      <description>&lt;p&gt;اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,6 +150,15 @@
       
       <guid>/posts/ip-info/</guid>
       <description>&lt;p&gt;IP اختصار عبارت Internet Protocol است که مدل فنی ارسال و دریافت بسته‌ها در اینترنت را به همراه آدرس فرستنده و گیرنده در شبکه‌ی اینترنت یا هر شبکه‌ی کامپیوتری مشخص می‌کند. در حال حاضر دو نسخه برای IP وجود دارد که شامل IPv4 و IPv6 است.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>چگونه یک برنامه‌نویس موفق شویم؟</title>
+      <link>/posts/successful-programmer/</link>
+      <pubDate>Fri, 11 Dec 2015 10:21:11 +0330</pubDate>
+      
+      <guid>/posts/successful-programmer/</guid>
+      <description>&lt;p&gt;برنامه‌نویس‌های موفق عادات مشترکی دارند که آن ها را از جهات مختلف در یک گروه قرار می‌دهد. اگر شما هم یک برنامه‌نویس هستید شاید شما هم بسیاری از این عادات را داشته باشید.&lt;/p&gt;</description>
     </item>
     
     <item>

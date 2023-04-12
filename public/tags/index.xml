@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 16:21:32 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LoadJava</title>
+      <link>/tags/loadjava/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/tags/loadjava/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>/tags/oracle/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Shetab</title>
       <link>/tags/shetab/</link>
@@ -144,11 +171,38 @@
     </item>
     
     <item>
-      <title>Oracle</title>
-      <link>/tags/oracle/</link>
-      <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
+      <title>Object</title>
+      <link>/tags/object/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
       
-      <guid>/tags/oracle/</guid>
+      <guid>/tags/object/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Oriented</title>
+      <link>/tags/object-oriented/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      
+      <guid>/tags/object-oriented/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOD</title>
+      <link>/tags/ood/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      
+      <guid>/tags/ood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>/tags/oop/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      
+      <guid>/tags/oop/</guid>
       <description></description>
     </item>
     
@@ -158,42 +212,6 @@
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
       
       <guid>/tags/uml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Object</title>
-      <link>/tags/object/</link>
-      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
-      <guid>/tags/object/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Object Oriented</title>
-      <link>/tags/object-oriented/</link>
-      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
-      <guid>/tags/object-oriented/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OOD</title>
-      <link>/tags/ood/</link>
-      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
-      <guid>/tags/ood/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OOP</title>
-      <link>/tags/oop/</link>
-      <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
-      <guid>/tags/oop/</guid>
       <description></description>
     </item>
     
@@ -257,6 +275,15 @@
       <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
       
       <guid>/tags/scientific-notation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programmer</title>
+      <link>/tags/programmer/</link>
+      <pubDate>Fri, 11 Dec 2015 10:21:11 +0330</pubDate>
+      
+      <guid>/tags/programmer/</guid>
       <description></description>
     </item>
     

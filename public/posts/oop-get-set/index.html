@@ -11,15 +11,15 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="keywords" content="" />
 <meta name="description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="مهندسی نرم‌افزار با توابع Get و Set">
-<meta itemprop="description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید."><meta itemprop="datePublished" content="2017-05-12T19:47:12+03:30" />
-<meta itemprop="dateModified" content="2017-05-12T19:47:12+03:30" />
-<meta itemprop="wordCount" content="832">
+<meta itemprop="description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید."><meta itemprop="datePublished" content="2018-01-12T10:45:11+03:30" />
+<meta itemprop="dateModified" content="2018-01-12T10:45:11+03:30" />
+<meta itemprop="wordCount" content="791">
 <meta itemprop="keywords" content="OOP,OOD,Object Oriented,Object," /><meta property="og:title" content="مهندسی نرم‌افزار با توابع Get و Set" />
 <meta property="og:description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/oop-get-set/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2017-05-12T19:47:12+03:30" />
-<meta property="article:modified_time" content="2017-05-12T19:47:12+03:30" />
+<meta property="article:published_time" content="2018-01-12T10:45:11+03:30" />
+<meta property="article:modified_time" content="2018-01-12T10:45:11+03:30" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="مهندسی نرم‌افزار با توابع Get و Set"/>
@@ -99,8 +99,8 @@
 </h1>
   </div>
   <div class="card-body"><div class="post-meta">
-  <span class="post-date" title="ایجاد شده در 2017-05-12 20:47:12 &#43;0430 &#43;0430.">
-    مهٔ 12, 2017
+  <span class="post-date" title="ایجاد شده در 2018-01-12 10:45:11 &#43;0330 &#43;0330.">
+    ژانویهٔ 12, 2018
   </span><span class="post-taxonomies"><a href="/tags/oop/" class="badge post-taxonomy">OOP</a><a href="/tags/ood/" class="badge post-taxonomy">OOD</a><a href="/tags/object-oriented/" class="badge post-taxonomy">Object Oriented</a><a href="/tags/object/" class="badge post-taxonomy">Object</a></span>
 </div>
 <div class="post-content mb-3"><p>اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید.</p>
@@ -108,7 +108,7 @@
 <br>
 از طریق توابع set و get می‌توان دسترسی استفاده‌کنندگان از داده‌های خصوصی یک شی را کنترل نمود. این ویژگی اهمیت زیادی در مهندسی نرم‌افزار دارد زیرا اعلان اعضای داده‌ای با سطح دسترسی خصوصی منجر به رعایت اصل پنهان‌سازی داده (encapsulation) می‌شود. اگر توابع set و get را به‌صورت عمومی در اختیار سایرین قرار دهیم استفاده‌کنندگان یک کلاس تنها به صورت غیرمستقیم می‌توانند به داده‌های خصوصی کلاس دستیابی داشته باشند. استفاده‌کنندگان از کلاس فقط می‌توانند داده‌های یک شی را تغییر داده یا آن را بازیابی کند و از نحوه‌ی انجام این کار اطلاعی نداشته باشند. در برخی موارد، ممکن است نحوه‌ی استفاده‌ی داخلی یک کلاس از یک عضو داده‌ای و کاری که بر روی آن انجام می‌دهد، با طرز ارائه‌ی آن به استفاده کننده از آن داده و نحوه‌ی نمایش آن، بسیار متفاوت باشد. توابع set و get به استفاده‌کنندگان کلاس امکان تعامل با شی را می‌دهند، اما داده‌های خصوصی به شکل ایمن در خود شی، به‌صورت پنهان (encapsulated) باقی می‌مانند.
 <br>
-به عنوان مثال کلاس Customer که شامل دو عضو داده‌ای به نام name و age داشته و از آن‌ها برای نگهداری نام و سن مشتری هر شی خاصی از کلاس Customer استفاده می‌کند. کلاس مزبور حاوی توابع عضو setName، getName، setAge، getAge و displayMessage می‌باشد.  تابع عضو setName نام مشتری را در یک عضو داده از کلاس Customer ذخیره می‌نماید – تابع عضو getName نام مشتری را در یک عضو داده‌ای از کلاس Customer  بازیابی می‎کند - تابع عضو setAge سن مشتری را در یک عضو داده‌ای از کلاس Customer ذخیره می‌نماید – تابع عضو getAge سن مشتری را در یک عضو داده‌ای از کلاسCustomer  بازیابی می‌کند.</p>
+به عنوان مثال کلاس Customer یک عضو داده‌ای به نام name داشته و از آن‌ها برای نگهداری نام مشتری هر شی خاصی از کلاس Customer استفاده می‌کند. کلاس مزبور حاوی توابع عضو setName و getName می‌باشد.  تابع عضو setName نام مشتری را در یک عضو داده از کلاس Customer ذخیره می‌نماید – تابع عضو getName نام مشتری را در یک عضو داده‌ای از کلاس Customer  بازیابی می‌کند.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Customer</span> <span class="o">{</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">  <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span> 
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">
@@ -122,7 +122,7 @@
 </span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">newName</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">12</span><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="o">}</span>
-</span></span></code></pre></div><p>شاید فکر کنید که حتی اگر اعضای داده‌ای به صورت خصوصی تعریف شوند، استفاده‌کنندگان  همچنان می‌توانند هر زمان که بخواهند به کمک توابع set و get آن‌ها را بخوانند و دستکاری کنند، پس فایده‌ی این مخفی‌کاری چیست؟! جواب این است که توابع set را می‌توان طوری نوشت که داده‌های ورودی به اعضای داده‌ای را کنترل و فیلتر کنند و به هر داده‌ای اجازه‌ی نوشته‌شدن در اعضای داده‌ای را ندهند. همچنین می‌توان به کمک تابع get قالب نمایش داده‌ها را کنترل نمایید. 
+</span></span></code></pre></div><p>شاید فکر کنید که حتی اگر اعضای داده‌ای به صورت خصوصی تعریف شوند، استفاده‌کنندگان  همچنان می‌توانند هر زمان که بخواهند به کمک توابع set و get آن‌ها را بخوانند و دستکاری کنند، پس فایده‌ی این مخفی‌کاری چیست؟! جواب این است که توابع set را می‌توان طوری نوشت که داده‌های ورودی به اعضای داده‌ای را کنترل و فیلتر کنند و به هر داده‌ای اجازه‌ی نوشته‌شدن در اعضای داده‌ای را ندهند. همچنین می‌توان به کمک تابع get قالب نمایش داده‌ها را کنترل نمود. 
 <br>
 برای مثال می‌توانید به کمک تابع set از نوشته شدن مقادیر منفی در عضو داده‌ای &ldquo;نمره&rdquo; جلوگیری نمایید.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Grade</span> <span class="o">{</span>
@@ -194,7 +194,7 @@
 </span></span><span class="line"><span class="ln">26</span><span class="cl">    <span class="k">return</span> <span class="s">&#34;My name is &#34;</span> <span class="o">+</span> <span class="n">getName</span><span class="o">()</span> <span class="o">+</span> <span class="s">&#34;. I am &#34;</span> <span class="o">+</span> <span class="n">getAge</span><span class="o">()</span> <span class="o">+</span> <span class="s">&#34;years old.&#34;</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">27</span><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="ln">28</span><span class="cl"><span class="o">}</span>
-</span></span></code></pre></div><p>کنترل مقادیر ورودی به اعضای داده‌ای و قالب‌بندی نمایش آن‌ها می‌تواند تاثیر به سزایی در کاهش خطاها و خوانایی برنامه داشته باشد و پایداری و امنیت برنامه را بالا ببرد.</p></div></div>
+</span></span></code></pre></div><p>کنترل مقادیر ورودی به اعضای داده‌ای و قالب‌بندی نمایش آن‌ها می‌تواند تاثیر به‌سزایی در کاهش خطاها و خوانایی برنامه داشته باشد و پایداری و امنیت برنامه را بالا ببرد.</p></div></div>
 </article><section class="related-posts row card component">
     <div class="card-header">
       <h2 class="card-title">نوشته‌های مرتبط</h2>
@@ -237,6 +237,9 @@
   </div>
   <div class="card-body">
     <ul class="post-list"><li>
+        <a href="/posts/oracle-java-import/">استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle
+</a>
+      </li><li>
         <a href="/posts/shetab-info/">سامانه شتاب
 </a>
       </li><li>
@@ -247,9 +250,6 @@
 </a>
       </li><li>
         <a href="/posts/uuid-guid-csharp/">کار با UUID در CSharp
-</a>
-      </li><li>
-        <a href="/posts/ip-csharp/">کار با آدرس‌های IP در CSharp
 </a>
       </li></ul>
   </div>
@@ -266,7 +266,8 @@
             DotNet</a><a href="/categories/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
             SQLServer</a><a href="/categories/oop/" class="badge rounded post-taxonomy" title="OOP">
             OOP</a><a href="/categories/oracle/" class="badge rounded post-taxonomy" title="Oracle">
-            Oracle</a><a href="/categories/shetab/" class="badge rounded post-taxonomy" title="Shetab">
+            Oracle</a><a href="/categories/java/" class="badge rounded post-taxonomy" title="Java">
+            Java</a><a href="/categories/shetab/" class="badge rounded post-taxonomy" title="Shetab">
             Shetab</a><a href="/categories/uml/" class="badge rounded post-taxonomy" title="UML">
             UML</a></div>
       </div>
@@ -279,17 +280,17 @@
       <div class="card-body">
         <div class="py-2"><a href="/tags/csharp/" class="badge rounded post-taxonomy" title="CSharp">
             CSharp</a><a href="/tags/dotnet/" class="badge rounded post-taxonomy" title="DotNet">
-            DotNet</a><a href="/tags/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
+            DotNet</a><a href="/tags/oracle/" class="badge rounded post-taxonomy" title="Oracle">
+            Oracle</a><a href="/tags/sqlserver/" class="badge rounded post-taxonomy" title="SQLServer">
             SQLServer</a><a href="/tags/guid/" class="badge rounded post-taxonomy" title="GUID">
             GUID</a><a href="/tags/ip/" class="badge rounded post-taxonomy" title="IP">
             IP</a><a href="/tags/object/" class="badge rounded post-taxonomy" title="Object">
             Object</a><a href="/tags/object-oriented/" class="badge rounded post-taxonomy" title="Object Oriented">
             Object Oriented</a><a href="/tags/ood/" class="badge rounded post-taxonomy" title="OOD">
             OOD</a><a href="/tags/oop/" class="badge rounded post-taxonomy" title="OOP">
-            OOP</a><a href="/tags/oracle/" class="badge rounded post-taxonomy" title="Oracle">
-            Oracle</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
+            OOP</a><a href="/tags" class="badge rounded post-taxonomy" title="ALL">
           ALL
-          <span class="badge badge-sm custom-badge text-white bg-accent me-1">28</span>
+          <span class="badge badge-sm custom-badge text-white bg-accent me-1">31</span>
         </a></div>
       </div>
     </section>

@@ -18,7 +18,13 @@ images = []
 
 به منظور ترجمه یکسان کلمات انگلیسی در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه ترجمه کلمات (یا معادل فارسی مورد استفاده) را قرار دهم.
 <!--more-->
+argument - آرگومان
+</br>
 assembly - اسمبلی
+</br>
+binary - باینری
+</br>
+call specification - مشخصات فراخوانی
 </br>
 checklist - چک لیست
 </br>
@@ -30,11 +36,25 @@ code - کد
 </br>
 comma - کاما
 </br>
+compile - کامپایل
+</br>
+compiler - کامپایلر
+</br>
 database - بانک اطلاعاتی
+</br>
+directory - دایرکتوری
+</br>
+function - تابع
+</br>
+load - بارگذاری
+</br>
+method - متد
 </br>
 namespace - فضای نام
 </br>
 object - شی
 </br>
 query - پرس‌و‌جو
+</br>
+stored procedure - روال‌ ذخیره‌شده
 

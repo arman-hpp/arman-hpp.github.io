@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LoadJava on وبلاگ آرمان حسن پور</title>
+    <link>/tags/loadjava/</link>
+    <description>Recent content in LoadJava on وبلاگ آرمان حسن پور</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/tags/loadjava/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle</title>
+      <link>/posts/oracle-java-import/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/posts/oracle-java-import/</guid>
+      <description>&lt;p&gt;هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی مرسوم نیست و حتی در برخی موارد ممکن است سرعت سیستم را کاهش دهد اما اگر جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
