@@ -13,14 +13,13 @@
 <meta name="description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="مهندسی نرم‌افزار با توابع Get و Set">
 <meta itemprop="description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید."><meta itemprop="datePublished" content="2018-01-12T10:45:11+03:30" />
 <meta itemprop="dateModified" content="2018-01-12T10:45:11+03:30" />
-<meta itemprop="wordCount" content="791">
+<meta itemprop="wordCount" content="853">
 <meta itemprop="keywords" content="OOP,OOD,Object Oriented,Object," /><meta property="og:title" content="مهندسی نرم‌افزار با توابع Get و Set" />
 <meta property="og:description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/oop-get-set/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2018-01-12T10:45:11+03:30" />
 <meta property="article:modified_time" content="2018-01-12T10:45:11+03:30" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="مهندسی نرم‌افزار با توابع Get و Set"/>
 <meta name="twitter:description" content="اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید."/>
@@ -122,7 +121,7 @@
 </span></span><span class="line"><span class="ln">11</span><span class="cl">    <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">newName</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">12</span><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="o">}</span>
-</span></span></code></pre></div><p>شاید فکر کنید که حتی اگر اعضای داده‌ای به صورت خصوصی تعریف شوند، استفاده‌کنندگان  همچنان می‌توانند هر زمان که بخواهند به کمک توابع set و get آن‌ها را بخوانند و دستکاری کنند، پس فایده‌ی این مخفی‌کاری چیست؟! جواب این است که توابع set را می‌توان طوری نوشت که داده‌های ورودی به اعضای داده‌ای را کنترل و فیلتر کنند و به هر داده‌ای اجازه‌ی نوشته‌شدن در اعضای داده‌ای را ندهند. همچنین می‌توان به کمک تابع get قالب نمایش داده‌ها را کنترل نمود. 
+</span></span></code></pre></div><p>شاید فکر کنید که حتی اگر اعضای داده‌ای به صورت خصوصی تعریف شوند، استفاده‌کنندگان  همچنان می‌توانند هر زمان که بخواهند به کمک توابع set و get آن‌ها را بخوانند و دستکاری کنند، پس فایده‌ی این مخفی‌کاری چیست؟! جواب این است که توابع set را می‌توان طوری نوشت که داده‌های ورودی به اعضای داده‌ای را کنترل و فیلتر کنند و به هر داده‌ای اجازه‌ی نوشته‌شدن در اعضای داده‌ای را ندهند. همچنین می‌توان به کمک تابع get قالب نمایش داده‌ها را کنترل نمود.
 <br>
 برای مثال می‌توانید به کمک تابع set از نوشته شدن مقادیر منفی در عضو داده‌ای &ldquo;نمره&rdquo; جلوگیری نمایید.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Grade</span> <span class="o">{</span>
@@ -135,7 +134,7 @@
 </span></span><span class="line"><span class="ln"> 8</span><span class="cl">
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">  <span class="c1">// Setter
 </span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="c1"></span>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setAge</span><span class="o">(</span><span class="kt">int</span> <span class="n">newGrade</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="ln">11</span><span class="cl">	<span class="k">if</span><span class="o">(</span><span class="n">newGrade</span> <span class="o">&gt;</span> <span class="n">0</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">	<span class="k">if</span><span class="o">(</span><span class="n">newGrade</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln">12</span><span class="cl">      <span class="k">this</span><span class="o">.</span><span class="na">theGrade</span> <span class="o">=</span> <span class="n">newGrade</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">13</span><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="o">}</span>
@@ -145,15 +144,15 @@
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">  
 </span></span><span class="line"><span class="ln"> 4</span><span class="cl">  <span class="c1">// Getter
 </span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1"></span>  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getGrade</span><span class="o">()</span> <span class="o">{</span>
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="n">80</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln"> 7</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Excellent&#34;</span><span class="o">;</span>
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="n">60</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="n">80</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="mi">60</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="mi">80</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Good&#34;</span><span class="o">;</span>
-</span></span><span class="line"><span class="ln">10</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="n">50</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="n">60</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="mi">50</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="mi">60</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln">11</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Average&#34;</span><span class="o">;</span>	
-</span></span><span class="line"><span class="ln">12</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="n">40</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="n">50</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&gt;=</span> <span class="mi">40</span> <span class="n">and</span> <span class="n">theGrade</span> <span class="o">&lt;</span> <span class="mi">50</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln">13</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Acceptable&#34;</span><span class="o">;</span>
-</span></span><span class="line"><span class="ln">14</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&lt;</span> <span class="n">40</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">	<span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">theGrade</span> <span class="o">&lt;</span> <span class="mi">40</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln">15</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Fail&#34;</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">16</span><span class="cl">	<span class="k">else</span>	
 </span></span><span class="line"><span class="ln">17</span><span class="cl">		<span class="k">return</span> <span class="s">&#34;Invalid grade&#34;</span><span class="o">;</span>
@@ -161,7 +160,7 @@
 </span></span><span class="line"><span class="ln">19</span><span class="cl">
 </span></span><span class="line"><span class="ln">20</span><span class="cl">  <span class="c1">// Setter
 </span></span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="c1"></span>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setAge</span><span class="o">(</span><span class="kt">int</span> <span class="n">newGrade</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="ln">22</span><span class="cl">	<span class="k">if</span><span class="o">(</span><span class="n">newGrade</span> <span class="o">&gt;</span> <span class="n">0</span><span class="o">)</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl">	<span class="k">if</span><span class="o">(</span><span class="n">newGrade</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span>
 </span></span><span class="line"><span class="ln">23</span><span class="cl">      <span class="k">this</span><span class="o">.</span><span class="na">theGrade</span> <span class="o">=</span> <span class="n">newGrade</span><span class="o">;</span>
 </span></span><span class="line"><span class="ln">24</span><span class="cl">  <span class="o">}</span>
 </span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="o">}</span>
@@ -304,7 +303,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.4088eedf5d34e96d658f49b9b428f505a6d06ed7a58c38d99f38466e7e0082af.js" integrity="sha256-QIju31006W1lj0m5tCj1BabQbteljDjZnzhGbn4Agq8=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" integrity="sha256-vEI1HcSojwOzhDaaH9Sdm4rKU22MoXpCj1VtiykBH6M=" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -315,6 +314,6 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script>
+</script><script src="/assets/viewer/bundle.min.3b666ea867b14116ff28b6923b9ba8b6514f3500e250e4219939276b1311747e.js" integrity="sha256-O2ZuqGexQRb/KLaSO5uotlFPNQDiUOQhmTknaxMRdH4=" crossorigin="anonymous" defer></script>
 </body>
 </html>

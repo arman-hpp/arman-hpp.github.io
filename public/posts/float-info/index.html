@@ -20,7 +20,6 @@
 <meta property="og:url" content="/posts/float-info/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2017-02-08T14:22:11+03:30" />
 <meta property="article:modified_time" content="2017-02-08T14:22:11+03:30" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ممیز شناور (floating point) چیست؟"/>
 <meta name="twitter:description" content="اعداد صحیح برای شمارش مناسب هستند، اما گاهی اوقات ما نیاز داریم که اعداد بسیار بزرگ یا اعدادی با جزء کسری را ذخیره کنیم. اعداد اعشاری یا همان اعداد حقیقی برای ارزش‌گذاری عبارت‌هایی كه نیازمند دقت بیشتری هستند، استفاده می‌شوند. برخلاف اعداد صحیح که به آسانی می‌توان آن‌ها را به مقادیر دودویی (binary) تبدیل کرده و در سیستم‌های کامپیوتری استفاده نمود، برای اعداد اعشاری چالش بزرگی پیش رو است تا علاوه بر تبدیل بهینه‌ی اعداد اعشاری به مقادیر دودویی، دامنه‌ی بزرگی از اعداد را هم شامل شود و همچنین دارای دقت و سرعت پردازش بالایی باشد."/>
@@ -205,8 +204,8 @@ $$
 نما یا توان متعادل‌شده (biased exponent) یک عدد صحیح مثبت است که مقدار ثابتی به عنوان bias به آن اضافه شده است تا محدوده توان غیر منفی شود. این مقدار ثابت در دقت معمولی 127، در دقت مضاعف 1023 و در دقت مضاعف توسعه‌یافته 16383 است. همچنین در دقت ساده از 8 بیت، در دقت مضاعف از 11 بیت و در دقت مضاعف توسعه‌یافته از 15 بیت برای نمایش توان متعادل‌شده استفاده می‌شود.
 <br>
 <br>
-به طور مثال ما قصد داریم عدد 5.0- را در به عنوان یک مقدار ممیز شناور معمولی ذخیره کنیم. 
-<br> 
+به طور مثال ما قصد داریم عدد 5.0- را در به عنوان یک مقدار ممیز شناور معمولی ذخیره کنیم.
+<br>
 عدد اصلی در مبنای 2: 0101-
 <br>
 برای تبدیل این عدد به یک مقدار اعشاری نرمال‌شده همانند نمایش علمی از آخرین رقم در سمت راست شروع نموده و ممیز را 2 رقم به سمت چپ می‌بریم تا به آخرین 1 برسیم. همچنین به ازای هر رقم یک واحد به توان اضافه می‌کنیم:
@@ -364,7 +363,7 @@ $$
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.4088eedf5d34e96d658f49b9b428f505a6d06ed7a58c38d99f38466e7e0082af.js" integrity="sha256-QIju31006W1lj0m5tCj1BabQbteljDjZnzhGbn4Agq8=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" integrity="sha256-vEI1HcSojwOzhDaaH9Sdm4rKU22MoXpCj1VtiykBH6M=" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -375,7 +374,7 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script><script defer src="/assets/katex/bundle.min.c324e974e8755cbc7c0b3a8afcb459de67eed757a08db94579e54013b67f5762.js" integrity="sha256-wyTpdOh1XLx8CzqK/LRZ3mfu11egjblFeeVAE7Z/V2I=" crossorigin="anonymous"></script>
+</script><script src="/assets/viewer/bundle.min.3b666ea867b14116ff28b6923b9ba8b6514f3500e250e4219939276b1311747e.js" integrity="sha256-O2ZuqGexQRb/KLaSO5uotlFPNQDiUOQhmTknaxMRdH4=" crossorigin="anonymous" defer></script><script defer src="/assets/katex/bundle.min.2be655450553cdf894f1b84faa80677e0bfb42ce9664c0ecb0c1932552fca5a1.js" integrity="sha256-K&#43;ZVRQVTzfiU8bhPqoBnfgv7Qs6WZMDssMGTJVL8paE=" crossorigin="anonymous"></script>
 
 </body>
 </html>

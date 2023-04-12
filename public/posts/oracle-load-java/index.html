@@ -13,14 +13,13 @@
 <meta name="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle">
 <meta itemprop="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود."><meta itemprop="datePublished" content="2023-01-15T09:50:51+03:30" />
 <meta itemprop="dateModified" content="2023-01-15T09:50:51+03:30" />
-<meta itemprop="wordCount" content="666">
+<meta itemprop="wordCount" content="694">
 <meta itemprop="keywords" content="Oracle,Java,LoadJava," /><meta property="og:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle" />
 <meta property="og:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/oracle-load-java/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-01-15T09:50:51+03:30" />
 <meta property="article:modified_time" content="2023-01-15T09:50:51+03:30" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle"/>
 <meta name="twitter:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود."/>
@@ -112,7 +111,7 @@
 <li>استفاده از رابط خط فرمان</li>
 <li>استفاده از Stub در سمت کلاینت</li>
 </ul>
-<p>در این مطلب از ساده‌ترین روش یعنی PL/SQL Wrappers برای فراخوانی متدهای Java استفاده می‌نماییم. شما می‌توانید متدهای کامپایل‌شده Java را به همان روشی که توابع و روال‌های ذخیره شده (Stored Procedure) در PL/SQL اجرا می‌شوند، اجرا کنید. در بانک اطلاعاتی Oracle، متدهای Java معمولا از طریق رابط PL/SQL فراخوانی می‌شود. 
+<p>در این مطلب از ساده‌ترین روش یعنی PL/SQL Wrappers برای فراخوانی متدهای Java استفاده می‌نماییم. شما می‌توانید متدهای کامپایل‌شده Java را به همان روشی که توابع و روال‌های ذخیره شده (Stored Procedure) در PL/SQL اجرا می‌شوند، اجرا کنید. در بانک اطلاعاتی Oracle، متدهای Java معمولا از طریق رابط PL/SQL فراخوانی می‌شود.
 برای فراخوانی یک متد کامپایل‌شده Java، باید آن را از طریق &ldquo;مشخصات فراخوانی&rdquo; (Call Specification) منتشر کنید. مثال زیر نحوه‌ی ایجاد، resolve، بارگذاری و انتشار یک متد ساده کامپایل‌شده Java را نشان می‌دهد که یک رشته را باز می‌گرداند:
 <br>
 1-	کلاس Hello را به شکل زیر پیاده‌سازی می‌کنیم و آن را با نام Hello.java ذخیره می‌نماییم. توجه داشته باشید که به منظور فراخوانی متدهای Java نیاز است آن‌ها را به صورت static پیاده‌سازی نمایید.</p>
@@ -261,7 +260,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.4088eedf5d34e96d658f49b9b428f505a6d06ed7a58c38d99f38466e7e0082af.js" integrity="sha256-QIju31006W1lj0m5tCj1BabQbteljDjZnzhGbn4Agq8=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" integrity="sha256-vEI1HcSojwOzhDaaH9Sdm4rKU22MoXpCj1VtiykBH6M=" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -272,6 +271,6 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script>
+</script><script src="/assets/viewer/bundle.min.3b666ea867b14116ff28b6923b9ba8b6514f3500e250e4219939276b1311747e.js" integrity="sha256-O2ZuqGexQRb/KLaSO5uotlFPNQDiUOQhmTknaxMRdH4=" crossorigin="anonymous" defer></script>
 </body>
 </html>

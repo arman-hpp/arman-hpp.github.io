@@ -13,14 +13,13 @@
 <meta name="description" content="برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="کار با آدرس‌های IP در CSharp">
 <meta itemprop="description" content="برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود."><meta itemprop="datePublished" content="2020-01-04T15:28:10+03:30" />
 <meta itemprop="dateModified" content="2020-01-04T15:28:10+03:30" />
-<meta itemprop="wordCount" content="192">
+<meta itemprop="wordCount" content="220">
 <meta itemprop="keywords" content="IP,IPHelper,CSharp,DotNet," /><meta property="og:title" content="کار با آدرس‌های IP در CSharp" />
 <meta property="og:description" content="برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/ip-csharp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-01-04T15:28:10+03:30" />
 <meta property="article:modified_time" content="2020-01-04T15:28:10+03:30" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="کار با آدرس‌های IP در CSharp"/>
 <meta name="twitter:description" content="برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود."/>
@@ -107,7 +106,7 @@
 <p>به منظور اعتبارسنجی آدرس‌های IP می‌توان از کد زیر استفاده نمود:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsValidIp</span><span class="p">(</span><span class="kt">string</span> <span class="n">address</span><span class="p">)</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">IPAddress</span><span class="p">.</span><span class="n">TryParse</span><span class="p">(</span><span class="n">address</span><span class="p">,</span> <span class="k">out</span> <span class="m">_</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">IPAddress</span><span class="p">.</span><span class="n">TryParse</span><span class="p">(</span><span class="n">address</span><span class="p">,</span> <span class="k">out</span> <span class="n">_</span><span class="p">);</span>
 </span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>به منظور تشخیص نسخه‌ی آدرس‌های IP می‌توان از کد زیر استفاده نمود:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">IpVersion</span> <span class="n">GetIpVersion</span><span class="p">(</span><span class="kt">string</span> <span class="n">address</span><span class="p">)</span>
@@ -267,7 +266,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.76774e7d7ffb65132c25af59957e4ef0f631280798e2dc08c539f8130a5bb554.js" integrity="sha256-dndOfX/7ZRMsJa9ZlX5O8PYxKAeY4twIxTn4EwpbtVQ=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.33d47ac38f46933e4315bbf80007a5dc90f1b9979787b8effaeeb9720232b630.js" integrity="sha256-M9R6w49Gkz5DFbv4AAel3JDxuZeXh7jv&#43;u65cgIytjA=" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.4088eedf5d34e96d658f49b9b428f505a6d06ed7a58c38d99f38466e7e0082af.js" integrity="sha256-QIju31006W1lj0m5tCj1BabQbteljDjZnzhGbn4Agq8=" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" integrity="sha256-vEI1HcSojwOzhDaaH9Sdm4rKU22MoXpCj1VtiykBH6M=" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -278,6 +277,6 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-</script><script src="/assets/viewer/bundle.min.3ce688736c8224a9cd6b3104011fc2a816428f07c0fa226359736f33f0c593de.js" integrity="sha256-POaIc2yCJKnNazEEAR/CqBZCjwfA&#43;iJjWXNvM/DFk94=" crossorigin="anonymous" defer></script>
+</script><script src="/assets/viewer/bundle.min.3b666ea867b14116ff28b6923b9ba8b6514f3500e250e4219939276b1311747e.js" integrity="sha256-O2ZuqGexQRb/KLaSO5uotlFPNQDiUOQhmTknaxMRdH4=" crossorigin="anonymous" defer></script>
 </body>
 </html>
