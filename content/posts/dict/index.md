@@ -57,4 +57,6 @@ object - شی
 query - پرس‌و‌جو
 </br>
 stored procedure - روال‌ ذخیره‌شده
+</br>
+trustworthy
 
