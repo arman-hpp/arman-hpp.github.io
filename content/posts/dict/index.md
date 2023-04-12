@@ -44,6 +44,8 @@ database - بانک اطلاعاتی
 </br>
 directory - دایرکتوری
 </br>
+file - فایل
+</br>
 function - تابع
 </br>
 load - بارگذاری
@@ -56,7 +58,9 @@ object - شی
 </br>
 query - پرس‌و‌جو
 </br>
+schema - اسکیما
+</br>
 stored procedure - روال‌ ذخیره‌شده
 </br>
-trustworthy
+trustworthy - اعتماد
 
