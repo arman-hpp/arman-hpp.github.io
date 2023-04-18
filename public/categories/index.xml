@@ -5,7 +5,7 @@
     <link>/categories/</link>
     <description>Recent content in دسته‌بندی‌ها on وبلاگ آرمان حسن پور</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -63,20 +63,29 @@
     </item>
     
     <item>
-      <title>OOP</title>
-      <link>/categories/oop/</link>
-      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      <title>Design Patterns</title>
+      <link>/categories/design-patterns/</link>
+      <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
       
-      <guid>/categories/oop/</guid>
+      <guid>/categories/design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General</title>
       <link>/categories/general/</link>
-      <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
+      <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
       
       <guid>/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OOP</title>
+      <link>/categories/oop/</link>
+      <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
+      
+      <guid>/categories/oop/</guid>
       <description></description>
     </item>
     

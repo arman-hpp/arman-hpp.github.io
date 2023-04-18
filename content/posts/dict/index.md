@@ -34,6 +34,8 @@ clause - عبارت
 </br>
 code - کد
 </br>
+collision - برخورد، تصادم
+</br>
 comma - کاما
 </br>
 compile - کامپایل
@@ -41,6 +43,8 @@ compile - کامپایل
 compiler - کامپایلر
 </br>
 database - بانک اطلاعاتی
+</br>
+design pattern - الگو طراحی
 </br>
 directory - دایرکتوری
 </br>
@@ -58,7 +62,11 @@ object - شی
 </br>
 query - پرس‌و‌جو
 </br>
+reusable - قابل استفاده مجدد
+</br>
 schema - اسکیما
+</br>
+scope - حوزه
 </br>
 stored procedure - روال‌ ذخیره‌شده
 </br>

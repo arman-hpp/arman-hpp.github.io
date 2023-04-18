@@ -5,7 +5,7 @@
     <link>/tags/</link>
     <description>Recent content in برچسب‌ها on وبلاگ آرمان حسن پور</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -149,6 +149,24 @@
       <pubDate>Sat, 04 Jan 2020 15:28:10 +0330</pubDate>
       
       <guid>/tags/iphelper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design patterns</title>
+      <link>/tags/design-patterns/</link>
+      <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
+      
+      <guid>/tags/design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gof</title>
+      <link>/tags/gof/</link>
+      <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
+      
+      <guid>/tags/gof/</guid>
       <description></description>
     </item>
     

@@ -101,6 +101,21 @@
     <loc>/posts/sql-server-show-all-tables/</loc>
     <lastmod>2019-08-01T15:12:29+03:30</lastmod>
   </url><url>
+    <loc>/tags/design-patterns/</loc>
+    <lastmod>2019-05-29T14:10:10+03:30</lastmod>
+  </url><url>
+    <loc>/categories/design-patterns/</loc>
+    <lastmod>2019-05-29T14:10:10+03:30</lastmod>
+  </url><url>
+    <loc>/categories/general/</loc>
+    <lastmod>2019-05-29T14:10:10+03:30</lastmod>
+  </url><url>
+    <loc>/tags/gof/</loc>
+    <lastmod>2019-05-29T14:10:10+03:30</lastmod>
+  </url><url>
+    <loc>/posts/design-patterns/</loc>
+    <lastmod>2019-05-29T14:10:10+03:30</lastmod>
+  </url><url>
     <loc>/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -130,9 +145,6 @@
   </url><url>
     <loc>/posts/oop-get-set/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
-  </url><url>
-    <loc>/categories/general/</loc>
-    <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
     <loc>/tags/uml/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
