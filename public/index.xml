@@ -27,6 +27,15 @@
     </item>
     
     <item>
+      <title>صورت حساب در SQL</title>
+      <link>/posts/sql-turnover/</link>
+      <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
+      
+      <guid>/posts/sql-turnover/</guid>
+      <description>&lt;p&gt;برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>جستجو در همه جدول‌ها در SQL Server</title>
       <link>/posts/sql-server-search-in-tables/</link>
       <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
