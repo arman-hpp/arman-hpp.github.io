@@ -8,10 +8,10 @@ toc = false
 reward = false
 pinned = false
 categories = [
-	"SQLServer"
+	"SQLServer","SQL"
 ]
 tags = [
-    "SQLServer"
+    "SQLServer","SQL"
 ]
 series = []
 images = []

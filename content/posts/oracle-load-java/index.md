@@ -8,10 +8,10 @@ toc = false
 reward = false
 pinned = false
 categories = [
-	"Oracle","Java"
+	"Oracle","Java","SQL"
 ]
 tags = [
-    "Oracle","Java","LoadJava"
+    "Oracle","Java","LoadJava","SQL"
 ]
 series = []
 images = []

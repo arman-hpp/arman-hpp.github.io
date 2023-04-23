@@ -8,10 +8,10 @@ toc = false
 reward = false
 pinned = false
 categories = [
-	"DotNet", "CSharp", "SQLServer"
+	"DotNet","CSharp","SQLServer","SQL"
 ]
 tags = [
-    "SQLServer", "CLR", "CSharp", "DotNet", "SQL CLR", "CLR Integrated", "CLR Embedded"
+    "SQLServer","SQL","CLR","CSharp","DotNet","SQL CLR","CLR Integrated","CLR Embedded"
 ]
 series = []
 images = []

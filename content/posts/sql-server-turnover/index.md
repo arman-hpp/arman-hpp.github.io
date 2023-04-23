@@ -8,10 +8,10 @@ toc = false
 reward = false
 pinned = false
 categories = [
-	"Shetab"
+	"SQLServer","SQL"
 ]
 tags = [
-    "شتاب", "Shetab"
+    "SQLServer","SQL","Turn Over","Balance Sheet"
 ]
 series = []
 images = []
@@ -21,13 +21,13 @@ images = []
 <!--more-->
 
 به عنوان یک مثال جدولی از تراکنش‌ها ایجاد می‌کنیم:
-``` SQL
+``` sql
 CREATE TABLE dbo.Transactions
 ([Row] integer, [Type] integer, [Amount] DECIMAL(18,0))
 ```
 
 سپس آن را با مقادیر زیر مقداردهی می‌کنیم:
-``` SQL
+``` sql
 INSERT INTO dbo.Transactions ([Row], [Type], [Amount])
 VALUES (1, 1, 1000)
 
@@ -43,7 +43,7 @@ VALUES (3, 1, 3000)
 
 سه متغیر به نام‌های SumCredit، SumDebit و Balance را به عنوان جمع بستانکار از قبل، جمع بدهکار از قبل و مانده از قبل تعریف می‌کنیم. در صورتی که همه تراکنش‌ها در یک جدول است و جدول دیگری برای تراکنش‌های قبلی نداریم مقدار این سه متغییر را می‌توان برابر صفر قرار داد یا آن‌ها را با صفر جایگزین نمود.
 
-``` SQL
+``` sql
 DECLARE @SumCredit DECIMAL(18,0);
 SET @SumCredit = 8000;
 
@@ -52,7 +52,9 @@ SET @SumDebit = 2000;
 
 DECLARE @Balance DECIMAL(18,0);
 SET @Balance = 5000;
+```
 
+``` sql
 SELECT
 	[Row] AS Row,
 	[Type] AS Type,
