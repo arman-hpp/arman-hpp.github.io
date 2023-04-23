@@ -23,3 +23,4 @@ images = []
 <br>
 * [Head First Java, A Brain-Friendly Guide, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee - O'Reilly Media](https://t.me/arsin_ir_ebooks/4)
 <br>
+* [Design Patterns: Elements of Reusable Object-Oriented Software, by Erich Gamma, John Vlissides, Ralph Johnson, Richard Helm](https://t.me/arsin_ir_ebooks/7)
