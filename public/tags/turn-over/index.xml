@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 16:21:32 +0330</lastBuildDate><atom:link href="/tags/turn-over/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jul 2020 10:51:10 +0330</lastBuildDate><atom:link href="/tags/turn-over/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>صورت حساب در SQL</title>
       <link>/posts/sql-server-turnover/</link>
-      <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
+      <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
       
       <guid>/posts/sql-server-turnover/</guid>
       <description>&lt;p&gt;برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم.&lt;/p&gt;</description>

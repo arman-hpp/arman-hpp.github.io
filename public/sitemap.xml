@@ -39,7 +39,19 @@
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
     <loc>/tags/balance-sheet/</loc>
-    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
+    <lastmod>2020-07-02T10:51:10+03:30</lastmod>
+  </url><url>
+    <loc>/tags/sqlserver/</loc>
+    <lastmod>2020-07-02T10:51:10+03:30</lastmod>
+  </url><url>
+    <loc>/categories/sqlserver/</loc>
+    <lastmod>2020-07-02T10:51:10+03:30</lastmod>
+  </url><url>
+    <loc>/tags/turn-over/</loc>
+    <lastmod>2020-07-02T10:51:10+03:30</lastmod>
+  </url><url>
+    <loc>/posts/sql-server-turnover/</loc>
+    <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
     <loc>/tags/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
@@ -47,22 +59,10 @@
     <loc>/categories/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/tags/sqlserver/</loc>
-    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
-  </url><url>
-    <loc>/categories/sqlserver/</loc>
-    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
-  </url><url>
-    <loc>/tags/turn-over/</loc>
-    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
-  </url><url>
     <loc>/posts/shetab-info/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
-    <lastmod>2020-06-03T16:21:32+03:30</lastmod>
-  </url><url>
-    <loc>/posts/sql-server-turnover/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/posts/sql-server-search-in-tables/</loc>

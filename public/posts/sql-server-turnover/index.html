@@ -11,15 +11,15 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="keywords" content="" />
 <meta name="description" content="برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="صورت حساب در SQL">
-<meta itemprop="description" content="برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم."><meta itemprop="datePublished" content="2020-06-03T16:21:32+03:30" />
-<meta itemprop="dateModified" content="2020-06-03T16:21:32+03:30" />
-<meta itemprop="wordCount" content="238">
+<meta itemprop="description" content="برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم."><meta itemprop="datePublished" content="2020-07-02T10:51:10+03:30" />
+<meta itemprop="dateModified" content="2020-07-02T10:51:10+03:30" />
+<meta itemprop="wordCount" content="253">
 <meta itemprop="keywords" content="SQLServer,SQL,Turn Over,Balance Sheet," /><meta property="og:title" content="صورت حساب در SQL" />
 <meta property="og:description" content="برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/sql-server-turnover/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-06-03T16:21:32+03:30" />
-<meta property="article:modified_time" content="2020-06-03T16:21:32+03:30" />
+<meta property="article:published_time" content="2020-07-02T10:51:10+03:30" />
+<meta property="article:modified_time" content="2020-07-02T10:51:10+03:30" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="صورت حساب در SQL"/>
 <meta name="twitter:description" content="برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم."/>
@@ -98,12 +98,12 @@
 </h1>
   </div>
   <div class="card-body"><div class="post-meta">
-  <span class="post-date" title="ایجاد شده در 2020-06-03 17:21:32 &#43;0430 &#43;0330.">
-    ژوئن 3, 2020
+  <span class="post-date" title="ایجاد شده در 2020-07-02 11:51:10 &#43;0430 &#43;0330.">
+    ژوئیهٔ 2, 2020
   </span><span class="post-taxonomies"><a href="/tags/sqlserver/" class="badge post-taxonomy">SQLServer</a><a href="/tags/sql/" class="badge post-taxonomy">SQL</a><a href="/tags/turn-over/" class="badge post-taxonomy">Turn Over</a><a href="/tags/balance-sheet/" class="badge post-taxonomy">Balance Sheet</a></span>
 </div>
 <div class="post-content mb-3"><p>برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم.</p>
-<p>به عنوان یک مثال جدولی از تراکنش‌ها ایجاد می‌کنیم:</p>
+<p>به عنوان یک مثال جدولی برای نگهداری تراکنش‌ها ایجاد می‌نماییم:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">dbo</span><span class="p">.</span><span class="n">Transactions</span><span class="w">
 </span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w"></span><span class="p">([</span><span class="k">Row</span><span class="p">]</span><span class="w"> </span><span class="nb">integer</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="k">Type</span><span class="p">]</span><span class="w"> </span><span class="nb">integer</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="n">Amount</span><span class="p">]</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span><span class="w">
 </span></span></span></code></pre></div><p>سپس آن را با مقادیر زیر مقداردهی می‌کنیم:</p>
@@ -127,7 +127,8 @@
 </span></span></span><span class="line"><span class="ln">6</span><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="ln">7</span><span class="cl"><span class="w"></span><span class="k">DECLARE</span><span class="w"> </span><span class="o">@</span><span class="n">Balance</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="ln">8</span><span class="cl"><span class="w"></span><span class="k">SET</span><span class="w"> </span><span class="o">@</span><span class="n">Balance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5000</span><span class="p">;</span><span class="w">
-</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">SELECT</span><span class="w">
+</span></span></span></code></pre></div><p>در آخر هم به منظور نمایش صورت حساب به روش زیر عمل می کنیم:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">SELECT</span><span class="w">
 </span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w">	</span><span class="p">[</span><span class="k">Row</span><span class="p">]</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">Row</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">	</span><span class="p">[</span><span class="k">Type</span><span class="p">]</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">Type</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w">	</span><span class="p">[</span><span class="n">Amount</span><span class="p">]</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">Amount</span><span class="p">,</span><span class="w">
