@@ -27,6 +27,15 @@
     </item>
     
     <item>
+      <title>SQL</title>
+      <link>/categories/sql/</link>
+      <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
+      
+      <guid>/categories/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shetab</title>
       <link>/categories/shetab/</link>
       <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
@@ -38,7 +47,7 @@
     <item>
       <title>SQLServer</title>
       <link>/categories/sqlserver/</link>
-      <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
+      <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
       
       <guid>/categories/sqlserver/</guid>
       <description></description>
