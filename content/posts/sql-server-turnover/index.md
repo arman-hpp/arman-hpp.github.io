@@ -22,23 +22,23 @@ images = []
 
 به عنوان یک مثال جدولی برای نگهداری تراکنش‌ها ایجاد می‌نماییم:
 ``` sql
-CREATE TABLE dbo.Transactions
+CREATE TABLE [Transactions]
 ([Row] integer, [Type] integer, [Amount] DECIMAL(18,0))
 ```
 
 سپس آن را با مقادیر زیر مقداردهی می‌کنیم:
 ``` sql
-INSERT INTO dbo.Transactions ([Row], [Type], [Amount])
+INSERT INTO [Transactions] ([Row], [Type], [Amount])
 VALUES (1, 1, 1000)
 
-INSERT INTO dbo.Transactions ([Row], [Type], [Amount])
+INSERT INTO [Transactions] ([Row], [Type], [Amount])
 VALUES (2, 1, 2000)
 
-INSERT INTO dbo.Transactions ([Row], [Type], [Amount])
+INSERT INTO [Transactions] ([Row], [Type], [Amount])
 VALUES (3, -1, 1000)
 
-INSERT INTO dbo.Transactions ([Row], [Type], [Amount])
-VALUES (3, 1, 3000)
+INSERT INTO [Transactions] ([Row], [Type], [Amount])
+VALUES (4, 1, 3000)
 ```
 
 سه متغیر به نام‌های SumCredit، SumDebit و Balance را به عنوان جمع بستانکار از قبل، جمع بدهکار از قبل و مانده از قبل تعریف می‌کنیم. در صورتی که همه تراکنش‌ها در یک جدول است و جدول دیگری برای تراکنش‌های قبلی نداریم مقدار این سه متغیر را می‌توان برابر صفر قرار داد یا آن‌ها را با صفر جایگزین نمود.
@@ -64,5 +64,5 @@ SELECT
 	((SUM(([Type]*[Amount])*(-1)) OVER (ORDER BY [Row])) + @Balance) AS Balance,
 	((SUM(CASE WHEN [Type] = -1 THEN [Amount] ELSE 0 END) OVER (ORDER BY [Row])) + @SumCredit) AS Credit,
 	((SUM(CASE WHEN [Type] = 1 THEN [Amount] ELSE 0 END) OVER (ORDER BY [Row])) + @SumDebit) AS Debit
-FROM dbo.Transactions
+FROM [Transactions]
 ```
