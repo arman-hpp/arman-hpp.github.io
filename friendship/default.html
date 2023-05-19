@@ -41,12 +41,12 @@ var now = new Date().getTime();
 
 var fCountDownDate = new Date("Jun 23, 2013 00:00:01").getTime();
 var fDistance = now - fCountDownDate;
-var fDays = Math.floor(fDistance / (1000 * 60 * 60 * 24));
+var fDays = Math.ceil(fDistance / (1000 * 60 * 60 * 24));
 document.getElementById("freindshipCounter").innerHTML = fDays + "";  
 
 var lCountDownDate = new Date("May 8, 2023 00:00:01").getTime();
 var lDistance = now - lCountDownDate;
-var lDays = Math.floor(lDistance / (1000 * 60 * 60 * 24));
+var lDays = Math.ceil(lDistance / (1000 * 60 * 60 * 24));
 document.getElementById("loveCounter").innerHTML = lDays + "";  
 
 
