@@ -162,7 +162,7 @@ viewer = true # Image Viewer
   # fileField = "image" # The name of file field.
 
 [repo]
-  url = "https://github.com/arman-arian/arman-arian.github.io"
+  url = "https://github.com/arman-hpp/arman-arian.github.io"
   # branch = "main"
   # subPath = "exampleSite"
   # dateFormat = "02/01/2006, 15:04:05 PM"
