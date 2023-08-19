@@ -26,6 +26,8 @@ binary - باینری
 </br>
 call specification - مشخصات فراخوانی
 </br>
+charset - مجموعه حروف
+</br>
 checklist - چک لیست
 </br>
 class - کلاس
@@ -38,13 +40,15 @@ collision - برخورد، تصادم
 </br>
 comma - کاما
 </br>
+compatibility - تطبیق‌پذیری
+</br>
 compile - کامپایل
 </br>
 compiler - کامپایلر
 </br>
 database - بانک اطلاعاتی
 </br>
-design pattern - الگو طراحی
+design pattern - الگوی طراحی
 </br>
 directory - دایرکتوری
 </br>
