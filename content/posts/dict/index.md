@@ -26,6 +26,8 @@ binary - باینری
 </br>
 call specification - مشخصات فراخوانی
 </br>
+character - نویسه، کاراکتر، حرف
+</br>
 charset - مجموعه حروف
 </br>
 checklist - چک لیست
@@ -55,6 +57,8 @@ directory - دایرکتوری
 file - فایل
 </br>
 function - تابع
+</br>
+glyph - شکل
 </br>
 load - بارگذاری
 </br>

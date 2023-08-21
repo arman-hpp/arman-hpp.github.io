@@ -36,6 +36,15 @@
     </item>
     
     <item>
+      <title>General</title>
+      <link>/categories/general/</link>
+      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
+      
+      <guid>/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SQLServer</title>
       <link>/categories/sqlserver/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
@@ -77,15 +86,6 @@
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
       
       <guid>/categories/design-patterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>/categories/general/</link>
-      <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      
-      <guid>/categories/general/</guid>
       <description></description>
     </item>
     
