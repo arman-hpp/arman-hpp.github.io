@@ -23,7 +23,9 @@
 
 .post-summary {
   color: var(--#{$variable-prefix}secondary-text-on-surface);
-  line-height: 2.1;
+  line-height: 2.2;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .related-posts {
