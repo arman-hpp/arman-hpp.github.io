@@ -144,6 +144,15 @@
     </item>
     
     <item>
+      <title>پشته‌ی فراخوانی توابع (Function Call Stack) چیست؟</title>
+      <link>/posts/function-call-stack-info/</link>
+      <pubDate>Fri, 11 Aug 2017 14:20:52 +0330</pubDate>
+      
+      <guid>/posts/function-call-stack-info/</guid>
+      <description>&lt;p&gt;یکی از مهم‌ترین ساز و کارهایی که باید از سوی دانشجویان علوم کامپیوتر درک گردد پشته‌ی فراخوانی تابع است (گاهی اوقات تحت عنوان پشته‌ی اجرای برنامه نیز شناخته می‌شود). این ساختمان داده – که در پشت صحنه کار خود را انجام می‌دهد – ساز و کار فراخوانی و بازگشت توابع و همچنین ایجاد، نگهداری و انهدام متغیرهای خودکار توابع فراخوانی‌شده را نیز پشتیبانی می‌کند.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>زبان مدل‌سازی یکپارچه (UML) چیست؟</title>
       <link>/posts/uml-info/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
