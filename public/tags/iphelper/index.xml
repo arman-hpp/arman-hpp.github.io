@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sat, 04 Jan 2020 15:28:10 +0330</lastBuildDate><atom:link href="/tags/iphelper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2020 15:28:10 +0330</lastBuildDate>
+    <atom:link href="/tags/iphelper/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>کار با آدرس‌های IP در CSharp</title>
       <link>/posts/ip-csharp/</link>
       <pubDate>Sat, 04 Jan 2020 15:28:10 +0330</pubDate>
-      
       <guid>/posts/ip-csharp/</guid>
       <description>&lt;p&gt;برای کار با آدرس‌های IPv4 و IPv6 در CSharp از کتابخانه System.Net و کلاس IPAddress استفاده می‌شود.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

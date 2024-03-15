@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/categories/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
+    <atom:link href="/categories/oracle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle</title>
       <link>/posts/oracle-load-java/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      
       <guid>/posts/oracle-load-java/</guid>
       <description>&lt;p&gt;هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>نمایش نتایج پرس‌و‌جوها به صورت یک مقدار جداشده با کاما در Oracle</title>
       <link>/posts/oracle-lisagg/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
-      
       <guid>/posts/oracle-lisagg/</guid>
       <description>&lt;p&gt;در برخی از سناریوها نیاز به نمایش خروجی چند مقدار به صورت یک مقدار با یک جداکننده مانند کاما داریم. در Oracle می‌توان از تابع LISTAGG برای تبدیل نتایج پرس‌و‌جو به صورت یک مقدار جداشده با کاما استفاده نمود.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

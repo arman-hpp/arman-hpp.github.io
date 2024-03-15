@@ -7,105 +7,84 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
       <link>/categories/java/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      
       <guid>/categories/java/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Oracle</title>
       <link>/categories/oracle/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      
       <guid>/categories/oracle/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SQL</title>
       <link>/categories/sql/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      
       <guid>/categories/sql/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>General</title>
       <link>/categories/general/</link>
       <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
-      
       <guid>/categories/general/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SQLServer</title>
       <link>/categories/sqlserver/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      
       <guid>/categories/sqlserver/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Shetab</title>
       <link>/categories/shetab/</link>
       <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
-      
       <guid>/categories/shetab/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CSharp</title>
       <link>/categories/csharp/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      
       <guid>/categories/csharp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DotNet</title>
       <link>/categories/dotnet/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      
       <guid>/categories/dotnet/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Design Patterns</title>
       <link>/categories/design-patterns/</link>
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      
       <guid>/categories/design-patterns/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OOP</title>
       <link>/categories/oop/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      
       <guid>/categories/oop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>UML</title>
       <link>/categories/uml/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
-      
       <guid>/categories/uml/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

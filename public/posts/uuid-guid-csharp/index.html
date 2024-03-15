@@ -20,8 +20,8 @@
 <meta property="og:url" content="/posts/uuid-guid-csharp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-02-06T11:20:50+03:30" />
 <meta property="article:modified_time" content="2020-02-06T11:20:50+03:30" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="کار با UUID در CSharp"/>
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="کار با UUID در CSharp"/>
 <meta name="twitter:description" content="برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود."/>
 <meta property="og:image" content="/false"/>
   <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.1c12b0a07298593a05c8e11601121ccb4a60880f06ecf4320021add9defc2cfb.css" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" crossorigin="anonymous">
@@ -104,12 +104,12 @@
 </div>
 <div class="post-content mb-3"><p>برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود.</p>
 <p>برای ایجاد که یک Guid در زبان برنامه‌نویسی CSharp می توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Guid</span> <span class="n">NewGuid</span><span class="p">()</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="n">Guid</span> <span class="n">NewGuid</span><span class="p">()</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">Guid</span><span class="p">.</span><span class="n">NewGuid</span><span class="p">();</span>
 </span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>guid ایجاد شده در این روش از نوع و نسخه چهارم UUID است و به صورت تصادفی تولید می‌شود. برای تولید guid به صورت ترتیبی می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Guid</span> <span class="n">NewSequentialGuid</span><span class="p">()</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="n">Guid</span> <span class="n">NewSequentialGuid</span><span class="p">()</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="kt">var</span> <span class="n">uid</span> <span class="p">=</span> <span class="n">Guid</span><span class="p">.</span><span class="n">NewGuid</span><span class="p">().</span><span class="n">ToByteArray</span><span class="p">();</span>
 </span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="kt">var</span> <span class="n">binDate</span> <span class="p">=</span> <span class="n">BitConverter</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">UtcNow</span><span class="p">.</span><span class="n">Ticks</span><span class="p">);</span>
@@ -146,12 +146,12 @@
 </span></span><span class="line"><span class="ln">35</span><span class="cl">    <span class="k">return</span> <span class="k">new</span> <span class="n">Guid</span><span class="p">(</span><span class="n">secuentialGuid</span><span class="p">);</span>
 </span></span><span class="line"><span class="ln">36</span><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>برای بررسی رشته‌ای که حاوی guid است به ساختار guid می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsGuid</span><span class="p">(</span><span class="kt">string</span> <span class="n">guidString</span><span class="p">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">bool</span> <span class="n">IsGuid</span><span class="p">(</span><span class="kt">string</span> <span class="n">guidString</span><span class="p">)</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">Guid</span><span class="p">.</span><span class="n">TryParse</span><span class="p">(</span><span class="n">guidString</span><span class="p">,</span> <span class="k">out</span> <span class="n">_</span><span class="p">);</span>
 </span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>برای بررسی اینکه آیا مقدار guid مورد نظرتان یک guid خالی است یا خیر می‌توان از کد زیر استفاده نمود:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsEmptyGuid</span><span class="p">(</span><span class="n">Guid</span> <span class="n">guid</span><span class="p">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">bool</span> <span class="n">IsEmptyGuid</span><span class="p">(</span><span class="n">Guid</span> <span class="n">guid</span><span class="p">)</span>
 </span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="k">return</span> <span class="n">guid</span> <span class="p">==</span> <span class="n">Guid</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
 </span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
@@ -279,7 +279,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.ecbac53f893c20457a6df351595d9c86e968f0031b5b44daf085c7a622e905a7.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.2dbb555b4f16c1db4d0b4f4d45f58077b7753c74ae45faeae62a686bc50f65b5.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

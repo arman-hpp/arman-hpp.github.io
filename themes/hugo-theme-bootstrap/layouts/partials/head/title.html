@@ -12,17 +12,7 @@
     {{- end -}}
   {{- end -}}
   {{- end -}}
-  {{- $paginator = .Paginate (union $pinnedPosts $allPosts) -}}
-{{- else if eq .Kind "taxonomy" -}}
-  {{- $paginator = .Paginate .Pages.ByTitle .Site.Params.taxonomyPaginate -}}
-{{- else -}}
-  {{- $paginator = .Paginate .RegularPagesRecursive -}}
 {{- end -}}
-{{- if $paginator -}}
-  {{- if gt $paginator.PageNumber 1 -}}
-    {{- $title = printf "%s %s" $title (i18n "pagination_title" $paginator) -}}
-  {{- end -}}
-{{- end  -}}
 {{- $titles := slice $title -}}
 {{- if eq .Kind "term" -}}
   {{- $titles = $titles | append (i18n .Data.Plural)  -}}

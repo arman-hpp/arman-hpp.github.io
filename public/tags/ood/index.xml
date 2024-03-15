@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Fri, 12 Jan 2018 10:45:11 +0330</lastBuildDate><atom:link href="/tags/ood/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2018 10:45:11 +0330</lastBuildDate>
+    <atom:link href="/tags/ood/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>مهندسی نرم‌افزار با توابع Get و Set</title>
       <link>/posts/oop-get-set/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      
       <guid>/posts/oop-get-set/</guid>
       <description>&lt;p&gt;اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>شی‌گرایی (Object Oriented) چیست؟</title>
       <link>/posts/oo-info/</link>
       <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      
       <guid>/posts/oo-info/</guid>
       <description>&lt;p&gt;&lt;strong&gt;شی‌گرایی&lt;/strong&gt; یک راه طبیعی تفکر در مورد جهان پیرامون و نوشتن برنامه‌های کامپیوتری است. در دنیای واقعی به هرجا که بنگرید اشیا را مشاهده می‌کنید: اشخاص، حیوانات، گیاهان، اتوموبیل‌ها، هواپیماها، ساختمان‌ها، کامپیوترها و مواردی از این قبیل. انسان‌ها هر روز اشیا را در اطراف خود مشاهده می‌کنند و در مورد آن‌ها به تفکر می‌پردازند.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

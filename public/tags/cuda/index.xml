@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Thu, 02 Mar 2017 15:42:01 +0330</lastBuildDate><atom:link href="/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 15:42:01 +0330</lastBuildDate>
+    <atom:link href="/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CUDA چیست؟</title>
       <link>/posts/cuda-info/</link>
       <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
-      
       <guid>/posts/cuda-info/</guid>
       <description>&lt;p&gt;پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
