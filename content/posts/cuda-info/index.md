@@ -1,7 +1,7 @@
 +++
 author = "آرمان حسن پور"
 title = "CUDA چیست؟" 
-date = 2019-03-02T15:42:01+03:30
+date = 2017-03-02T15:42:01+03:30
 featured = false
 comment = false
 toc = false

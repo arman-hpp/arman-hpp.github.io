@@ -108,15 +108,6 @@
     </item>
     
     <item>
-      <title>CUDA چیست؟</title>
-      <link>/posts/cuda-info/</link>
-      <pubDate>Sat, 02 Mar 2019 15:42:01 +0330</pubDate>
-      
-      <guid>/posts/cuda-info/</guid>
-      <description>&lt;p&gt;پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>نمایش نتایج پرس‌و‌جوها به صورت یک مقدار جداشده با کاما در Oracle</title>
       <link>/posts/oracle-lisagg/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
@@ -177,6 +168,15 @@
       
       <guid>/posts/sdlc-info/</guid>
       <description>&lt;p&gt;چرخه‌ی عمر توسعه‌ی نرم‌افزار (&lt;strong&gt;S&lt;/strong&gt;oftware &lt;strong&gt;D&lt;/strong&gt;evelopment &lt;strong&gt;L&lt;/strong&gt;ife &lt;strong&gt;C&lt;/strong&gt;ycle) مراحلی را شامل می‌شود که نرم‌افزار در طی آن‌ها توسعه می‌یابد یعنی از زمانی که ایده آن مطرح می‌شود تا زمانی که استفاده از آن متوقف می‌گردد.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CUDA چیست؟</title>
+      <link>/posts/cuda-info/</link>
+      <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
+      
+      <guid>/posts/cuda-info/</guid>
+      <description>&lt;p&gt;پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند.&lt;/p&gt;</description>
     </item>
     
     <item>
