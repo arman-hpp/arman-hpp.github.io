@@ -13,7 +13,7 @@
 <meta name="description" content="پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="CUDA چیست؟">
 <meta itemprop="description" content="پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند."><meta itemprop="datePublished" content="2017-03-02T15:42:01+03:30" />
 <meta itemprop="dateModified" content="2017-03-02T15:42:01+03:30" />
-<meta itemprop="wordCount" content="968">
+<meta itemprop="wordCount" content="1047">
 <meta itemprop="keywords" content="CUDA,GPU,NVIDIA," /><meta property="og:title" content="CUDA چیست؟" />
 <meta property="og:description" content="پردازنده‌های گرافیکی به دلیل ماهیت ساختاری و هدفی که دنبال می‌كنند‌، توانایی‌های فوق‌العاده‌ای در زمینه پردازش ‌موازی و محاسبات ممیز شناور (Floating Point) دارند و به دلیل برخورداری از هسته‌های پردازشی بیشتر با معماری بهینه‌سازی شده برای محاسبات موازی‌، در بسیاری از موارد قدرت محاسباتی بالاتری نسبت به CPU ارائه می‌دهند." />
 <meta property="og:type" content="article" />
@@ -110,7 +110,6 @@
    />
 
 
-<br>
 مطابق بررسی‌های انجام‌شده‌، قدرت محاسباتی یک پردازنده گرافیکی تسلا‌، چیزی بالاتر از پانصد برابر قدرت یک پردازنده چهار هسته‌ای اینتل است. به این نکته توجه داشته باشید که پردازنده‌های گرافیکی به دلیل معماری خاص و هدف یگانه‌ای که دارند از چنین توانایی‌هایی برخوردار بوده و معماری آن‌ها برای پیاده‌سازی یک CPU مناسب نیست. زیرا با توجه به معماری کنونی پلتفرم x86، دستگاه‌ها و تجهیزات مختلفی در سیستم موجود هستند که مدیریت آن‌ها بر عهده پردازنده بوده و برای حفظ ارتباطات مناسب و مدیریت جامع، CPU ناگزیر از داشتن چنین معماری و به تبع آن پردازش کندتری است. با توجه به مطالب ذکر شده و مفاهیم پایه‌ای موازی‌سازی، پردازنده‌های گرافیکی را می‌توان پردازنده‌هایی بهینه‌ شده در راستای موازی‌سازی وظایف (Task Parallelism) و داده‌ها (Data Parallelism) دانست.
 <br>
 قدرت محاسبات قوی ریاضی GPU آن را برای استفاده در محاسبات داده‌های با حجم بالا چون پردازش تصویر و ویدیو، کدگذاری و کدگشایی تصاویر و تشخیص الگو بسیار کارا كرده است. این کارایی باعث شد تا فناوری‌هایی برای استفاده از قدرت GPU در محاسباتی خارج از بازی‌ها پا به عرصه وجود بگذارند و محصولات مختلفی بر پایه آن‌ها روانه بازار شود.
@@ -139,7 +138,9 @@
 
 
 <br></li>
-</ul></div></div>
+</ul>
+<h1 id="opencl-و-cuda">OpenCL و CUDA<a class="anchor ms-1" href="#opencl-و-cuda"><i class="fas fa-link"></i></a></h1>
+<p>OpenCL، رقیب CUDA، در سال 2009 به منظور ارائه استانداردی برای محاسبات ناهمگن که محدود به پردازنده‌های AMD ،Intel و Nvidia نباشد، توسط شرکت Apple و Khronos Group راه اندازی شد. در حالی که OpenCL به دلیل چند سکویی و عمومی بودن محبوب است، اما در پردازنده‌های Nvidia به خوبی CUDA عمل نکرده است و از بسیاری کتابخانه‌های یادگیری ماشین پشتیبانی نمی کند یا فقط پس از انتشار آن توسط CUDA از آن پشتیبانی می کند.</p></div></div>
 </article></div>
 </div><aside class="col-lg-3 sidebar d-flex">
   <div class="container d-flex flex-column">
@@ -241,7 +242,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.2dbb555b4f16c1db4d0b4f4d45f58077b7753c74ae45faeae62a686bc50f65b5.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.ce55e3666906825ba4d5ea88e0f0907c469a720e43b691988a0c8f10eb5d2d35.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -253,6 +254,5 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script><script src="/assets/viewer/bundle.min.ebfac23a0cfe7a4967b0c8837a56d9500cde48def21c42e2946e07b061913d71.js" crossorigin="anonymous" defer></script><script defer src="/assets/katex/bundle.min.7060e3dcd6c4f935693c17f7d0ee49b31111c24b8c099c56c710fe1f0d9af3cb.js" crossorigin="anonymous"></script>
-
 </body>
 </html>

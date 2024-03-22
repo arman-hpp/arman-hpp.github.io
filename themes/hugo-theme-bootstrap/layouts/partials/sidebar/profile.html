@@ -1,5 +1,5 @@
-{{- if .Site.Author -}}
-{{- $layout := default "" .Site.Author.params.layout -}}
+{{- if .Site.Params.Author -}}
+{{- $layout := default "" .Site.Params.Author.params.layout -}}
 {{- if eq $layout "compact" -}}
   {{- partial "sidebar/profile/compact" . -}}
 {{- else -}}

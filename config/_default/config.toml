@@ -17,9 +17,6 @@ paginate = 10
 # Disqus
 # disqusShortname = "Arman"
 
-# Google analytics
-# googleAnalytics = "UA-123-45"
-
 enableRobotsTXT = true
 
 enableEmoji = true

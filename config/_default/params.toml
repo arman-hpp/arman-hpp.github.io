@@ -169,3 +169,12 @@ viewer = true # Image Viewer
 
 [author]
   name = "آرمان حسن پور"
+  bio = "برنامه نویس فول استک"
+  copyright = "آرمان حسن پور"
+  rating = "General"
+  app = "Arsin.ir"
+  [author.social]
+    email = "arman.hassanpoor2000@gmail.com"
+    github = "arman-hpp"
+    twitter = "arman_hasanpour"
+    linkedin = "arsin"
