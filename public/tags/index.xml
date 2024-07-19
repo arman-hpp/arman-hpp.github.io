@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2023 19:20:18 +0330</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSharp</title>
+      <link>/tags/csharp/</link>
+      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
+      <guid>/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DotNet</title>
+      <link>/tags/dotnet/</link>
+      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
+      <guid>/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Float</title>
+      <link>/tags/float/</link>
+      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
+      <guid>/tags/float/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>/tags/java/</link>
@@ -112,20 +133,6 @@
       <link>/tags/clr-integrated/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
       <guid>/tags/clr-integrated/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CSharp</title>
-      <link>/tags/csharp/</link>
-      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/csharp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DotNet</title>
-      <link>/tags/dotnet/</link>
-      <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
@@ -287,13 +294,6 @@
       <link>/tags/nvidia/</link>
       <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
       <guid>/tags/nvidia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Float</title>
-      <link>/tags/float/</link>
-      <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
-      <guid>/tags/float/</guid>
       <description></description>
     </item>
     <item>
