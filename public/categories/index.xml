@@ -7,29 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
-    <lastBuildDate>Sun, 04 Jun 2023 19:20:18 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CSharp</title>
-      <link>/categories/csharp/</link>
-      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
-      <guid>/categories/csharp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DotNet</title>
-      <link>/categories/dotnet/</link>
-      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
-      <guid>/categories/dotnet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Float</title>
-      <link>/categories/float/</link>
-      <pubDate>Sun, 04 Jun 2023 19:20:18 +0330</pubDate>
-      <guid>/categories/float/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Java</title>
       <link>/categories/java/</link>
@@ -56,6 +35,27 @@
       <link>/categories/general/</link>
       <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
       <guid>/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSharp</title>
+      <link>/categories/csharp/</link>
+      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
+      <guid>/categories/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DotNet</title>
+      <link>/categories/dotnet/</link>
+      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
+      <guid>/categories/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Float</title>
+      <link>/categories/float/</link>
+      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
+      <guid>/categories/float/</guid>
       <description></description>
     </item>
     <item>
