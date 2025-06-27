@@ -110,8 +110,11 @@ try {
     }
 
     function updateCounters() {
+		try{
         animateCount("friendshipDays", friendshipDays);
         animateCount("marriageDays", marriageDays);
+		} catch(error) {
+		}
     }
 
     updateCounters();
