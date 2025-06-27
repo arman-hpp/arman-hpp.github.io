@@ -77,8 +77,6 @@
   </div>
 
   <script>
-  try
-  {
     const today = new Date();
     const friendshipStart = new Date("Jun 23, 2013 00:00:01");
     const marriageStart = new Date("May 8, 2023 00:00:01");
@@ -101,20 +99,8 @@
       requestAnimationFrame(update);
     }
 
-
-	  if (window.requestAnimationFrame) {
-        animateCount("friendshipDays", friendshipDays);
-        animateCount("marriageDays", marriageDays);
-	  }
-	  else {
-		document.getElementById("friendshipDays").innerHTML = friendshipDays;
-		document.getElementById("marriageDays").innerHTML = marriageDays;
-	  }
-  } catch (error) {
-      console.error("Error in script execution:", error);
-      alert("Error in script execution:" + error);
-    }
+    animateCount("friendshipDays", friendshipDays);
+    animateCount("marriageDays", marriageDays);
   </script>
-
 </body>
 </html>
