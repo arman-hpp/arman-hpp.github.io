@@ -76,6 +76,8 @@
   </div>
 
   <script>
+  try
+  {
     const today = new Date();
     const friendshipStart = new Date("Jun 23, 2013 00:00:01");
     const marriageStart = new Date("May 8, 2023 00:00:01");
@@ -83,12 +85,12 @@
     const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
     const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
 
-    function updateCounters() {
-		document.getElementById("friendshipDays").innerHTML = friendshipDays;
-		document.getElementById("marriageDays").innerHTML = marriageDays;
+	document.getElementById("friendshipDays").innerHTML = friendshipDays;
+	document.getElementById("marriageDays").innerHTML = marriageDays;
+  } catch (error) {
+      console.error("Error in script execution:", error);
+      alert("Error in script execution:" + error);
     }
-
-    updateCounters();
   </script>
 
 </body>
