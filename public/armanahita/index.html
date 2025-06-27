@@ -111,17 +111,13 @@
                 requestAnimationFrame(update);
             }
 
-            function updateCounters() {
-                if (window.requestAnimationFrame) {
-                    animateCount("friendshipDays", friendshipDays);
-                    animateCount("marriageDays", marriageDays);
-                } else {
-                    document.getElementById("friendshipDays").textContent = friendshipDays;
-                    document.getElementById("marriageDays").textContent = marriageDays;
-                }
+            if (window.requestAnimationFrame) {
+                animateCount("friendshipDays", friendshipDays);
+                animateCount("marriageDays", marriageDays);
+            } else {
+                document.getElementById("friendshipDays").textContent = friendshipDays;
+                document.getElementById("marriageDays").textContent = marriageDays;
             }
-
-            updateCounters();
         } catch (error) {
             console.error("Error in script execution:", error);
         }
