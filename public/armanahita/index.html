@@ -86,6 +86,7 @@
   </div>
 
 <script>
+
     const today = new Date();
     const friendshipStart = new Date("Jun 23, 2013 00:00:01");
     const marriageStart = new Date("May 8, 2023 00:00:01");
@@ -98,11 +99,15 @@
         const startTime = (performance && performance.now) ? performance.now() : Date.now();
 
         function update(currentTime) {
+		try {
             const elapsed = currentTime - startTime;
             const progress = Math.min(elapsed / duration, 1);
             const currentVal = Math.floor(progress * endValue);
             el.innerHTML = currentVal;
             if (progress < 1) requestAnimationFrame(update);
+			} catch (error) {
+    console.error("Error in script execution:", error);
+}
         }
 
         requestAnimationFrame(update);
@@ -110,6 +115,8 @@
 
     animateCount("friendshipDays", friendshipDays);
     animateCount("marriageDays", marriageDays);
+
+
 </script>
 </body>
 </html>
