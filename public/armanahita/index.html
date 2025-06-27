@@ -84,21 +84,6 @@
     const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
     const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
 
-	function animateCount(id, endValue, duration = 500) {
-      const el = document.getElementById(id);
-      const startTime = (performance && performance.now) ? performance.now() : Date.now();
-
-      function update(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-       const currentVal = Math.floor(progress * endValue);
-        el.textContent = currentVal;
-        if (progress < 1) requestAnimationFrame(update);
-      }
-
-      requestAnimationFrame(update);
-    }
-
     //animateCount("friendshipDays", friendshipDays);
     //animateCount("marriageDays", marriageDays);
 	document.getElementById("friendshipDays").innerText = friendshipDays;
