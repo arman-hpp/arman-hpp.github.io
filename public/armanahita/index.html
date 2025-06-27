@@ -86,7 +86,6 @@
   </div>
 
 <script>
-try {
     const today = new Date();
     const friendshipStart = new Date("Jun 23, 2013 00:00:01");
     const marriageStart = new Date("May 8, 2023 00:00:01");
@@ -109,12 +108,8 @@ try {
         requestAnimationFrame(update);
     }
 
-        animateCount("friendshipDays", friendshipDays);
-        animateCount("marriageDays", marriageDays);
-
-} catch (error) {
-    console.error("Error in script execution:", error);
-}
+    animateCount("friendshipDays", friendshipDays);
+    animateCount("marriageDays", marriageDays);
 </script>
 </body>
 </html>
