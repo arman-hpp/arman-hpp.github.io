@@ -109,15 +109,8 @@ try {
         requestAnimationFrame(update);
     }
 
-    function updateCounters() {
-		try{
         animateCount("friendshipDays", friendshipDays);
         animateCount("marriageDays", marriageDays);
-		} catch(error) {
-		}
-    }
-
-    updateCounters();
 
 } catch (error) {
     console.error("Error in script execution:", error);
