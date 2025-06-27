@@ -99,8 +99,10 @@
       requestAnimationFrame(update);
     }
 
-        animateCount("friendshipDays", friendshipDays);
-        animateCount("marriageDays", marriageDays);
+    //animateCount("friendshipDays", friendshipDays);
+    //animateCount("marriageDays", marriageDays);
+	document.getElementById("friendshipDays").innerText = friendshipDays;
+	document.getElementById("marriageDays").innerText = marriageDays;
   </script>
 
 </body>
