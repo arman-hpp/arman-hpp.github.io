@@ -3,7 +3,7 @@
 {{- $config := resources.Get "main/scss/_config.scss" | resources.ExecuteAsTemplate "main/scss/_config.scss" . -}}
 {{- $main := resources.Get "main/scss/index.scss" -}}
 {{- $custom := resources.Get "main/scss/_custom.scss" | resources.ExecuteAsTemplate "main/scss/_custom.scss" . -}}
-{{- $style := slice $variables $config $main $custom | resources.Concat "main/scss/main.css" | toCSS $options | resources.PostCSS | fingerprint | resources.PostProcess -}}
+{{- $style := slice $variables $config $main $custom | resources.Concat "main/scss/main.css" | toCSS $options | css.PostCSS | fingerprint | resources.PostProcess -}}
 <link rel="stylesheet" href="{{ $style.Permalink }}" crossorigin="anonymous">
 {{- range .Site.Params.customCSS -}}
 <link rel="stylesheet" href="{{ absURL . }}" crossorigin="anonymous">

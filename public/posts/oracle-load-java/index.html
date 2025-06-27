@@ -10,19 +10,29 @@
 <link rel="icon" href="/images/icons/favicon.ico">
 <link rel="manifest" href="/manifest.json">
 <meta name="keywords" content="" />
-<meta name="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود." /><meta name="robots" content="index, follow" /><meta itemprop="name" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle">
-<meta itemprop="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود."><meta itemprop="datePublished" content="2023-01-15T09:50:51+03:30" />
-<meta itemprop="dateModified" content="2023-01-15T09:50:51+03:30" />
-<meta itemprop="wordCount" content="694">
-<meta itemprop="keywords" content="Oracle,Java,LoadJava,SQL," /><meta property="og:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle" />
-<meta property="og:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/oracle-load-java/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-15T09:50:51+03:30" />
-<meta property="article:modified_time" content="2023-01-15T09:50:51+03:30" />
+<meta name="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود." /><meta name="robots" content="index, follow" />
+  <meta itemprop="name" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle">
+  <meta itemprop="description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود.">
+  <meta itemprop="datePublished" content="2023-01-15T09:50:51+03:30">
+  <meta itemprop="dateModified" content="2023-01-15T09:50:51+03:30">
+  <meta itemprop="wordCount" content="694">
+  <meta itemprop="keywords" content="Oracle,Java,LoadJava,SQL"><meta property="og:url" content="/posts/oracle-load-java/">
+  <meta property="og:site_name" content="وبلاگ آرمان حسن پور">
+  <meta property="og:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle">
+  <meta property="og:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود.">
+  <meta property="og:locale" content="fa_ir">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-01-15T09:50:51+03:30">
+    <meta property="article:modified_time" content="2023-01-15T09:50:51+03:30">
+    <meta property="article:tag" content="Oracle">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="LoadJava">
+    <meta property="article:tag" content="SQL">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle"/>
-<meta name="twitter:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود."/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle">
+  <meta name="twitter:description" content="هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود.">
 <meta property="og:image" content="/false"/>
   <meta name="twitter:image" content="/false"/><link rel="stylesheet" href="/assets/main/bundle.min.1c12b0a07298593a05c8e11601121ccb4a60880f06ecf4320021add9defc2cfb.css" crossorigin="anonymous"><link rel="stylesheet" href="/assets/viewer/bundle.min.f05183267bb952fbc8c63a7178364de2951614ab71d544ec1068ad36c7447ccc.css" crossorigin="anonymous">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2V2LN2RH7"></script>
@@ -279,7 +289,7 @@
 <div class="powered-by mb-2">
  با افتخار نیرو گرفته از <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>.
 </div></footer>
-<script src="/assets/main/bundle.min.ce55e3666906825ba4d5ea88e0f0907c469a720e43b691988a0c8f10eb5d2d35.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.bc42351dc4a88f03b384369a1fd49d9b8aca536d8ca17a428f556d8b29011fa3.js" crossorigin="anonymous" defer></script>
+<script src="/assets/main/bundle.min.65a47d9fcb4853d6d21cd53de643bdd560a2c0ccbbbe0afcee4ec43c73351fe8.js" crossorigin="anonymous" defer></script><script src="/assets/icons/bundle.min.3d10b358a3f403570b31bca6b516d9b048f218fb3db903b59fb530d785e38131.js" crossorigin="anonymous" defer></script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

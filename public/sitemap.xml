@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/java/</loc>
+    <loc>/categories/java/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/categories/java/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
     <loc>/tags/loadjava/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/oracle/</loc>
-    <lastmod>2023-01-15T09:50:51+03:30</lastmod>
-  </url><url>
     <loc>/categories/oracle/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/sql/</loc>
+    <loc>/tags/oracle/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
     <loc>/categories/sql/</loc>
+    <lastmod>2023-01-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>/tags/sql/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
     <loc>/posts/oracle-load-java/</loc>
@@ -53,22 +53,22 @@
     <loc>/posts/unicode-farsi/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/tags/csharp/</loc>
-    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
-  </url><url>
     <loc>/categories/csharp/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
-    <loc>/tags/dotnet/</loc>
+    <loc>/tags/csharp/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
     <loc>/categories/dotnet/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
-    <loc>/tags/float/</loc>
+    <loc>/tags/dotnet/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
     <loc>/categories/float/</loc>
+    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
+  </url><url>
+    <loc>/tags/float/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
     <loc>/posts/compare-floats/</loc>
@@ -77,10 +77,10 @@
     <loc>/tags/balance-sheet/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/sqlserver/</loc>
+    <loc>/categories/sqlserver/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/categories/sqlserver/</loc>
+    <loc>/tags/sqlserver/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
     <loc>/tags/turn-over/</loc>
@@ -89,10 +89,10 @@
     <loc>/posts/sql-server-turnover/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/shetab/</loc>
+    <loc>/categories/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/categories/shetab/</loc>
+    <loc>/tags/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
     <loc>/posts/shetab-info/</loc>
@@ -140,10 +140,10 @@
     <loc>/posts/sql-server-show-all-tables/</loc>
     <lastmod>2019-08-01T15:12:29+03:30</lastmod>
   </url><url>
-    <loc>/tags/design-patterns/</loc>
+    <loc>/categories/design-patterns/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
-    <loc>/categories/design-patterns/</loc>
+    <loc>/tags/design-patterns/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
     <loc>/tags/gof/</loc>
@@ -176,10 +176,10 @@
     <loc>/tags/ood/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/oop/</loc>
+    <loc>/categories/oop/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/categories/oop/</loc>
+    <loc>/tags/oop/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
     <loc>/posts/oop-get-set/</loc>
@@ -200,10 +200,10 @@
     <loc>/posts/function-call-stack-info/</loc>
     <lastmod>2017-08-11T14:20:52+03:30</lastmod>
   </url><url>
-    <loc>/tags/uml/</loc>
+    <loc>/categories/uml/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
-    <loc>/categories/uml/</loc>
+    <loc>/tags/uml/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
     <loc>/posts/uml-info/</loc>

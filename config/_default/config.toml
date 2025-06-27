@@ -10,10 +10,6 @@ defaultContentLanguage = "fa"
 disableHugoGeneratorInject = true
 # disableLiveReload = true
 
-# Pagination
-paginate = 10
-# paginatePath = "page"
-
 # Disqus
 # disqusShortname = "Arman"
 
@@ -24,6 +20,9 @@ enableEmoji = true
 # hasCJKLanguage = true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 
 # pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 10
 
 [blackfriday]
   hrefTargetBlank = true
