@@ -110,13 +110,8 @@ try {
     }
 
     function updateCounters() {
-        if (window.requestAnimationFrame) {
-            animateCount("friendshipDays", friendshipDays);
-            animateCount("marriageDays", marriageDays);
-        } else {
-            document.getElementById("friendshipDays").innerHTML = friendshipDays;
-            document.getElementById("marriageDays").innerHTML = marriageDays;
-        }
+        animateCount("friendshipDays", friendshipDays);
+        animateCount("marriageDays", marriageDays);
     }
 
     updateCounters();
