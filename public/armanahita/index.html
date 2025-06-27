@@ -7,17 +7,24 @@
   <style>
     .background {
       position: fixed;
-      inset: 0;
+      top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
       background-image: url('./bg.jpg');
       background-size: cover;
       background-position: center;
+	  background-color: #333;
       filter: blur(1px);
       z-index: -2;
     }
 
     .overlay {
       position: fixed;
-      inset: 0;
+      top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
       background-color: rgba(0, 0, 0, 0.4);
       z-index: -1;
     }
@@ -84,7 +91,7 @@
 
     function animateCount(id, endValue, duration = 500) {
       const el = document.getElementById(id);
-      const startTime = performance.now();
+      const startTime = (performance && performance.now) ? performance.now() : Date.now();
 
       function update(currentTime) {
         const elapsed = currentTime - startTime;
