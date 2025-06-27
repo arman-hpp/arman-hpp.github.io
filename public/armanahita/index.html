@@ -1,116 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ArmAnahita Calendar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .background {
-      position: fixed;
-      top: 0;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-      background-image: url('./bg.jpg');
-      background-size: cover;
-      background-position: center;
-	  background-color: #333;
-      filter: blur(1px);
-      z-index: -2;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArmAnahita Calendar</title>
+    <style>
+        .background {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: url('./bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: #333;
+            filter: blur(1px);
+            z-index: -2;
+        }
 
-    .overlay {
-      position: fixed;
-      top: 0;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-      background-color: rgba(0, 0, 0, 0.4);
-      z-index: -1;
-    }
+        .overlay {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
 
-    body {
-      margin: 0;
-      overflow: hidden;
-    }
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
 
-    .content {
-      padding: 50px 20px;
-      text-align: center;
-    }
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
 
-    h3 {
-      font-size: 50px;
-      font-weight: 900;
-      margin: 0;
-      color: white;
-    }
+        h3 {
+            font-size: 50px;
+            font-weight: 900;
+            margin: 0;
+            color: white;
+        }
 
-    p {
-      font-size: 120px;
-      font-weight: 900;
-      margin: 10px 0 40px 0;
-      color: white;
-	  animation: pulse 1.2s ease-in-out infinite alternate;
-    }
+        p {
+            font-size: 120px;
+            font-weight: 900;
+            margin: 10px 0 40px 0;
+            color: white;
+            animation: pulse 1.2s ease-in-out infinite alternate;
+        }
 
-    @media (max-width: 600px) {
-      p {
-        font-size: 70px;
-      }
-      h3 {
-        font-size: 36px;
-      }
-    }
-  </style>
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.05);
+            }
+        }
+
+        @media (max-width: 600px) {
+            p {
+                font-size: 70px;
+            }
+            h3 {
+                font-size: 36px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="background"></div>
-  <div class="overlay"></div>
+    <div class="background"></div>
+    <div class="overlay"></div>
 
-  <div class="content">
-    <h3>Friendship</h3>
-    <p id="friendshipDays"></p>
+    <div class="content">
+        <h3>Friendship</h3>
+        <p id="friendshipDays" aria-live="polite"></p>
 
-    <h3>Marriage</h3>
-    <p id="marriageDays"></p>
-  </div>
+        <h3>Marriage</h3>
+        <p id="marriageDays" aria-live="polite"></p>
+    </div>
 
-  <script>
-  try
-  {
-    const today = new Date();
-    const friendshipStart = new Date("Jun 23, 2013 00:00:01");
-    const marriageStart = new Date("May 8, 2023 00:00:01");
+    <script>
+        try {
+            const today = new Date();
+            const friendshipStart = new Date("Jun 23, 2013 00:00:01");
+            const marriageStart = new Date("May 8, 2023 00:00:01");
 
-    const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
-    const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
+            const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
+            const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
 
-	function animateCount(id, endValue, duration = 500) {
-      const el = document.getElementById(id);
-      const startTime = (performance && performance.now) ? performance.now() : Date.now();
+            function animateCount(id, endValue, duration = 500) {
+                const el = document.getElementById(id);
+                const startTime = performance?.now() ?? Date.now();
 
-      function update(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-       const currentVal = Math.floor(progress * endValue);
-        el.textContent = currentVal;
-        if (progress < 1) requestAnimationFrame(update);
-      }
+                function update(currentTime) {
+                    const elapsed = currentTime - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const currentVal = Math.floor(progress * endValue);
+                    el.textContent = currentVal;
+                    if (progress < 1) {
+                        requestAnimationFrame(update);
+                    }
+                }
 
-      requestAnimationFrame(update);
-    }
+                requestAnimationFrame(update);
+            }
 
-        animateCount("friendshipDays", friendshipDays);
-        animateCount("marriageDays", marriageDays);
+            function updateCounters() {
+                if (window.requestAnimationFrame) {
+                    animateCount("friendshipDays", friendshipDays);
+                    animateCount("marriageDays", marriageDays);
+                } else {
+                    document.getElementById("friendshipDays").textContent = friendshipDays;
+                    document.getElementById("marriageDays").textContent = marriageDays;
+                }
+            }
 
-  } catch (error) {
-  document.getElementById("marriageDays").innerHTML = error;
-      console.error("Error in script execution:", error);
-      alert("Error in script execution:" + error);
-	  
-    }
-  </script>
-
+            updateCounters();
+        } catch (error) {
+            console.error("Error in script execution:", error);
+        }
+    </script>
 </body>
 </html>
