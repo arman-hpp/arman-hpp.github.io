@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,6 +72,62 @@
         font-size: 36px;
       }
     }
+	
+	.balloon {
+		--balloonDimension: 10vmax; /* 15% of min(viewport width, height) */
+		width: var(--balloonDimension);
+		height: var(--balloonDimension);
+		border-radius: 100% 100% 15% 100%;
+		margin: 0 0 0 25px;
+		transform: rotateZ(45deg);
+		position: fixed;
+		bottom: calc(-1 * var(--balloonDimension));
+		left: 0;
+		background-color: aqua;
+	}
+	.balloon::before {
+		content: "";
+		width: 10%;
+		height: 25%;
+		background: radial-gradient(circle, rgba(255,255,255,.7) 0%, rgba(255,255,255,.1) 100%);
+		position: absolute;
+		left: 15%;
+		top: 45%;
+		border-radius: 100%;
+	}
+	.balloon::after {
+		content: "";
+		width: 13%;
+		height: 5%;
+		background-color: inherit;
+		position: absolute;
+		left: 90%;
+		top: 94%;
+		border-radius: 22%;
+		transform: rotateZ(-45deg);
+	}
+	.balloon .string {
+		position: absolute;
+		background-color: #990;
+		width: 2px;
+		height: calc(var(--balloonDimension) * .6);
+		transform-origin: top center;
+		transform: rotateZ(-45deg);
+		top: calc(var(--balloonDimension) - 6px);
+		left: calc(var(--balloonDimension) - 8px);
+	}
+	.yellow{
+		background-color: rgba(150, 150, 0, .65);
+	}
+	.green{
+		background-color: rgba(0, 150, 0, .65);
+	}
+	.blue{
+		background-color: rgba(0, 0, 150, .65);
+	}
+	.red{
+		background-color: rgba(150, 0, 0, .65);
+	}
   </style>
 </head>
 <body>
@@ -86,6 +143,88 @@
   </div>
 
 <script>
+    function randomColor() {
+		const colors = ['yellow', 'green', 'blue', 'red'];
+        return colors[random(0, colors.length)];
+    }
+
+    function random (min, max){
+        return Math.floor(Math.random() * (max-min)) + min;
+    }
+
+    function releaseBalloon(balloon) {
+        const delay = random(250, 1000);
+        const x = random(-99, -30);
+        const y = random(-99, -30);
+
+        const sequence = [{
+            offset: 0,
+            transform: `rotateZ(45deg) translate(0, 0)`
+        }];
+
+        if(random(0,2) === 0) {
+            balloon.style.left = `${-1*x}vw`;
+
+            sequence.push({
+                offset: x/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, 0)`
+            });
+            sequence.push({
+                offset: (x+y)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, ${y}vh)`
+            });
+            sequence.push({
+                offset: (-100+y)/-200,
+                transform: `rotateZ(45deg) translate(-100vw, ${y}vh)`
+            });
+        } else {
+            sequence.push({
+                offset: y/-200,
+                transform: `rotateZ(45deg) translate(0, ${y}vh)`
+            });
+            sequence.push({
+                offset: (x+y)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, ${y}vh)`
+            });
+            sequence.push({
+                offset: (-100+x)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, -100vh)`
+            });
+        }
+
+        sequence.push({
+            offset: 1,
+            transform: `rotateZ(45deg) translate(-100vw, -100vh)`
+        });
+
+        const balloonAnimation = balloon.animate(sequence, {
+            duration: 15000,
+            delay: delay
+        });
+
+
+        balloonAnimation.onfinish = () => { releaseBalloon(balloon) }
+    }
+
+	function showBallons() {
+		const density = 10;
+		const stringElement = document.createElement("div");
+		stringElement.classList.add("string");
+
+		for (let i = 0; i < density; i++) {
+			const element = document.createElement("div");
+			element.classList.add("balloon");
+			element.classList.add(randomColor());
+	
+			element.append(stringElement.cloneNode());
+			document.body.append(element);
+			
+			setTimeout(() => {
+				releaseBalloon(element);
+			}, (i * 2000) + random(500, 1000));
+		}		
+	}
+
     function animateCount(id, endValue, duration = 500) {
         const el = document.getElementById(id);
         const startTime = (performance && performance.now) ? performance.now() : Date.now();
@@ -101,19 +240,27 @@
         requestAnimationFrame(update);
     }
 
-	function updateCounters() {
+	function start() {
 	    const today = new Date();
 		const friendshipStart = new Date("Jun 23, 2013 00:00:01");
 		const marriageStart = new Date("May 8, 2023 00:00:01");
-
+		
 		const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
 		const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
 		
 		animateCount("friendshipDays", friendshipDays);
 		animateCount("marriageDays", marriageDays);
+		
+		if (friendshipStart.getDate() === today.getDate() && friendshipStart.getMonth() === today.getMonth()) {
+			showBallons();
+		}
+		
+		if (marriageStart.getDate() === today.getDate() && marriageStart.getMonth() === today.getMonth()) {
+			showBallons();
+		}
 	}
 
-	updateCounters();
+	start();
 </script>
 </body>
 </html>
