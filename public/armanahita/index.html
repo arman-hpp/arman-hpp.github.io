@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <title>ArmAnahita Calendar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#317EFB">
   <style>
     .background {
       position: fixed;
@@ -85,6 +87,7 @@
 		left: 0;
 		background-color: aqua;
 	}
+	
 	.balloon::before {
 		content: "";
 		width: 10%;
@@ -95,6 +98,7 @@
 		top: 45%;
 		border-radius: 100%;
 	}
+	
 	.balloon::after {
 		content: "";
 		width: 13%;
@@ -106,6 +110,7 @@
 		border-radius: 22%;
 		transform: rotateZ(-45deg);
 	}
+	
 	.balloon .string {
 		position: absolute;
 		background-color: #990;
@@ -116,15 +121,19 @@
 		top: calc(var(--balloonDimension) - 6px);
 		left: calc(var(--balloonDimension) - 8px);
 	}
+	
 	.yellow{
 		background-color: rgba(150, 150, 0, .65);
 	}
+	
 	.green{
 		background-color: rgba(0, 150, 0, .65);
 	}
+	
 	.blue{
 		background-color: rgba(0, 0, 150, .65);
 	}
+	
 	.red{
 		background-color: rgba(150, 0, 0, .65);
 	}
