@@ -1,6 +1,6 @@
 +++
 author = "آرمان حسن پور"
-title = "ایجاد شناسه قبض و شناسه پرداخت در سی‌شارپ" 
+title = "ایجاد شناسه قبض و شناسه پرداخت در CSharp" 
 date = 2022-09-15T09:50:51+03:30
 featured = false
 comment = false
@@ -70,7 +70,7 @@ images = []
 
 ![Center](/bill-generator-algo.jpg#center)
 
-کد سی‌شارپ تولید شناسه قبض و شناسه پرداخت به صورت زیر است:
+کد CSharp تولید شناسه قبض و شناسه پرداخت به صورت زیر است:
 
 ```CSharp
 using System.Globalization;
