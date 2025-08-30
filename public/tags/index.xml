@@ -2,326 +2,326 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>برچسب‌ها on وبلاگ آرمان حسن پور</title>
-    <link>/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in برچسب‌ها on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>/tags/java/</link>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/tags/java/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>LoadJava</title>
-      <link>/tags/loadjava/</link>
+      <link>http://localhost:1313/tags/loadjava/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/tags/loadjava/</guid>
+      <guid>http://localhost:1313/tags/loadjava/</guid>
       <description></description>
     </item>
     <item>
       <title>Oracle</title>
-      <link>/tags/oracle/</link>
+      <link>http://localhost:1313/tags/oracle/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/tags/oracle/</guid>
+      <guid>http://localhost:1313/tags/oracle/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>/tags/sql/</link>
+      <link>http://localhost:1313/tags/sql/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/tags/sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Farsi</title>
-      <link>/tags/farsi/</link>
-      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
-      <guid>/tags/farsi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Persian</title>
-      <link>/tags/persian/</link>
-      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
-      <guid>/tags/persian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unicode</title>
-      <link>/tags/unicode/</link>
-      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
-      <guid>/tags/unicode/</guid>
+      <guid>http://localhost:1313/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>CSharp</title>
-      <link>/tags/csharp/</link>
-      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/tags/csharp/</guid>
+      <link>http://localhost:1313/tags/csharp/</link>
+      <pubDate>Thu, 15 Sep 2022 09:50:51 +0330</pubDate>
+      <guid>http://localhost:1313/tags/csharp/</guid>
       <description></description>
     </item>
     <item>
       <title>DotNet</title>
-      <link>/tags/dotnet/</link>
-      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/tags/dotnet/</guid>
+      <link>http://localhost:1313/tags/dotnet/</link>
+      <pubDate>Thu, 15 Sep 2022 09:50:51 +0330</pubDate>
+      <guid>http://localhost:1313/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Farsi</title>
+      <link>http://localhost:1313/tags/farsi/</link>
+      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
+      <guid>http://localhost:1313/tags/farsi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Persian</title>
+      <link>http://localhost:1313/tags/persian/</link>
+      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
+      <guid>http://localhost:1313/tags/persian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unicode</title>
+      <link>http://localhost:1313/tags/unicode/</link>
+      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
+      <guid>http://localhost:1313/tags/unicode/</guid>
       <description></description>
     </item>
     <item>
       <title>Float</title>
-      <link>/tags/float/</link>
+      <link>http://localhost:1313/tags/float/</link>
       <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/tags/float/</guid>
+      <guid>http://localhost:1313/tags/float/</guid>
       <description></description>
     </item>
     <item>
       <title>Balance Sheet</title>
-      <link>/tags/balance-sheet/</link>
+      <link>http://localhost:1313/tags/balance-sheet/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      <guid>/tags/balance-sheet/</guid>
+      <guid>http://localhost:1313/tags/balance-sheet/</guid>
       <description></description>
     </item>
     <item>
       <title>SQLServer</title>
-      <link>/tags/sqlserver/</link>
+      <link>http://localhost:1313/tags/sqlserver/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      <guid>/tags/sqlserver/</guid>
+      <guid>http://localhost:1313/tags/sqlserver/</guid>
       <description></description>
     </item>
     <item>
       <title>Turn Over</title>
-      <link>/tags/turn-over/</link>
+      <link>http://localhost:1313/tags/turn-over/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      <guid>/tags/turn-over/</guid>
+      <guid>http://localhost:1313/tags/turn-over/</guid>
       <description></description>
     </item>
     <item>
       <title>Shetab</title>
-      <link>/tags/shetab/</link>
+      <link>http://localhost:1313/tags/shetab/</link>
       <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
-      <guid>/tags/shetab/</guid>
+      <guid>http://localhost:1313/tags/shetab/</guid>
       <description></description>
     </item>
     <item>
       <title>شتاب</title>
-      <link>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</link>
+      <link>http://localhost:1313/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</link>
       <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
-      <guid>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</guid>
+      <guid>http://localhost:1313/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</guid>
       <description></description>
     </item>
     <item>
       <title>CLR</title>
-      <link>/tags/clr/</link>
+      <link>http://localhost:1313/tags/clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/clr/</guid>
+      <guid>http://localhost:1313/tags/clr/</guid>
       <description></description>
     </item>
     <item>
       <title>CLR Embedded</title>
-      <link>/tags/clr-embedded/</link>
+      <link>http://localhost:1313/tags/clr-embedded/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/clr-embedded/</guid>
+      <guid>http://localhost:1313/tags/clr-embedded/</guid>
       <description></description>
     </item>
     <item>
       <title>CLR Integrated</title>
-      <link>/tags/clr-integrated/</link>
+      <link>http://localhost:1313/tags/clr-integrated/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/clr-integrated/</guid>
+      <guid>http://localhost:1313/tags/clr-integrated/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL CLR</title>
-      <link>/tags/sql-clr/</link>
+      <link>http://localhost:1313/tags/sql-clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>/tags/sql-clr/</guid>
+      <guid>http://localhost:1313/tags/sql-clr/</guid>
       <description></description>
     </item>
     <item>
       <title>GUID</title>
-      <link>/tags/guid/</link>
+      <link>http://localhost:1313/tags/guid/</link>
       <pubDate>Thu, 06 Feb 2020 11:20:50 +0330</pubDate>
-      <guid>/tags/guid/</guid>
+      <guid>http://localhost:1313/tags/guid/</guid>
       <description></description>
     </item>
     <item>
       <title>UUID</title>
-      <link>/tags/uuid/</link>
+      <link>http://localhost:1313/tags/uuid/</link>
       <pubDate>Thu, 06 Feb 2020 11:20:50 +0330</pubDate>
-      <guid>/tags/uuid/</guid>
+      <guid>http://localhost:1313/tags/uuid/</guid>
       <description></description>
     </item>
     <item>
       <title>IP</title>
-      <link>/tags/ip/</link>
+      <link>http://localhost:1313/tags/ip/</link>
       <pubDate>Sat, 04 Jan 2020 15:28:10 +0330</pubDate>
-      <guid>/tags/ip/</guid>
+      <guid>http://localhost:1313/tags/ip/</guid>
       <description></description>
     </item>
     <item>
       <title>IPHelper</title>
-      <link>/tags/iphelper/</link>
+      <link>http://localhost:1313/tags/iphelper/</link>
       <pubDate>Sat, 04 Jan 2020 15:28:10 +0330</pubDate>
-      <guid>/tags/iphelper/</guid>
+      <guid>http://localhost:1313/tags/iphelper/</guid>
       <description></description>
     </item>
     <item>
       <title>Design Patterns</title>
-      <link>/tags/design-patterns/</link>
+      <link>http://localhost:1313/tags/design-patterns/</link>
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      <guid>/tags/design-patterns/</guid>
+      <guid>http://localhost:1313/tags/design-patterns/</guid>
       <description></description>
     </item>
     <item>
       <title>Gof</title>
-      <link>/tags/gof/</link>
+      <link>http://localhost:1313/tags/gof/</link>
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      <guid>/tags/gof/</guid>
+      <guid>http://localhost:1313/tags/gof/</guid>
       <description></description>
     </item>
     <item>
       <title>Comma Separated List</title>
-      <link>/tags/comma-separated-list/</link>
+      <link>http://localhost:1313/tags/comma-separated-list/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
-      <guid>/tags/comma-separated-list/</guid>
+      <guid>http://localhost:1313/tags/comma-separated-list/</guid>
       <description></description>
     </item>
     <item>
       <title>LISTAGG</title>
-      <link>/tags/listagg/</link>
+      <link>http://localhost:1313/tags/listagg/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
-      <guid>/tags/listagg/</guid>
+      <guid>http://localhost:1313/tags/listagg/</guid>
       <description></description>
     </item>
     <item>
       <title>Object</title>
-      <link>/tags/object/</link>
+      <link>http://localhost:1313/tags/object/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>/tags/object/</guid>
+      <guid>http://localhost:1313/tags/object/</guid>
       <description></description>
     </item>
     <item>
       <title>Object Oriented</title>
-      <link>/tags/object-oriented/</link>
+      <link>http://localhost:1313/tags/object-oriented/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>/tags/object-oriented/</guid>
+      <guid>http://localhost:1313/tags/object-oriented/</guid>
       <description></description>
     </item>
     <item>
       <title>OOD</title>
-      <link>/tags/ood/</link>
+      <link>http://localhost:1313/tags/ood/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>/tags/ood/</guid>
+      <guid>http://localhost:1313/tags/ood/</guid>
       <description></description>
     </item>
     <item>
       <title>OOP</title>
-      <link>/tags/oop/</link>
+      <link>http://localhost:1313/tags/oop/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>/tags/oop/</guid>
+      <guid>http://localhost:1313/tags/oop/</guid>
       <description></description>
     </item>
     <item>
       <title>ASCII</title>
-      <link>/tags/ascii/</link>
+      <link>http://localhost:1313/tags/ascii/</link>
       <pubDate>Wed, 11 Oct 2017 11:12:35 +0330</pubDate>
-      <guid>/tags/ascii/</guid>
+      <guid>http://localhost:1313/tags/ascii/</guid>
       <description></description>
     </item>
     <item>
       <title>Call Stack</title>
-      <link>/tags/call-stack/</link>
+      <link>http://localhost:1313/tags/call-stack/</link>
       <pubDate>Fri, 11 Aug 2017 14:20:52 +0330</pubDate>
-      <guid>/tags/call-stack/</guid>
+      <guid>http://localhost:1313/tags/call-stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Function Call Stack</title>
-      <link>/tags/function-call-stack/</link>
+      <link>http://localhost:1313/tags/function-call-stack/</link>
       <pubDate>Fri, 11 Aug 2017 14:20:52 +0330</pubDate>
-      <guid>/tags/function-call-stack/</guid>
+      <guid>http://localhost:1313/tags/function-call-stack/</guid>
       <description></description>
     </item>
     <item>
       <title>UML</title>
-      <link>/tags/uml/</link>
+      <link>http://localhost:1313/tags/uml/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
-      <guid>/tags/uml/</guid>
+      <guid>http://localhost:1313/tags/uml/</guid>
       <description></description>
     </item>
     <item>
       <title>SLC</title>
-      <link>/tags/slc/</link>
+      <link>http://localhost:1313/tags/slc/</link>
       <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
-      <guid>/tags/slc/</guid>
+      <guid>http://localhost:1313/tags/slc/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
-      <guid>/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Life Cycle</title>
-      <link>/tags/software-life-cycle/</link>
+      <link>http://localhost:1313/tags/software-life-cycle/</link>
       <pubDate>Wed, 10 May 2017 12:20:17 +0330</pubDate>
-      <guid>/tags/software-life-cycle/</guid>
+      <guid>http://localhost:1313/tags/software-life-cycle/</guid>
       <description></description>
     </item>
     <item>
       <title>CUDA</title>
-      <link>/tags/cuda/</link>
+      <link>http://localhost:1313/tags/cuda/</link>
       <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
-      <guid>/tags/cuda/</guid>
+      <guid>http://localhost:1313/tags/cuda/</guid>
       <description></description>
     </item>
     <item>
       <title>GPU</title>
-      <link>/tags/gpu/</link>
+      <link>http://localhost:1313/tags/gpu/</link>
       <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
-      <guid>/tags/gpu/</guid>
+      <guid>http://localhost:1313/tags/gpu/</guid>
       <description></description>
     </item>
     <item>
       <title>NVIDIA</title>
-      <link>/tags/nvidia/</link>
+      <link>http://localhost:1313/tags/nvidia/</link>
       <pubDate>Thu, 02 Mar 2017 15:42:01 +0330</pubDate>
-      <guid>/tags/nvidia/</guid>
+      <guid>http://localhost:1313/tags/nvidia/</guid>
       <description></description>
     </item>
     <item>
       <title>Floating-Point</title>
-      <link>/tags/floating-point/</link>
+      <link>http://localhost:1313/tags/floating-point/</link>
       <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
-      <guid>/tags/floating-point/</guid>
+      <guid>http://localhost:1313/tags/floating-point/</guid>
       <description></description>
     </item>
     <item>
       <title>IEEE754</title>
-      <link>/tags/ieee754/</link>
+      <link>http://localhost:1313/tags/ieee754/</link>
       <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
-      <guid>/tags/ieee754/</guid>
+      <guid>http://localhost:1313/tags/ieee754/</guid>
       <description></description>
     </item>
     <item>
       <title>Scientific Notation</title>
-      <link>/tags/scientific-notation/</link>
+      <link>http://localhost:1313/tags/scientific-notation/</link>
       <pubDate>Wed, 08 Feb 2017 14:22:11 +0330</pubDate>
-      <guid>/tags/scientific-notation/</guid>
+      <guid>http://localhost:1313/tags/scientific-notation/</guid>
       <description></description>
     </item>
     <item>
       <title>Programmer</title>
-      <link>/tags/programmer/</link>
+      <link>http://localhost:1313/tags/programmer/</link>
       <pubDate>Fri, 11 Dec 2015 10:21:11 +0330</pubDate>
-      <guid>/tags/programmer/</guid>
+      <guid>http://localhost:1313/tags/programmer/</guid>
       <description></description>
     </item>
   </channel>

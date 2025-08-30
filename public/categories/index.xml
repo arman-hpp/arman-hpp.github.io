@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>دسته‌بندی‌ها on وبلاگ آرمان حسن پور</title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in دسته‌بندی‌ها on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>/categories/java/</link>
+      <link>http://localhost:1313/categories/java/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/categories/java/</guid>
+      <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Oracle</title>
-      <link>/categories/oracle/</link>
+      <link>http://localhost:1313/categories/oracle/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/categories/oracle/</guid>
+      <guid>http://localhost:1313/categories/oracle/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>/categories/sql/</link>
+      <link>http://localhost:1313/categories/sql/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>/categories/sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>/categories/general/</link>
-      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
-      <guid>/categories/general/</guid>
+      <guid>http://localhost:1313/categories/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>CSharp</title>
-      <link>/categories/csharp/</link>
-      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/categories/csharp/</guid>
+      <link>http://localhost:1313/categories/csharp/</link>
+      <pubDate>Thu, 15 Sep 2022 09:50:51 +0330</pubDate>
+      <guid>http://localhost:1313/categories/csharp/</guid>
       <description></description>
     </item>
     <item>
       <title>DotNet</title>
-      <link>/categories/dotnet/</link>
-      <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/categories/dotnet/</guid>
+      <link>http://localhost:1313/categories/dotnet/</link>
+      <pubDate>Thu, 15 Sep 2022 09:50:51 +0330</pubDate>
+      <guid>http://localhost:1313/categories/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Tue, 01 Sep 2020 10:00:35 +0330</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Float</title>
-      <link>/categories/float/</link>
+      <link>http://localhost:1313/categories/float/</link>
       <pubDate>Tue, 04 Aug 2020 19:20:18 +0330</pubDate>
-      <guid>/categories/float/</guid>
+      <guid>http://localhost:1313/categories/float/</guid>
       <description></description>
     </item>
     <item>
       <title>SQLServer</title>
-      <link>/categories/sqlserver/</link>
+      <link>http://localhost:1313/categories/sqlserver/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      <guid>/categories/sqlserver/</guid>
+      <guid>http://localhost:1313/categories/sqlserver/</guid>
       <description></description>
     </item>
     <item>
       <title>Shetab</title>
-      <link>/categories/shetab/</link>
+      <link>http://localhost:1313/categories/shetab/</link>
       <pubDate>Wed, 03 Jun 2020 16:21:32 +0330</pubDate>
-      <guid>/categories/shetab/</guid>
+      <guid>http://localhost:1313/categories/shetab/</guid>
       <description></description>
     </item>
     <item>
       <title>Design Patterns</title>
-      <link>/categories/design-patterns/</link>
+      <link>http://localhost:1313/categories/design-patterns/</link>
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      <guid>/categories/design-patterns/</guid>
+      <guid>http://localhost:1313/categories/design-patterns/</guid>
       <description></description>
     </item>
     <item>
       <title>OOP</title>
-      <link>/categories/oop/</link>
+      <link>http://localhost:1313/categories/oop/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>/categories/oop/</guid>
+      <guid>http://localhost:1313/categories/oop/</guid>
       <description></description>
     </item>
     <item>
       <title>UML</title>
-      <link>/categories/uml/</link>
+      <link>http://localhost:1313/categories/uml/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
-      <guid>/categories/uml/</guid>
+      <guid>http://localhost:1313/categories/uml/</guid>
       <description></description>
     </item>
   </channel>

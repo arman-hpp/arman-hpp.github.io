@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GUID on وبلاگ آرمان حسن پور</title>
-    <link>/tags/guid/</link>
+    <link>http://localhost:1313/tags/guid/</link>
     <description>Recent content in GUID on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Thu, 06 Feb 2020 11:20:50 +0330</lastBuildDate>
-    <atom:link href="/tags/guid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/guid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>کار با UUID در CSharp</title>
-      <link>/posts/uuid-guid-csharp/</link>
+      <link>http://localhost:1313/posts/uuid-guid-csharp/</link>
       <pubDate>Thu, 06 Feb 2020 11:20:50 +0330</pubDate>
-      <guid>/posts/uuid-guid-csharp/</guid>
+      <guid>http://localhost:1313/posts/uuid-guid-csharp/</guid>
       <description>&lt;p&gt;برای ایجاد و استفاده از UUID در زبان برنامه‌نویسی CSharp از ساختار Guid موجود در کتابخانه System استفاده می‌شود.&lt;/p&gt;</description>
     </item>
     <item>
       <title>شناسه منحصر به فرد جهانی (UUID) چیست؟</title>
-      <link>/posts/uuid-guid-info/</link>
+      <link>http://localhost:1313/posts/uuid-guid-info/</link>
       <pubDate>Sun, 05 Feb 2017 15:42:57 +0330</pubDate>
-      <guid>/posts/uuid-guid-info/</guid>
+      <guid>http://localhost:1313/posts/uuid-guid-info/</guid>
       <description>&lt;p&gt;UUID اختصار عبارت Universally Unique Identifier به معنای شناسه منحصر به فرد جهانی می‌باشد. به‌جای این اصطلاح از GUID که اختصار عبارت Globally Unique Identifier به معنای شناسه منحصر به فرد عمومی نیز استفاده می‌شود. GUID یک اصطلاح صنعتی است که توسط شرکت مایکروسافت برای ارائه یک شماره مرجع که در هر زمینه‌ای منحصر به فرد است، تعریف شده است در حالی که در محیط آکادمیک و در استانداردها از اصطلاح UUID استفاده شده است. هر دو اصطلاح به یک موضوع اشاره دارند و تفاوتی در استفاده ندارند.&lt;/p&gt;</description>
     </item>
   </channel>

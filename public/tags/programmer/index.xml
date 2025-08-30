@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programmer on وبلاگ آرمان حسن پور</title>
-    <link>/tags/programmer/</link>
+    <link>http://localhost:1313/tags/programmer/</link>
     <description>Recent content in Programmer on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Fri, 11 Dec 2015 10:21:11 +0330</lastBuildDate>
-    <atom:link href="/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>چگونه یک برنامه‌نویس موفق شویم؟</title>
-      <link>/posts/successful-programmer/</link>
+      <link>http://localhost:1313/posts/successful-programmer/</link>
       <pubDate>Fri, 11 Dec 2015 10:21:11 +0330</pubDate>
-      <guid>/posts/successful-programmer/</guid>
+      <guid>http://localhost:1313/posts/successful-programmer/</guid>
       <description>&lt;p&gt;برنامه‌نویس‌های موفق عادات مشترکی دارند که آن ها را از جهات مختلف در یک گروه قرار می‌دهد. اگر شما هم یک برنامه‌نویس هستید شاید شما هم بسیاری از این عادات را داشته باشید.&lt;/p&gt;</description>
     </item>
   </channel>

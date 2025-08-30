@@ -2,282 +2,285 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/java/</loc>
+    <loc>http://localhost:1313/categories/java/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/java/</loc>
+    <loc>http://localhost:1313/tags/java/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/loadjava/</loc>
+    <loc>http://localhost:1313/tags/loadjava/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/categories/oracle/</loc>
+    <loc>http://localhost:1313/categories/oracle/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/oracle/</loc>
+    <loc>http://localhost:1313/tags/oracle/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/categories/sql/</loc>
+    <loc>http://localhost:1313/categories/sql/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/sql/</loc>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/posts/oracle-load-java/</loc>
+    <loc>http://localhost:1313/posts/oracle-load-java/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-15T09:50:51+03:30</lastmod>
   </url><url>
-    <loc>/tags/farsi/</loc>
+    <loc>http://localhost:1313/categories/csharp/</loc>
+    <lastmod>2022-09-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/csharp/</loc>
+    <lastmod>2022-09-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/dotnet/</loc>
+    <lastmod>2022-09-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dotnet/</loc>
+    <lastmod>2022-09-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bill-generator/</loc>
+    <lastmod>2022-09-15T09:50:51+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/farsi/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/categories/general/</loc>
+    <loc>http://localhost:1313/categories/general/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/tags/persian/</loc>
+    <loc>http://localhost:1313/tags/persian/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/tags/unicode/</loc>
+    <loc>http://localhost:1313/tags/unicode/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/posts/unicode-farsi/</loc>
+    <loc>http://localhost:1313/posts/unicode-farsi/</loc>
     <lastmod>2020-09-01T10:00:35+03:30</lastmod>
   </url><url>
-    <loc>/categories/csharp/</loc>
+    <loc>http://localhost:1313/categories/float/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
-    <loc>/tags/csharp/</loc>
+    <loc>http://localhost:1313/tags/float/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
-    <loc>/categories/dotnet/</loc>
+    <loc>http://localhost:1313/posts/compare-floats/</loc>
     <lastmod>2020-08-04T19:20:18+03:30</lastmod>
   </url><url>
-    <loc>/tags/dotnet/</loc>
-    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
-  </url><url>
-    <loc>/categories/float/</loc>
-    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
-  </url><url>
-    <loc>/tags/float/</loc>
-    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
-  </url><url>
-    <loc>/posts/compare-floats/</loc>
-    <lastmod>2020-08-04T19:20:18+03:30</lastmod>
-  </url><url>
-    <loc>/tags/balance-sheet/</loc>
+    <loc>http://localhost:1313/tags/balance-sheet/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/categories/sqlserver/</loc>
+    <loc>http://localhost:1313/categories/sqlserver/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/sqlserver/</loc>
+    <loc>http://localhost:1313/tags/sqlserver/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/turn-over/</loc>
+    <loc>http://localhost:1313/tags/turn-over/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/sql-server-turnover/</loc>
+    <loc>http://localhost:1313/posts/sql-server-turnover/</loc>
     <lastmod>2020-07-02T10:51:10+03:30</lastmod>
   </url><url>
-    <loc>/categories/shetab/</loc>
+    <loc>http://localhost:1313/categories/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/tags/shetab/</loc>
+    <loc>http://localhost:1313/tags/shetab/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/posts/shetab-info/</loc>
+    <loc>http://localhost:1313/posts/shetab-info/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
+    <loc>http://localhost:1313/tags/%D8%B4%D8%AA%D8%A7%D8%A8/</loc>
     <lastmod>2020-06-03T16:21:32+03:30</lastmod>
   </url><url>
-    <loc>/posts/sql-server-search-in-tables/</loc>
+    <loc>http://localhost:1313/posts/sql-server-search-in-tables/</loc>
     <lastmod>2020-02-09T19:58:09+03:30</lastmod>
   </url><url>
-    <loc>/tags/clr/</loc>
+    <loc>http://localhost:1313/tags/clr/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
-    <loc>/tags/clr-embedded/</loc>
+    <loc>http://localhost:1313/tags/clr-embedded/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
-    <loc>/tags/clr-integrated/</loc>
+    <loc>http://localhost:1313/tags/clr-integrated/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
-    <loc>/tags/sql-clr/</loc>
+    <loc>http://localhost:1313/tags/sql-clr/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
-    <loc>/posts/sql-server-clr/</loc>
+    <loc>http://localhost:1313/posts/sql-server-clr/</loc>
     <lastmod>2020-02-07T18:22:06+03:30</lastmod>
   </url><url>
-    <loc>/tags/guid/</loc>
+    <loc>http://localhost:1313/tags/guid/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
-    <loc>/tags/uuid/</loc>
+    <loc>http://localhost:1313/tags/uuid/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
-    <loc>/posts/uuid-guid-csharp/</loc>
+    <loc>http://localhost:1313/posts/uuid-guid-csharp/</loc>
     <lastmod>2020-02-06T11:20:50+03:30</lastmod>
   </url><url>
-    <loc>/tags/ip/</loc>
+    <loc>http://localhost:1313/tags/ip/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/iphelper/</loc>
+    <loc>http://localhost:1313/tags/iphelper/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/ip-csharp/</loc>
+    <loc>http://localhost:1313/posts/ip-csharp/</loc>
     <lastmod>2020-01-04T15:28:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/sql-server-show-all-tables/</loc>
+    <loc>http://localhost:1313/posts/sql-server-show-all-tables/</loc>
     <lastmod>2019-08-01T15:12:29+03:30</lastmod>
   </url><url>
-    <loc>/categories/design-patterns/</loc>
+    <loc>http://localhost:1313/categories/design-patterns/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/design-patterns/</loc>
+    <loc>http://localhost:1313/tags/design-patterns/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
-    <loc>/tags/gof/</loc>
+    <loc>http://localhost:1313/tags/gof/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/design-patterns/</loc>
+    <loc>http://localhost:1313/posts/design-patterns/</loc>
     <lastmod>2019-05-29T14:10:10+03:30</lastmod>
   </url><url>
-    <loc>/posts/hamzeh/</loc>
+    <loc>http://localhost:1313/posts/hamzeh/</loc>
     <lastmod>2019-05-01T06:00:35+03:30</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/comma-separated-list/</loc>
+    <loc>http://localhost:1313/tags/comma-separated-list/</loc>
     <lastmod>2019-02-05T15:01:57+03:30</lastmod>
   </url><url>
-    <loc>/tags/listagg/</loc>
+    <loc>http://localhost:1313/tags/listagg/</loc>
     <lastmod>2019-02-05T15:01:57+03:30</lastmod>
   </url><url>
-    <loc>/posts/oracle-lisagg/</loc>
+    <loc>http://localhost:1313/posts/oracle-lisagg/</loc>
     <lastmod>2019-02-05T15:01:57+03:30</lastmod>
   </url><url>
-    <loc>/tags/object/</loc>
+    <loc>http://localhost:1313/tags/object/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/object-oriented/</loc>
+    <loc>http://localhost:1313/tags/object-oriented/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/ood/</loc>
+    <loc>http://localhost:1313/tags/ood/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/categories/oop/</loc>
+    <loc>http://localhost:1313/categories/oop/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/oop/</loc>
+    <loc>http://localhost:1313/tags/oop/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/posts/oop-get-set/</loc>
+    <loc>http://localhost:1313/posts/oop-get-set/</loc>
     <lastmod>2018-01-12T10:45:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/ascii/</loc>
+    <loc>http://localhost:1313/tags/ascii/</loc>
     <lastmod>2017-10-11T11:12:35+03:30</lastmod>
   </url><url>
-    <loc>/posts/unicode-info/</loc>
+    <loc>http://localhost:1313/posts/unicode-info/</loc>
     <lastmod>2017-10-11T11:12:35+03:30</lastmod>
   </url><url>
-    <loc>/tags/call-stack/</loc>
+    <loc>http://localhost:1313/tags/call-stack/</loc>
     <lastmod>2017-08-11T14:20:52+03:30</lastmod>
   </url><url>
-    <loc>/tags/function-call-stack/</loc>
+    <loc>http://localhost:1313/tags/function-call-stack/</loc>
     <lastmod>2017-08-11T14:20:52+03:30</lastmod>
   </url><url>
-    <loc>/posts/function-call-stack-info/</loc>
+    <loc>http://localhost:1313/posts/function-call-stack-info/</loc>
     <lastmod>2017-08-11T14:20:52+03:30</lastmod>
   </url><url>
-    <loc>/categories/uml/</loc>
+    <loc>http://localhost:1313/categories/uml/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
-    <loc>/tags/uml/</loc>
+    <loc>http://localhost:1313/tags/uml/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
-    <loc>/posts/uml-info/</loc>
+    <loc>http://localhost:1313/posts/uml-info/</loc>
     <lastmod>2017-06-09T12:22:12+03:30</lastmod>
   </url><url>
-    <loc>/posts/oo-info/</loc>
+    <loc>http://localhost:1313/posts/oo-info/</loc>
     <lastmod>2017-05-12T19:47:12+03:30</lastmod>
   </url><url>
-    <loc>/tags/slc/</loc>
+    <loc>http://localhost:1313/tags/slc/</loc>
     <lastmod>2017-05-10T12:20:17+03:30</lastmod>
   </url><url>
-    <loc>/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2017-05-10T12:20:17+03:30</lastmod>
   </url><url>
-    <loc>/tags/software-life-cycle/</loc>
+    <loc>http://localhost:1313/tags/software-life-cycle/</loc>
     <lastmod>2017-05-10T12:20:17+03:30</lastmod>
   </url><url>
-    <loc>/posts/sdlc-info/</loc>
+    <loc>http://localhost:1313/posts/sdlc-info/</loc>
     <lastmod>2017-05-10T12:20:17+03:30</lastmod>
   </url><url>
-    <loc>/tags/cuda/</loc>
+    <loc>http://localhost:1313/tags/cuda/</loc>
     <lastmod>2017-03-02T15:42:01+03:30</lastmod>
   </url><url>
-    <loc>/posts/cuda-info/</loc>
+    <loc>http://localhost:1313/posts/cuda-info/</loc>
     <lastmod>2017-03-02T15:42:01+03:30</lastmod>
   </url><url>
-    <loc>/tags/gpu/</loc>
+    <loc>http://localhost:1313/tags/gpu/</loc>
     <lastmod>2017-03-02T15:42:01+03:30</lastmod>
   </url><url>
-    <loc>/tags/nvidia/</loc>
+    <loc>http://localhost:1313/tags/nvidia/</loc>
     <lastmod>2017-03-02T15:42:01+03:30</lastmod>
   </url><url>
-    <loc>/tags/floating-point/</loc>
+    <loc>http://localhost:1313/tags/floating-point/</loc>
     <lastmod>2017-02-08T14:22:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/ieee754/</loc>
+    <loc>http://localhost:1313/tags/ieee754/</loc>
     <lastmod>2017-02-08T14:22:11+03:30</lastmod>
   </url><url>
-    <loc>/tags/scientific-notation/</loc>
+    <loc>http://localhost:1313/tags/scientific-notation/</loc>
     <lastmod>2017-02-08T14:22:11+03:30</lastmod>
   </url><url>
-    <loc>/posts/float-info/</loc>
+    <loc>http://localhost:1313/posts/float-info/</loc>
     <lastmod>2017-02-08T14:22:11+03:30</lastmod>
   </url><url>
-    <loc>/posts/uuid-guid-info/</loc>
+    <loc>http://localhost:1313/posts/uuid-guid-info/</loc>
     <lastmod>2017-02-05T15:42:57+03:30</lastmod>
   </url><url>
-    <loc>/posts/ip-info/</loc>
+    <loc>http://localhost:1313/posts/ip-info/</loc>
     <lastmod>2017-01-03T19:51:30+03:30</lastmod>
   </url><url>
-    <loc>/tags/programmer/</loc>
+    <loc>http://localhost:1313/tags/programmer/</loc>
     <lastmod>2015-12-11T10:21:11+03:30</lastmod>
   </url><url>
-    <loc>/posts/successful-programmer/</loc>
+    <loc>http://localhost:1313/posts/successful-programmer/</loc>
     <lastmod>2015-12-11T10:21:11+03:30</lastmod>
   </url><url>
-    <loc>/posts/oracle-sample-tables/</loc>
+    <loc>http://localhost:1313/posts/oracle-sample-tables/</loc>
     <lastmod>2014-01-08T15:01:51+03:30</lastmod>
   </url><url>
-    <loc>/posts/books/</loc>
+    <loc>http://localhost:1313/posts/books/</loc>
     <lastmod>2014-01-06T12:51:30+03:30</lastmod>
   </url><url>
-    <loc>/posts/dict/</loc>
+    <loc>http://localhost:1313/posts/dict/</loc>
     <lastmod>2014-01-05T19:51:30+03:30</lastmod>
   </url><url>
-    <loc>/posts/leitner-system/</loc>
+    <loc>http://localhost:1313/posts/leitner-system/</loc>
     <lastmod>2010-08-02T16:48:22+03:30</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
