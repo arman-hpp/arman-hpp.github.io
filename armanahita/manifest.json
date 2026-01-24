@@ -1,7 +1,7 @@
 {
   "name": "ArmAnahita Calender",
   "short_name": "ArmAnahita",
-  "start_url": "./index.html",
+  "start_url": "/armanahita/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
