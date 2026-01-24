@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CLR Integrated on وبلاگ آرمان حسن پور</title>
-    <link>http://localhost:1313/tags/clr-integrated/</link>
+    <link>/tags/clr-integrated/</link>
     <description>Recent content in CLR Integrated on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Fri, 07 Feb 2020 18:22:06 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/clr-integrated/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/clr-integrated/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>استفاده از CLR در SQL Server</title>
-      <link>http://localhost:1313/posts/sql-server-clr/</link>
+      <link>/posts/sql-server-clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>http://localhost:1313/posts/sql-server-clr/</guid>
+      <guid>/posts/sql-server-clr/</guid>
       <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی بانک اطلاعاتی خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء بانک اطلاعاتی از قبیل روال‌های ذخیره شده (Stored Procedure) ، توابع (Function) و تریگرها (Trigger) را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
   </channel>

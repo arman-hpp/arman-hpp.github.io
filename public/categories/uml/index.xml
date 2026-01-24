@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UML on وبلاگ آرمان حسن پور</title>
-    <link>http://localhost:1313/categories/uml/</link>
+    <link>/categories/uml/</link>
     <description>Recent content in UML on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Fri, 09 Jun 2017 12:22:12 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/uml/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/uml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>زبان مدل‌سازی یکپارچه (UML) چیست؟</title>
-      <link>http://localhost:1313/posts/uml-info/</link>
+      <link>/posts/uml-info/</link>
       <pubDate>Fri, 09 Jun 2017 12:22:12 +0330</pubDate>
-      <guid>http://localhost:1313/posts/uml-info/</guid>
+      <guid>/posts/uml-info/</guid>
       <description>&lt;p&gt;ایجاد مدل و مدل‌سازی برای بررسی دقیق انواع مختلف سیستم‌های نرم‌افزاری در مقیاس کوچک و بزرگ به کار می‌آید. با ساختن مدل این امکان به شما داده می‌شود با ابعاد مختلف پروژه قبل از ساخت آشنا شوید. گاهی در پروژه‌های بزرگ به دلیل پیچیدگی بیش از حد نمی‌شود سیستم را از جنبه‌های مختلف سنجید. بنابراین برای فهم کامل سیستم، یافتن و نمایش ارتباط بین بخش‌های مختلف آن، به مدل‌سازی می‌پردازیم. UML زبانی برای مدل‌سازی یا ایجاد نقشه‌ی تولید نرم‌افزار است.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gof on وبلاگ آرمان حسن پور</title>
-    <link>http://localhost:1313/tags/gof/</link>
+    <link>/tags/gof/</link>
     <description>Recent content in Gof on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Wed, 29 May 2019 14:10:10 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gof/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gof/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>الگوهای طراحی (Design Patterns) چیست؟</title>
-      <link>http://localhost:1313/posts/design-patterns/</link>
+      <link>/posts/design-patterns/</link>
       <pubDate>Wed, 29 May 2019 14:10:10 +0330</pubDate>
-      <guid>http://localhost:1313/posts/design-patterns/</guid>
+      <guid>/posts/design-patterns/</guid>
       <description>&lt;p&gt;در طول زمان برنامه‌نویسان برای توسعه‌ی نرم‌افزارها با مشکلات مختلفی مواجه می‌شدند. بسیاری از این مشکلات مستقل از زبان‌های برنامه‌نویسی و مشابه هم بودند. بنابراین برای حل این مشکلات راه‌حل‌های مختلفی ارائه شد که به بهترین روش حل و رفع این مشکلات الگوهای طراحی یا Design Pattern می‌گویند. به عبارت دیگر مجموعه‌‌‌ای از بهترین راه‌‌حل‌های مشکلات متداول در فرآیند برنامه‌نویسی نرم‌افزار را الگوهای طراحی می‌نامند. الگوهای طراحی برای حل مشکلات رایج در برنامه‌نویسی شی‌گرا به وسیله‌ی برنامه‌نویسانی باتجربه توسعه داده شده‌اند. الگوهای طراحی جزو معماری‌های نرم‌افزاری نیستند و فقط شیوه‌ای صحیح از کدنویسی شی‌گرا را ارائه می‌دهند. بنابراین این الگوها فقط در قلمرو کدنویسی شی‌گرا وارد می‌شوند و مستقل از زبان‌های برنامه‌نویسی هستند.&lt;/p&gt;</description>
     </item>
   </channel>

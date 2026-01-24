@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OOP on وبلاگ آرمان حسن پور</title>
-    <link>http://localhost:1313/tags/oop/</link>
+    <link>/tags/oop/</link>
     <description>Recent content in OOP on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Fri, 12 Jan 2018 10:45:11 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/oop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>مهندسی نرم‌افزار با توابع Get و Set</title>
-      <link>http://localhost:1313/posts/oop-get-set/</link>
+      <link>/posts/oop-get-set/</link>
       <pubDate>Fri, 12 Jan 2018 10:45:11 +0330</pubDate>
-      <guid>http://localhost:1313/posts/oop-get-set/</guid>
+      <guid>/posts/oop-get-set/</guid>
       <description>&lt;p&gt;اعضای داده‌ای خصوصی (private) یک کلاس تنها توسط توابع عضو آن کلاس قابل دسترسی هستند. بنابراین هر کلاس یا تابعی که از توابع عضو یک شی استفاده می‌کند و آن را از خارج از شی فراخوانی می‌کند، تنها می‌تواند توابع عمومی (public) عضو کلاس را به منظور درخواست سرویس‌های کلاس از هر شی خاص فراخوانی نماید.&lt;/p&gt;</description>
     </item>
     <item>
       <title>شی‌گرایی (Object Oriented) چیست؟</title>
-      <link>http://localhost:1313/posts/oo-info/</link>
+      <link>/posts/oo-info/</link>
       <pubDate>Fri, 12 May 2017 19:47:12 +0330</pubDate>
-      <guid>http://localhost:1313/posts/oo-info/</guid>
+      <guid>/posts/oo-info/</guid>
       <description>&lt;p&gt;&lt;strong&gt;شی‌گرایی&lt;/strong&gt; یک راه طبیعی تفکر در مورد جهان پیرامون و نوشتن برنامه‌های کامپیوتری است. در دنیای واقعی به هرجا که بنگرید اشیا را مشاهده می‌کنید: اشخاص، حیوانات، گیاهان، اتوموبیل‌ها، هواپیماها، ساختمان‌ها، کامپیوترها و مواردی از این قبیل. انسان‌ها هر روز اشیا را در اطراف خود مشاهده می‌کنند و در مورد آن‌ها به تفکر می‌پردازند.&lt;/p&gt;</description>
     </item>
   </channel>

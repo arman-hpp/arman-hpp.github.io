@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SQL on وبلاگ آرمان حسن پور</title>
-    <link>http://localhost:1313/tags/sql/</link>
+    <link>/tags/sql/</link>
     <description>Recent content in SQL on وبلاگ آرمان حسن پور</description>
     <generator>Hugo</generator>
     <language>fa-ir</language>
     <copyright>تمام حقوق این سایت متعلق به آرمان حسن پور می باشد و کپی با ذکر منبع بلامانع است.</copyright>
     <lastBuildDate>Sun, 15 Jan 2023 09:50:51 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>استفاده از زبان برنامه‌نویسی Java در بانک اطلاعاتی Oracle</title>
-      <link>http://localhost:1313/posts/oracle-load-java/</link>
+      <link>/posts/oracle-load-java/</link>
       <pubDate>Sun, 15 Jan 2023 09:50:51 +0330</pubDate>
-      <guid>http://localhost:1313/posts/oracle-load-java/</guid>
+      <guid>/posts/oracle-load-java/</guid>
       <description>&lt;p&gt;هرچند SQL بسیاری از نیازمندی‌های برنامه‌نویسان را در زمینه‌ی کار با داده‌ها برطرف می‌نماید اما در مواقعی که نیاز به پیاده‌سازی توابع پیچیده یا تبدیل انواع خاص و سفارشی بهم داریم نیاز به استفاده از یک زبان‌ برنامه‌نویسی سطح بالا وجود دارد. هرچند استفاده از زبان‌های برنامه‌نویسی دیگر در بانک‌های اطلاعاتی رابطه‌ای مرسوم نیست و حتی در برخی موارد ممکن است کارایی سیستم را کاهش دهد اما اگر در جای درستی استفاده شود مطمئنا باعث بهبود عملکرد کلی سیستم می‌شود. بدین منظور، در بانک اطلاعاتی Oracle قابلیت استفاده از زبان برنامه‌نویسی Java وجود دارد و می‌توان متدهای نوشته شده با این زبان را با SQL ادغام و اجرا نمود.&lt;/p&gt;</description>
     </item>
     <item>
       <title>گزارش صورت حساب در SQL</title>
-      <link>http://localhost:1313/posts/sql-server-turnover/</link>
+      <link>/posts/sql-server-turnover/</link>
       <pubDate>Thu, 02 Jul 2020 10:51:10 +0330</pubDate>
-      <guid>http://localhost:1313/posts/sql-server-turnover/</guid>
+      <guid>/posts/sql-server-turnover/</guid>
       <description>&lt;p&gt;برای تهیه‌ی صورت حساب بانکی (گردش حساب) در SQL روش‌های مختلفی وجود دارد که ما در این مطلب یکی از روش‌های آن را پیاده‌سازی می‌کنیم.&lt;/p&gt;</description>
     </item>
     <item>
       <title>جستجو در همه جدول‌ها در SQL Server</title>
-      <link>http://localhost:1313/posts/sql-server-search-in-tables/</link>
+      <link>/posts/sql-server-search-in-tables/</link>
       <pubDate>Sun, 09 Feb 2020 19:58:09 +0330</pubDate>
-      <guid>http://localhost:1313/posts/sql-server-search-in-tables/</guid>
+      <guid>/posts/sql-server-search-in-tables/</guid>
       <description>&lt;p&gt;یکی از موارد پُرکاربرد در مهندسی معکوس نرم‌افزارهای دارای بانک اطلاعاتی جستجوی یک مقدار در کل جدول‌های یک بانک اطلاعاتی است.&lt;/p&gt;</description>
     </item>
     <item>
       <title>استفاده از CLR در SQL Server</title>
-      <link>http://localhost:1313/posts/sql-server-clr/</link>
+      <link>/posts/sql-server-clr/</link>
       <pubDate>Fri, 07 Feb 2020 18:22:06 +0330</pubDate>
-      <guid>http://localhost:1313/posts/sql-server-clr/</guid>
+      <guid>/posts/sql-server-clr/</guid>
       <description>&lt;p&gt;SQL Server به منظور ارتقا در مدل برنامه‌نویسی بانک اطلاعاتی خود از نسخه 2005 تکنولوژی SQL CLR را معرفی نمود. این تکنولوژی همچنین با اسامی CLR Integrated ،CLR Enabled و CLR Embedded نیز شناخته می‌شود. هدف آن این است که شما بتوانید اشیاء بانک اطلاعاتی از قبیل روال‌های ذخیره شده (Stored Procedure) ، توابع (Function) و تریگرها (Trigger) را با استفاده از CSharp و یا  VB ایجاد کرده و آن را در SQL Server مورد استفاده قرار دهید.&lt;/p&gt;</description>
     </item>
     <item>
       <title>نمایش لیست همه جدول‌ها در SQL Server</title>
-      <link>http://localhost:1313/posts/sql-server-show-all-tables/</link>
+      <link>/posts/sql-server-show-all-tables/</link>
       <pubDate>Thu, 01 Aug 2019 15:12:29 +0330</pubDate>
-      <guid>http://localhost:1313/posts/sql-server-show-all-tables/</guid>
+      <guid>/posts/sql-server-show-all-tables/</guid>
       <description>&lt;p&gt;با توجه به نسخه SQL Server روش جستجو و بازگرداندن لیستی از تمام جدول‌های ایجاد شده توسط کاربر کمی متفاوت است. در این مطلب به طور خلاصه پرس‌و‌جوهایی را بررسی خواهیم کرد که می‌توانند برای بازیابی لیست جدول‌ها در همه نسخه‌ها استفاده شوند.&lt;/p&gt;</description>
     </item>
     <item>
       <title>نمایش نتایج پرس‌و‌جوها به صورت یک مقدار جداشده با کاما در Oracle</title>
-      <link>http://localhost:1313/posts/oracle-lisagg/</link>
+      <link>/posts/oracle-lisagg/</link>
       <pubDate>Tue, 05 Feb 2019 15:01:57 +0330</pubDate>
-      <guid>http://localhost:1313/posts/oracle-lisagg/</guid>
+      <guid>/posts/oracle-lisagg/</guid>
       <description>&lt;p&gt;در برخی از سناریوها نیاز به نمایش خروجی چند مقدار به صورت یک مقدار با یک جداکننده مانند کاما داریم. در Oracle می‌توان از تابع LISTAGG برای تبدیل نتایج پرس‌و‌جو به صورت یک مقدار جداشده با کاما استفاده نمود.&lt;/p&gt;</description>
     </item>
     <item>
       <title>نمونه جدول‌های Oracle</title>
-      <link>http://localhost:1313/posts/oracle-sample-tables/</link>
+      <link>/posts/oracle-sample-tables/</link>
       <pubDate>Wed, 08 Jan 2014 15:01:51 +0330</pubDate>
-      <guid>http://localhost:1313/posts/oracle-sample-tables/</guid>
+      <guid>/posts/oracle-sample-tables/</guid>
       <description>&lt;p&gt;به منظور استفاده از جداول نمونه یکسان در مطالب این وبلاگ تصمیم گرفتم در یک مطلب جداگانه اسکریپت‌های مربوط به ایجاد جداول و ثبت داده‌های پیش فرض آن را برای هر نوع بانک اطلاعاتی قرار دهم. در این مطلب اسکریپت مربوط به بانک اطلاعاتی Oracle قرار داده شده است.&lt;/p&gt;</description>
     </item>
   </channel>

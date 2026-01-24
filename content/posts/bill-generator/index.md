@@ -90,7 +90,7 @@ namespace BillNum
         /// <param name="directoryCode">شماره پرونده</param>
         /// <param name="companyCode">کد شرکت</param>
         /// <param name="billType">نوع قبض</param>
-        /// <returns></returns>
+        /// <returns>شناسه قبض</returns>
         public static string GenerateBillId(string directoryCode, string companyCode, string billType)
         {
             ValidateNumeric(directoryCode, 1, 8, nameof(directoryCode), out _);
@@ -108,7 +108,7 @@ namespace BillNum
         /// <param name="yearCode">کد سال</param>
         /// <param name="termCode">کد دوره</param>
         /// <param name="billId">شناسه قبض</param>
-        /// <returns></returns>
+        /// <returns>شناسه پرداخت</returns>
         public static string GeneratePaymentId(string amount, string yearCode, string termCode, string billId)
         {
             ValidateNumeric(amount, 1, 11, nameof(amount), out var amountLong);
