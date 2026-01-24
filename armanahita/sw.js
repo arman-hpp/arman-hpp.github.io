@@ -1,8 +1,8 @@
 const CACHE_NAME = 'static-cache-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/bg.jpg'
+  '/armanahita/',
+  '/armanahita/index.html',
+  '/armanahita/bg.jpg'
 ];
 
 self.addEventListener('install', event => {
