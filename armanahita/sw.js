@@ -1,8 +1,11 @@
-const CACHE_NAME = 'static-cache-v3';
+const CACHE_NAME = 'static-cache-v4';
 const ASSETS = [
   '/armanahita/',
   '/armanahita/index.html',
-  '/armanahita/bg.jpg'
+  '/armanahita/bg.jpg',
+  '/manifest.json',
+  '/armanahita/icon-192.png',
+  '/armanahita/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
