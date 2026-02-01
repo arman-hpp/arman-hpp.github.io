@@ -2,7 +2,7 @@
   "name": "ArmAnahita Calender",
   "short_name": "ArmAnahita",
   "start_url": "/armanahita/",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
   "icons": [
