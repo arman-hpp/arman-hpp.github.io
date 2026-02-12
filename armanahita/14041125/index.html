@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -232,77 +233,6 @@
 			}, (i * 2000) + random(500, 1000));
 		}		
 	}
-	
-    function showHearts() {
-		const canvas = document.createElement("canvas");
-		canvas.style.position = "fixed";
-		canvas.style.inset = "0";
-		canvas.style.pointerEvents = "none";
-		canvas.style.zIndex = "-1";
-		document.body.appendChild(canvas);
-		
-		const ctx = canvas.getContext("2d");
-		
-		function resize() {
-			canvas.width = window.innerWidth;
-			canvas.height = window.innerHeight;
-		}
-		
-		resize();
-		window.addEventListener("resize", resize);
-		
-		let hearts = [];
-		
-		class Heart {
-			constructor() {
-			this.x = Math.random() * canvas.width;
-			this.y = canvas.height + 20;
-			this.size = Math.random() * 18 + 8;
-			this.speed = Math.random() * 0.8 + 0.4;
-			this.opacity = Math.random() * 0.7 + 0.3;
-			}
-		
-			draw() {
-			ctx.globalAlpha = this.opacity;
-			ctx.fillStyle = "#ff6b81";
-		
-			let x = this.x;
-			let y = this.y;
-			let s = this.size;
-		
-			ctx.beginPath();
-			ctx.moveTo(x, y);
-			ctx.bezierCurveTo(x - s, y - s, x - s*2, y + s/2, x, y + s*2);
-			ctx.bezierCurveTo(x + s*2, y + s/2, x + s, y - s, x, y);
-			ctx.fill();
-		
-			ctx.globalAlpha = 1;
-			}
-		
-			update() {
-			this.y -= this.speed;
-			this.draw();
-			}
-		}
-		
-		function animate() {
-		
-			ctx.clearRect(0,0,canvas.width,canvas.height);
-		
-			if (Math.random() < 0.05) {
-			hearts.push(new Heart());
-			}
-		
-			hearts.forEach((heart, index) => {
-			heart.update();
-			if (heart.y < -50) hearts.splice(index,1);
-			});
-		
-			requestAnimationFrame(animate);
-		}
-		
-		animate();
-	}
 
     function animateCount(id, endValue, duration = 500) {
         const el = document.getElementById(id);
@@ -336,10 +266,6 @@
 		
 		if (marriageStart.getDate() === today.getDate() && marriageStart.getMonth() === today.getMonth()) {
 			showBallons();
-		}
-		
-		if(today.getMonth() === 1 && today.getDate() === 14) {
-			showHearts();
 		}
 		
 		if ('serviceWorker' in navigator) {
