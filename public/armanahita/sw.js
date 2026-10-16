@@ -1,4 +1,4 @@
-const CACHE_NAME = 'static-cache-v6';
+const CACHE_NAME = 'static-cache-v7';
 const ASSETS = [
   '/armanahita/',
   '/armanahita/index.html',
