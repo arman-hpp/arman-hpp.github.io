@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ArmAnahita Calendar</title>	
+	<meta name="theme-color" content="#317EFB">
+	<meta name="description" content="A little celebration of our friendship and marriage.">
+	<link rel="manifest" href="/armanahita/manifest.json">
+	<style>
+		/* ---------- Base ---------- */
+		
+		* {
+			box-sizing: border-box;
+		}
+	
+		html {
+			min-height: 100%;
+			background-color: #333;
+		}
+			
+		body {
+			position: relative;
+			min-height: 100vh;
+			margin: 0;
+			overflow-x: hidden;
+			overflow-y: hidden;
+			text-align: center;
+			color: #fff;
+			background-color: #333;
+		}
+	
+		/* ---------- Background ---------- */
+	
+		.background {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			pointer-events: none;
+			background-image: url('./bg.jpg');
+			background-size: cover;
+			background-position: center;
+			background-color: #333;
+			filter: blur(1px);
+			z-index: 0;
+		}
+	
+		.overlay {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			pointer-events: none;
+			background-color: rgba(0, 0, 0, 0.45);
+			z-index: 1;
+		}
+		
+		/* ---------- Main content ---------- */
+		
+		.content {
+			position: relative;     
+			width: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 50px 20px 40px;
+			z-index: 3;
+		}
+	
+		.counter-section {
+			margin: 0 0 35px;
+		}
+	
+		.counter-title {
+			margin: 0;
+			font-size: 50px;
+			font-weight: 900;
+			line-height: 1.2;
+			color: #fff;
+			text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+		}
+	
+		.counter-value {
+			margin: 10px 0 0;
+			font-size: 120px;
+			font-weight: 900;
+			line-height: 1.2;
+			color: #fff;
+			font-variant-numeric: tabular-nums;
+			text-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+			-webkit-animation: pulse 1.2s ease-in-out infinite alternate;
+			animation: pulse 1.2s ease-in-out infinite alternate;
+		}
+	
+		@-webkit-keyframes pulse {
+			from {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+	
+			to {
+				-webkit-transform: scale(1.04);
+				transform: scale(1.04);
+			}
+		}
+	
+		@keyframes pulse {
+			from {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+	
+			to {
+				-webkit-transform: scale(1.04);
+				transform: scale(1.04);
+			}
+		}
+	
+		/* ---------- Responsive layout ---------- */
+	
+		@media (max-width: 600px) {
+			.content {
+				padding: 45px 12px 25px;
+			}
+	
+			.counter-section {
+				margin-bottom: 30px;
+			}
+	
+			.counter-title {
+				font-size: 36px;
+			}
+	
+			.counter-value {
+				font-size: 70px;
+			}
+		}
+	
+		@media (max-width: 360px) {
+			.counter-title {
+				font-size: 30px;
+			}
+	
+			.counter-value {
+				font-size: 58px;
+			}
+		}
+	
+		/* ---------- Accessibility ---------- */
+	
+		@media (prefers-reduced-motion: reduce) {
+			.counter-value {
+				-webkit-animation: none;
+				animation: none;
+			}
+	
+			.balloon {
+				-webkit-animation: none;
+				animation: none;
+			}
+		}
+		
+		/* ---------- Decorative layers ---------- */
+		
+		.effects {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: 2;
+			overflow: hidden;
+			pointer-events: none;
+		}
+		
+		.balloon {
+			position: absolute;
+			bottom: -15vh;
+			width: 10vmax;
+			height: 10vmax;
+			min-width: 40px;
+			min-height: 40px;
+			max-width: 110px;
+			max-height: 110px;
+			border-radius: 100% 100% 15% 100%;
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+			opacity: 0.9;
+			-webkit-animation: balloon-rise 16s linear forwards;
+			animation: balloon-rise 16s linear forwards;
+		}
+	
+		.balloon::before {
+			position: absolute;
+			top: 45%;
+			left: 15%;
+			width: 10%;
+			height: 25%;
+			content: "";
+			border-radius: 100%;
+			background: radial-gradient(
+				circle,
+				rgba(255, 255, 255, 0.7) 0%,
+				rgba(255, 255, 255, 0.1) 100%
+			);
+		}
+	
+		.balloon::after {
+			position: absolute;
+			top: 94%;
+			left: 90%;
+			width: 13%;
+			height: 5%;
+			content: "";
+			border-radius: 22%;
+			background-color: inherit;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+	
+		.balloon-string {
+			position: absolute;
+			top: calc(100% - 6px);
+			left: calc(100% - 8px);
+			width: 2px;
+			height: 60%;
+			background-color: rgba(230, 230, 120, 0.8);
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			-webkit-transform-origin: top center;
+			transform-origin: top center;
+		}
+	
+		.balloon-yellow {
+			background-color: rgba(200, 200, 0, 0.75);
+		}
+	
+		.balloon-green {
+			background-color: rgba(0, 180, 0, 0.75);
+		}
+	
+		.balloon-blue {
+			background-color: rgba(30, 80, 220, 0.75);
+		}
+	
+		.balloon-red {
+			background-color: rgba(200, 30, 30, 0.75);
+		}
+	
+		@-webkit-keyframes balloon-rise {
+			0% {
+				-webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+				transform: translate3d(0, 0, 0) rotate(45deg);
+			}
+	
+			35% {
+				-webkit-transform: translate3d(12vw, -40vh, 0) rotate(45deg);
+				transform: translate3d(12vw, -40vh, 0) rotate(45deg);
+			}
+	
+			70% {
+				-webkit-transform: translate3d(-5vw, -85vh, 0) rotate(45deg);
+				transform: translate3d(-5vw, -85vh, 0) rotate(45deg);
+			}
+	
+			100% {
+				-webkit-transform: translate3d(8vw, -130vh, 0) rotate(45deg);
+				transform: translate3d(8vw, -130vh, 0) rotate(45deg);
+			}
+		}
+	
+		@keyframes balloon-rise {
+			0% {
+				-webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+				transform: translate3d(0, 0, 0) rotate(45deg);
+			}
+	
+			35% {
+				-webkit-transform: translate3d(12vw, -40vh, 0) rotate(45deg);
+				transform: translate3d(12vw, -40vh, 0) rotate(45deg);
+			}
+	
+			70% {
+				-webkit-transform: translate3d(-5vw, -85vh, 0) rotate(45deg);
+				transform: translate3d(-5vw, -85vh, 0) rotate(45deg);
+			}
+	
+			100% {
+				-webkit-transform: translate3d(8vw, -130vh, 0) rotate(45deg);
+				transform: translate3d(8vw, -130vh, 0) rotate(45deg);
+			}
+		}
+	
+		#heartsCanvas {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="background"></div>
+	<div class="overlay"></div>
+	<div class="effects" id="effects" aria-hidden="true"></div>
+	<main class="content">
+      <section class="counter-section" aria-labelledby="friendshipTitle">
+          <h1 class="counter-title" id="friendshipTitle">
+              Friendship
+          </h1>
+          <p
+              class="counter-value"
+              id="friendshipDays"
+              role="timer"
+              aria-label="Days of friendship"
+          >0</p>
+      </section>
+
+      <section class="counter-section" aria-labelledby="marriageTitle">
+          <h2 class="counter-title" id="marriageTitle">
+              Marriage
+          </h2>
+          <p
+              class="counter-value"
+              id="marriageDays"
+              role="timer"
+              aria-label="Days of marriage"
+          >0</p>
+      </section>
+  </main>
+    <script>
+        (function () {
+            "use strict";
+
+            /* ---------- Configuration ---------- */
+
+            var CONFIG = {
+                friendshipStart: {
+                    year: 2013,
+                    month: 5,
+                    day: 23
+                },
+
+                marriageStart: {
+                    year: 2023,
+                    month: 4,
+                    day: 8
+                },
+
+                friendshipIncludesStartDay: true,
+                balloonCount: 15,
+                heartMaxCount: 40,
+                countAnimationDuration: 500
+            };
+
+            var COLORS = [
+                "balloon-yellow",
+                "balloon-green",
+                "balloon-blue",
+                "balloon-red"
+            ];
+
+            var effects = document.getElementById("effects");
+            var heartCanvas = null;
+            var heartContext = null;
+            var hearts = [];
+            var heartAnimationId = null;
+            var destroyed = false;
+
+            /* ---------- Compatibility helpers ---------- */
+
+            function random(min, max) {
+                return Math.floor(Math.random() * (max - min)) + min;
+            }
+
+            function requestFrame(callback) {
+                var request =
+                    window.requestAnimationFrame ||
+                    window.webkitRequestAnimationFrame ||
+                    window.mozRequestAnimationFrame;
+
+                if (request) {
+                    return request.call(window, callback);
+                }
+
+                return window.setTimeout(function () {
+                    callback(new Date().getTime());
+                }, 16);
+            }
+
+            function cancelFrame(id) {
+                var cancel =
+                    window.cancelAnimationFrame ||
+                    window.webkitCancelAnimationFrame ||
+                    window.mozCancelAnimationFrame;
+
+                if (cancel) {
+                    cancel.call(window, id);
+                } else {
+                    window.clearTimeout(id);
+                }
+            }
+
+            function prefersReducedMotion() {
+                return !!(
+                    window.matchMedia &&
+                    window.matchMedia(
+                        "(prefers-reduced-motion: reduce)"
+                    ).matches
+                );
+            }
+
+            function isDocumentHidden() {
+                return document.hidden === true;
+            }
+
+            /* ---------- Date calculations ---------- */
+
+            function getCalendarDay(date) {
+                return Math.floor(
+                    Date.UTC(
+                        date.getFullYear(),
+                        date.getMonth(),
+                        date.getDate()
+                    ) / 86400000
+                );
+            }
+
+            function getDaysBetween(start, end) {
+                var startDate = new Date(
+                    start.year,
+                    start.month,
+                    start.day
+                );
+
+                var startDay = getCalendarDay(startDate);
+                var endDay = getCalendarDay(end);
+
+                var days = endDay - startDay;
+
+                if (CONFIG.friendshipIncludesStartDay &&
+                    start === CONFIG.friendshipStart) {
+                    days += 1;
+                }
+
+                return Math.max(0, days);
+            }
+
+            function animateCount(id, endValue, duration) {
+                var element = document.getElementById(id);
+                var startTime = null;
+                var previousValue = -1;
+
+                if (!element) {
+                    return;
+                }
+
+                if (prefersReducedMotion() || duration <= 0) {
+                    element.textContent = String(endValue);
+                    return;
+                }
+
+                function update(timestamp) {
+                    var elapsed;
+                    var progress;
+                    var currentValue;
+
+                    if (destroyed) {
+                        return;
+                    }
+
+                    if (startTime === null) {
+                        startTime = timestamp;
+                    }
+
+                    elapsed = timestamp - startTime;
+                    progress = Math.min(elapsed / duration, 1);
+                    currentValue = Math.floor(progress * endValue);
+
+                    if (currentValue !== previousValue) {
+                        element.textContent = String(currentValue);
+                        previousValue = currentValue;
+                    }
+
+                    if (progress < 1) {
+                        requestFrame(update);
+                    } else {
+                        element.textContent = String(endValue);
+                    }
+                }
+
+                requestFrame(update);
+            }
+
+            /* ---------- Anniversary balloons ---------- */
+
+            function releaseBalloon(balloon) {
+                var delay;
+                var duration;
+                var startPosition;
+
+                if (!balloon || !effects || destroyed) {
+                    return;
+                }
+
+                delay = random(1, 10000);
+                duration = random(10000, 15000);
+                startPosition = random(1, 90);
+
+                balloon.style.left = startPosition + "%";
+                balloon.style.bottom = "-15vh";
+                balloon.style.webkitAnimationDuration =
+                    duration + "ms";
+                balloon.style.animationDuration = duration + "ms";
+                balloon.style.webkitAnimationDelay = delay + "ms";
+                balloon.style.animationDelay = delay + "ms";
+
+                if (prefersReducedMotion()) {
+                    balloon.style.display = "none";
+                    return;
+                }
+
+                balloon.addEventListener("animationend", function () {
+                    if (balloon.parentNode) {
+                        balloon.parentNode.removeChild(balloon);
+						showBalloon();
+                    }
+                });
+
+                balloon.addEventListener("webkitAnimationEnd", function () {
+                    if (balloon.parentNode) {
+                        balloon.parentNode.removeChild(balloon);
+						showBalloon();
+                    }
+                });
+            }
+
+            function showBalloons() {
+                var i;
+				
+                if (!effects || prefersReducedMotion()) {
+                    return;
+                }			
+				
+                for (i = 0; i < CONFIG.balloonCount; i += 1) {
+                    showBalloon();				
+                }
+            }		
+
+            function showBalloon() {
+                var balloon = document.createElement("div");
+                var stringElement = document.createElement("div");
+
+                balloon.className =
+                    "balloon " +
+                    COLORS[random(0, COLORS.length)];
+
+                stringElement.className = "balloon-string";
+                balloon.appendChild(stringElement);
+                effects.appendChild(balloon);
+
+				releaseBalloon(balloon);
+            }
+
+            /* ---------- Valentine's Day hearts ---------- */
+
+            function Heart() {
+                this.x = Math.random() * heartCanvas.width;
+                this.y = heartCanvas.height + 20;
+                this.size = Math.random() * 18 + 8;
+                this.speed = Math.random() * 0.8 + 0.4;
+                this.opacity = Math.random() * 0.7 + 0.3;
+            }
+
+            Heart.prototype.draw = function () {
+                var ctx = heartContext;
+                var x = this.x;
+                var y = this.y;
+                var s = this.size;
+
+                ctx.globalAlpha = this.opacity;
+                ctx.fillStyle = "#ff6b81";
+
+                ctx.beginPath();
+                ctx.moveTo(x, y);
+                ctx.bezierCurveTo(
+                    x - s, y - s,
+                    x - s * 2, y + s / 2,
+                    x, y + s * 2
+                );
+                ctx.bezierCurveTo(
+                    x + s * 2, y + s / 2,
+                    x + s, y - s,
+                    x, y
+                );
+                ctx.fill();
+
+                ctx.globalAlpha = 1;
+            };
+
+            Heart.prototype.update = function () {
+                this.y -= this.speed;
+                this.draw();
+            };
+
+            function resizeHeartCanvas() {
+                if (!heartCanvas) {
+                    return;
+                }
+
+                heartCanvas.width = window.innerWidth;
+                heartCanvas.height = window.innerHeight;
+            }
+
+            function animateHearts() {
+                var i;
+
+                if (!heartCanvas || !heartContext || destroyed) {
+                    return;
+                }
+
+                if (isDocumentHidden()) {
+                    heartAnimationId = null;
+                    return;
+                }
+
+                heartContext.clearRect(
+                    0,
+                    0,
+                    heartCanvas.width,
+                    heartCanvas.height
+                );
+
+                if (
+                    hearts.length < CONFIG.heartMaxCount &&
+                    Math.random() < 0.05
+                ) {
+                    hearts.push(new Heart());
+                }
+
+                for (i = hearts.length - 1; i >= 0; i -= 1) {
+                    hearts[i].update();
+
+                    if (hearts[i].y < -50) {
+                        hearts.splice(i, 1);
+                    }
+                }
+
+                heartAnimationId = requestFrame(animateHearts);
+            }
+
+            function showHearts() {
+                if (
+                    prefersReducedMotion() ||
+                    !document.createElement("canvas").getContext
+                ) {
+                    return;
+                }
+
+                heartCanvas = document.createElement("canvas");
+                heartCanvas.id = "heartsCanvas";
+                heartCanvas.setAttribute("aria-hidden", "true");
+
+                document.body.appendChild(heartCanvas);
+
+                heartContext = heartCanvas.getContext("2d");
+
+                if (!heartContext) {
+                    document.body.removeChild(heartCanvas);
+                    heartCanvas = null;
+                    return;
+                }
+
+                resizeHeartCanvas();
+
+                window.addEventListener("resize", resizeHeartCanvas);
+                heartAnimationId = requestFrame(animateHearts);
+            }
+
+            function handleVisibilityChange() {
+                if (!heartCanvas) {
+                    return;
+                }
+
+                if (isDocumentHidden()) {
+                    if (heartAnimationId !== null) {
+                        cancelFrame(heartAnimationId);
+                        heartAnimationId = null;
+                    }
+                } else if (heartAnimationId === null) {
+                    heartAnimationId = requestFrame(animateHearts);
+                }
+            }
+
+            /* ---------- Service Worker ---------- */
+
+            function registerServiceWorker() {
+                if (!("serviceWorker" in navigator)) {
+                    return;
+                }
+
+                window.addEventListener("load", function () {
+                    navigator.serviceWorker.register("sw.js")
+                        .then(function (registration) {
+                            if (window.console && console.log) {
+                                console.log(
+                                    "Service Worker registered.",
+                                    registration
+                                );
+                            }
+                        })
+                        .catch(function (error) {
+                            if (window.console && console.error) {
+                                console.error(
+                                    "Service Worker registration failed.",
+                                    error
+                                );
+                            }
+                        });
+                });
+            }
+
+            /* ---------- Initialization ---------- */
+
+            function start() {
+                var today = new Date();
+                var friendshipDays;
+                var marriageDays;
+                var isFriendshipAnniversary;
+                var isMarriageAnniversary;
+                var isValentinesDay;
+
+                friendshipDays = getDaysBetween(
+                    CONFIG.friendshipStart,
+                    today
+                );
+
+                marriageDays = getDaysBetween(
+                    CONFIG.marriageStart,
+                    today
+                );
+
+                animateCount(
+                    "friendshipDays",
+                    friendshipDays,
+                    CONFIG.countAnimationDuration
+                );
+
+                animateCount(
+                    "marriageDays",
+                    marriageDays,
+                    CONFIG.countAnimationDuration
+                );
+
+                isFriendshipAnniversary =
+                    today.getMonth() === CONFIG.friendshipStart.month &&
+                    today.getDate() === CONFIG.friendshipStart.day;
+
+                isMarriageAnniversary =
+                    today.getMonth() === CONFIG.marriageStart.month &&
+                    today.getDate() === CONFIG.marriageStart.day;
+
+                isValentinesDay =
+                    today.getMonth() === 1 && today.getDate() === 14;
+				
+                if (isFriendshipAnniversary || isMarriageAnniversary) {
+                    showBalloons();
+                }
+
+                if (isValentinesDay) {
+                    showHearts();
+                }
+
+                document.addEventListener(
+                    "visibilitychange",
+                    handleVisibilityChange
+                );
+
+                registerServiceWorker();
+            }
+
+            if (document.readyState === "loading") {
+                document.addEventListener("DOMContentLoaded", start);
+            } else {
+                start();
+            }
+        }());
+    </script>
+</body>
+</html>
