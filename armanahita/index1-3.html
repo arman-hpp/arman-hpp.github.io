@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ArmAnahita Calendar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/armanahita/manifest.json">
+  <meta name="theme-color" content="#317EFB">
+  <style>
+    .background {
+      position: fixed;
+      top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+      background-image: url('./bg.jpg');
+      background-size: cover;
+      background-position: center;
+	  background-color: #333;
+      filter: blur(1px);
+      z-index: -2;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .content {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 50px;
+      font-weight: 900;
+      margin: 0;
+      color: white;
+    }
+
+    p {
+      font-size: 120px;
+      font-weight: 900;
+      margin: 10px 0 40px 0;
+      color: white;
+	  animation: pulse 1.2s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.05);
+        }
+    }
+
+    @media (max-width: 600px) {
+      p {
+        font-size: 70px;
+      }
+      h3 {
+        font-size: 36px;
+      }
+    }
+	
+	.balloon {
+		--balloonDimension: 10vmax; /* 15% of min(viewport width, height) */
+		width: var(--balloonDimension);
+		height: var(--balloonDimension);
+		border-radius: 100% 100% 15% 100%;
+		margin: 0 0 0 25px;
+		transform: rotateZ(45deg);
+		position: fixed;
+		bottom: calc(-1 * var(--balloonDimension));
+		left: 0;
+		background-color: aqua;
+	}
+	
+	.balloon::before {
+		content: "";
+		width: 10%;
+		height: 25%;
+		background: radial-gradient(circle, rgba(255,255,255,.7) 0%, rgba(255,255,255,.1) 100%);
+		position: absolute;
+		left: 15%;
+		top: 45%;
+		border-radius: 100%;
+	}
+	
+	.balloon::after {
+		content: "";
+		width: 13%;
+		height: 5%;
+		background-color: inherit;
+		position: absolute;
+		left: 90%;
+		top: 94%;
+		border-radius: 22%;
+		transform: rotateZ(-45deg);
+	}
+	
+	.balloon .string {
+		position: absolute;
+		background-color: #990;
+		width: 2px;
+		height: calc(var(--balloonDimension) * .6);
+		transform-origin: top center;
+		transform: rotateZ(-45deg);
+		top: calc(var(--balloonDimension) - 6px);
+		left: calc(var(--balloonDimension) - 8px);
+	}
+	
+	.yellow{
+		background-color: rgba(150, 150, 0, .65);
+	}
+	
+	.green{
+		background-color: rgba(0, 150, 0, .65);
+	}
+	
+	.blue{
+		background-color: rgba(0, 0, 150, .65);
+	}
+	
+	.red{
+		background-color: rgba(150, 0, 0, .65);
+	}
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h3>Friendship</h3>
+    <p id="friendshipDays"></p>
+
+    <h3>Marriage</h3>
+    <p id="marriageDays"></p>
+  </div>
+
+<script>
+    function randomColor() {
+		const colors = ['yellow', 'green', 'blue', 'red'];
+        return colors[random(0, colors.length)];
+    }
+
+    function random (min, max){
+        return Math.floor(Math.random() * (max-min)) + min;
+    }
+
+    function releaseBalloon(balloon) {
+        const delay = random(250, 1000);
+        const x = random(-99, -30);
+        const y = random(-99, -30);
+
+        const sequence = [{
+            offset: 0,
+            transform: `rotateZ(45deg) translate(0, 0)`
+        }];
+
+        if(random(0,2) === 0) {
+            balloon.style.left = `${-1*x}vw`;
+
+            sequence.push({
+                offset: x/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, 0)`
+            });
+            sequence.push({
+                offset: (x+y)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, ${y}vh)`
+            });
+            sequence.push({
+                offset: (-100+y)/-200,
+                transform: `rotateZ(45deg) translate(-100vw, ${y}vh)`
+            });
+        } else {
+            sequence.push({
+                offset: y/-200,
+                transform: `rotateZ(45deg) translate(0, ${y}vh)`
+            });
+            sequence.push({
+                offset: (x+y)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, ${y}vh)`
+            });
+            sequence.push({
+                offset: (-100+x)/-200,
+                transform: `rotateZ(45deg) translate(${x}vw, -100vh)`
+            });
+        }
+
+        sequence.push({
+            offset: 1,
+            transform: `rotateZ(45deg) translate(-100vw, -100vh)`
+        });
+
+        const balloonAnimation = balloon.animate(sequence, {
+            duration: 15000,
+            delay: delay
+        });
+
+
+        balloonAnimation.onfinish = () => { releaseBalloon(balloon) }
+    }
+
+	function showBallons() {
+		const density = 10;
+		const stringElement = document.createElement("div");
+		stringElement.classList.add("string");
+
+		for (let i = 0; i < density; i++) {
+			const element = document.createElement("div");
+			element.classList.add("balloon");
+			element.classList.add(randomColor());
+	
+			element.append(stringElement.cloneNode());
+			document.body.append(element);
+			
+			setTimeout(() => {
+				releaseBalloon(element);
+			}, (i * 2000) + random(500, 1000));
+		}		
+	}
+	
+    function showHearts() {
+		const canvas = document.createElement("canvas");
+		canvas.style.position = "fixed";
+		canvas.style.inset = "0";
+		canvas.style.pointerEvents = "none";
+		canvas.style.zIndex = "-1";
+		document.body.appendChild(canvas);
+		
+		const ctx = canvas.getContext("2d");
+		
+		function resize() {
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+		}
+		
+		resize();
+		window.addEventListener("resize", resize);
+		
+		let hearts = [];
+		
+		class Heart {
+			constructor() {
+			this.x = Math.random() * canvas.width;
+			this.y = canvas.height + 20;
+			this.size = Math.random() * 18 + 8;
+			this.speed = Math.random() * 0.8 + 0.4;
+			this.opacity = Math.random() * 0.7 + 0.3;
+			}
+		
+			draw() {
+			ctx.globalAlpha = this.opacity;
+			ctx.fillStyle = "#ff6b81";
+		
+			let x = this.x;
+			let y = this.y;
+			let s = this.size;
+		
+			ctx.beginPath();
+			ctx.moveTo(x, y);
+			ctx.bezierCurveTo(x - s, y - s, x - s*2, y + s/2, x, y + s*2);
+			ctx.bezierCurveTo(x + s*2, y + s/2, x + s, y - s, x, y);
+			ctx.fill();
+		
+			ctx.globalAlpha = 1;
+			}
+		
+			update() {
+			this.y -= this.speed;
+			this.draw();
+			}
+		}
+		
+		function animate() {
+		
+			ctx.clearRect(0,0,canvas.width,canvas.height);
+		
+			if (Math.random() < 0.05) {
+			hearts.push(new Heart());
+			}
+		
+			hearts.forEach((heart, index) => {
+			heart.update();
+			if (heart.y < -50) hearts.splice(index,1);
+			});
+		
+			requestAnimationFrame(animate);
+		}
+		
+		animate();
+	}
+
+    function animateCount(id, endValue, duration = 500) {
+        const el = document.getElementById(id);
+        const startTime = (performance && performance.now) ? performance.now() : Date.now();
+
+        function update(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const currentVal = Math.floor(progress * endValue);
+            el.innerHTML = currentVal;
+            if (progress < 1) requestAnimationFrame(update);
+        }
+
+        requestAnimationFrame(update);
+    }
+
+	function start() {
+	    const today = new Date();
+		const friendshipStart = new Date("Jun 23, 2013 00:00:01");
+		const marriageStart = new Date("May 8, 2023 00:00:01");
+		
+		const friendshipDays = Math.floor((today - friendshipStart) / (1000 * 60 * 60 * 24)) + 1;
+		const marriageDays = Math.floor((today - marriageStart) / (1000 * 60 * 60 * 24));
+		
+		animateCount("friendshipDays", friendshipDays);
+		animateCount("marriageDays", marriageDays);
+		
+		showBallons();
+		
+		if (friendshipStart.getDate() === today.getDate() && friendshipStart.getMonth() === today.getMonth()) {
+			showBallons();
+		}
+		
+		if (marriageStart.getDate() === today.getDate() && marriageStart.getMonth() === today.getMonth()) {
+			showBallons();
+		}
+		
+		if(today.getMonth() === 1 && today.getDate() === 14) {
+			showHearts();
+		}
+		
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('sw.js')
+				.then(reg => console.log('Service Worker Registered', reg))
+				.catch(err => console.error('SW registration failed:', err));
+		}
+	}
+
+	start();
+</script>
+</body>
+</html>
