@@ -6,7 +6,7 @@
 
 {{- $paths := slice "manifest.json" -}}
 {{- $layouts := slice "offline" -}}
-{{- range $site := $.Sites -}}
+{{- range $site := hugo.Sites -}}
   {{- $langs = $langs | append $site.LanguagePrefix -}}
   {{ range where $site.Pages "Layout" "in" $layouts }}
     {{- $pages = $pages | append (dict "url" .Permalink "revision" $defaultRivision) -}}
@@ -19,7 +19,7 @@
 const langs = JSON.parse('{{ $langs | jsonify }}');
 const pages = JSON.parse('{{ $pages | jsonify }}');
 const assets = JSON.parse('{{ $.Scratch.Get "hbs-assets" | jsonify }}');
-const multilingual = {{ if eq (len .Sites) 1 }}false{{ else }}true{{ end }};
+const multilingual = {{ if eq (len hugo.Sites) 1 }}false{{ else }}true{{ end }};
 const config = {
     version: {{ now.Unix }},
     langs: langs,
